@@ -1,27 +1,107 @@
-﻿<!doctype html><html lang="id"><head>
-<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>SUMBER FAKTA</title><link rel="icon" href="logo.svg"/>
-<script src="https://cdn.tailwindcss.com"></script>
-</head><body class="bg-slate-50 text-slate-900">
-<header class="max-w-6xl mx-auto px-4 py-6 flex items-center justify-between">
-  <h1 class="text-2xl font-bold">SUMBER <span class="text-blue-600">FAKTA</span></h1>
-  <nav id="cats" class="flex flex-wrap gap-2 text-sm"></nav>
-</header>
-<main class="max-w-6xl mx-auto px-4">
-  <p id="meta" class="text-xs text-slate-500 mb-4">Memuat...</p>
-  <div id="grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
-</main>
-<footer class="max-w-6xl mx-auto px-4 py-8 text-xs text-slate-500">
-  © <span id="year"></span> SUMBER FAKTA — agregator berita.
-</footer>
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SUMBER FAKTA</title>
+  <meta name="description" content="SUMBER FAKTA — agregator berita ringan. Update otomatis 1–2 kali sehari." />
+  <link rel="icon" href="logo.svg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* fallback kalau class line-clamp tidak tersedia */
+    .line-clamp-3 {
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <header class="max-w-6xl mx-auto px-4 py-6 flex items-center justify-between">
+    <a href="./" class="flex items-center gap-3">
+      <img src="logo.svg" alt="Logo SUMBER FAKTA" class="w-8 h-8">
+      <h1 class="text-2xl font-bold">SUMBER <span class="text-blue-600">FAKTA</span></h1>
+    </a>
+    <nav id="cats" class="flex flex-wrap gap-2 text-sm"></nav>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4">
+    <p id="meta" class="text-xs text-slate-500 mb-4">Memuat...</p>
+    <div id="grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+  </main>
+
+  <footer class="max-w-6xl mx-auto px-4 py-8 text-xs text-slate-500">
+    © <span id="year"></span> SUMBER FAKTA — agregator berita. Sumber resmi via RSS & editor.
+  </footer>
+
 <script>
-const CATS=["semua","politik","sport","entertainment","hobi","movie","music","bisnis","tekno","dunia"];
-const state={cat:"semua",items:[],generatedAt:null};
-function fmt(iso){try{return new Intl.DateTimeFormat("id-ID",{dateStyle:"medium",timeStyle:"short"}).format(new Date(iso))}catch{return iso}}
-function renderCats(){const n=document.getElementById("cats");n.innerHTML="";CATS.forEach(c=>{const a=document.createElement("a");a.href="#";a.textContent=c;a.className="px-3 py-1 rounded-full border bg-white hover:bg-slate-50 "+(state.cat===c?"bg-slate-900 text-white border-slate-900":"");a.onclick=e=>{e.preventDefault();state.cat=c;render()};n.appendChild(a)})}
-function card(it){const el=document.createElement("article");el.className="group bg-white border rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition";el.innerHTML=`${it.image?`<img src="${it.image}" alt="${it.title}" class="h-44 w-full object-cover" loading="lazy"/>`:`<div class="h-2 bg-gradient-to-r from-slate-100 to-slate-200"></div>`}<div class="p-4 space-y-2"><div class="text-xs text-slate-500 flex items-center gap-2"><span class="px-2 py-0.5 rounded-full bg-slate-100 border">${it.category}</span><span class="truncate">${it.source||""}</span></div><h3 class="font-semibold leading-snug group-hover:underline">${it.title}</h3>${it.summary?`<p class="text-sm text-slate-600 line-clamp-3">${it.summary}</p>`:""}<div class="flex items-center justify-between pt-2 text-xs text-slate-500"><span>${fmt(it.publishedAt)}</span><a href="${it.link}" target="_blank" rel="noopener" class="hover:text-slate-700">Baca sumber →</a></div></div>`;return el}
-function render(){renderCats();const list=state.cat==="semua"?state.items:state.items.filter(i=>i.category===state.cat);const g=document.getElementById("grid");g.innerHTML="";list.forEach(it=>g.appendChild(card(it)));document.getElementById("meta").textContent=`Total ${list.length} artikel • diperbarui ${fmt(state.generatedAt||new Date())}`}
-fetch("./news.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{state.items=d.items||[];state.generatedAt=d.generatedAt;render()}).catch(()=>{document.getElementById("meta").textContent="Gagal memuat data."});
-document.getElementById("year").textContent=(new Date()).getFullYear();
+const RAW_URL = "https://raw.githubusercontent.com/mukemen/sumberfakta/main/news.json";
+const CATS = ["semua","politik","sport","entertainment","hobi","movie","music","bisnis","tekno","dunia"];
+const state = { cat:"semua", items:[], generatedAt:null };
+
+function fmtTime(iso){
+  try{ return new Intl.DateTimeFormat("id-ID",{dateStyle:"medium",timeStyle:"short"}).format(new Date(iso)); }
+  catch{ return iso; }
+}
+
+function renderCats(){
+  const nav = document.getElementById("cats");
+  nav.innerHTML = "";
+  CATS.forEach(c=>{
+    const a = document.createElement("a");
+    a.href="#"; a.textContent=c;
+    a.className = "px-3 py-1 rounded-full border bg-white hover:bg-slate-50 " + (state.cat===c?"bg-slate-900 text-white border-slate-900":"");
+    a.onclick=(e)=>{e.preventDefault(); state.cat=c; render();};
+    nav.appendChild(a);
+  });
+}
+
+function card(it){
+  const el = document.createElement("article");
+  el.className="group bg-white border rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition";
+  el.innerHTML = `
+    ${it.image?`<img src="${it.image}" alt="${it.title}" class="h-44 w-full object-cover" loading="lazy"/>`:`<div class="h-2 bg-gradient-to-r from-slate-100 to-slate-200"></div>`}
+    <div class="p-4 space-y-2">
+      <div class="text-xs text-slate-500 flex items-center gap-2">
+        <span class="px-2 py-0.5 rounded-full bg-slate-100 border">${it.category}</span>
+        <span class="truncate">${it.source||""}</span>
+      </div>
+      <h3 class="font-semibold leading-snug group-hover:underline">${it.title}</h3>
+      ${it.summary?`<p class="text-sm text-slate-600 line-clamp-3">${it.summary}</p>`:""}
+      <div class="flex items-center justify-between pt-2 text-xs text-slate-500">
+        <span>${fmtTime(it.publishedAt)}</span>
+        <a href="${it.link}" target="_blank" rel="noopener" class="hover:text-slate-700">Baca sumber →</a>
+      </div>
+    </div>`;
+  return el;
+}
+
+function render(){
+  renderCats();
+  const list = state.cat==="semua" ? state.items : state.items.filter(i=>i.category===state.cat);
+  const grid = document.getElementById("grid");
+  grid.innerHTML = "";
+  list.forEach(it=>grid.appendChild(card(it)));
+  document.getElementById("meta").textContent =
+    `Total ${list.length} artikel • diperbarui ${fmtTime(state.generatedAt||new Date())}`;
+}
+
+async function loadNews(){
+  // 1) Coba news.json lokal (dari Pages)
+  try {
+    const r = await fetch("./news.json?nocache="+Date.now(), { cache:"no-store" });
+    if (r.ok) return await r.json();
+  } catch {}
+  // 2) Fallback ke raw GitHub
+  const r2 = await fetch(RAW_URL + "?nocache="+Date.now(), { cache:"no-store" });
+  if (!r2.ok) throw new Error("Gagal fetch raw JSON");
+  return await r2.json();
+}
+
+// start
+loadNews()
+  .then(data => { state.items = data.items||[]; state.generatedAt=data.generatedAt; render(); })
+  .catch(() => { document.getElementById("meta").textContent = "Gagal memuat data."; });
+
+document.getElementById("year").textContent = new Date().getFullYear();
 </script>
-</body></html>
+</body>
+</html>
