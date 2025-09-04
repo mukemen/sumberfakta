@@ -1,15 +1,15 @@
 [
-  { "name": "ANTARA – Terkini",    "url": "https://www.antaranews.com/rss/terkini",    "category": "nasional" },
-  { "name": "ANTARA – Politik",    "url": "https://www.antaranews.com/rss/politik",    "category": "politik"  },
-  { "name": "ANTARA – Olahraga",   "url": "https://www.antaranews.com/rss/olahraga",   "category": "sport"    },
+  { "name": "ANTARA – Terkini",   "url": "https://www.antaranews.com/rss/terkini",    "category": "nasional" },
+  { "name": "ANTARA – Politik",   "url": "https://www.antaranews.com/rss/politik",    "category": "politik"  },
+  { "name": "ANTARA – Olahraga",  "url": "https://www.antaranews.com/rss/olahraga",   "category": "sport"    },
 
-  { "name": "BBC – World",         "url": "http://feeds.bbci.co.uk/news/world/rss.xml",      "category": "dunia"   },
-  { "name": "BBC – Business",      "url": "http://feeds.bbci.co.uk/news/business/rss.xml",   "category": "bisnis"  },
-  { "name": "BBC – Technology",    "url": "http://feeds.bbci.co.uk/news/technology/rss.xml", "category": "tekno"   },
+  { "name": "BBC – World",        "url": "http://feeds.bbci.co.uk/news/world/rss.xml",      "category": "dunia"   },
+  { "name": "BBC – Business",     "url": "http://feeds.bbci.co.uk/news/business/rss.xml",   "category": "bisnis"  },
+  { "name": "BBC – Technology",   "url": "http://feeds.bbci.co.uk/news/technology/rss.xml", "category": "tekno"   },
 
-  { "name": "Reuters – World",     "url": "https://feeds.reuters.com/reuters/worldNews",     "category": "dunia"   },
-  { "name": "Reuters – Business",  "url": "https://feeds.reuters.com/reuters/businessNews",  "category": "bisnis"  },
+  { "name": "Reuters – World",    "url": "https://feeds.reuters.com/reuters/worldNews",     "category": "dunia"   },
+  { "name": "Reuters – Business", "url": "https://feeds.reuters.com/reuters/businessNews",  "category": "bisnis"  },
 
-  { "name": "Al Jazeera – All",    "url": "https://www.aljazeera.com/xml/rss/all.xml",       "category": "dunia"   },
-  { "name": "The Verge – Tech",    "url": "https://www.theverge.com/rss/index.xml",          "category": "tekno"   }
+  { "name": "Al Jazeera – All",   "url": "https://www.aljazeera.com/xml/rss/all.xml",       "category": "dunia"   },
+  { "name": "The Verge – Tech",   "url": "https://www.theverge.com/rss/index.xml",          "category": "tekno"   }
 ]
