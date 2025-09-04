@@ -1,95 +1,2005 @@
 {
-  "generatedAt": "2025-09-04T02:00:00.000Z",
+  "generatedAt": "2025-09-04T17:03:28.456Z",
   "items": [
     {
-      "title": "Peluncuran SUMBER FAKTA Lite",
-      "link": "https://example.com/sumberfakta-lite",
-      "publishedAt": "2025-09-04T01:55:00.000Z",
-      "source": "Editor",
+      "id": "The Verge – Tech-0-1757005279000",
+      "title": "The tech antitrust renaissance may already be over",
+      "link": "https://www.theverge.com/policy/771409/break-up-big-tech-movement-google-search-remedies-ruling",
+      "publishedAt": "2025-09-04T17:01:19.000Z",
+      "source": "The Verge – Tech",
       "category": "tekno",
-      "image": "",
-      "summary": "Portal agregator berita statis yang ringan, gratis, dan mudah dipelihara."
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK452_Google_Antitrust__Monopoly_Kristen_Radtke.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "summary": "Around six years ago, a new rallying cry rippled through Washington: \"Break Up Big Tech.\" It was a slogan emblazoned on campaign posters, uttered at congressional hearings, and beginning, it seemed, to echo through the halls of the nation's antitrust enforcers. Momentum in the legislatures eventually petered out, but the enforcers at the Justice Department and Federal Trade Commission remained more active than ever. President Joe Biden never took the kind of hard posture on Big Tech that political rivals like Sens. Elizabeth Warren (D-MA) or Bernie Sanders (I-VT) adopted, but nevertheless, when he became president in 2021, he tapped Lina K … Read the full story at The Verge."
     },
     {
-      "title": "Kebijakan Baru Transportasi Nasional Mulai Berlaku",
-      "link": "https://example.com/transportasi-kebijakan-baru",
-      "publishedAt": "2025-09-04T01:40:00.000Z",
-      "source": "Redaksi Nasional",
-      "category": "politik",
-      "image": "",
-      "summary": "Pemerintah merilis kebijakan transportasi untuk mendorong konektivitas antardaerah."
-    },
-    {
-      "title": "Timnas Raih Kemenangan Tipis di Laga Uji Coba",
-      "link": "https://example.com/timnas-menang-uji-coba",
-      "publishedAt": "2025-09-04T01:20:00.000Z",
-      "source": "Olahraga",
-      "category": "sport",
-      "image": "",
-      "summary": "Pertandingan berlangsung ketat, gol penentu tercipta di menit-menit akhir."
-    },
-    {
-      "title": "Pasar Saham Asia Dibuka Menguat",
-      "link": "https://example.com/pasar-saham-asia-menguat",
-      "publishedAt": "2025-09-04T01:05:00.000Z",
-      "source": "Market Watch",
-      "category": "bisnis",
-      "image": "",
-      "summary": "Sentimen positif global mendorong indeks kawasan Asia hijau."
-    },
-    {
-      "title": "Rilis Perangkat Wearable Baru Fokus ke Kesehatan",
-      "link": "https://example.com/wearable-kesehatan-rilis",
-      "publishedAt": "2025-09-04T00:55:00.000Z",
-      "source": "Teknologi",
+      "id": "The Verge – Tech-1-1757005200000",
+      "title": "You can now attach 10,000 character blogs to your Threads posts",
+      "link": "https://www.theverge.com/news/770391/meta-threads-text-dumps-attachments-10000-characters",
+      "publishedAt": "2025-09-04T17:00:00.000Z",
+      "source": "The Verge – Tech",
       "category": "tekno",
-      "image": "",
-      "summary": "Fitur pengukuran biometrik dan baterai hemat menjadi sorotan."
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24774110/STK156_Instagram_threads_1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "summary": "Meta is adding a new feature to let you add a bunch of extra text to Threads posts — no screenshots of text blocks required. Starting today, Meta is rolling out a tool that lets you attach up to 10,000 characters of text to Threads posts, giving you a way to build upon the 500-character text limit already available when making a post. It’s kind of a Threads-y take on X’s Articles feature. You can add a text attachment to a post by tapping on a new rounded rectangle icon with some lines on it. After tapping that, a word editor opens up where you can type away, and you can format your text with bold, italics, underlines, and strikethroughs. On your feed, a text attachment appears as a small block below your main post. When you tap that block, it will expand to show the full attachment for you to read. If you include a link in your main Threads post, that link will also be shown in the expanded text attachment, meaning the tool could be a useful way to share a preview of an article or a blog post and then direct readers to the full thing."
     },
     {
-      "title": "Film Aksi Lokal Tembus Festival Internasional",
-      "link": "https://example.com/film-aksi-festival",
-      "publishedAt": "2025-09-04T00:40:00.000Z",
-      "source": "Hiburan",
-      "category": "movie",
-      "image": "",
-      "summary": "Film garapan sutradara muda mendapat apresiasi di ajang bergengsi."
+      "id": "ANTARA – Terkini-0-1757005088000",
+      "title": "Presiden perintahkan kerja cepat perbaiki fasilitas rusak akibat demo",
+      "link": "https://www.antaranews.com/video/5088605/presiden-perintahkan-kerja-cepat-perbaiki-fasilitas-rusak-akibat-demo",
+      "publishedAt": "2025-09-04T16:58:08.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/PRESIDEN-PERINTAHKAN-KERJA-CEPAT-PERBAIKI-FASILITAS-RUSAK-AKIBAT-DEMO.jpg",
+      "summary": "ANTARA - Menteri Koordinator Bidang Infrastruktur dan Pembangunan Kewilayahan, Agus Harimurti Yudhoyono, mengungkap ..."
     },
     {
-      "title": "Album Baru Musisi Tanah Air Masuk Chart Global",
-      "link": "https://example.com/album-baru-chart-global",
-      "publishedAt": "2025-09-04T00:25:00.000Z",
-      "source": "Musik",
-      "category": "music",
-      "image": "",
-      "summary": "Kolaborasi lintas-genre jadi daya tarik utama album ini."
+      "id": "ANTARA – Terkini-1-1757005001000",
+      "title": "KPK ekstrak HP di rumdin Ebenezer untuk pastikan pernyataan Ebenezer",
+      "link": "https://www.antaranews.com/berita/5088621/kpk-ekstrak-hp-di-rumdin-ebenezer-untuk-pastikan-pernyataan-ebenezer",
+      "publishedAt": "2025-09-04T16:56:41.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/03/IMG_9951.jpg",
+      "summary": "Komisi Pemberantasan Korupsi (KPK) sedang berupaya mengekstrak empat telepon seluler atau HP yang ditemukan di plafon ..."
     },
     {
-      "title": "Komunitas Fotografi Gelar Pameran Akhir Pekan",
-      "link": "https://example.com/pameran-fotografi-komunitas",
-      "publishedAt": "2025-09-04T00:10:00.000Z",
-      "source": "Komunitas",
-      "category": "hobi",
-      "image": "",
-      "summary": "Puluhan karya dipamerkan, terbuka untuk umum secara gratis."
+      "id": "ANTARA – Terkini-2-1757004904000",
+      "title": "AION UT tawarkan biaya operasional yang hemat untuk mobilitas harian",
+      "link": "https://otomotif.antaranews.com/berita/5088617/aion-ut-tawarkan-biaya-operasional-yang-hemat-untuk-mobilitas-harian",
+      "publishedAt": "2025-09-04T16:55:04.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/WhatsApp-Image-2025-09-04-at-13.53.51.jpeg",
+      "summary": "GAC Indonesia mengatakan bahwa mobil listrik AION UT menawarkan efisiensi biaya operasional yang lebih hemat untuk ..."
     },
     {
-      "title": "Pertemuan Puncak Membahas Isu Regional",
-      "link": "https://example.com/pertemuan-puncak-regional",
-      "publishedAt": "2025-09-03T23:55:00.000Z",
-      "source": "Internasional",
+      "id": "ANTARA – Terkini-3-1757004598000",
+      "title": "Yayasan Gen-B padukan EBT dan robotik untuk pertanian di wilayah 3T",
+      "link": "https://www.antaranews.com/berita/5088613/yayasan-gen-b-padukan-ebt-dan-robotik-untuk-pertanian-di-wilayah-3t",
+      "publishedAt": "2025-09-04T16:49:58.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/IMG_5165.jpeg",
+      "summary": "Yayasan Generasi Energi Bersih (Gen-B) memadukan energi baru terbarukan (EBT) dan ilmu robotik melalui RE:BION ..."
+    },
+    {
+      "id": "ANTARA – Terkini-4-1757004565000",
+      "title": "Pentingnya ajak diskusi dan beri fakta pada anak yang ingin unjuk rasa",
+      "link": "https://www.antaranews.com/berita/5088609/pentingnya-ajak-diskusi-dan-beri-fakta-pada-anak-yang-ingin-unjuk-rasa",
+      "publishedAt": "2025-09-04T16:49:25.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/unjuk-rasa-rakyat-menggugat-2616169.jpg",
+      "summary": "Psikolog Klinis Anak dan Remaja lulusan Universitas Indonesia Gisella Tani Pratiwi, M.Psi., Psikolog menekankan ..."
+    },
+    {
+      "id": "ANTARA – Terkini-5-1757004235000",
+      "title": "Cakupan Imunisasi campak di Sumenep capai 55,3 persen",
+      "link": "https://www.antaranews.com/berita/5088601/cakupan-imunisasi-campak-di-sumenep-capai-553-persen",
+      "publishedAt": "2025-09-04T16:43:55.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/Menkes2-Sumenep.jpg",
+      "summary": "Dinas Kesehatan, Pengendalian Penduduk dan Keluarga Berencana (DKPP-KB) Kabupaten Sumenep, Jawa Timur mengatakan, ..."
+    },
+    {
+      "id": "Al Jazeera – All-0-1757004140000",
+      "title": "Ukraine vs France: World Cup qualifiers – teams, start, lineups",
+      "link": "https://www.aljazeera.com/sports/2025/9/4/ukraine-vs-france-world-cup-qualifiers-teams-start-lineups?traffic_source=rss",
+      "publishedAt": "2025-09-04T16:42:20.000Z",
+      "source": "Al Jazeera – All",
       "category": "dunia",
-      "image": "",
-      "summary": "Para pemimpin membahas keamanan, ekonomi, dan transisi energi."
+      "image": "https://www.aljazeera.com/wp-content/uploads/2025/09/2025-09-02T165906Z_82906586_UP1EL921B6HH5_RTRMADP_3_SOCCER-WORLDCUP-FRA-1756991132.jpg?resize=1920%2C1440",
+      "summary": "France enter the qualifiers for the 2026 FIFA World Cup but the number of games players face remains contentious."
     },
     {
-      "title": "Serial Baru Raih Rating Tinggi pada Episode Perdana",
-      "link": "https://example.com/serial-baru-rating-tinggi",
-      "publishedAt": "2025-09-03T23:40:00.000Z",
-      "source": "Entertaiment",
-      "category": "entertainment",
-      "image": "",
-      "summary": "Cerita segar dan produksi apik jadi kunci antusiasme penonton."
+      "id": "ANTARA – Terkini-6-1757004064000",
+      "title": "Bojan ungkap alasan Persib Bandung boyong Eliano Reijnders",
+      "link": "https://www.antaranews.com/berita/5088597/bojan-ungkap-alasan-persib-bandung-boyong-eliano-reijnders",
+      "publishedAt": "2025-09-04T16:41:04.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2024/11/13/Eliano.jpeg",
+      "summary": "Pelatih Persib Bandung Bojan Hodak mengungkapkan alasan timnya memboyong pemain Timnas Indonesia Eliano Reijnders dari ..."
+    },
+    {
+      "id": "ANTARA – Terkini-7-1757003883000",
+      "title": "Menhub sampaikan duka atas heli jatuh di Kalsel dengan 8 korban jiwa",
+      "link": "https://www.antaranews.com/berita/5088593/menhub-sampaikan-duka-atas-heli-jatuh-di-kalsel-dengan-8-korban-jiwa",
+      "publishedAt": "2025-09-04T16:38:03.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/C438A4C6-C31E-4E0F-B078-A1D11081B18B.jpeg",
+      "summary": "Menteri Perhubungan Dudy Purwagandhi menyampaikan duka mendalam atas insiden jatuhnya helikopter BK117 D3 milik Estindo ..."
+    },
+    {
+      "id": "ANTARA – Terkini-8-1757003805000",
+      "title": "Selain \"Giant Sea Wall\", Prabowo bahas kereta cepat dengan Xi Jinping",
+      "link": "https://www.antaranews.com/berita/5088589/selain-giant-sea-wall-prabowo-bahas-kereta-cepat-dengan-xi-jinping",
+      "publishedAt": "2025-09-04T16:36:45.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/WhatsApp-Image-2025-09-04-at-16.00.33.jpeg",
+      "summary": "Pertemuan bilateral antara Presiden RI Prabowo Subianto dengan Presiden China Xi Jinping di Beijing pada Rabu (3/9) ..."
+    },
+    {
+      "id": "Al Jazeera – All-1-1757003767000",
+      "title": "More than 1.5 million displaced by Pakistan floods",
+      "link": "https://www.aljazeera.com/video/newsfeed/2025/9/4/more-than-1-5-million-displaced-by-pakistan-floods?traffic_source=rss",
+      "publishedAt": "2025-09-04T16:36:07.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2025/09/image-1757003744.jpg?resize=1920%2C1080&amp;quality=80",
+      "summary": "More than 1.5 million people in Pakistan’s Punjab province have been displaced by the worst flooding in decades."
+    },
+    {
+      "id": "Al Jazeera – All-2-1757003581000",
+      "title": "DR Congo announces new Ebola outbreak",
+      "link": "https://www.aljazeera.com/news/2025/9/4/dr-congo-announces-new-ebola-outbreak?traffic_source=rss",
+      "publishedAt": "2025-09-04T16:33:01.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2025/09/2024-09-05T160748Z_740166227_RC2CU9AYC0W9_RTRMADP_3_HEALTH-MPOX-CONGO-1756998546.jpg?resize=1920%2C1440",
+      "summary": "Authorities suspect 28 cases of the deadly virus, with the latest recorded in the southern Kasai province."
+    },
+    {
+      "id": "Al Jazeera – All-3-1757003552000",
+      "title": "Afghanistan earthquake death toll rises to 2,200",
+      "link": "https://www.aljazeera.com/news/2025/9/4/afghanistan-earthquake-death-toll-rises-to-2200?traffic_source=rss",
+      "publishedAt": "2025-09-04T16:32:32.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2025/09/2025-09-03T093341Z_2055795172_RC25KGAPK1U6_RTRMADP_3_AFGHANISTAN-QUAKE-1756997572.jpg?resize=1920%2C1440",
+      "summary": "Another 3,640 people wounded in the quake that struck on Sunday as aid organizations struggle to reach survivors."
+    },
+    {
+      "id": "Al Jazeera – All-4-1757003465000",
+      "title": "Judge blocks Trump’s bid to cut $4bn in US foreign aid",
+      "link": "https://www.aljazeera.com/news/2025/9/4/judge-blocks-trumps-bid-to-cut-4bn-in-us-foreign-aid?traffic_source=rss",
+      "publishedAt": "2025-09-04T16:31:05.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2025/03/RC22NCA7UVIA-1741854907.jpg?resize=1920%2C1440",
+      "summary": "Federal judge says Trump administration cannot refuse to spend funds appropriated by US Congress."
+    },
+    {
+      "id": "Al Jazeera – All-5-1757003400000",
+      "title": "Can Syria revive its oil wealth to help rebuild the nation?",
+      "link": "https://www.aljazeera.com/video/counting-the-cost/2025/9/4/can-syria-revive-its-oil-wealth-to-help-rebuild-the-nation?traffic_source=rss",
+      "publishedAt": "2025-09-04T16:30:00.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2025/09/image-1756997456.jpg?resize=1920%2C1080&amp;quality=80",
+      "summary": "Syria's Deir Az Zor is rich in oil. But the eastern province has been devastated by years of civil war."
+    },
+    {
+      "id": "ANTARA – Terkini-9-1757003366000",
+      "title": "KPK koordinasi dengan Jampidsus bila butuh keterangan Nadiem Makarim",
+      "link": "https://www.antaranews.com/berita/5088585/kpk-koordinasi-dengan-jampidsus-bila-butuh-keterangan-nadiem-makarim",
+      "publishedAt": "2025-09-04T16:29:26.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/Nadiem-Makarim-Ditetapkan-Tersangka-Korupsi-Chromebook-040925-Bay-3.jpg",
+      "summary": "Komisi Pemberantasan Korupsi (KPK) menyatakan berkoordinasi dengan Jaksa Agung Muda Bidang Tindak Pidana Khusus ..."
+    },
+    {
+      "id": "ANTARA – Terkini-10-1757003289000",
+      "title": "Pertamina tambah pasokan elpiji untuk antisipasi kelangkaan",
+      "link": "https://www.antaranews.com/berita/5088581/pertamina-tambah-pasokan-elpiji-untuk-antisipasi-kelangkaan",
+      "publishedAt": "2025-09-04T16:28:09.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/Pertamina-elpiji.jpg",
+      "summary": "Pertamina Patra Niaga menambah pasokan elpiji di Pulau Madura, Jawa Timur untuk mengantisipasi kelangkaan menghadapi ..."
+    },
+    {
+      "id": "ANTARA – Terkini-11-1757003228000",
+      "title": "CELIOS nilai Menkeu seharusnya mendapat perlindungan setara RI-2",
+      "link": "https://www.antaranews.com/berita/5088577/celios-nilai-menkeu-seharusnya-mendapat-perlindungan-setara-ri-2",
+      "publishedAt": "2025-09-04T16:27:08.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/tempImagefFdrRQ.jpg",
+      "summary": "Direktur Eksekutif Center of Economics and Law Studies (CELIOS) Bhima Yudhistira berpendapat Menteri Keuangan ..."
+    },
+    {
+      "id": "Al Jazeera – All-6-1757003213000",
+      "title": "US Justice Department launches fraud probe into Fed Gov Lisa Cook: Report",
+      "link": "https://www.aljazeera.com/economy/2025/9/4/us-justice-department-launches-fraud-probe-into-fed-gov-lisa-cook-report?traffic_source=rss",
+      "publishedAt": "2025-09-04T16:26:53.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2025/09/2025-08-23T190043Z_709872522_RC23DGAN48BA_RTRMADP_3_USA-FED-JACKSONHOLE-1756999169.jpg?resize=1920%2C1440",
+      "summary": "Probe follows a lawsuit filed by Cook challenging Trump firing her from the central bank on mortgage fraud allegations."
+    },
+    {
+      "id": "Al Jazeera – All-7-1757003036000",
+      "title": "In boat strike, Trump repurposes ‘war on terror’ for Latin American crime",
+      "link": "https://www.aljazeera.com/news/2025/9/4/in-boat-strike-trump-repurposes-war-on-terror-for-latin-american-crime?traffic_source=rss",
+      "publishedAt": "2025-09-04T16:23:56.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2025/09/reuters_68b9a3cc-1756996556.jpg?resize=1920%2C1440",
+      "summary": "Analysts warn the US is using its 'war on terror' playbook for potential extrajudicial killings in Latin America."
+    },
+    {
+      "id": "ANTARA – Terkini-12-1757003012000",
+      "title": "Jual sembako lebih murah, Kopdes Merah Putih tarik minat masyarakat",
+      "link": "https://www.antaranews.com/berita/5088573/jual-sembako-lebih-murah-kopdes-merah-putih-tarik-minat-masyarakat",
+      "publishedAt": "2025-09-04T16:23:32.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/WhatsApp-Image-2025-09-04-at-19.59.30.jpeg",
+      "summary": "Koperasi Desa/Kelurahan Merah Putih menarik minat tinggi dari masyarakat karena mampu memangkas rantai distribusi, ..."
+    },
+    {
+      "id": "ANTARA – Terkini-13-1757002978000",
+      "title": "Mensesneg apresiasi mahasiswa jadikan Istana Negara ruang dialog",
+      "link": "https://www.antaranews.com/berita/5088569/mensesneg-apresiasi-mahasiswa-jadikan-istana-negara-ruang-dialog",
+      "publishedAt": "2025-09-04T16:22:58.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/20250904_231539_Gallery.jpg",
+      "summary": "Menteri Sekretaris Negara (Mensesneg) Prasetyo Hadi mengapresiasi para mahasiswa yang berkenan hadir dan menjadikan ..."
+    },
+    {
+      "id": "ANTARA – Terkini-14-1757002919000",
+      "title": "Dubai Fashion Week tampilkan beragam budaya dan kreativitas",
+      "link": "https://www.antaranews.com/video/5088385/dubai-fashion-week-tampilkan-beragam-budaya-dan-kreativitas",
+      "publishedAt": "2025-09-04T16:21:59.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/DUBAI-FASHION-WEEK-TAMPILKAN-BERAGAM-BUDAYA-DAN-KREATIVITAS.jpg",
+      "summary": "ANTARA - Berlangsung sejak 1 hingga 6 September, Dubai Fashion Week edisi musim semi/panas 2026 menghadirkan pesta mode ..."
+    },
+    {
+      "id": "ANTARA – Terkini-15-1757002869000",
+      "title": "Milatul Khaqimah wakili Indonesia di Kejuaraan Dunia MTB 2025 di Swiss",
+      "link": "https://www.antaranews.com/berita/5088565/milatul-khaqimah-wakili-indonesia-di-kejuaraan-dunia-mtb-2025-di-swiss",
+      "publishedAt": "2025-09-04T16:21:09.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/WC7-Les-Gets-Trackwalk-2110.jpg",
+      "summary": "Pembalap sepeda putri Milatul Khaqimah menjadi satu-satunya wakil Indonesia dalam Kejuaraan Dunia Sepeda Gunung (MTB) ..."
+    },
+    {
+      "id": "BBC – World-3-1757002702000",
+      "title": "Ebola outbreak kills 15 in DR Congo",
+      "link": "https://www.bbc.com/news/articles/cjed2pg0wy7o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T16:18:22.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/bd27/live/2b79bed0-89aa-11f0-9f0a-494169926e61.jpg",
+      "summary": "Health officials urge people to take preventive measures following a new outbreak of the deadly virus."
+    },
+    {
+      "id": "ANTARA – Terkini-16-1757002611000",
+      "title": "Anggota DPD tampung aduan warga rusun di Jakarta terkait tarif air PAM",
+      "link": "https://www.antaranews.com/berita/5088561/anggota-dpd-tampung-aduan-warga-rusun-di-jakarta-terkait-tarif-air-pam",
+      "publishedAt": "2025-09-04T16:16:51.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/IMG-20250904-WA0036_1.jpg",
+      "summary": "Anggota Dewan Perwakilan Daerah (DPD) RI dari Daerah Pemilihan DKI Jakarta, Achmad Azran menampung aduan warga rumah ..."
+    },
+    {
+      "id": "ANTARA – Terkini-17-1757002549000",
+      "title": "Wamentan tekankan peran penting Pupuk Indonesia bagi petani",
+      "link": "https://www.antaranews.com/berita/5088557/wamentan-tekankan-peran-penting-pupuk-indonesia-bagi-petani",
+      "publishedAt": "2025-09-04T16:15:49.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/77ACAB4A-8C59-45AC-BDD8-C9DC7519069D.jpeg",
+      "summary": "Wakil Menteri Pertanian Sudaryono menekankan peran penting Pupuk Indonesia dalam menjamin ketersediaan pupuk bagi ..."
+    },
+    {
+      "id": "ANTARA – Terkini-18-1757002412000",
+      "title": "Brasil dan Turki melenggang semifinal Kejuaraan Dunia Voli Putri 2025",
+      "link": "https://www.antaranews.com/berita/5088553/brasil-dan-turki-melenggang-semifinal-kejuaraan-dunia-voli-putri-2025",
+      "publishedAt": "2025-09-04T16:13:32.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/Brasil-vs-Prancis-di-babak-perempat-final-Kejuaraan-Dunia-Bola-Voli-Putri-2025.jpg",
+      "summary": "Tim nasional bola voli putri Brasil dan tim Turki melenggang ke semifinal Kejuaraan Dunia Bola Voli Putri 2025 setelah ..."
+    },
+    {
+      "id": "ANTARA – Terkini-19-1757002320000",
+      "title": "Setelah Yeremia, PBSI coba pasangkan Rian dengan Rahmat Hidayat",
+      "link": "https://www.antaranews.com/berita/5088549/setelah-yeremia-pbsi-coba-pasangkan-rian-dengan-rahmat-hidayat",
+      "publishedAt": "2025-09-04T16:12:00.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2024/11/03/Rahmat-Yere-juara-ganda-putra-Indonesia-Masters-2024-031124-rzl-1-1.jpg",
+      "summary": "PBSI memasangkan ganda putra Indonesia Muhammad Rian Ardianto dengan pemain muda Rahmat Hidayat pada tiga turnamen tur ..."
+    },
+    {
+      "id": "The Verge – Tech-2-1757002305000",
+      "title": "Darth Vader&#8217;s lightsaber is up for auction",
+      "link": "https://www.theverge.com/news/771642/darth-vader-lightsaber-propstore-auction-indiana-jones",
+      "publishedAt": "2025-09-04T16:11:45.000Z",
+      "source": "The Verge – Tech",
+      "category": "tekno",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/darth-vader-lightsaber.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "summary": "Darth Vader’s lightsaber is about to become someone’s prized possession. It’s up for auction alongside a bunch of other iconic movie props, as spotted earlier by The New York Times. The auction is hosted by the memorabilia company Propstore, and it estimates that Vader’s lightsaber will fetch anywhere from $1 million to $3 million. Darth Vader had this weapon in hand in Star Wars: The Empire Strikes Back (1980) and Return of the Jedi (1983). As noted by Propstore, it’s made from a 1950s British camera flash bulb attachment, which prop makers modified with plastic grips, electrical wires, and magnification bubbles used in vintage calculators. In an interview with CBS News, Propstore CEO Brian Alinger said the lightsaber came from someone who received it as a gift while visiting the set of Star Wars as a child. Propstore matched the lightsaber to the Star Wars films “based on specific damage to the body.” There’s plenty of other exciting memorabilia up for grabs during the auction, with the whip used by Harrison Ford in Indiana Jones and the Last Crusade (1989) expected to net $250,000 to $500,00, and Keaton’s Batsuit from the original Batman (1989), estimated at $250,000 to $500,000. You’ll also find a Spider-Man suit worn by Tobey Maguire, Wolverine’s claws from Logan (2017), a Neuralyzer used in Men in Black (1997), and Chris Evans’ Captain America shield from Age of Ultron (2015). You can browse the full catalog on Propstore’s website. The auction runs from September 4th to the 6th."
+    },
+    {
+      "id": "ANTARA – Terkini-20-1757002183000",
+      "title": "RS Bhayangkara aktivasi protokol tangani korban helikopter di Kalsel",
+      "link": "https://www.antaranews.com/berita/5088545/rs-bhayangkara-aktivasi-protokol-tangani-korbanhelikopter-di-kalsel",
+      "publishedAt": "2025-09-04T16:09:43.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/IMG_20250904_230733.jpg",
+      "summary": "Rumah Sakit (RS) Bhayangkara Banjarmasin telah mengaktivasi protokol penanganan korban massal untuk melaksanakan proses ..."
+    },
+    {
+      "id": "ANTARA – Terkini-21-1757002120000",
+      "title": "Kepala Bappenas: Program Sapi Merah Putih jadi simbol kemajuan",
+      "link": "https://www.antaranews.com/berita/5088541/kepala-bappenas-program-sapi-merah-putih-jadi-simbol-kemajuan",
+      "publishedAt": "2025-09-04T16:08:40.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/08/29/Wamen-PPN.jpg",
+      "summary": "Menteri Perencanaan Pembangunan Nasional/Kepala Badan Perencanaan Pembangunan Nasional (PPN/Bappenas) Rachmat Pambudy ..."
+    },
+    {
+      "id": "ANTARA – Terkini-22-1757002025000",
+      "title": "Pemerintah lanjutkan stimulus ekonomi subsidi gaji hingga bebas PPh",
+      "link": "https://www.antaranews.com/berita/5088537/pemerintah-lanjutkan-stimulus-ekonomi-subsidi-gaji-hingga-bebas-pph",
+      "publishedAt": "2025-09-04T16:07:05.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/WhatsApp-Image-2025-09-04-at-23.00.01.jpeg",
+      "summary": "Pemerintah tetap melanjutkan stimulus ekonomi pada semester II tahun ini melalui sejumlah program yang telah berjalan, ..."
+    },
+    {
+      "id": "ANTARA – Terkini-23-1757001937000",
+      "title": "Gustavo Almeida tak anggap penyerang lain Persija sebagai saingan",
+      "link": "https://www.antaranews.com/berita/5088533/gustavo-almeida-tak-anggap-penyerang-lain-persija-sebagai-saingan",
+      "publishedAt": "2025-09-04T16:05:37.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/WhatsApp-Image-2025-09-04-at-22.41.20.jpeg",
+      "summary": "Penyerang Persija, Gustavo Almeida, tidak menganggap para pemain depan lain di tim berjuluk Macan Kemayoran itu sebagai ..."
+    },
+    {
+      "id": "BBC – Business-3-1757001887000",
+      "title": "UK borrowing costs ease as bond market calms",
+      "link": "https://www.bbc.com/news/articles/ckgy2l928xxo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T16:04:47.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/417b/live/57b40050-8987-11f0-8583-e734b23af717.jpg",
+      "summary": "Government bond yields fall after hitting highest level since 1998 earlier in the week."
+    },
+    {
+      "id": "ANTARA – Terkini-24-1757001757000",
+      "title": "Mahasiswa: Pemerintah respons positif tuntutan RUU Perampasan Aset",
+      "link": "https://www.antaranews.com/berita/5088529/mahasiswa-pemerintah-respons-positif-tuntutan-ruu-perampasan-aset",
+      "publishedAt": "2025-09-04T16:02:37.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/IMG-20250904-WA0103.jpg",
+      "summary": "Perwakilan BEM SI Kerakyatan, Pasha, menyampaikan bahwa pemerintah merespons positif desakan mahasiswa agar Rancangan ..."
+    },
+    {
+      "id": "ANTARA – Terkini-25-1757001716000",
+      "title": "Legislator sebut percepatan perbaikan fasilitas publik perlu dilakukan",
+      "link": "https://www.antaranews.com/berita/5088525/legislator-sebut-percepatan-perbaikan-fasilitas-publik-perlu-dilakukan",
+      "publishedAt": "2025-09-04T16:01:56.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/IMG_20250904_222401.jpg",
+      "summary": "Ketua Komisi D DPRD DKI Jakarta Yuke Yurike menilai bahwa percepatan perbaikan fasilitas publik yang rusak, perlu ..."
+    },
+    {
+      "id": "ANTARA – Terkini-26-1757001626000",
+      "title": "Tanda-tanda anak mengalami gangguan pada penglihatan",
+      "link": "https://www.antaranews.com/berita/5088521/tanda-tanda-anak-mengalami-gangguan-pada-penglihatan",
+      "publishedAt": "2025-09-04T16:00:26.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/07/23/pemeriksaan-kesehatan-pendengaran-dan-penglihatan-pelajar-2580933.jpg",
+      "summary": "Ahli Bedah Mata dan Direktur RS Mata Surya, Mumbai Dr. Jay Goyal mengatakan bahwa ada tanda-tanda peringatan yang perlu ..."
+    },
+    {
+      "id": "ANTARA – Terkini-27-1757001608000",
+      "title": "KAI dukung penguatan angkutan logistik berbasis rel",
+      "link": "https://www.antaranews.com/berita/5088517/kai-dukung-penguatan-angkutan-logistik-berbasis-rel",
+      "publishedAt": "2025-09-04T16:00:08.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/BB004009-B4C5-4F28-BA52-E40F690AADC2.jpeg",
+      "summary": "PT Kereta Api Indonesia Persero (KAI) mendukung penguatan angkutan logistik berbasis rel dengan mencatat lonjakan ..."
+    },
+    {
+      "id": "The Verge – Tech-3-1757001600000",
+      "title": "Xgimi’s incredibly bright 4K projector targets daytime gamers",
+      "link": "https://www.theverge.com/news/766515/xgimi-bright-4k-projector-targets-daytime-gamers",
+      "publishedAt": "2025-09-04T16:00:00.000Z",
+      "source": "The Verge – Tech",
+      "category": "tekno",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/XGIMI-HORIZON-20_Product-Shot-2.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "summary": "The flagship Horizon 20 Max projector can pump out 5700 ISO lumens of brightness. | Image: Xgimi The new Horizon 20 lineup of 4K Google TV projectors from Xgimi targets gamers who want to play day and night on the biggest screen possible. In addition to promising an incredibly bright image from the flagship model, Xgimi is at IFA 2025 saying the entire lineup supports low-latency gaming with an input lag of just 1ms — that’s very responsive for a projector that will likely be able to produce a large image in rooms where you can’t control the ambient lighting. The Horizon 20 lineup — compromised of the base Horizon 20 model, the 20 Pro, and 20 Max — is built around an RGB triple laser architecture. The flagship Horizon 20 Max projector can produce an astounding 5700 ISO lumens of brightness, according to Xgimi, which is “perfect for viewers who want immersive visuals even in daylight or high-ambient light environments.” That puts it just behind Dangbei’s 6200 ISO lumen claim for its S7 Ultra Max projector. The Horizon 20 Pro model can still produce a very respectable 4200 ISO lumens while the base model drops it down to 3100 ISO lumens, according to Xgimi. Chinese projector makers have gotten into trouble for misleading customers on brightness in the past, but that was before they started measuring brightness in ISO lumens — a legitimate measurement that often yields a number slightly smaller than tests conducted using the ANSI standard. 5,700 ISO lumens is so high that it’s in the range associated with projectors meant for large spaces that cost well over $10,000. Nevertheless, Xgimi tells me that it’s confident that reviewers and users will see this performance reflected in practice. Xgimi’s projectors also support Dolby Vision, HDR10+, and IMAX Enhanced modes, with the inclusion of optical zoom and lens shifting tech. Lens shift works by physically adjusting the position of the lens relative to the DMD chip, allowing the image to move up, down, left, or right without distorting or scaling it digitally. These projectors support a 240Hz refresh and VRR to match the output of a gaming console or PC. However, that 1ms response is only at 1080/240fps — lag increases to 2.2ms at 1080p/120Hz or 3ms at 4K/60Hz. Xgimi also claims a 10,000:1 contrast ratio when a dynamic black level enhancement mode is turned on. Netflix works out of the box which isn’t guaranteed with all-in-one projectors, and you get 24W of built-in Harman Kardon Speakers for 360-degree sound. The Horizon 20 lineup can be preordered in the UK and US starting on September 5th with shipments expected in October. Retail pricing will range between $1,699 for the base model and $2,999 for the Horizon 20 Max. However, temporary early bird pricing at launch drops that range down to $1,189 to $2,399, and you also get a floor stand and an Assassin’s Creed game code."
+    },
+    {
+      "id": "The Verge – Tech-4-1757001600000",
+      "title": "Microsoft is about to shake up its Copilot pricing for businesses",
+      "link": "https://www.theverge.com/notepad-microsoft-newsletter/771199/microsoft-365-copilot-changes-agents-pricing-notepad",
+      "publishedAt": "2025-09-04T16:00:00.000Z",
+      "source": "The Verge – Tech",
+      "category": "tekno",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK259_MICROSOFT_COPILOT_3__D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "summary": "It's no secret that Microsoft has been struggling to sell its Copilot AI assistant to businesses. The steep pricing has put many businesses off paying extra for Microsoft's AI services, especially when OpenAI's ChatGPT has been gaining traction in the all-important enterprise market. Microsoft is now getting ready to tempt more businesses into paying for Copilot, with a familiar trick: bundling. Microsoft currently offers business Copilot access for $30 per user per month, and if you want the extra Copilot for Sales, Service, and Finance options, these have been a standalone extra $20 per user. Sources familiar with Microsoft's AI plans tel … Read the full story at The Verge."
+    },
+    {
+      "id": "The Verge – Tech-5-1757001600000",
+      "title": "This Dyson air purifier shoots out fresh air like a jet engine",
+      "link": "https://www.theverge.com/news/771505/dyson-hushjet-purifier-compact-air-purifier-price",
+      "publishedAt": "2025-09-04T16:00:00.000Z",
+      "source": "The Verge – Tech",
+      "category": "tekno",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/IMG_6296.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "summary": "A shot of the HushJet Purifier Compact taken at IFA 2025. | Photo: Jennifer Tuohy / The Verge Dyson is launching a new air purifier that’s designed to look — but thankfully, not sound — like a jet engine. The Dyson HushJet Purifier Compact is launching in the US on September 30th for $349.99, featuring a new nozzle design that’s shaped to help the device blast jets of air at high speed, similar to how a concentrator works on a hairdryer. The increase in airflow velocity allows the HushJet Purifier Compact to provide “faster, more powerful purification,” according to Dyson. The nozzle is star-shaped to help reduce noise by dampening the sound waves from the compressor. The HushJet also features a night mode to prevent it from disturbing your sleep, in which it’ll operate at just 24 dBA, which Dyson says is “roughly equivalent to soft whispers.” The new Electrostatic HEPA filter can capture 99.97 percent of particles that are as small as 0.3 microns, according to Dyson, such as pollen, dust, and pet dander. Removing these from the air in homes could help to alleviate sniffles and itchy eyes for anyone who suffers from being exposed to such allergens, but its worth noting that tech companies love to play on health-related concerns to sell their products. Dyson says its more energy efficient filter lasts up to five years — five times the filter life of its previous HEPA filter — and is fully sealed to kep everything it sucks in inside. The HushJet Purifier Compact weighs seven pounds, measures 17.7 x 9 x 9 inches, and is suitable for rooms up to 203 square feet. It includes sensors that automatically monitor air quality in real time and adjust performance, but users can also create schedules for it to run at specific times, or connect to Alexa or Google to manage the device using voice controls. Alongside the new HushJet, Dyson is also launching its new V16 Piston Animal cordless vacuum. It features a new dual conical cleaner head that adapts to all floor types, automatically speeding up when it senses carpet to give it a more robust clean, and slowing down on delicate hard floors to avoid causing any damage. It’s also designed to pick up “even the longest hair,” according to Dyson, preventing hair from wrapping and tangling around the brush bar before sucking it directly into the bin. Pricing for the US hasn’t been revealed yet, but we’ll find out more when it launches in the States sometime beginning 2026."
+    },
+    {
+      "id": "The Verge – Tech-6-1757001600000",
+      "title": "Google Photos now lets you animate your camera roll with Veo 3 for free",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/771630/google-photos-veo3-video-animate-camera-roll",
+      "publishedAt": "2025-09-04T16:00:00.000Z",
+      "source": "The Verge – Tech",
+      "category": "tekno",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STK093_Google_05.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "summary": "Google is adding Veo 3 software capabilities to its video generation feature for Google Photos. US-based users can turn static images into four-second videos by clicking either the \"Subtle movements\" or, for the more adventurous, the \"I'm feeling lucky\" options under the Create tab in Google Photos. According to Google spokesperson Michael Marconi, you can get your photo subjects to dance or shower them with confetti. Veo 3 replaces Veo 2 in Photos, which was rolled out beginning in July. The upgrade to the video generation software will improve the resolution and fidelity of the clips made from static images, Marconi said. This is the l … Read the full story at The Verge."
+    },
+    {
+      "id": "BBC – World-27-1757001513000",
+      "title": "Who are the victims of the Lisbon funicular cable crash?",
+      "link": "https://www.bbc.com/news/articles/cnvryg271ymo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T15:58:33.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/6912/live/5149d780-8978-11f0-93a9-c9fc9cc74be9.jpg",
+      "summary": "A transport worker is among those killed, while a three-year-old German boy is reported to have escaped with minor injuries."
+    },
+    {
+      "id": "ANTARA – Terkini-28-1757001425000",
+      "title": "Bupati Tanah Bumbu serahkan 8 jasad korban heli jatuh kepada Basarnas",
+      "link": "https://www.antaranews.com/berita/5088513/bupati-tanah-bumbu-serahkan-8-jasad-korban-heli-jatuh-kepada-basarnas",
+      "publishedAt": "2025-09-04T15:57:05.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/IMG_9972.jpeg",
+      "summary": "Bupati Tanah Bumbu, Kalimantan Selatan, Andi Rudi Latif menyerahkan delapan jasad korban kecelakaan Helikopter ..."
+    },
+    {
+      "id": "ANTARA – Terkini-29-1757001377000",
+      "title": "Ratusan ojol Kota Palangka Raya gelar doa bersama untuk Affan",
+      "link": "https://www.antaranews.com/video/5088497/ratusan-ojol-kota-palangka-raya-gelar-doa-bersama-untuk-affan",
+      "publishedAt": "2025-09-04T15:56:17.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/RATUSAN-OJOL-KOTA-PALANGKA-RAYA-GELAR-DOA-BERSAMA-UNTUK-AFFAN.jpg",
+      "summary": "ANTARA - Ratusan driver ojol (ojek online) yang tergabung di Aliansi solidaritas ojol bersatu Kota Palangka Raya, ..."
+    },
+    {
+      "id": "ANTARA – Terkini-30-1757001361000",
+      "title": "Gubernur: Maulid nabi sebagai momentum membangun Aceh yang Islami",
+      "link": "https://www.antaranews.com/berita/5088509/gubernur-maulid-nabi-sebagai-momentum-membangun-aceh-yang-islami",
+      "publishedAt": "2025-09-04T15:56:01.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/IMG-20250904-WA0031.jpg",
+      "summary": "Gubernur Aceh Muzakir Manaf atau Mualem berharap kepada semuanya untuk menjadikan peringatan maulid Nabi Muhammad SAW ..."
+    },
+    {
+      "id": "ANTARA – Terkini-31-1757001129000",
+      "title": "Dialog mahasiswa-OKP dengan Mensesneg dan Mendikti bahas 17+8",
+      "link": "https://www.antaranews.com/berita/5088505/dialog-mahasiswa-okp-dengan-mensesneg-dan-mendikti-bahas-17-8",
+      "publishedAt": "2025-09-04T15:52:09.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/IMG-20250904-WA0108.jpg",
+      "summary": "Perwakilan elemen mahasiswa dan organisasi kemasyarakatan pemuda (OKP) berdialog seputar tuntutan 17+8 dengan ..."
+    },
+    {
+      "id": "ANTARA – Terkini-32-1757001052000",
+      "title": "Ubah camilan ultra ke kacang almond demi kesehatan jantung",
+      "link": "https://www.antaranews.com/berita/5088501/ubah-camilan-ultra-ke-kacang-almond-demi-kesehatan-jantung",
+      "publishedAt": "2025-09-04T15:50:52.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2022/01/30/almonds-g3d38c3eba_1280_1.jpg",
+      "summary": "Bila merasa ingin memakan camilan ringan, kacang almond bisa menjadi pilihan yang tepat terutama bagi kesehatan jantung ..."
+    },
+    {
+      "id": "The Verge – Tech-7-1757000984000",
+      "title": "The best stuff announced at IFA so far",
+      "link": "https://www.theverge.com/news/769573/ifa-2025-smart-home-lights-power-bank-robot-vacuum-ai-headphones",
+      "publishedAt": "2025-09-04T15:49:44.000Z",
+      "source": "The Verge – Tech",
+      "category": "tekno",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/gettyimages-2231726775.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "summary": "The doors to IFA 2025 at Messe Berlin don’t officially open to the public until tomorrow, but several companies have already announced new gadgets, tech, features, and upgrades as Europe’s largest consumer tech show gets underway. There’s a lot of news to stay on top of, and if you’re struggling to ingest it all, here are some of the best announcements from the show so far including innovative new robovacs, more affordable smart home devices, and even a portable home theater on wheels. You can catch up on all of The Verge’s IFA 2025 coverage right here. Eufy MarsWalker robovac stairlift Anker’s Eufy smart home brand has come up with an alternative to having to buy several robovacs for homes with multiple floors — but it still involves buying another device. The MarsWalker is equipped with tank-like treads and four arms it uses to climb stairs while carrying one of Eufy’s robot vacuums inside. Pricing won’t be known until it launches in early 2026, but the MarsWalker can handle curved or L-shaped staircases and will come with its own self-charging base. Philips Hue’s biggest ever product launch Philips Hue could be the real star of IFA 2025 with the biggest launch in the history of the smart lighting company. It’s introducing its first video doorbell and a completely redesigned Hue Bridge Pro with a faster processor and more memory letting it control 150 lights and 50 accessories and store over 500 custom lighting scenes. The new bridge also enables a new feature called Hue MotionAware that lets the company’s smart lights double as motion sensors. To make the smart home even more accessible, Philips Hue is also introducing a more affordable entry-level Essential line with smart bulbs that start at $25 or as low as $15 each when purchased in multipacks and support for Thread. All new Hue bulbs also support Matter-over-Thread, allowing them to pair directly with Matter ecosystems, including Apple Home, Google Home, and Amazon Alexa, without requiring a Hue Bridge. Belkin SoundForm USB-C Wired Earbuds with ANC Belkin’s solution to active noise cancellation reducing your headphones’ battery life is to take the battery out of the equation. As the name implies, the new $34.99 SoundForm USB-C Wired Earbuds with ANC aren’t wireless and instead connect to your smartphone or laptop using a 4-foot-long tangle-resistant USB cable that includes an inline remote with a microphone and volume controls. Bluetti Pioneer Na sodium-ion portable power station Bluetti is introducing what is claims is the world’s first portable power station featuring a safe and long-lasting sodium-ion battery that can be drained and recharged over 4,000 times while still maintaining upwards of 70 percent of its original capacity. Pricing will be revealed closer to its October 2025 launch but the Pioneer Na will deliver up to 1,500W of power through multiple AC outlets and USB ports and offer better extreme cold weather performance than other portable power stations. Ecovacs Deebot X11 Omnicyclone fast-charging robovac Being able to autonomously return to a dock for a charge more or less solved the battery-life limitations of robot vacuums, but Ecovacs says its new Deebot X11 Omnicyclone won’t need to spend much time out of commission while it tops off its battery. Using GaN-enabled fast charging the $1,499 robovac can quickly recharge every time it returns to its base station to rinse its mopping pads so it spends more time actually vacuuming and cleaning your floors. Anker Prime Power Bank (26k, 300W) With a 26,250mAh capacity battery and up to 3ooW of output Anker’s new Prime Power Bank can simultaneously charge two power-hungry laptops and a smartphone, making it a useful companion for those who find themselves working on the road. It includes a charging base that powers it back up at 150W, but if you’re in a real hurry you can connect it to a pair of 140W USB-C PD 3.1 chargers that boost the input to up to 250W, taking the power bank from zero to 80 percent in just 35 minutes. TCL Nxtpaper 5G Junior smartphone Making a smartphone less enjoyable to look at might be the fastest way to curb a child’s smartphone addiction. Launching in Europe later this year for around $250, TCL’s Nxtpaper 5G Junior is a smartphone designed for kids featuring the company’s E Ink-inspired display technology that includes a monochromatic mode. Even if the e-reader appearance doesn’t discourage kids from spending hours on their phones, the Nxtpaper 5G Junior’s display should at least be easier on their eyes. Anker Soundcore Work AI voice recorder AI unsurprisingly has a big presence at IFA 2025, but Anker is leveraging it as a backup for your brain. Roughly the size of a quarter, the small $99.99 Soundcore Work uses a pair of microphones to record important meetings or conversations for up to 32 hours when paired with its charger. The recordings are accessible through Soundcore’s mobile app and are temporarily sent to the cloud for transcription and summarization by OpenAI’s GPT-4.1. Aukey MagFusion Ark wireless modular charger The wireless charger on your desk is probably still tethered to a power cable, but with its new MagFusion Ark, Aukey is introducing a bit more freedom. It will be available in multiple configurations, but the largest features a charging base with three Qi2.2 pads and a trio of battery-powered Qi2.2-compatible spheres you can take with you to wirelessly charge your smartphone at up to 25W without needing access to a power outlet. Anker Soundcore Nebula X1 Pro party projector It stretches the definition of portable, but Anker has created an all-in-one projector that provides a true surround sound experience by sticking its Nebula X1 into a big rolling box that also includes a 160W subwoofer, a pair of 80W detachable soundbar speakers, and two smaller 40W satellite speakers to place behind you. The Soundcore Nebula X1 Pro weighs almost 73 pounds but even heftier is its price tag which is expected to be around $4,000 to $5,000."
+    },
+    {
+      "id": "ANTARA – Terkini-33-1757000952000",
+      "title": "Dirut Bulog pastikan distribusi pangan pokok bagi masyarakat lancar",
+      "link": "https://www.antaranews.com/berita/5088493/dirut-bulog-pastikan-distribusi-pangan-pokok-bagi-masyarakat-lancar",
+      "publishedAt": "2025-09-04T15:49:12.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/201EA660-2849-4654-8A7B-AC95CD1B5696.jpeg",
+      "summary": "Direktur Utama Perum Bulog Ahmad Rizal Ramdhani memastikan distribusi pangan pokok bagi masyarakat berjalan lancar demi ..."
+    },
+    {
+      "id": "ANTARA – Terkini-34-1757000945000",
+      "title": "Kantor Lokataru Foundation digeledah polisi terkait kasus anarkis",
+      "link": "https://www.antaranews.com/berita/5088489/kantor-lokataru-foundation-digeledah-polisi-terkait-kasus-anarkis",
+      "publishedAt": "2025-09-04T15:49:05.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/WhatsApp-Image-2025-09-04-at-20.59.02_1.jpeg",
+      "summary": "Polda Metro Jaya mengakui telah menggeledah kantor Lokataru Foundation di Jakarta Timur pada Kamis sore ..."
+    },
+    {
+      "id": "Al Jazeera – All-8-1757000883000",
+      "title": "LIVE: Bulgaria vs Spain – UEFA World Cup qualifying",
+      "link": "https://www.aljazeera.com/sports/liveblog/2025/9/4/live-bulgaria-vs-spain-uefa-world-cup-qualifying?traffic_source=rss",
+      "publishedAt": "2025-09-04T15:48:03.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2025/09/2024-03-26T212406Z_1356025281_UP1EK3Q1NG4JN_RTRMADP_3_SOCCER-FRIENDLY-ESP-BRA-REPORT-1756986433.jpg?resize=1920%2C1440",
+      "summary": "Follow our live build-up, with team news, before our text commentary stream of the qualifier for the FIFA 2026 event."
+    },
+    {
+      "id": "ANTARA – Terkini-35-1757000700000",
+      "title": "Fraksi PAN salurkan 1.000 paket sembako kepada pasukan oranye",
+      "link": "https://www.antaranews.com/berita/5088485/fraksi-pan-salurkan-1000-paket-sembako-kepada-pasukan-oranye",
+      "publishedAt": "2025-09-04T15:45:00.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/Fraksi-PAN-bagi-sembako.jpeg",
+      "summary": "Fraksi Partai Amanat Nasional (PAN) DPR RI menyalurkan 1.000 paket sembako kepada pasukan oranye yang setiap hari ..."
+    },
+    {
+      "id": "BBC – World-2-1757000699000",
+      "title": "Macron says 26 countries ready to send troops for Ukraine ceasefire",
+      "link": "https://www.bbc.com/news/articles/czxwl15w2qko?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T15:44:59.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/b10c/live/eb4d3580-899a-11f0-b391-6936825093bd.jpg",
+      "summary": "The French president also says US support for the \"Coalition of the Willing\" would be finalised in the coming days."
+    },
+    {
+      "id": "ANTARA – Terkini-36-1757000660000",
+      "title": "Mentan pastikan beras SPHP banjiri pasar tradisional dan ritel modern",
+      "link": "https://www.antaranews.com/berita/5088481/mentan-pastikan-beras-sphp-banjiri-pasar-tradisional-dan-ritel-modern",
+      "publishedAt": "2025-09-04T15:44:20.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/CDBB082A-51AA-4050-A13D-BCA4FFB44F0F.jpeg",
+      "summary": "Menteri Pertanian Andi Amran Sulaiman memastikan pasokan beras Program Stabilisasi Pasokan dan Harga Pangan (SPHP) akan ..."
+    },
+    {
+      "id": "ANTARA – Terkini-37-1757000419000",
+      "title": "Desainer Giorgio Armani meninggal dunia dalam usia 91 tahun",
+      "link": "https://www.antaranews.com/berita/5088477/desainer-giorgio-armani-meninggal-dunia-dalam-usia-91-tahun",
+      "publishedAt": "2025-09-04T15:40:19.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/1000236374.jpg",
+      "summary": "Desainer legendaris Giordano Armani meninggal dunia dalam usia 91 tahun pada Kamis. Pria yang mendirikan perusahaan ..."
+    },
+    {
+      "id": "BBC – World-0-1757000403000",
+      "title": "'Out of control': Witnesses describe fatal Lisbon funicular crash",
+      "link": "https://www.bbc.com/news/articles/c20v4g71zrpo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T15:40:03.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/46f0/live/4230f5d0-8996-11f0-898f-d5f571305c23.jpg",
+      "summary": "At least 16 people were killed and 20 more injured, some critically, Portuguese authorities say."
+    },
+    {
+      "id": "Al Jazeera – All-9-1757000384000",
+      "title": "US accused of ‘illegal massacre’ after strike on Venezuelan boat",
+      "link": "https://www.aljazeera.com/video/newsfeed/2025/9/4/us-accused-of-illegal-massacre-after-strike-on-venezuelan-boat-2?traffic_source=rss",
+      "publishedAt": "2025-09-04T15:39:44.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2025/09/image-1757000354.jpg?resize=1920%2C1080&amp;quality=80",
+      "summary": "Venezuela accuses the US of breaking international law after strike on alleged 'drug boat'."
+    },
+    {
+      "id": "ANTARA – Terkini-38-1757000371000",
+      "title": "Demo Jakarta, Polisi tetapkan 43 tersangka terkait aksi anarkis",
+      "link": "https://www.antaranews.com/berita/5088473/demo-jakarta-polisi-tetapkan-43-tersangka-terkait-aksi-anarkis",
+      "publishedAt": "2025-09-04T15:39:31.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/WhatsApp-Image-2025-09-04-at-20.59.02.jpeg",
+      "summary": "Polda Metro Jaya hingga saat ini telah menetapkan 43 tersangka karena diduga terkait aksi anarkis di gedung DPR/MPR RI, ..."
+    },
+    {
+      "id": "ANTARA – Terkini-39-1757000352000",
+      "title": "Solo International Performing Arts 2025 resmi dibuka",
+      "link": "https://www.antaranews.com/foto/5088469/solo-international-performing-arts-2025-resmi-dibuka",
+      "publishedAt": "2025-09-04T15:39:12.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/pertunjukan-tari-sipa-2025-040925-yud-3.jpg",
+      "summary": "Penampilan penari Patricia Astuti feat Ekodance Company dan Candrakirana Art Center pada Pembukaan Solo International ..."
+    },
+    {
+      "id": "ANTARA – Terkini-40-1757000326000",
+      "title": "BI: Modal asing keluar bersih capai Rp16,85 triliun pada 1-3 September",
+      "link": "https://www.antaranews.com/berita/5088465/bi-modal-asing-keluar-bersih-capai-rp1685-triliun-pada-1-3-september",
+      "publishedAt": "2025-09-04T15:38:46.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/03/bi-optimistis-pertumbuhan-ekonomi-54-persen-tercapai-2615345.jpg",
+      "summary": "Bank Indonesia (BI) mencatat aliran modal asing keluar bersih dari pasar keuangan domestik sebesar Rp16,85 triliun pada ..."
+    },
+    {
+      "id": "BBC – Technology-0-1757000233000",
+      "title": "Head of UK's Turing AI Institute resigns after funding threat",
+      "link": "https://www.bbc.com/news/articles/c8rvx85z3z7o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T15:37:13.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/cd0c/live/82036320-89a3-11f0-84c8-99de564f0440.jpg",
+      "summary": "Dr Jean Innes is stepping down after the government told the charity to focus on defence research."
+    },
+    {
+      "id": "ANTARA – Terkini-41-1757000090000",
+      "title": "OJK beri saran investor kripto hadapi fenomena September Effect",
+      "link": "https://www.antaranews.com/berita/5088461/ojk-beri-saran-investor-kripto-hadapi-fenomena-september-effect",
+      "publishedAt": "2025-09-04T15:34:50.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/20250904_113825_Chrome.jpg",
+      "summary": "Kepala Eksekutif Pengawas Inovasi Teknologi Sektor Keuangan (ITSK), Aset Keuangan Digital dan Aset Kripto (IAKD) ..."
+    },
+    {
+      "id": "ANTARA – Terkini-42-1757000040000",
+      "title": "Presiden minta investasi dan lapangan kerja tak berpusat di Jakarta",
+      "link": "https://www.antaranews.com/berita/5088457/presiden-minta-investasi-dan-lapangan-kerja-tak-berpusat-di-jakarta",
+      "publishedAt": "2025-09-04T15:34:00.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/WhatsApp-Image-2025-09-04-at-22.17.50.jpeg",
+      "summary": "Presiden RI Prabowo Subianto dalam rapat terbatas di Istana Merdeka, Jakarta, Kamis, meminta jajaran menteri ekonomi ..."
+    },
+    {
+      "id": "BBC – World-42-1756999876000",
+      "title": "'He doesn't follow trends': How celebrities described Armani over the years",
+      "link": "https://www.bbc.com/news/videos/c5y85eyvlm0o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T15:31:16.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/8a0f/live/bc65a290-89a2-11f0-b391-6936825093bd.jpg",
+      "summary": "The Italian fashion designer and billionaire brand owner Giorgio Armani has died at the age of 91."
+    },
+    {
+      "id": "ANTARA – Terkini-43-1756999826000",
+      "title": "Anggaran Kementerian UMKM untuk 2026 disetujui naik jadi Rp722 miliar",
+      "link": "https://www.antaranews.com/berita/5088453/anggaran-kementerian-umkm-untuk-2026-disetujui-naik-jadi-rp722-miliar",
+      "publishedAt": "2025-09-04T15:30:26.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/WhatsApp-Image-2025-09-04-at-22.11.14.jpeg",
+      "summary": "Komisi VII DPR RI menyetujui usulan tambahan anggaran Kementerian Usaha Mikro Kecil dan Menengah (UMKM) untuk 2026 naik ..."
+    },
+    {
+      "id": "The Verge – Tech-8-1756999800000",
+      "title": "The story behind YouTube’s NFL livestream",
+      "link": "https://www.theverge.com/lowpass-newsletter/771340/youtube-nfl-livestream-free",
+      "publishedAt": "2025-09-04T15:30:00.000Z",
+      "source": "The Verge – Tech",
+      "category": "tekno",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/Technical-rack-room-cropped.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "summary": "This year, football season kicks off with a twist: Following tonight's season opener, YouTube will stream the NFL's first Friday game of the season - a face-off between the Los Angeles Chargers and the Kansas City Chiefs broadcast live from São Paulo, Brazil - for free to a global audience this Friday. It's the first time YouTube has hosted such a high-caliber US sports event in front of the paywall, and the Google-owned video service is pulling out all the bells and whistles for the occasion. There will be drones. There will be over 50 cameras. Karol G will perform the halftime show. And in addition to live commentary from broadcast vetera … Read the full story at The Verge."
+    },
+    {
+      "id": "BBC – Business-8-1756999626000",
+      "title": "Don't say sorry - the six things you should do if you're in a car accident",
+      "link": "https://www.bbc.com/news/articles/c5ypypy2jk2o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T15:27:06.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/f0bc/live/da886770-898a-11f0-b391-6936825093bd.jpg",
+      "summary": "I've attended many car accidents for work, but being directly involved in one gave me a different perspective."
+    },
+    {
+      "id": "ANTARA – Terkini-44-1756999620000",
+      "title": "Grup Super Girlies rilis ulang “Aw Aw Aw” dengan formasi baru",
+      "link": "https://www.antaranews.com/berita/5088449/grup-super-girlies-rilis-ulang-aw-aw-aw-dengan-formasi-baru",
+      "publishedAt": "2025-09-04T15:27:00.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/SUPER-GIRLIES-13.jpg",
+      "summary": "Grup pop wanita asal Indonesia, Super Girlies resmi merilis ulang lagu ikonik mereka berjudul \"Aw Aw Aw\" ..."
+    },
+    {
+      "id": "ANTARA – Terkini-45-1756999615000",
+      "title": "Presiden Iran yakini prospek kuat implementasi kesepakatan SCO",
+      "link": "https://www.antaranews.com/berita/5088445/presiden-iran-yakini-prospek-kuat-implementasi-kesepakatan-sco",
+      "publishedAt": "2025-09-04T15:26:55.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/CjkinzN000036_20250904_CBMFN0A001.jpg",
+      "summary": "Presiden Iran Masoud Pezeshkian pada Rabu (3/9) mengatakan bahwa implementasi kesepakatan yang dicapai dalam Konferensi ..."
+    },
+    {
+      "id": "ANTARA – Terkini-46-1756999610000",
+      "title": "Oscar bakal wakili Indonesia di final Turkish Airlines World Golf Cup",
+      "link": "https://www.antaranews.com/berita/5088441/oscar-bakal-wakili-indonesia-di-final-turkish-airlines-world-golf-cup",
+      "publishedAt": "2025-09-04T15:26:50.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/IMG_20250904_221923.jpg",
+      "summary": "Pegolf Oscar bakal mewakili Indonesia di babak final Turkish Airlines World Golf Cup 2025 yang berlangsung di Antalya, ..."
+    },
+    {
+      "id": "Al Jazeera – All-10-1756999588000",
+      "title": "Washington, DC files lawsuit to stop Trump deployment of National Guard",
+      "link": "https://www.aljazeera.com/news/2025/9/4/washington-dc-files-lawsuit-to-stop-trump-deployment-of-national-guard?traffic_source=rss",
+      "publishedAt": "2025-09-04T15:26:28.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2025/09/2025-09-02T152610Z_1909710869_RC2RJGANBJC7_RTRMADP_3_USA-TRUMP-CRIME-1756998489.jpg?resize=1920%2C1440",
+      "summary": "DC attorney general says ongoing deployment in US capital is illegal, as Trump floats sending troops to more cities."
+    },
+    {
+      "id": "ANTARA – Terkini-47-1756999422000",
+      "title": "Shanghai laporkan peningkatan output otomotif pada Januari-Juli 2025",
+      "link": "https://www.antaranews.com/berita/5088437/shanghai-laporkan-peningkatan-output-otomotif-pada-januari-juli-2025",
+      "publishedAt": "2025-09-04T15:23:42.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/CjkinzN000035_20250904_CBMFN0A001.jpg",
+      "summary": "Dalam tujuh bulan pertama 2025, industri otomotif Shanghai mempertahankan pertumbuhan yang stabil, dengan nilai output ..."
+    },
+    {
+      "id": "ANTARA – Terkini-48-1756999388000",
+      "title": "Mauricio Souza usul kompetisi tambahan untuk jam terbang pemain U23",
+      "link": "https://www.antaranews.com/berita/5088433/mauricio-souza-usul-kompetisi-tambahan-untuk-jam-terbang-pemain-u23",
+      "publishedAt": "2025-09-04T15:23:08.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/WhatsApp-Image-2025-09-04-at-22.14.33.jpeg",
+      "summary": "Pelatih Persija, Mauricio Souza, mengusulkan adanya kompetisi tambahan untuk memberi kesempatan bermain bagi ..."
+    },
+    {
+      "id": "ANTARA – Terkini-49-1756999349000",
+      "title": "Zulhas: Izin untuk PTLSa hampir rampung, pembangunan 1 tahun",
+      "link": "https://www.antaranews.com/berita/5088429/zulhas-izin-untuk-ptlsa-hampir-rampung-pembangunan-1-tahun",
+      "publishedAt": "2025-09-04T15:22:29.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/IMG_6861.jpg",
+      "summary": "Menteri Koordinator Bidang Pangan (Menko Pangan) Zulkifli Hasan menyatakan perizinan untuk pembangunan pembangkit ..."
+    },
+    {
+      "id": "BBC – World-5-1756999200000",
+      "title": "Israel dismisses 'spin' after Hamas says it is ready for comprehensive Gaza deal",
+      "link": "https://www.bbc.com/news/articles/cz087gpd52ko?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T15:20:00.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/c135/live/7ca4ddf0-8994-11f0-b391-6936825093bd.jpg",
+      "summary": "Prime Minister Netanyahu says Hamas \"has nothing new\" and that war can end only on terms that Israel has set."
+    },
+    {
+      "id": "Al Jazeera – All-11-1756999199000",
+      "title": "Trump says he has pressured Putin for Ukraine truce: So what has he done?",
+      "link": "https://www.aljazeera.com/news/2025/9/4/trump-says-he-has-pressured-putin-for-ukraine-truce-so-what-has-he-done?traffic_source=rss",
+      "publishedAt": "2025-09-04T15:19:59.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": null,
+      "summary": "US President Trump has threatened non-specific consequences for Putin if Russia fails to agree to peace with Ukraine."
+    },
+    {
+      "id": "Al Jazeera – All-12-1756998751000",
+      "title": "Venezuela has the world’s most oil: Why doesn’t it earn more from exports?",
+      "link": "https://www.aljazeera.com/news/2025/9/4/venezuela-has-the-worlds-most-oil-why-doesnt-it-earn-more-from-exports?traffic_source=rss",
+      "publishedAt": "2025-09-04T15:12:31.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": null,
+      "summary": "Venezuela holds the world's largest proven oil reserves, more than five times more than the United States."
+    },
+    {
+      "id": "BBC – World-26-1756998428000",
+      "title": "What we know about Lisbon's deadly funicular crash",
+      "link": "https://www.bbc.com/news/articles/cn95l12epxzo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T15:07:08.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "At least 16 people died after a carriage on the city's famous Glória hillside railway derailed."
+    },
+    {
+      "id": "BBC – Business-10-1756998306000",
+      "title": "Google told to pay $425m in privacy lawsuit",
+      "link": "https://www.bbc.com/news/articles/c3dr91z0g4zo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T15:05:06.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "Google says the decision misunderstands how its products work, and it will appeal the ruling."
+    },
+    {
+      "id": "The Verge – Tech-9-1756998182000",
+      "title": "Jury orders Google to pay $425 million for violating user privacy",
+      "link": "https://www.theverge.com/news/771540/google-class-action-verdict-user-privacy-tracking",
+      "publishedAt": "2025-09-04T15:03:02.000Z",
+      "source": "The Verge – Tech",
+      "category": "tekno",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK093_GOOGLE_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "summary": "A federal jury in California has ordered Google to pay $425 million for violating user privacy by collecting the data of millions of people even after they disabled tracking, as reported earlier by Reuters. The decision stems from a class action lawsuit filed in July 2020, which accused Google of unlawfully accessing app activity data on users’ mobile phones from July 2016 to September 2024. The lawsuit alleged that during this period, Google continued to collect user data across third-party apps even if they had the “Web & App Activity” setting turned off. The Web & App Activity setting is supposed to control how Google collects information related to your searches, location, and activity on third-party sites, apps, and devices that partner with Google to show ads. Google says it uses this information to provide you with “more personalized experiences.” The jury found Google liable for two of three claims brought by the class action lawsuit, including invasion of privacy and intrusion upon seclusion. The class, which covers around 98 million users and 174 million devices, originally sought over $31 billion in compensatory damages. Google plans to appeal the verdict. “This decision misunderstands how our products work,” Google spokesperson José Castañeda said in a statement to The Verge. “Our privacy tools give people control over their data, and when they turn off personalization, we honor that choice.” Google argues that it treats data pseudonymously when users turn off the Web & App Activity setting, and claims that users “knew and consented” to this practice."
+    },
+    {
+      "id": "Al Jazeera – All-13-1756997940000",
+      "title": "Nepal moves to block Facebook, X, YouTube and others",
+      "link": "https://www.aljazeera.com/news/2025/9/4/nepal-moves-to-block-facebook-x-youtube-and-others?traffic_source=rss",
+      "publishedAt": "2025-09-04T14:59:00.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": null,
+      "summary": "The restrictions come after the social media giants failed to meet state registration requirements, says government."
+    },
+    {
+      "id": "BBC – World-1-1756997081000",
+      "title": "Legendary Italian designer Giorgio Armani dies",
+      "link": "https://www.bbc.com/news/articles/ceq25w34lv4o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T14:44:41.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "The fashion designer was the archetype of Italian style and elegance, reimagining men's and women's suits."
+    },
+    {
+      "id": "Al Jazeera – All-14-1756996996000",
+      "title": "Asia Cup 2025: Full squads list of teams and players",
+      "link": "https://www.aljazeera.com/sports/2025/9/4/asia-cup-2025-full-squads-list-of-teams-and-players?traffic_source=rss",
+      "publishedAt": "2025-09-04T14:43:16.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": null,
+      "summary": "Who will replace Kohli and Rohit? Why aren't Babar and Rizwan? All to know about the Asia Cup squads."
+    },
+    {
+      "id": "Al Jazeera – All-15-1756996372000",
+      "title": "Italian fashion icon Giorgio Armani passes away at 91",
+      "link": "https://www.aljazeera.com/news/2025/9/4/italian-fashion-icon-giorgio-armani-passes-away-at-91?traffic_source=rss",
+      "publishedAt": "2025-09-04T14:32:52.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": null,
+      "summary": "The celebrated fashion designer leaves an indelible mark on global style and elegance."
+    },
+    {
+      "id": "BBC – Business-2-1756994226000",
+      "title": "CrossCountry train drivers to strike in disciplinary process row",
+      "link": "https://www.bbc.com/news/articles/cjed2nj38y8o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T13:57:06.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "A union says staff will walk out on 3 October and refuse to work overtime from 21 September."
+    },
+    {
+      "id": "Al Jazeera – All-16-1756993521000",
+      "title": "Film recounting Hind Rajab’s final plea breaks record at premiere",
+      "link": "https://www.aljazeera.com/video/newsfeed/2025/9/4/film-recounting-hind-rajabs-final-plea-breaks-record-at-premiere?traffic_source=rss",
+      "publishedAt": "2025-09-04T13:45:21.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": null,
+      "summary": "A film about Hind Rajab, the girl killed by Israeli forces in Gaza, received a record-breaking standing ovation."
+    },
+    {
+      "id": "BBC – World-6-1756992882000",
+      "title": "Jamaican PM Andrew Holness wins rare third term in office",
+      "link": "https://www.bbc.com/news/articles/c80gem7k4p0o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T13:34:42.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "The incumbent, who has been in office since 2016, campaigned on the strength of his economic record."
+    },
+    {
+      "id": "BBC – World-4-1756992379000",
+      "title": "'I don't seek attention', says Trump on Nobel Prize speculation",
+      "link": "https://www.bbc.com/news/articles/c0r0wjl2gweo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T13:26:19.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "After previously suggesting he deserves the prize, the president tells CBS News he is more focused on saving lives."
+    },
+    {
+      "id": "Al Jazeera – All-17-1756992243000",
+      "title": "Video: Mandela’s grandson says joining Gaza flotilla is ‘family legacy’",
+      "link": "https://www.aljazeera.com/video/newsfeed/2025/9/4/video-mandelas-grandson-says-joining-gaza-flotilla-is-family?traffic_source=rss",
+      "publishedAt": "2025-09-04T13:24:03.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": null,
+      "summary": "Nelson Mandela's grandson Mandla is set to join the Global Sumud Flotilla to Gaza."
+    },
+    {
+      "id": "BBC – World-7-1756991495000",
+      "title": "Jellyfish disrupt French nuclear power plant for second time in a month",
+      "link": "https://www.bbc.com/news/articles/c5ygkxlmg41o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T13:11:35.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "One of France's largest nuclear power stations partially shut down after the jellyfish blocked cooling filters."
+    },
+    {
+      "id": "Al Jazeera – All-18-1756991473000",
+      "title": "Flood threat rises as rain lashes India and Pakistan",
+      "link": "https://www.aljazeera.com/news/2025/9/4/flood-threat-rises-as-rain-lashes-india-and-pakistan?traffic_source=rss",
+      "publishedAt": "2025-09-04T13:11:13.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": null,
+      "summary": "New spell of monsoon rains expected to persist for another 24-48 hours."
+    },
+    {
+      "id": "Al Jazeera – All-19-1756990800000",
+      "title": "Crackdown",
+      "link": "https://www.aljazeera.com/video/fault-lines/2025/9/4/crackdown?traffic_source=rss",
+      "publishedAt": "2025-09-04T13:00:00.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": null,
+      "summary": "Fault Lines investigates Trump’s immigration crackdown, from court arrests to deportations without due process."
+    },
+    {
+      "id": "Al Jazeera – All-20-1756990752000",
+      "title": "Ukraine knocks out Russian refineries as Russia kills dozens in Kyiv",
+      "link": "https://www.aljazeera.com/news/2025/9/4/ukraine-knocks-out-russian-refineries-as-russia-kills-dozens-in-kyiv?traffic_source=rss",
+      "publishedAt": "2025-09-04T12:59:12.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": null,
+      "summary": "Ukraine has cut Russia's refining capacity by a fifth, in a bid to starve it of energy and revenue from exports."
+    },
+    {
+      "id": "Al Jazeera – All-21-1756990594000",
+      "title": "Jamaican PM Holness wins third term in fractious election",
+      "link": "https://www.aljazeera.com/news/2025/9/4/jamaican-pm-holness-wins-third-term-in-fractious-election?traffic_source=rss",
+      "publishedAt": "2025-09-04T12:56:34.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": null,
+      "summary": "Election sees PM's Labour Party win majority of at least 5 seats in 63-seat parliament."
+    },
+    {
+      "id": "Al Jazeera – All-22-1756989484000",
+      "title": "As the attack on Gaza City intensifies, a look at what to expect",
+      "link": "https://www.aljazeera.com/video/project-force-2/2025/9/4/as-the-attack-on-gaza-city-intensifies-a-look-at-what-to-expect?traffic_source=rss",
+      "publishedAt": "2025-09-04T12:38:04.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": null,
+      "summary": "This will be the fourth time Israel tries to remove Hamas from Gaza City"
+    },
+    {
+      "id": "BBC – World-28-1756988733000",
+      "title": "Organ transplants for immortality: Might Xi and Putin be onto something?",
+      "link": "https://www.bbc.com/news/articles/cly1w9z72r6o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T12:25:33.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "The presidents of China and Russia were overheard discussing transplants as a way to prolong life."
+    },
+    {
+      "id": "Al Jazeera – All-23-1756988600000",
+      "title": "How to stop Israel from starving Gaza",
+      "link": "https://www.aljazeera.com/opinions/2025/9/4/how-to-stop-israel-from-starving-gaza?traffic_source=rss",
+      "publishedAt": "2025-09-04T12:23:20.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": null,
+      "summary": "Despite US cover for Israel’s darkest crimes, the family of nations still has the means and duty to act."
+    },
+    {
+      "id": "Al Jazeera – All-24-1756988599000",
+      "title": "Boxing: All French females out of world championships over genetic test row",
+      "link": "https://www.aljazeera.com/sports/2025/9/4/french-female-boxers-barred-from-world-championships-due-to-genetic-testing?traffic_source=rss",
+      "publishedAt": "2025-09-04T12:23:19.000Z",
+      "source": "Al Jazeera – All",
+      "category": "dunia",
+      "image": null,
+      "summary": "World Boxing will oversee Olympic regulation and has introduced mandatory genetic testing for female athletes above 18."
+    },
+    {
+      "id": "BBC – Business-1-1756986742000",
+      "title": "Thousands of Lloyds staff deemed to be underperforming face axe",
+      "link": "https://www.bbc.com/news/articles/cx209gzg71wo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T11:52:22.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "Lloyds Banking Group's policy puts 3,000 jobs at risk, with staff to be told they must improve their work or lose their job."
+    },
+    {
+      "id": "BBC – World-11-1756986222000",
+      "title": "Dozens die after boat hits tree stump in Nigerian river",
+      "link": "https://www.bbc.com/news/articles/c3dr903xeleo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T11:43:42.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "The overloaded boat was carrying passengers including children when it hit a submerged tree stump."
+    },
+    {
+      "id": "BBC – World-8-1756984797000",
+      "title": "Grandfather accidentally takes home wrong child from Sydney daycare",
+      "link": "https://www.bbc.com/news/articles/c4g5v4z13l6o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T11:19:57.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "The man returned with the one-year-old as soon as he realised the mistake, and an investigation into the centre's safety protocols has been opened."
+    },
+    {
+      "id": "BBC – World-43-1756984103000",
+      "title": "Watch: BBC correspondent at scene of Lisbon funicular crash",
+      "link": "https://www.bbc.com/news/videos/c7v15j8ydreo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T11:08:23.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "Local media reports suggest a cable came loose along the railway's route, causing it to lose control - a national day of mourning is being observed"
+    },
+    {
+      "id": "BBC – Technology-2-1756982493000",
+      "title": "Creator of Charli XCX Apple dance settles Roblox lawsuit",
+      "link": "https://www.bbc.com/news/articles/cdxqljv7nvdo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T10:41:33.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": null,
+      "summary": "Kelley Heyer had accused the online platform of copying her choreography without permission."
+    },
+    {
+      "id": "BBC – Business-4-1756982018000",
+      "title": "World's largest sports piracy site shut down by police",
+      "link": "https://www.bbc.com/news/articles/c62q4l0d171o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T10:33:38.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "The take-down of the site has been championed as a major victory for live sports broadcasters."
+    },
+    {
+      "id": "ANTARA – Politik-0-1756980889000",
+      "title": "Ini bedanya peluru tajam & peluru karet yang dipakai polisi saat demo",
+      "link": "https://www.antaranews.com/berita/5087441/ini-bedanya-peluru-tajam-peluru-karet-yang-dipakai-polisi-saatdemo",
+      "publishedAt": "2025-09-04T10:14:49.000Z",
+      "source": "ANTARA – Politik",
+      "category": "politik",
+      "image": "https://img.antaranews.com/cache/800x533/2024/08/23/Simulasi-Sispamkota-Pilkada-Di-Slawi-23082024-ol-5.jpg",
+      "summary": "Polisi kerap dikerahkan untuk menjaga keamanan dan ketertiban ketika unjuk rasa berlangsung. Namun, demonstrasi ..."
+    },
+    {
+      "id": "BBC – World-9-1756979501000",
+      "title": "Indian doctors remove parasitic foetuses from baby's stomach",
+      "link": "https://www.bbc.com/news/articles/cr4q0d4n6dno?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T09:51:41.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "The 20-day-old baby had two malformed foetuses inside her abdomen."
+    },
+    {
+      "id": "BBC – Business-54-1756977863000",
+      "title": "Short guide to saving money for freshers - by students",
+      "link": "https://www.bbc.com/news/videos/c4gqgregv2no?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T09:24:23.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "Three students share their savvy tips for saving money at university."
+    },
+    {
+      "id": "BBC – World-15-1756969525000",
+      "title": "Guyana President Irfaan Ali claims victory in general election",
+      "link": "https://www.bbc.com/news/articles/cevzj1yldl1o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T07:05:25.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "The incumbent president claimed victory in an election dominated by how to manage the country's vast oil reserves."
+    },
+    {
+      "id": "BBC – Business-44-1756963310000",
+      "title": "Some Firmus gas customers to get price cut",
+      "link": "https://www.bbc.com/news/articles/c7v15e89p81o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T05:21:50.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "Firmus Energy announces its gas price in the Ten Towns area will fall by almost 8% in October."
+    },
+    {
+      "id": "BBC – Business-45-1756962521000",
+      "title": "Council scheme to fight rising costs ahead of winter",
+      "link": "https://www.bbc.com/news/articles/c89dwvq20nqo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T05:08:41.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "The scheme offers £150 for eligible single households, or £200 for couples and families."
+    },
+    {
+      "id": "BBC – World-13-1756959374000",
+      "title": "Record payout for victims of 'illegal and immoral' Australian welfare scheme",
+      "link": "https://www.bbc.com/news/articles/clyx3jvk4zeo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T04:16:14.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "Hundreds of thousands of Australians were forced to repay debts, many of which did not even exist."
+    },
+    {
+      "id": "BBC – Business-6-1756958829000",
+      "title": "Trump appeals to US Supreme Court to rule on legality of tariffs",
+      "link": "https://www.bbc.com/news/articles/cx209ew4nz7o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T04:07:09.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "The move is in response to a lower court ruling that some tariffs did not fall within the president's mandate."
+    },
+    {
+      "id": "BBC – World-29-1756956715000",
+      "title": "China spectacle shows dangers of Trump's high-risk trade policy",
+      "link": "https://www.bbc.com/news/articles/c98d5gplj52o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T03:31:55.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "Beijing's military parade shows how Trump has created new international bedfellows in just months, writes Anthony Zurcher."
+    },
+    {
+      "id": "BBC – World-10-1756951892000",
+      "title": "Epstein accusers say they are compiling list of his associates",
+      "link": "https://www.bbc.com/news/articles/c5yvpgyjed8o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T02:11:32.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "Victims of the disgraced financier give emotional accounts of abuse in a news conference on the steps of the US Capitol."
+    },
+    {
+      "id": "BBC – Business-9-1756948800000",
+      "title": "American Eagle shares soar as Sydney Sweeney ads seen driving sales",
+      "link": "https://www.bbc.com/news/articles/cddm7z3p2vlo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T01:20:00.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "The US actress was part of the company's controversial \"Great Jeans\" campaign which drew a backlash."
+    },
+    {
+      "id": "BBC – World-33-1756945690000",
+      "title": "Lost in translation - How Africa is trying to close the AI language gap",
+      "link": "https://www.bbc.com/news/articles/crkzgkkpx0lo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-04T00:28:10.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "A new dataset with African languages should improve access to AI for millions on the continent."
+    },
+    {
+      "id": "BBC – Business-7-1756943284000",
+      "title": "TUC urges chancellor to consider wealth taxes in November Budget",
+      "link": "https://www.bbc.com/news/articles/cx27nxex9dlo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T23:48:04.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "TUC boss Paul Nowak says the chancellor should not take \"anything off the table\" ahead of November Budget."
+    },
+    {
+      "id": "BBC – World-12-1756942957000",
+      "title": "Painting looted by Nazis recovered in Argentina",
+      "link": "https://www.bbc.com/news/articles/cdx26z142vko?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T23:42:37.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "Portrait of a Lady had been missing for 80 years before it was spotted on an estate agent's website."
+    },
+    {
+      "id": "BBC – World-17-1756942670000",
+      "title": "UAE warns Israel that annexing West Bank would cross 'red line'",
+      "link": "https://www.bbc.com/news/articles/cx2rgjk87y2o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T23:37:50.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "The warning came after a far-right Israeli minister unveiled a proposal for the annexation of four-fifths of the occupied territory."
+    },
+    {
+      "id": "BBC – World-32-1756941593000",
+      "title": "They're eligible for asylum in Canada. So why are they stuck in ICE jail?",
+      "link": "https://www.bbc.com/news/articles/c206vj3826lo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T23:19:53.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "A man who worked for the US in Afghanistan and his son and daughter are stuck in bureaucratic limbo but hope to be reunited with family in Canada."
+    },
+    {
+      "id": "BBC – World-25-1756941535000",
+      "title": "It's 4,000 miles from Ukraine - but even this Asian city is part of Russia's war",
+      "link": "https://www.bbc.com/news/articles/cvg0e54z7x8o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T23:18:55.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "In Vladivostok, a city on China's and North Korea's border, Russia's war on Ukraine looms large."
+    },
+    {
+      "id": "BBC – Business-5-1756940475000",
+      "title": "Lack of charging facilities a 'barrier' for electric lorries",
+      "link": "https://www.bbc.com/news/articles/c4g6wnzqgn2o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T23:01:15.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "Haulage firms are introducing electric heavy goods vehicles, but say many more chargers are needed."
+    },
+    {
+      "id": "BBC – Business-0-1756940420000",
+      "title": "30,000 homes fitted with botched insulation under government schemes, ministers admit",
+      "link": "https://www.bbc.com/news/articles/c8606gp4711o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T23:00:20.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "The government has documented the number of homes blighted by sub-standard work for the first time."
+    },
+    {
+      "id": "BBC – World-31-1756938709000",
+      "title": "Can India retaliate against Trump's 50% tariffs?",
+      "link": "https://www.bbc.com/news/articles/cn76llny57zo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T22:31:49.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "Prolonged 50% tariffs could shave off as much as 0.8% of India's GDP - so what are Delhi's options?"
+    },
+    {
+      "id": "BBC – World-16-1756936998000",
+      "title": "Israel intensifies Gaza City attacks as UN warns of 'horrific' consequences for displaced families",
+      "link": "https://www.bbc.com/news/articles/c740lm33wyeo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T22:03:18.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "Strikes reportedly kill 31 people in the city, home to a million people and where a famine was declared last month."
+    },
+    {
+      "id": "BBC – World-30-1756933206000",
+      "title": "Migrant crisis: How Europe went from Merkel's 'We can do it' to pulling up the drawbridge",
+      "link": "https://www.bbc.com/news/articles/cn5e5q7w41eo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T21:00:06.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "A number of European governments are proposing restrictive measures on migrants in response to public concern"
+    },
+    {
+      "id": "BBC – Business-15-1756924641000",
+      "title": "Newsmax sues Fox News in battle of right-wing TV",
+      "link": "https://www.bbc.com/news/articles/c1jzlgw1d7eo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T18:37:21.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "Newsmax accuses its more established rival of engaging in a campaign to stunt its business that violates competition law."
+    },
+    {
+      "id": "BBC – World-46-1756920418000",
+      "title": "Watch: Xi and Putin discuss organ transplants and living 'indefinitely'",
+      "link": "https://www.bbc.com/news/videos/c059jl0323po?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T17:26:58.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "The two leaders discussed how organ transplants could help people live to 150-years-old."
+    },
+    {
+      "id": "BBC – World-19-1756920321000",
+      "title": "'Ketamine Queen' pleads guilty in Matthew Perry overdose case",
+      "link": "https://www.bbc.com/news/articles/c2dng3rrzjdo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T17:25:21.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "Jasveen Sangha, 42, pleads guilty to five charges relating to the actor's death in Los Angeles."
+    },
+    {
+      "id": "BBC – Business-13-1756919321000",
+      "title": "M&S hackers claim to be behind Jaguar Land Rover cyber attack",
+      "link": "https://www.bbc.com/news/articles/c4gqepe5355o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T17:08:41.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "The hack has caused severe disruption at manufacturing plants globally, with some staff told not to come into work."
+    },
+    {
+      "id": "BBC – Business-14-1756918582000",
+      "title": "Bank of England 'very concerned' at Trump threats to US Fed",
+      "link": "https://www.bbc.com/news/articles/cpw18rwz1r1o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T16:56:22.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "Andrew Bailey said the attacks, led by the US president, are \"a very serious situation\"."
+    },
+    {
+      "id": "BBC – World-14-1756918310000",
+      "title": "Hot mic catches Xi and Putin discussing organ transplants and immortality",
+      "link": "https://www.bbc.com/news/articles/cr70rvrd41ko?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T16:51:50.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "The Chinese and Russian leaders have been in power for 13 and 25 years respectively, with neither expressing any intention of stepping down."
+    },
+    {
+      "id": "BBC – World-45-1756916213000",
+      "title": "Watch: Nigel Farage and US congressman clash on freedom of speech",
+      "link": "https://www.bbc.com/news/videos/c0ez8wj275zo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T16:16:53.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "The Reform UK leader has appeared before the US House Judiciary Committee to discuss freedom of speech and online safety laws."
+    },
+    {
+      "id": "BBC – Business-16-1756915471000",
+      "title": "Tesco trials avocado ripeness scanners",
+      "link": "https://www.bbc.com/news/articles/c3vzxxlxky4o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T16:04:31.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "Fans of the fruit are divided over whether it's a shopping hack or if a squeeze test should suffice."
+    },
+    {
+      "id": "BBC – Business-12-1756915257000",
+      "title": "Faisal Islam: Reeves has a bumpy road up to the Budget",
+      "link": "https://www.bbc.com/news/articles/cn76ly476x6o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T16:00:57.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "The chancellor hits back at speculation over tax rises, but will need to find the money from somewhere."
+    },
+    {
+      "id": "BBC – Business-11-1756915244000",
+      "title": "Reeves rejects claims of £50bn 'black hole' in finances",
+      "link": "https://www.bbc.com/news/articles/cx27nm2mn5po?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T16:00:44.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "The chancellor hit back at the idea that the government faces so large a gap between spending and tax income."
+    },
+    {
+      "id": "BBC – Business-46-1756910063000",
+      "title": "'Hero' plumber's firm breached multiple fundraising rules, report finds",
+      "link": "https://www.bbc.com/news/articles/cly0ww5zz50o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T14:34:23.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "A year-long investigation found James Anderson's firm committed eight breaches of fundraising rules."
+    },
+    {
+      "id": "BBC – World-44-1756909804000",
+      "title": "Watch: Fountains of lava shoot into the air as Kilauea erupts",
+      "link": "https://www.bbc.com/news/videos/czdjp583dg2o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T14:30:04.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "The molten magma streamed down one of the world’s most active volcanoes and put on another fiery show on the Island of Hawaii."
+    },
+    {
+      "id": "BBC – Business-17-1756909506000",
+      "title": "Topshop will return to High Street in 2026",
+      "link": "https://www.bbc.com/news/articles/c1l854prl9vo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T14:25:06.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "The comeback in February 2026 will come five years after the chain closed its stores."
+    },
+    {
+      "id": "BBC – Business-23-1756908535000",
+      "title": "Luigi Mangione's likeness used to model shirt on Shein",
+      "link": "https://www.bbc.com/news/articles/c4g5vr4vzpzo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T14:08:55.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "An image with the likeness of Mr Mangione was used to advertise a white, short-sleeved shirt."
+    },
+    {
+      "id": "BBC – Business-19-1756906772000",
+      "title": "Lush shuts UK stores for a day to protest Gaza starvation",
+      "link": "https://www.bbc.com/news/articles/cn82ly74rk4o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T13:39:32.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "The retail chain said similar action could be taken in its other stores worldwide."
+    },
+    {
+      "id": "BBC – World-18-1756905611000",
+      "title": "China's Xi steals the limelight in a defiant push against US-led world order",
+      "link": "https://www.bbc.com/news/articles/cn0rllxld8go?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T13:20:11.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "President Xi shows off his power and influence in an open challenge to US supremacy and the world order."
+    },
+    {
+      "id": "BBC – Business-18-1756905078000",
+      "title": "Ministers favour merging all UK steel companies into one",
+      "link": "https://www.bbc.com/news/articles/c4gqe91kp57o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T13:11:18.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "The government believes the struggling sector's six companies should be merged together, sources tell the BBC."
+    },
+    {
+      "id": "BBC – Business-21-1756904995000",
+      "title": "Budget to be held on 26 November, Reeves confirms",
+      "link": "https://www.bbc.com/news/articles/c7545yz0171o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T13:09:55.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "The chancellor will set out her plans for the UK economy in November with speculation growing over tax rises."
+    },
+    {
+      "id": "BBC – World-24-1756904442000",
+      "title": "Xi, Putin and Kim show united front at huge Chinese military parade",
+      "link": "https://www.bbc.com/news/articles/cp8z83np4xjo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T13:00:42.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "Speaking during the spectacle in Beijing, China's President Xi Jinping said the world faced a choice between peace and war."
+    },
+    {
+      "id": "BBC – World-23-1756902291000",
+      "title": "Race to find survivors after Sudan landslide kills hundreds",
+      "link": "https://www.bbc.com/news/articles/cdj2jygzzk9o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T12:24:51.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "Sunday's landslide followed heavy rain and \"levelled\" a remote village, a local armed group says."
+    },
+    {
+      "id": "BBC – Business-22-1756892832000",
+      "title": "UK cement production drops to lowest levels since 1950s",
+      "link": "https://www.bbc.com/news/articles/clyryzpx7g5o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T09:47:12.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "The Mineral Products Association says the decline threatens to impact the government's housing plans."
+    },
+    {
+      "id": "BBC – World-20-1756890659000",
+      "title": "Trump says 11 killed in US strike on 'drug-carrying vessel from Venezuela'",
+      "link": "https://www.bbc.com/news/articles/cpwywjgynyxo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T09:10:59.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "The Trump administration has signalled a willingness to use military force against drug cartels."
+    },
+    {
+      "id": "BBC – World-35-1756890424000",
+      "title": "What new weapons on show at huge parade say about China's military strength",
+      "link": "https://www.bbc.com/news/articles/cjr1reyr059o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T09:07:04.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "Beijing has unveiled a range of military hardware in a show of might to Western powers."
+    },
+    {
+      "id": "BBC – Technology-7-1756888878000",
+      "title": "Family of dead teen say ChatGPT's new parental controls not enough",
+      "link": "https://www.bbc.com/news/articles/cg505mn84ydo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T08:41:18.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": null,
+      "summary": "OpenAI has introduced new rules in the wake of the family's allegations that ChatGPT encouraged their child to take his own life."
+    },
+    {
+      "id": "BBC – Technology-8-1756884502000",
+      "title": "A let-off or tougher than it looks? What the Google monopoly ruling means",
+      "link": "https://www.bbc.com/news/articles/cx2q2kkdedno?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T07:28:22.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": null,
+      "summary": "The search giant is not being broken up -so how much will it be affected by the remedies a judge has instead ordered?"
+    },
+    {
+      "id": "BBC – Business-24-1756882585000",
+      "title": "US revokes TSMC's licence on China-bound tech",
+      "link": "https://www.bbc.com/news/articles/creve4x8drgo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T06:56:25.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "The move blocks TSMC from shipping US-made tech to its facility in China."
+    },
+    {
+      "id": "BBC – World-34-1756880468000",
+      "title": "'A clear message to Trump': BBC correspondents react to China's military parade",
+      "link": "https://www.bbc.com/news/articles/c7545p2px5no?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T06:21:08.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "The display of might comes as Beijing positions itself as a global counterweight to the United States."
+    },
+    {
+      "id": "BBC – Business-47-1756877969000",
+      "title": "'Less of a stigma' on second-hand school uniforms",
+      "link": "https://www.bbc.com/news/articles/ckgy5gdd393o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T05:39:29.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "A family with four children spends £800 on uniforms despite buying many in sales and from charity."
+    },
+    {
+      "id": "BBC – Business-48-1756875822000",
+      "title": "Parents debate costs in queue for school uniform",
+      "link": "https://www.bbc.com/news/articles/c9878g46rrgo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T05:03:42.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "Several parents criticise logos and emblems on uniforms, preventing them from buying generic items."
+    },
+    {
+      "id": "BBC – World-47-1756870524000",
+      "title": "Watch: Key moments from China's big show of strength",
+      "link": "https://www.bbc.com/news/videos/c62n2mm6ngjo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-03T03:35:24.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "The military parade was attended by world leaders including Vladimir Putin and Kim Jong Un and showcased China’s new weapons."
+    },
+    {
+      "id": "ANTARA – Politik-1-1756862941000",
+      "title": "Daftar 5 anggota DPR yang dinonaktifkan pasca demo",
+      "link": "https://www.antaranews.com/berita/5083517/daftar-5-anggota-dpr-yang-dinonaktifkan-pasca-demo",
+      "publishedAt": "2025-09-03T01:29:01.000Z",
+      "source": "ANTARA – Politik",
+      "category": "politik",
+      "image": "https://img.antaranews.com/cache/800x533/2025/07/07/1000523872.jpg",
+      "summary": "Gelombang demonstrasi yang terjadi dalam beberapa waktu terakhir berbuntut panjang. Sejumlah partai politik mengambil ..."
+    },
+    {
+      "id": "BBC – World-21-1756857106000",
+      "title": "Google avoids break-up but must share data with rivals",
+      "link": "https://www.bbc.com/news/articles/cp8zdrenm1zo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-02T23:51:46.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "A case over the US tech giant's dominance in search allows it to hang on to its Chrome web browser."
+    },
+    {
+      "id": "BBC – World-36-1756855931000",
+      "title": "'A bullet went through my skull': Tanzania abduction survivor",
+      "link": "https://www.bbc.com/news/articles/c78zdzvgw90o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-02T23:32:11.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "Activist Edgar Mwakabela describes his ordeal after he says he was kidnapped and shot by suspected state agents."
+    },
+    {
+      "id": "BBC – Business-20-1756855318000",
+      "title": "Thames Water bidders ready to clear out top managers",
+      "link": "https://www.bbc.com/news/articles/cp8z8djjml5o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-02T23:21:58.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "Sources close to the deal accept that the government needs to be seen to be tough with the company."
+    },
+    {
+      "id": "BBC – World-22-1756855287000",
+      "title": "Captain Scott’s famous polar shipwreck as never seen before",
+      "link": "https://www.bbc.com/news/articles/cpwyvyqkx9yo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-02T23:21:27.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "The Terra Nova carried Captain Scott and his men on their doomed expedition to the South Pole."
+    },
+    {
+      "id": "BBC – World-39-1756854266000",
+      "title": "Compassion v fear: Delhi divided over feeding stray dogs",
+      "link": "https://www.bbc.com/news/articles/c0kzkzvx848o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-02T23:04:26.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "Activists are pushing for the welfare of stray dogs, while anxious residents cite safety risks."
+    },
+    {
+      "id": "BBC – World-38-1756850566000",
+      "title": "Australia-Israel relations have hit a low point. Behind the scenes, it's business as usual",
+      "link": "https://www.bbc.com/news/articles/cdd31vnygemo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-02T22:02:46.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "The two democratic allies have had a spectacular falling out - but what has actually changed?"
+    },
+    {
+      "id": "BBC – World-48-1756841443000",
+      "title": "Trump addresses online health rumours in Oval Office",
+      "link": "https://www.bbc.com/news/videos/c62724wdxzwo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-02T19:30:43.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "In response to a reporter's question, the president said he was ‘very active’ over the Labor Day weekend."
+    },
+    {
+      "id": "BBC – Technology-32-1756841400000",
+      "title": "Tech Life",
+      "link": "https://www.bbc.co.uk/sounds/play/w3ct6zp6?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-02T19:30:00.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": null,
+      "summary": "Find out how AI is making phone calls possible between people who don’t share a language."
+    },
+    {
+      "id": "BBC – Technology-10-1756838379000",
+      "title": "Jaguar Land Rover production severely hit by cyber-attack",
+      "link": "https://www.bbc.com/news/articles/c9wywvllq7wo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-02T18:39:39.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": null,
+      "summary": "Staff were sent home and the company shut down its IT systems in an effort to minimise the damage done."
+    },
+    {
+      "id": "BBC – World-37-1756836067000",
+      "title": "What do we know about Kim Jong Un's daughter - and potential successor?",
+      "link": "https://www.bbc.com/news/articles/cvgvgj7ejqdo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-02T18:01:07.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "Kim Ju Ae's visit to China with her father is likely to further fuel speculation she may succeed him."
+    },
+    {
+      "id": "BBC – Business-25-1756820290000",
+      "title": "Faisal Islam: What's causing the UK's long-term borrowing costs to rise?",
+      "link": "https://www.bbc.com/news/articles/clyry4rg9wyo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-02T13:38:10.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "The cost of government borrowing has risen again - what does it mean for the public finances and upcoming Budget?"
+    },
+    {
+      "id": "BBC – Business-28-1756801739000",
+      "title": "How oil has brought Russia, China and India closer",
+      "link": "https://www.bbc.com/news/articles/c627p49lp40o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-02T08:28:59.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "Russia's Vladimir Putin met China's and India's leaders in Tianjin in a show of solidarity."
+    },
+    {
+      "id": "BBC – Business-55-1756789200000",
+      "title": "Football’s Financial Shame: The Story of the V11",
+      "link": "https://www.bbc.co.uk/iplayer/episode/m002d2kp?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-02T05:00:00.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "Unveiling a hidden scandal affecting a group of former Premier League players."
+    },
+    {
+      "id": "BBC – World-40-1756772308000",
+      "title": "Body seen in secret mortuary could solve 50-year mystery of vanished religious leader",
+      "link": "https://www.bbc.com/news/articles/clyr1qr529xo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-02T00:18:28.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "Compelling evidence to suggest Lebanese Shia leader Musa al-Sadr was killed in Libya is uncovered by BBC."
+    },
+    {
+      "id": "BBC – Business-27-1756767914000",
+      "title": "Will drones deliver your next hot food order?",
+      "link": "https://www.bbc.com/news/articles/crlze41zygdo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-01T23:05:14.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "A Swedish firm hopes that drones will open up a new market for hot food delivery."
+    },
+    {
+      "id": "BBC – World-41-1756764493000",
+      "title": "How the death of a delivery driver ignited Indonesia",
+      "link": "https://www.bbc.com/news/articles/c2dj9w306wzo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-01T22:08:13.000Z",
+      "source": "BBC – World",
+      "category": "dunia",
+      "image": null,
+      "summary": "Protests over corruption and inequality have spiralled into violence, arson and deaths."
+    },
+    {
+      "id": "ANTARA – Politik-2-1756735488000",
+      "title": "Ini poin-poin penting rapat kabinet Presiden Prabowo 31 Agustus 2025",
+      "link": "https://www.antaranews.com/berita/5080229/ini-poin-poin-penting-rapat-kabinet-presiden-prabowo-31-agustus-2025",
+      "publishedAt": "2025-09-01T14:04:48.000Z",
+      "source": "ANTARA – Politik",
+      "category": "politik",
+      "image": "https://img.antaranews.com/cache/800x533/2025/08/31/1000037088.jpg",
+      "summary": "Presiden Republik Indonesia, Prabowo Subianto, pada Minggu, 31 Agustus 2025, memimpin Sidang Kabinet Paripurna di ..."
+    },
+    {
+      "id": "BBC – Technology-20-1756733157000",
+      "title": "Ticketless train travel to be trialled across cities",
+      "link": "https://www.bbc.com/news/articles/cly702xd0edo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-01T13:25:57.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": null,
+      "summary": "The digital ticketing trials will allow passengers to check in and out using a location-identifying app."
+    },
+    {
+      "id": "BBC – Technology-12-1756728305000",
+      "title": "Meta to stop its AI chatbots from talking to teens about suicide",
+      "link": "https://www.bbc.com/news/articles/c2kzl79jv15o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-01T12:05:05.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": null,
+      "summary": "The firm says it will add more guardrails \"as an extra precaution\" and temporarily limit chatbots teens can use."
+    },
+    {
+      "id": "BBC – Technology-11-1756727827000",
+      "title": "Children at risk of identity theft and fraud from 'sharenting'",
+      "link": "https://www.bbc.com/news/articles/c8904njvy03o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-01T11:57:07.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": null,
+      "summary": "Researchers at the University of Southampton are warning of the dangers of posting your children's photos online."
+    },
+    {
+      "id": "BBC – Technology-14-1756713054000",
+      "title": "BYD shares slide as China's EV price war hits profits",
+      "link": "https://www.bbc.com/news/articles/cx2pr1wwq44o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-01T07:50:54.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": null,
+      "summary": "The EV maker faces a crowed market, with rivals like XPeng and Telsa, which have all cut prices."
+    },
+    {
+      "id": "BBC – Technology-13-1756694053000",
+      "title": "Enforcing Australia's social media ban on kids is possible but contains risks, report says",
+      "link": "https://www.bbc.com/news/articles/clyrkj0d44vo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-01T02:34:13.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": null,
+      "summary": "The impending ban is popular with many parents, but experts have raised concerns over privacy and age verification technology."
+    },
+    {
+      "id": "BBC – Business-29-1756690979000",
+      "title": "How sheer luck made this tiny Caribbean island millions from its web address",
+      "link": "https://www.bbc.com/news/articles/cn5xdp427veo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-09-01T01:42:59.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "Anguilla has the internet domain .ai and is earning a fortune selling the address to tech firms."
+    },
+    {
+      "id": "BBC – Technology-15-1756601916000",
+      "title": "The first game to feel truly cinematic is back - years after its creator left",
+      "link": "https://www.bbc.com/news/articles/cy08jr6jwn2o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-08-31T00:58:36.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": null,
+      "summary": "The first new game in the series in a decade - a remake - has been released, without involvement of the series creator."
+    },
+    {
+      "id": "ANTARA – Politik-3-1756516777000",
+      "title": "Jangan asal ikut-ikut, ini hal yang wajib dipersiapkan saat ingin demo",
+      "link": "https://www.antaranews.com/berita/5074913/jangan-asal-ikut-ikut-ini-hal-yang-wajib-dipersiapkan-saat-ingin-demo",
+      "publishedAt": "2025-08-30T01:19:37.000Z",
+      "source": "ANTARA – Politik",
+      "category": "politik",
+      "image": "https://img.antaranews.com/cache/800x533/2025/08/30/WhatsApp-Image-2025-08-29-at-18.05.19.jpeg",
+      "summary": "Demonstrasi atau unjuk rasa merupakan salah satu cara masyarakat menyampaikan aspirasi yang dilindungi oleh ..."
+    },
+    {
+      "id": "BBC – Technology-16-1756483113000",
+      "title": "Court documents shed new light on UK-Apple row over user data",
+      "link": "https://www.bbc.com/news/articles/cx293qg7z39o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-08-29T15:58:33.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": null,
+      "summary": "The document suggests the government may still want access despite US officials saying it had dropped the demand."
+    },
+    {
+      "id": "BBC – Technology-18-1756465772000",
+      "title": "Musk files to dismiss lawsuit over his purchase of Twitter shares",
+      "link": "https://www.bbc.com/news/articles/cn47ey2wxkpo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-08-29T11:09:32.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": null,
+      "summary": "US regulators allege his late disclosure of Twitter share purchases allowed him to buy them at \"artificially low prices\"."
+    },
+    {
+      "id": "BBC – Technology-17-1756463622000",
+      "title": "Taco Bell rethinks AI drive-through after man orders 18,000 waters",
+      "link": "https://www.bbc.com/news/articles/ckgyk2p55g8o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-08-29T10:33:42.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": null,
+      "summary": "The fast food chain is reassessing its use of the tech after a number of errors were shared widely online."
+    },
+    {
+      "id": "BBC – Business-30-1756422221000",
+      "title": "Thirsty data centres boom in drought-hit Mexico",
+      "link": "https://www.bbc.com/news/articles/cx2ngz7ep1eo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-08-28T23:03:41.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "Activists in Querétaro criticise state government for prioritising the data processing needs for US tech firms over their own citizens"
+    },
+    {
+      "id": "BBC – Technology-19-1756397008000",
+      "title": "Kick accuses French authorities of politicising streamer's death",
+      "link": "https://www.bbc.com/news/articles/cx23zdvk854o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-08-28T16:03:28.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": null,
+      "summary": "Raphaël Graven, also known as Jean Pormanove, died during a live stream on the Kick website."
+    },
+    {
+      "id": "BBC – Technology-22-1756363115000",
+      "title": "AI boom boosts Nvidia despite 'geopolitical issues'",
+      "link": "https://www.bbc.com/news/articles/c3wnj8611y7o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-08-28T06:38:35.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": null,
+      "summary": "Nvidia remains exposed to geopolitical tensions between the US and China."
+    },
+    {
+      "id": "BBC – Technology-23-1756348020000",
+      "title": "Japanese town proposes two-hour daily limit on smartphones",
+      "link": "https://www.bbc.com/news/articles/cqlew2rv337o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-08-28T02:27:00.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": null,
+      "summary": "The limit would only apply outside of work and study time and no fines would be given if breached"
+    },
+    {
+      "id": "BBC – Technology-21-1756328604000",
+      "title": "Apple warns UK against introducing tougher tech regulation",
+      "link": "https://www.bbc.com/news/articles/ckgj9kjmvzzo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-08-27T21:03:24.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": null,
+      "summary": "The iPhone maker is pushing back against proposed changes required by the UK competition watchdog"
+    },
+    {
+      "id": "ANTARA – Politik-4-1756268383000",
+      "title": "Apa itu tanda kehormatan presiden? Simak jenis dan maknanya",
+      "link": "https://www.antaranews.com/berita/5066665/apa-itu-tanda-kehormatan-presiden-simak-jenis-dan-maknanya",
+      "publishedAt": "2025-08-27T04:19:43.000Z",
+      "source": "ANTARA – Politik",
+      "category": "politik",
+      "image": "https://img.antaranews.com/cache/800x533/2025/08/25/presiden-prabowo-anugerahkan-tanda-kehormatan-2607529.jpg",
+      "summary": "Presiden Prabowo Subianto pada Senin (25/8/2025) di Istana Negara, Jakarta, menganugerahkan Tanda Kehormatan Republik ..."
+    },
+    {
+      "id": "BBC – Technology-25-1756264208000",
+      "title": "Kpop Demon Hunters becomes Netflix's most viewed film ever",
+      "link": "https://www.bbc.com/news/articles/c1kz12v08l1o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-08-27T03:10:08.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": null,
+      "summary": "It is the latest in a series of chart-topping achievements by the animated musical."
+    },
+    {
+      "id": "BBC – Technology-28-1756222771000",
+      "title": "Video platform Kick investigated over streamer's death",
+      "link": "https://www.bbc.com/news/articles/czxpepn5qlxo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-08-26T15:39:31.000Z",
+      "source": "BBC – Technology",
+      "category": "tekno",
+      "image": null,
+      "summary": "The French government also says it is suing the platform over the death of Raphaël Graven, also known as Jean Pormanove."
+    },
+    {
+      "id": "BBC – Business-57-1756213384000",
+      "title": "Fewer Music Shops on UK High Streets",
+      "link": "https://www.bbc.co.uk/iplayer/episode/l0057dqx?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-08-26T13:03:04.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "The number of places to buy instruments has declined, as customers move online"
+    },
+    {
+      "id": "BBC – Business-56-1756200298000",
+      "title": "Martin Lewis has this warning for women over 40",
+      "link": "https://www.bbc.com/news/videos/c79l5pzeepwo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-08-26T09:24:58.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "He explains how some women could be owed thousands of pounds in relation to their state pension."
+    },
+    {
+      "id": "BBC – Business-31-1756191589000",
+      "title": "How to stop AI agents going rogue",
+      "link": "https://www.bbc.com/news/articles/cq87e0dwj25o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2025-08-26T06:59:49.000Z",
+      "source": "BBC – Business",
+      "category": "bisnis",
+      "image": null,
+      "summary": "Agentic AI is taking decisions and acting on behalf of users, but how to stop that going wrong?"
     }
   ]
 }
