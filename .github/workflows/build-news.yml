@@ -1,22 +1,55 @@
-- name: Commit & push (rebase-safe)
-  env:
-    BRANCH: ${{ github.ref_name }}   # biasanya "main"
-  run: |
-    set -e
-    # tidak ada perubahan? selesai
-    if git diff --quiet -- news.json data/news_prev.json; then
-      echo "No changes"; exit 0
-    fi
+name: Build News JSON
 
-    git config user.name  "github-actions[bot]"
-    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+on:
+  schedule:
+    - cron: "0 0,12 * * *"   # 07:00 & 19:00 WIB (UTC 00:00 & 12:00)
+  workflow_dispatch:
 
-    git add news.json data/news_prev.json
-    git commit -m "chore: refresh news.json [skip ci]" || true
+concurrency:
+  group: build-news
+  cancel-in-progress: true
 
-    # tarik perubahan terbaru lalu rebase commit kita di atasnya
-    git fetch origin "$BRANCH"
-    git pull --rebase --autostash origin "$BRANCH"
+permissions:
+  contents: write
 
-    # dorong ke branch yang sama
-    git push origin HEAD:"$BRANCH"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install deps
+        run: |
+          npm init -y
+          npm i rss-parser@latest
+
+      - name: Build news.json
+        run: node tools/rss-build.mjs
+
+      - name: Commit & push (rebase-safe)
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          set -e
+          # jika tidak ada perubahan, selesai
+          if git diff --quiet -- news.json data/news_prev.json 2>/dev/null; then
+            echo "No changes"; exit 0
+          fi
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add news.json data/news_prev.json || true
+          git commit -m "chore: refresh news.json [skip ci]" || true
+
+          git fetch origin "$BRANCH"
+          git pull --rebase --autostash origin "$BRANCH"
+          git push origin HEAD:"$BRANCH"
