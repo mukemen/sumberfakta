@@ -1,32 +1,22 @@
-# .github/workflows/build-news.yml
-name: Build News JSON
-on:
-  schedule:
-    - cron: "0 0,12 * * *"   # 07:00 & 19:00 WIB
-  workflow_dispatch: {}
-concurrency:
-  group: build-news
-  cancel-in-progress: true
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-      - run: npm init -y
-      - run: npm i rss-parser@latest
-      - run: node tools/rss-build.mjs
-      - name: Commit if changed
-        run: |
-          if git diff --quiet -- news.json; then
-            echo "No changes"; exit 0;
-          fi
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news.json data/news_prev.json || true
-          git commit -m "chore: refresh news.json [skip ci]"
-          git push
+- name: Commit & push (rebase-safe)
+  env:
+    BRANCH: ${{ github.ref_name }}   # biasanya "main"
+  run: |
+    set -e
+    # tidak ada perubahan? selesai
+    if git diff --quiet -- news.json data/news_prev.json; then
+      echo "No changes"; exit 0
+    fi
+
+    git config user.name  "github-actions[bot]"
+    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+    git add news.json data/news_prev.json
+    git commit -m "chore: refresh news.json [skip ci]" || true
+
+    # tarik perubahan terbaru lalu rebase commit kita di atasnya
+    git fetch origin "$BRANCH"
+    git pull --rebase --autostash origin "$BRANCH"
+
+    # dorong ke branch yang sama
+    git push origin HEAD:"$BRANCH"
