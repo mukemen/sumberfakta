@@ -1,8 +1,12 @@
-﻿name: Build News JSON
+# .github/workflows/build-news.yml
+name: Build News JSON
 on:
   schedule:
     - cron: "0 0,12 * * *"   # 07:00 & 19:00 WIB
   workflow_dispatch: {}
+concurrency:
+  group: build-news
+  cancel-in-progress: true
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,6 +27,6 @@ jobs:
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news.json
+          git add news.json data/news_prev.json || true
           git commit -m "chore: refresh news.json [skip ci]"
           git push
