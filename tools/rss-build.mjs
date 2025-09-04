@@ -6,8 +6,8 @@ import fs from "fs";
 import Parser from "rss-parser";
 
 // ====== Konfigurasi umum ======
-const LIMIT_OUTPUT = 200;    // simpan maksimal item
-const MIN_ITEMS    = 10;     // kalau kurang dari ini → tambahkan dari news.json lama
+const LIMIT_OUTPUT = 200;     // simpan maksimal item
+const MIN_ITEMS    = 10;      // kalau kurang dari ini → tambahkan dari news.json lama
 const MAX_HTML_IMG_SNIFF = 1; // cari <img> pertama di konten (0 = matikan)
 const USER_AGENT = "SumberFaktaBot/1.0 (+https://mukemen.github.io/sumberfakta/)";
 
@@ -28,25 +28,34 @@ function writeJSON(path, data) {
   fs.writeFileSync(path, JSON.stringify(data, null, 2), "utf8");
 }
 
-// ====== Memuat daftar feed dari feeds.json ======
+// ====== Memuat daftar feed dari feeds.json (log sumbernya) ======
 function loadFeeds() {
-  // bisa dari root atau /data
   const candidates = ["feeds.json", "data/feeds.json"];
   for (const p of candidates) {
     const j = readJSON(p, null);
-    if (Array.isArray(j)) return j;
-    if (j && Array.isArray(j.feeds)) return j.feeds;
+    if (Array.isArray(j)) {
+      console.log(`→ Memakai daftar feed dari: ${p} (${j.length} entri)`);
+      return j;
+    }
+    if (j && Array.isArray(j.feeds)) {
+      console.log(`→ Memakai daftar feed dari: ${p} (${j.feeds.length} entri)`);
+      return j.feeds;
+    }
   }
   return [];
 }
 
-// ====== Normalisasi kategori (opsional mapping sinonim) ======
+// ====== Normalisasi kategori (pakai label Indonesia yang konsisten) ======
 function normCat(x = "") {
   const map = {
     nasional: "nasional",
     politik: "politik",
+
     dunia: "dunia",
     world: "dunia",
+    internasional: "dunia",
+    international: "dunia",
+    global: "dunia",
 
     sport: "sport",
     olahraga: "sport",
@@ -55,20 +64,22 @@ function normCat(x = "") {
     bisnis: "bisnis",
     ekonomi: "bisnis",
     business: "bisnis",
+    finance: "bisnis",
 
     tekno: "tekno",
     teknologi: "tekno",
     technology: "tekno",
     tech: "tekno",
 
-    hiburan: "entertainment",
-    entertainment: "entertainment",
+    hiburan: "hiburan",
+    entertainment: "hiburan",
+    showbiz: "hiburan",
 
-    music: "music",
-    musik: "music",
+    musik: "musik",
+    music: "musik",
 
-    movie: "movie",
-    film: "movie",
+    film: "film",
+    movie: "film",
 
     hobi: "hobi"
   };
@@ -79,17 +90,17 @@ function normCat(x = "") {
 // ====== Ekstraksi gambar ======
 function firstImgFromHTML(html = "") {
   if (!MAX_HTML_IMG_SNIFF) return null;
-  const m = /<img[^>]+src=["']([^"']+)["']/i.exec(html);
+  const m = /<img[^>]+src=["']([^"']+)["']/i.exec(html || "");
   return m ? m[1] : null;
 }
 function pickImage(e) {
   return (
-    e.enclosure?.url ||
-    e.enclosure?.link ||
-    e["media:content"]?.url ||
-    e["media:thumbnail"]?.url ||
-    e.thumbnail ||
-    firstImgFromHTML(e["content:encoded"] || e.content || e.description) ||
+    e?.enclosure?.url ||
+    e?.enclosure?.link ||
+    e?.["media:content"]?.url ||
+    e?.["media:thumbnail"]?.url ||
+    e?.thumbnail ||
+    firstImgFromHTML(e?.["content:encoded"] || e?.content || e?.description) ||
     null
   );
 }
@@ -132,10 +143,22 @@ function toItem(feed, entry, i) {
   };
 }
 
+// ====== (Opsional) Handler sederhana untuk sitemap (mis. Tirto) ======
+async function parseSitemap(url, limit = 40) {
+  const res = await fetch(url);
+  const xml = await res.text();
+  const locs = Array.from(xml.matchAll(/<loc>([^<]+)<\/loc>/gi))
+    .map((m) => m[1])
+    .slice(0, limit);
+  return { title: "sitemap", items: locs.map((link) => ({ title: link, link })) };
+}
+
 // ====== Ambil satu feed ======
 async function fetchFeed(feed) {
   try {
-    const res = await parser.parseURL(feed.url);
+    const res = feed.type === "sitemap"
+      ? await parseSitemap(feed.url)
+      : await parser.parseURL(feed.url);
     const items = (res.items || []).map((e, i) => toItem(feed, e, i));
     console.log(`✔ ${feed.name} — ${items.length} item`);
     return items;
@@ -172,6 +195,7 @@ if (!FEEDS.length) {
   process.exit(3);
 }
 console.log(`Memuat ${FEEDS.length} feed dari feeds.json ...`);
+console.log("Contoh (5 feed pertama):", FEEDS.slice(0,5).map(f => `${f.name} -> ${f.url}`));
 
 const results = await Promise.allSettled(FEEDS.map(fetchFeed));
 let items = results.flatMap((r) => (r.status === "fulfilled" ? r.value : []));
