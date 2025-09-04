@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2025-09-04T02:00:00.000Z",
+  "items": [
+    {
+      "title": "Peluncuran SUMBER FAKTA Lite",
+      "link": "https://example.com/sumberfakta-lite",
+      "publishedAt": "2025-09-04T01:55:00.000Z",
+      "source": "Editor",
+      "category": "tekno",
+      "image": "",
+      "summary": "Portal agregator berita statis yang ringan, gratis, dan mudah dipelihara."
+    },
+    {
+      "title": "Kebijakan Baru Transportasi Nasional Mulai Berlaku",
+      "link": "https://example.com/transportasi-kebijakan-baru",
+      "publishedAt": "2025-09-04T01:40:00.000Z",
+      "source": "Redaksi Nasional",
+      "category": "politik",
+      "image": "",
+      "summary": "Pemerintah merilis kebijakan transportasi untuk mendorong konektivitas antardaerah."
+    },
+    {
+      "title": "Timnas Raih Kemenangan Tipis di Laga Uji Coba",
+      "link": "https://example.com/timnas-menang-uji-coba",
+      "publishedAt": "2025-09-04T01:20:00.000Z",
+      "source": "Olahraga",
+      "category": "sport",
+      "image": "",
+      "summary": "Pertandingan berlangsung ketat, gol penentu tercipta di menit-menit akhir."
+    },
+    {
+      "title": "Pasar Saham Asia Dibuka Menguat",
+      "link": "https://example.com/pasar-saham-asia-menguat",
+      "publishedAt": "2025-09-04T01:05:00.000Z",
+      "source": "Market Watch",
+      "category": "bisnis",
+      "image": "",
+      "summary": "Sentimen positif global mendorong indeks kawasan Asia hijau."
+    },
+    {
+      "title": "Rilis Perangkat Wearable Baru Fokus ke Kesehatan",
+      "link": "https://example.com/wearable-kesehatan-rilis",
+      "publishedAt": "2025-09-04T00:55:00.000Z",
+      "source": "Teknologi",
+      "category": "tekno",
+      "image": "",
+      "summary": "Fitur pengukuran biometrik dan baterai hemat menjadi sorotan."
+    },
+    {
+      "title": "Film Aksi Lokal Tembus Festival Internasional",
+      "link": "https://example.com/film-aksi-festival",
+      "publishedAt": "2025-09-04T00:40:00.000Z",
+      "source": "Hiburan",
+      "category": "movie",
+      "image": "",
+      "summary": "Film garapan sutradara muda mendapat apresiasi di ajang bergengsi."
+    },
+    {
+      "title": "Album Baru Musisi Tanah Air Masuk Chart Global",
+      "link": "https://example.com/album-baru-chart-global",
+      "publishedAt": "2025-09-04T00:25:00.000Z",
+      "source": "Musik",
+      "category": "music",
+      "image": "",
+      "summary": "Kolaborasi lintas-genre jadi daya tarik utama album ini."
+    },
+    {
+      "title": "Komunitas Fotografi Gelar Pameran Akhir Pekan",
+      "link": "https://example.com/pameran-fotografi-komunitas",
+      "publishedAt": "2025-09-04T00:10:00.000Z",
+      "source": "Komunitas",
+      "category": "hobi",
+      "image": "",
+      "summary": "Puluhan karya dipamerkan, terbuka untuk umum secara gratis."
+    },
+    {
+      "title": "Pertemuan Puncak Membahas Isu Regional",
+      "link": "https://example.com/pertemuan-puncak-regional",
+      "publishedAt": "2025-09-03T23:55:00.000Z",
+      "source": "Internasional",
+      "category": "dunia",
+      "image": "",
+      "summary": "Para pemimpin membahas keamanan, ekonomi, dan transisi energi."
+    },
+    {
+      "title": "Serial Baru Raih Rating Tinggi pada Episode Perdana",
+      "link": "https://example.com/serial-baru-rating-tinggi",
+      "publishedAt": "2025-09-03T23:40:00.000Z",
+      "source": "Entertaiment",
+      "category": "entertainment",
+      "image": "",
+      "summary": "Cerita segar dan produksi apik jadi kunci antusiasme penonton."
+    }
+  ]
+}
