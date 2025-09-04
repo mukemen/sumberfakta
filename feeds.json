@@ -1,48 +1,53 @@
 [
-  { "name": "ANTARA – Terkini",   "url": "https://www.antaranews.com/rss/terkini",    "category": "nasional" },
-  { "name": "ANTARA – Politik",   "url": "https://www.antaranews.com/rss/politik",    "category": "politik"  },
-  { "name": "ANTARA – Olahraga",  "url": "https://www.antaranews.com/rss/olahraga",   "category": "sport"    },
+  { "name": "ANTARA – Terkini",    "url": "https://www.antaranews.com/rss/terkini",   "category": "nasional" },
+  { "name": "ANTARA – Politik",    "url": "https://www.antaranews.com/rss/politik",   "category": "politik"  },
+  { "name": "ANTARA – Ekonomi",    "url": "https://www.antaranews.com/rss/ekonomi",   "category": "bisnis"   },
+  { "name": "ANTARA – Olahraga",   "url": "https://www.antaranews.com/rss/olahraga",  "category": "sport"    },
+  { "name": "ANTARA – Tekno",      "url": "https://www.antaranews.com/rss/tekno",     "category": "tekno"    },
+  { "name": "ANTARA – Hiburan",    "url": "https://www.antaranews.com/rss/hiburan",   "category": "hiburan"  },
 
-  { "name": "Detik – Berita",     "url": "https://news.detik.com/berita/rss",         "category": "nasional" },
-  { "name": "Detik – Finance",    "url": "https://finance.detik.com/rss",             "category": "bisnis"   },
-  { "name": "Detik – Sport",      "url": "https://sport.detik.com/rss",               "category": "sport"    },
+  { "name": "Detik – Berita",      "url": "https://news.detik.com/berita/rss",        "category": "nasional" },
+  { "name": "Detik – Finance",     "url": "https://finance.detik.com/rss",            "category": "bisnis"   },
+  { "name": "Detik – Sport",       "url": "https://sport.detik.com/rss",              "category": "sport"    },
 
-  { "name": "Kompas",             "url": "https://rss.kompas.com/api/feed/social?apikey=bc58c81819dff4b8d5c53540a2fc7ffd83e6314a", "category": "nasional" },
+  { "name": "Kompas – Social API", "url": "https://rss.kompas.com/api/feed/social?apikey=bc58c81819dff4b8d5c53540a2fc7ffd83e6314a", "category": "nasional" },
+
+  { "name": "Kontan – Keuangan",   "url": "https://rss.kontan.co.id/news/keuangan",   "category": "bisnis"   },
+  { "name": "Kontan – Nasional",   "url": "https://rss.kontan.co.id/news/nasional",   "category": "nasional" },
+
+  { "name": "Suara – News",        "url": "https://www.suara.com/rss/news",           "category": "nasional" },
+  { "name": "Suara – Bisnis",      "url": "https://www.suara.com/rss/bisnis",         "category": "bisnis"   },
+  { "name": "Suara – Hiburan",     "url": "https://www.suara.com/rss/entertainment",  "category": "hiburan"  },
+
+  { "name": "Tempo – Nasional",    "url": "http://rss.tempo.co/nasional",             "category": "nasional" },
+  { "name": "Tempo – Bisnis",      "url": "http://rss.tempo.co/bisnis",               "category": "bisnis"   },
 
   { "name": "CNN Indonesia – Nasional", "url": "https://www.cnnindonesia.com/nasional/rss", "category": "nasional" },
   { "name": "CNN Indonesia – Ekonomi",  "url": "https://www.cnnindonesia.com/ekonomi/rss",  "category": "bisnis"   },
   { "name": "CNN Indonesia – Olahraga", "url": "https://www.cnnindonesia.com/olahraga/rss", "category": "sport"    },
+  { "name": "CNN Indonesia – Hiburan",  "url": "https://www.cnnindonesia.com/hiburan/rss",  "category": "hiburan"  },
 
-  { "name": "CNBC Indonesia – News",   "url": "https://www.cnbcindonesia.com/news/rss",   "category": "bisnis"   },
-  { "name": "CNBC Indonesia – Market", "url": "https://www.cnbcindonesia.com/market/rss/","category": "bisnis"   },
+  { "name": "CNBC Indonesia – News",   "url": "https://www.cnbcindonesia.com/news/rss",   "category": "bisnis" },
+  { "name": "CNBC Indonesia – Market", "url": "https://www.cnbcindonesia.com/market/rss/", "category": "bisnis" },
 
-  { "name": "Tempo – Nasional",   "url": "http://rss.tempo.co/nasional",               "category": "nasional" },
-  { "name": "Tempo – Bisnis",     "url": "http://rss.tempo.co/bisnis",                 "category": "bisnis"   },
+  { "name": "Republika – Semua",   "url": "https://www.republika.co.id/rss",          "category": "nasional" },
+  { "name": "Media Indonesia – Semua", "url": "https://mediaindonesia.com/feed",      "category": "nasional" },
 
-  { "name": "Liputan6 – News",    "url": "https://feed.liputan6.com/rss/news",         "category": "nasional" },
-  { "name": "Liputan6 – Showbiz", "url": "https://feed.liputan6.com/rss/showbiz",      "category": "hiburan"  },
+  { "name": "JawaPos – Nasional",  "url": "https://www.jawapos.com/nasional/rss",     "category": "nasional" },
+  { "name": "JawaPos – Ekonomi",   "url": "https://www.jawapos.com/ekonomi/rss",      "category": "bisnis"   },
+  { "name": "JawaPos – Olahraga",  "url": "https://www.jawapos.com/olahraga/rss",     "category": "sport"    },
 
-  { "name": "Suara – News",       "url": "https://www.suara.com/rss/news",             "category": "nasional" },
-  { "name": "Suara – Bisnis",     "url": "https://www.suara.com/rss/bisnis",           "category": "bisnis"   },
+  { "name": "Kumparan – Semua",    "url": "https://lapi.kumparan.com/v2.0/rss/",      "category": "nasional" },
 
-  { "name": "Kontan – Nasional",  "url": "https://rss.kontan.co.id/news/nasional",     "category": "nasional" },
-  { "name": "Kontan – Keuangan",  "url": "https://rss.kontan.co.id/news/keuangan",     "category": "bisnis"   },
+  { "name": "Liputan6 – News",     "url": "https://feed.liputan6.com/rss/news",       "category": "nasional" },
+  { "name": "Liputan6 – Showbiz",  "url": "https://feed.liputan6.com/rss/showbiz",    "category": "hiburan"  },
 
-  { "name": "Republika Online",   "url": "https://www.republika.co.id/rss",            "category": "nasional" },
-  { "name": "Media Indonesia",    "url": "https://mediaindonesia.com/feed",            "category": "nasional" },
-  { "name": "JawaPos – Nasional", "url": "https://www.jawapos.com/nasional/rss",       "category": "nasional" },
-  { "name": "JawaPos – Ekonomi",  "url": "https://www.jawapos.com/ekonomi/rss",        "category": "bisnis"   },
+  /* ======== kanal khusus ======== */
+  { "name": "Cinemags – Film",     "url": "https://cinemags.co.id/feed/",             "category": "movie"    },
+  { "name": "Pop Hari Ini – Musik","url": "https://pophariini.com/feed/",             "category": "music"    },
+  { "name": "HAI – Lifestyle/Youth","url": "https://hai.grid.id/feed",                "category": "hobi"     },
+  { "name": "VICE Indonesia",      "url": "https://www.vice.com/id_id/rss",           "category": "hiburan"  },
 
-  { "name": "Kumparan",           "url": "https://lapi.kumparan.com/v2.0/rss/",        "category": "nasional" },
-  { "name": "Tirto – Sitemap Discover", "url": "https://tirto.id/sitemap/r/google-discover", "category": "nasional", "type": "sitemap" },
-
-  { "name": "BBC – World",        "url": "http://feeds.bbci.co.uk/news/world/rss.xml",      "category": "dunia"   },
-  { "name": "BBC – Business",     "url": "http://feeds.bbci.co.uk/news/business/rss.xml",   "category": "bisnis"  },
-  { "name": "BBC – Technology",   "url": "http://feeds.bbci.co.uk/news/technology/rss.xml", "category": "tekno"   },
-
-  { "name": "Reuters – World",    "url": "https://feeds.reuters.com/reuters/worldNews",     "category": "dunia"   },
-  { "name": "Reuters – Business", "url": "https://feeds.reuters.com/reuters/businessNews",  "category": "bisnis"  },
-
-  { "name": "Al Jazeera – All",   "url": "https://www.aljazeera.com/xml/rss/all.xml",       "category": "dunia"   },
-  { "name": "The Verge – Tech",   "url": "https://www.theverge.com/rss/index.xml",          "category": "tekno"   }
+  /* opsional lokal lain */
+  { "name": "TIMES Indonesia – Nasional", "url": "https://www.times.co.id/rss/category/nasional", "category": "nasional" }
 ]
