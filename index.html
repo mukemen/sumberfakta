@@ -93,16 +93,16 @@
         <p id="artSummary" class="text-slate-700 text-[15px] leading-relaxed"></p>
 
         <div class="flex flex-wrap items-center gap-3 pt-2">
-          <a id="artLink" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[var(--brand-blue)] text-white hover:brightness-95">
+          <a id="artLink" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[var(--brand-blue)] text-white hover:brightness-95">
             Baca sumber
             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M7 17L17 7M7 7h10v10"/></svg>
           </a>
           <div class="ml-auto flex items-center gap-2 text-slate-500">
             <span class="text-xs">Bagikan:</span>
-            <a id="shareWa" target="_blank" class="p-2 rounded-full hover:bg-slate-100" aria-label="WhatsApp">🟢</a>
-            <a id="shareX"  target="_blank" class="p-2 rounded-full hover:bg-slate-100" aria-label="X/Twitter">✖️</a>
-            <a id="shareFb" target="_blank" class="p-2 rounded-full hover:bg-slate-100" aria-label="Facebook">📘</a>
-            <a id="shareTg" target="_blank" class="p-2 rounded-full hover:bg-slate-100" aria-label="Telegram">💬</a>
+            <a id="shareWa" target="_blank" rel="noopener noreferrer" class="p-2 rounded-full hover:bg-slate-100" aria-label="WhatsApp">🟢</a>
+            <a id="shareX"  target="_blank" rel="noopener noreferrer" class="p-2 rounded-full hover:bg-slate-100" aria-label="X/Twitter">✖️</a>
+            <a id="shareFb" target="_blank" rel="noopener noreferrer" class="p-2 rounded-full hover:bg-slate-100" aria-label="Facebook">📘</a>
+            <a id="shareTg" target="_blank" rel="noopener noreferrer" class="p-2 rounded-full hover:bg-slate-100" aria-label="Telegram">💬</a>
           </div>
         </div>
       </div>
@@ -110,17 +110,22 @@
   </main>
 
   <footer class="max-w-7xl mx-auto px-4 py-10 text-xs text-slate-500">
-    © <span id="year"></span> SUMBER FAKTA • Agregator berita.
+    © <span id="year"></span> SUMBER FAKTA — by <strong>FABARO GROUP</strong>. Semua tautan menuju sumber resmi.
   </footer>
 
 <script>
 /* ========= KONFIGURASI ========= */
 const RAW_URL = "https://raw.githubusercontent.com/mukemen/sumberfakta/main/news.json";
 const IS_VERCEL = location.hostname.endsWith(".vercel.app"); // di Vercel prefer RAW
-// >>> Tambahkan "nasional" di UI:
-const CATS = ["semua","nasional","politik","sport","entertainment","hobi","movie","music","bisnis","tekno","dunia"];
+// Kategori konsisten dengan builder (normCat)
+const CATS = ["semua","nasional","politik","sport","bisnis","tekno","dunia","hiburan","musik","film","hobi"];
 
 const state = { cat:"semua", items:[], generatedAt:null, page:1, pageSize:12, keyword:"" };
+
+/* ========= FALLBACK IMAGE ========= */
+const FALLBACK_IMG = "data:image/svg+xml;utf8," + encodeURIComponent(
+  "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 18'><defs><linearGradient id='g' x1='0' x2='1'><stop stop-color='#2dd4bf'/><stop offset='1' stop-color='#38bdf8'/></linearGradient></defs><rect width='32' height='18' fill='#eef2ff'/><circle cx='8' cy='9' r='3' fill='url(#g)'/><rect x='13' y='6' width='12' height='6' rx='1' fill='#cbd5e1'/></svg>"
+);
 
 /* ========= UTIL ========= */
 const fmtTime = iso => { try { return new Intl.DateTimeFormat("id-ID",{dateStyle:"medium",timeStyle:"short"}).format(new Date(iso)); } catch { return iso; } };
@@ -181,14 +186,18 @@ function renderHero(list){
   const el = document.getElementById("hero");
   el.innerHTML="";
   const top = list.slice(0,3);
-  if(!top.length){ el.innerHTML = `<div class="col-span-3 text-sm text-slate-500">Belum ada berita.</div>`; return; }
+  if(!top.length){
+    el.innerHTML = `<div class="col-span-3 text-sm text-slate-500">Belum ada berita.</div>`;
+    return;
+  }
   top.forEach((it,idx)=>{
     const a = document.createElement("a");
     a.href = "#/article/"+idOf(it);
-    a.className = "block rounded-2xl overflow-hidden border bg-white shadow-soft card";
-    const img = it.image ? `style="background-image:url('${it.image}');"` : "";
+    // span 2 kolom untuk item pertama
+    a.className = "block rounded-2xl overflow-hidden border bg-white shadow-soft card " + (idx===0 ? "lg:col-span-2" : "");
+    const bg = (it.image || FALLBACK_IMG);
     a.innerHTML = `
-      <div class="h-40 sm:h-56 hero-img ${idx===0?'lg:col-span-2':''}" ${img}></div>
+      <div class="h-40 sm:h-56 hero-img" style="background-image:url('${bg}')"></div>
       <div class="p-4 sm:p-5 space-y-2">
         <div class="text-xs text-slate-500 flex items-center gap-2">
           <span class="px-2 py-0.5 rounded-full bg-slate-100 border">${(it.category||"umum")}</span>
@@ -213,7 +222,7 @@ function renderGrid(){
     a.href = "#/article/"+idOf(it);
     a.className = "block bg-white rounded-2xl border overflow-hidden shadow-soft card";
     a.innerHTML = `
-      ${it.image?`<img src="${it.image}" alt="${it.title}" class="h-40 w-full object-cover" loading="lazy">`:`<div class="h-2 bg-gradient-to-r from-slate-100 to-slate-200"></div>`}
+      <img src="${it.image || FALLBACK_IMG}" alt="${it.title}" class="h-40 w-full object-cover" loading="lazy">
       <div class="p-4 space-y-2">
         <div class="text-xs text-slate-500 flex items-center gap-2">
           <span class="px-2 py-0.5 rounded-full bg-slate-100 border">${(it.category||"umum")}</span>
@@ -256,12 +265,12 @@ function openArticleById(id){
   document.getElementById("artSummary").textContent = item.summary || "Ringkasan tidak tersedia.";
   document.getElementById("artLink").href = item.link || "#";
   const cover = document.getElementById("artCover");
-  cover.style.backgroundImage = item.image ? `url('${item.image}')` : "linear-gradient(135deg,#eef2ff,#f8fafc)";
+  cover.style.backgroundImage = `url('${item.image || FALLBACK_IMG}')`;
 
   const u = encodeURIComponent(item.link || location.href);
   const t = encodeURIComponent(item.title || "SUMBER FAKTA");
   document.getElementById("shareWa").href = `https://wa.me/?text=${t}%20${u}`;
-  document.getElementById("shareX").href  = `https://twitter.com/intent/tweet?text=${t}&url=${u}`;
+  document.getElementById("shareX").href  = `https://x.com/intent/post?text=${t}&url=${u}`;
   document.getElementById("shareFb").href = `https://www.facebook.com/sharer/sharer.php?u=${u}`;
   document.getElementById("shareTg").href = `https://t.me/share/url?url=${u}&text=${t}`;
 
@@ -285,7 +294,10 @@ window.addEventListener("hashchange", router);
 /* ========= INIT ========= */
 (async ()=>{
   // shortcut search
-  window.addEventListener("keydown",e=>{ if(e.key==="/"){ e.preventDefault(); document.getElementById("search")?.focus(); }});
+  window.addEventListener("keydown",(e)=>{
+    if(e.key==="/"){ e.preventDefault(); document.getElementById("search")?.focus(); }
+    if((e.ctrlKey||e.metaKey) && e.key.toLowerCase()==="k"){ e.preventDefault(); document.getElementById("search")?.focus(); }
+  });
   document.getElementById("searchBtn").onclick=()=>document.getElementById("search").focus();
   document.getElementById("moreBtn").onclick=()=>{ state.page++; renderGrid(); };
 
