@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "index.html",   "use": "@vercel/static" },
+    { "src": "news.json",    "use": "@vercel/static" },
+    { "src": "feeds.json",   "use": "@vercel/static" },
+    { "src": "logo.svg",     "use": "@vercel/static" },
+    { "src": "data/**",      "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/", "dest": "/index.html" }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
