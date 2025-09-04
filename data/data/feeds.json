@@ -1,0 +1,222 @@
+{
+  "version": 1,
+  "feeds": [
+    {
+      "id": "antara-top",
+      "name": "ANTARA – Top News",
+      "url": "https://www.antaranews.com/rss/top-news.xml",
+      "category": "nasional",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://www.antaranews.com"
+    },
+    {
+      "id": "antara-ekonomi",
+      "name": "ANTARA – Ekonomi",
+      "url": "https://www.antaranews.com/rss/ekonomi.xml",
+      "category": "ekonomi",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://www.antaranews.com"
+    },
+    {
+      "id": "coconuts-jakarta",
+      "name": "Coconuts – Jakarta",
+      "url": "https://coconuts.co/jakarta/feed/",
+      "category": "nasional",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://coconuts.co/jakarta/"
+    },
+    {
+      "id": "detik-berita",
+      "name": "Detik – Berita",
+      "url": "https://news.detik.com/berita/rss",
+      "category": "nasional",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://news.detik.com"
+    },
+    {
+      "id": "detik-finance",
+      "name": "Detik – Finance",
+      "url": "https://finance.detik.com/rss",
+      "category": "ekonomi",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://finance.detik.com"
+    },
+    {
+      "id": "kompas",
+      "name": "Kompas",
+      "url": "https://rss.kompas.com/api/feed/social?apikey=bc58c81819dff4b8d5c53540a2fc7ffd83e6314a",
+      "category": "nasional",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://www.kompas.com"
+    },
+    {
+      "id": "kontan-keuangan",
+      "name": "Kontan – Keuangan",
+      "url": "https://rss.kontan.co.id/news/keuangan",
+      "category": "ekonomi",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://www.kontan.co.id"
+    },
+    {
+      "id": "kontan-nasional",
+      "name": "Kontan – Nasional",
+      "url": "https://rss.kontan.co.id/news/nasional",
+      "category": "nasional",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://www.kontan.co.id"
+    },
+    {
+      "id": "suara-bisnis",
+      "name": "Suara – Bisnis",
+      "url": "https://www.suara.com/rss/bisnis",
+      "category": "ekonomi",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://www.suara.com"
+    },
+    {
+      "id": "suara-news",
+      "name": "Suara – News",
+      "url": "https://www.suara.com/rss/news",
+      "category": "nasional",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://www.suara.com"
+    },
+    {
+      "id": "vice-id",
+      "name": "VICE Indonesia",
+      "url": "https://www.vice.com/id_id/rss",
+      "category": "hiburan",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://www.vice.com/id_id"
+    },
+    {
+      "id": "liputan6-news",
+      "name": "Liputan6 – News",
+      "url": "https://feed.liputan6.com/rss/news",
+      "category": "nasional",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://www.liputan6.com"
+    },
+    {
+      "id": "tempo-nasional",
+      "name": "Tempo – Nasional",
+      "url": "http://rss.tempo.co/nasional",
+      "category": "nasional",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://www.tempo.co"
+    },
+    {
+      "id": "tempo-bisnis",
+      "name": "Tempo – Bisnis",
+      "url": "http://rss.tempo.co/bisnis",
+      "category": "ekonomi",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://www.tempo.co"
+    },
+    {
+      "id": "cnn-indo-ekonomi",
+      "name": "CNN Indonesia – Ekonomi",
+      "url": "https://www.cnnindonesia.com/ekonomi/rss",
+      "category": "ekonomi",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://www.cnnindonesia.com"
+    },
+    {
+      "id": "cnn-indo-nasional",
+      "name": "CNN Indonesia – Nasional",
+      "url": "https://www.cnnindonesia.com/nasional/rss",
+      "category": "nasional",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://www.cnnindonesia.com"
+    },
+    {
+      "id": "cnbc-news",
+      "name": "CNBC Indonesia – News",
+      "url": "https://www.cnbcindonesia.com/news/rss",
+      "category": "ekonomi",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://www.cnbcindonesia.com"
+    },
+    {
+      "id": "cnbc-market",
+      "name": "CNBC Indonesia – Market",
+      "url": "https://www.cnbcindonesia.com/market/rss/",
+      "category": "ekonomi",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://www.cnbcindonesia.com/market/"
+    },
+    {
+      "id": "republika",
+      "name": "Republika Online",
+      "url": "https://www.republika.co.id/rss",
+      "category": "nasional",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://www.republika.co.id"
+    },
+    {
+      "id": "mediaindonesia",
+      "name": "Media Indonesia",
+      "url": "https://mediaindonesia.com/feed",
+      "category": "nasional",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://mediaindonesia.com"
+    },
+    {
+      "id": "jawapos-nasional",
+      "name": "JawaPos – Nasional",
+      "url": "https://www.jawapos.com/nasional/rss",
+      "category": "nasional",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://www.jawapos.com"
+    },
+    {
+      "id": "jawapos-ekonomi",
+      "name": "JawaPos – Ekonomi",
+      "url": "https://www.jawapos.com/ekonomi/rss",
+      "category": "ekonomi",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://www.jawapos.com"
+    },
+    {
+      "id": "kumparan",
+      "name": "Kumparan",
+      "url": "https://lapi.kumparan.com/v2.0/rss/",
+      "category": "nasional",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://kumparan.com"
+    },
+    {
+      "id": "tirto-sitemap",
+      "name": "Tirto (Google Discover Sitemap)",
+      "url": "https://tirto.id/sitemap/r/google-discover",
+      "type": "sitemap",
+      "category": "nasional",
+      "lang": "id",
+      "country": "ID",
+      "homepage": "https://tirto.id"
+    }
+  ]
+}
