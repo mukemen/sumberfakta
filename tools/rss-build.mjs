@@ -1,125 +1,205 @@
 // tools/rss-build.mjs
+// Build news.json from feeds.json
+// Node >=18 (top-level await OK)
+
 import fs from "fs";
-const Parser = (await import("rss-parser")).default;
+import Parser from "rss-parser";
 
-// === Konfigurasi ===
-const MIN_ITEMS = 10;          // kalau < ini → gabung dengan news.json lama
-const LIMIT_OUTPUT = 200;      // maksimal item disimpan
-const TIMEOUT_MS = 15000;      // timeout fetch RSS
-const MAX_OG_FETCH = 20;       // maksimal artikel yang dicari og:image
+// ====== Konfigurasi umum ======
+const LIMIT_OUTPUT = 200;    // simpan maksimal item
+const MIN_ITEMS    = 10;     // kalau kurang dari ini → tambahkan dari news.json lama
+const MAX_HTML_IMG_SNIFF = 1; // cari <img> pertama di konten (0 = matikan)
+const USER_AGENT = "SumberFaktaBot/1.0 (+https://mukemen.github.io/sumberfakta/)";
 
-const parser = new Parser({ timeout: TIMEOUT_MS });
+// rss-parser instance (tambahkan UA supaya beberapa situs tidak blok)
+const parser = new Parser({
+  headers: { "User-Agent": USER_AGENT }
+});
 
-function safeJSON(path, fallback) {
-  try { return JSON.parse(fs.readFileSync(path, "utf8")); }
-  catch { return fallback; }
+// ====== Util JSON aman ======
+function readJSON(path, fallback = null) {
+  try {
+    return JSON.parse(fs.readFileSync(path, "utf8"));
+  } catch {
+    return fallback;
+  }
 }
-function normCat(x="") {
-  const m = { nasional:"nasional", politik:"politik", sport:"sport", olahraga:"sport",
-    entertainment:"entertainment", hiburan:"entertainment", hobi:"hobi",
-    movie:"movie", film:"movie", music:"music", musik:"music",
-    bisnis:"bisnis", ekonomi:"bisnis", tekno:"tekno", teknologi:"tekno", dunia:"dunia" };
-  const k = (x||"").toLowerCase(); return m[k] || "dunia";
+function writeJSON(path, data) {
+  fs.writeFileSync(path, JSON.stringify(data, null, 2), "utf8");
 }
-function firstImgFromHTML(html="") {
-  const m = html.match(/<img[^>]+src=["']([^"']+)["']/i);
+
+// ====== Memuat daftar feed dari feeds.json ======
+function loadFeeds() {
+  // bisa dari root atau /data
+  const candidates = ["feeds.json", "data/feeds.json"];
+  for (const p of candidates) {
+    const j = readJSON(p, null);
+    if (Array.isArray(j)) return j;
+    if (j && Array.isArray(j.feeds)) return j.feeds;
+  }
+  return [];
+}
+
+// ====== Normalisasi kategori (opsional mapping sinonim) ======
+function normCat(x = "") {
+  const map = {
+    nasional: "nasional",
+    politik: "politik",
+    dunia: "dunia",
+    world: "dunia",
+
+    sport: "sport",
+    olahraga: "sport",
+    sports: "sport",
+
+    bisnis: "bisnis",
+    ekonomi: "bisnis",
+    business: "bisnis",
+
+    tekno: "tekno",
+    teknologi: "tekno",
+    technology: "tekno",
+    tech: "tekno",
+
+    hiburan: "entertainment",
+    entertainment: "entertainment",
+
+    music: "music",
+    musik: "music",
+
+    movie: "movie",
+    film: "movie",
+
+    hobi: "hobi"
+  };
+  const k = (x || "").toString().toLowerCase().trim();
+  return map[k] || (k || "nasional");
+}
+
+// ====== Ekstraksi gambar ======
+function firstImgFromHTML(html = "") {
+  if (!MAX_HTML_IMG_SNIFF) return null;
+  const m = /<img[^>]+src=["']([^"']+)["']/i.exec(html);
   return m ? m[1] : null;
-}
-function cleanUrl(u="") {
-  try { const url = new URL(u); url.hash = ""; return url.toString(); }
-  catch { return u; }
 }
 function pickImage(e) {
   return (
     e.enclosure?.url ||
+    e.enclosure?.link ||
     e["media:content"]?.url ||
     e["media:thumbnail"]?.url ||
     e.thumbnail ||
-    firstImgFromHTML(e["content:encoded"] || e.content) ||
+    firstImgFromHTML(e["content:encoded"] || e.content || e.description) ||
     null
   );
 }
+function cleanUrl(u = "") {
+  try {
+    const url = new URL(u);
+    url.hash = "";
+    return url.toString();
+  } catch {
+    return u;
+  }
+}
 
-function toItem(feed, e, i) {
-  const d = e.isoDate || e.pubDate || new Date().toISOString();
-  const title = (e.title || "").toString().trim();
-  const link = cleanUrl((e.link || "#").toString().trim());
-  const img  = pickImage(e);
-  const summary = (e.contentSnippet || e.content || "").toString().replace(/\s+/g, " ").trim();
+// ====== Format item standar ======
+function toItem(feed, entry, i) {
+  const d =
+    entry.isoDate ||
+    entry.pubDate ||
+    entry.pubdate ||
+    entry.date ||
+    new Date().toISOString();
+
+  const title = (entry.title || "").toString().trim();
+  const link = cleanUrl((entry.link || "").toString().trim());
+  const image = pickImage(entry);
+  const summary = (entry.contentSnippet || entry.content || entry.description || "")
+    .toString()
+    .replace(/\s+/g, " ")
+    .trim();
 
   return {
     id: `${feed.name}-${i}-${Date.parse(d) || Date.now()}`,
-    title, link,
+    title,
+    link,
     publishedAt: new Date(d).toISOString(),
     source: feed.name,
     category: normCat(feed.category),
-    image: img || null,
+    image: image || null,
     summary: summary || null
   };
 }
 
+// ====== Ambil satu feed ======
 async function fetchFeed(feed) {
   try {
     const res = await parser.parseURL(feed.url);
-    return (res.items || []).map((e,i)=>toItem(feed,e,i));
+    const items = (res.items || []).map((e, i) => toItem(feed, e, i));
+    console.log(`✔ ${feed.name} — ${items.length} item`);
+    return items;
   } catch (err) {
-    console.error("ERR feed", feed.url, err?.message || err);
+    console.error(`✖ ${feed.name} (${feed.url}) — ${err?.message || err}`);
     return [];
   }
 }
 
+// ====== De-dupe by link/title + sort terbaru ======
 function dedupSort(items) {
-  const seen = new Set(), out = [];
+  const seen = new Set();
+  const out = [];
   for (const it of items) {
-    const k = String(it.link || it.title).toLowerCase();
-    if (!seen.has(k)) { seen.add(k); out.push(it); }
+    const k = (it.link || it.title || "").toLowerCase();
+    if (!k) continue;
+    if (!seen.has(k)) {
+      seen.add(k);
+      out.push(it);
+    }
   }
-  out.sort((a,b)=>+new Date(b.publishedAt)-+new Date(a.publishedAt));
+  out.sort(
+    (a, b) => +new Date(b.publishedAt || 0) - +new Date(a.publishedAt || 0)
+  );
   return out.slice(0, LIMIT_OUTPUT);
 }
 
-// Ambil og:image untuk beberapa item yang belum punya gambar
-async function enrichOgImages(items) {
-  let count = 0;
-  const controller = ms => {
-    const c = new AbortController(); setTimeout(()=>c.abort(), ms); return c;
-  };
-  for (const it of items) {
-    if (count >= MAX_OG_FETCH) break;
-    if (it.image) continue;
-    try {
-      const res = await fetch(it.link, {
-        redirect: "follow",
-        headers: { "User-Agent": "Mozilla/5.0 (NewsBot/1.0)" },
-        signal: controller(8000).signal
-      });
-      const html = await res.text();
-      const m = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i)
-            || html.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i);
-      if (m?.[1]) { it.image = m[1]; count++; }
-    } catch {}
+// ====== Main ======
+const FEEDS = loadFeeds();
+if (!FEEDS.length) {
+  console.error(
+    "feeds.json kosong / tidak ditemukan. Taruh di root repo atau data/feeds.json"
+  );
+  process.exit(3);
+}
+console.log(`Memuat ${FEEDS.length} feed dari feeds.json ...`);
+
+const results = await Promise.allSettled(FEEDS.map(fetchFeed));
+let items = results.flatMap((r) => (r.status === "fulfilled" ? r.value : []));
+items = dedupSort(items);
+
+// Fallback: kalau terlalu sedikit, gabungkan dengan news.json lama
+if (items.length < MIN_ITEMS) {
+  console.warn(
+    `Hasil baru hanya ${items.length} (< ${MIN_ITEMS}). Tambah dari news.json lama.`
+  );
+  const prev = readJSON("news.json", null);
+  if (prev && Array.isArray(prev.items)) {
+    items = dedupSort([...items, ...prev.items]);
   }
 }
 
-const FEEDS = safeJSON("feeds.json", []);
-if (!FEEDS.length) { console.error("feeds.json kosong!"); process.exit(3); }
-
-const results = await Promise.allSettled(FEEDS.map(fetchFeed));
-let items = results.flatMap(r => r.status==="fulfilled" ? r.value : []);
-const custom = safeJSON("data/custom.json", []);
-items = dedupSort([...items, ...custom]);
-
-// perkaya dengan og:image jika belum ada
-await enrichOgImages(items);
-
-// fallback bila terlalu sedikit
-if (items.length < MIN_ITEMS) {
-  console.warn(`Hasil baru hanya ${items.length} (<${MIN_ITEMS}). Tambah dari news.json lama.`);
-  const prev = safeJSON("news.json", null);
-  if (prev?.items?.length) items = dedupSort([...items, ...prev.items]);
+// Simpan backup & tulis news.json
+try {
+  const prevRaw = fs.readFileSync("news.json");
+  fs.mkdirSync("data", { recursive: true });
+  fs.writeFileSync("data/news_prev.json", prevRaw);
+} catch {
+  // abaikan jika belum ada
 }
 
-// backup & tulis
-try { fs.writeFileSync("data/news_prev.json", fs.readFileSync("news.json")); } catch {}
-fs.writeFileSync("news.json", JSON.stringify({ generatedAt:new Date().toISOString(), items }, null, 2), "utf8");
-console.log("Generated news.json with", items.length, "items from", FEEDS.length, "feeds");
+const out = { generatedAt: new Date().toISOString(), items };
+writeJSON("news.json", out);
+
+console.log(
+  `✔ Generated news.json dengan ${items.length} artikel dari ${FEEDS.length} feed`
+);
