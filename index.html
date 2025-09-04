@@ -117,7 +117,9 @@
 /* ========= KONFIGURASI ========= */
 const RAW_URL = "https://raw.githubusercontent.com/mukemen/sumberfakta/main/news.json";
 const IS_VERCEL = location.hostname.endsWith(".vercel.app"); // di Vercel prefer RAW
-const CATS = ["semua","politik","sport","entertainment","hobi","movie","music","bisnis","tekno","dunia"];
+// >>> Tambahkan "nasional" di UI:
+const CATS = ["semua","nasional","politik","sport","entertainment","hobi","movie","music","bisnis","tekno","dunia"];
+
 const state = { cat:"semua", items:[], generatedAt:null, page:1, pageSize:12, keyword:"" };
 
 /* ========= UTIL ========= */
@@ -166,7 +168,7 @@ function renderCats(){
 /* ========= FILTER ========= */
 function filtered(){
   let list = [...state.items];
-  if (state.cat!=="semua") list = list.filter(i=>i.category===state.cat);
+  if (state.cat!=="semua") list = list.filter(i=>(i.category||"").toLowerCase()===state.cat);
   if (state.keyword) {
     const k = state.keyword.toLowerCase();
     list = list.filter(i=>(i.title||"").toLowerCase().includes(k) || (i.summary||"").toLowerCase().includes(k) || (i.source||"").toLowerCase().includes(k));
@@ -189,7 +191,7 @@ function renderHero(list){
       <div class="h-40 sm:h-56 hero-img ${idx===0?'lg:col-span-2':''}" ${img}></div>
       <div class="p-4 sm:p-5 space-y-2">
         <div class="text-xs text-slate-500 flex items-center gap-2">
-          <span class="px-2 py-0.5 rounded-full bg-slate-100 border">${it.category || "umum"}</span>
+          <span class="px-2 py-0.5 rounded-full bg-slate-100 border">${(it.category||"umum")}</span>
           <span>${it.source||""}</span>
           <span>•</span>
           <time>${fmtTime(it.publishedAt)}</time>
@@ -214,7 +216,7 @@ function renderGrid(){
       ${it.image?`<img src="${it.image}" alt="${it.title}" class="h-40 w-full object-cover" loading="lazy">`:`<div class="h-2 bg-gradient-to-r from-slate-100 to-slate-200"></div>`}
       <div class="p-4 space-y-2">
         <div class="text-xs text-slate-500 flex items-center gap-2">
-          <span class="px-2 py-0.5 rounded-full bg-slate-100 border">${it.category || "umum"}</span>
+          <span class="px-2 py-0.5 rounded-full bg-slate-100 border">${(it.category||"umum")}</span>
           <span class="truncate">${it.source||""}</span>
         </div>
         <h3 class="font-semibold leading-snug">${it.title}</h3>
