@@ -1,18 +1,778 @@
 {
-  "generatedAt": "2025-09-04T20:47:03.135Z",
+  "generatedAt": "2025-09-05T03:01:51.046Z",
   "items": [
     {
-      "id": "ANTARA – Terkini-0-1757018221000",
-      "title": "Basarnas temukan kotak hitam helikopter yang jatuh di hutan Kalsel",
-      "link": "https://www.antaranews.com/berita/5088709/basarnas-temukan-kotak-hitam-helikopter-yang-jatuh-di-hutan-kalsel",
-      "publishedAt": "2025-09-04T20:37:01.000Z",
+      "id": "ANTARA – Terkini-0-1757041128000",
+      "title": "Uruguay lolos Piala Dunia 2026 setelah menang telak 3-0 atas Peru",
+      "link": "https://www.antaranews.com/berita/5088957/uruguay-lolos-piala-dunia-2026-setelah-menang-telak-3-0-atas-peru",
+      "publishedAt": "2025-09-05T02:58:48.000Z",
       "source": "ANTARA – Terkini",
       "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/IMG_0106.jpeg",
-      "summary": "Badan Nasional Pencarian dan Pertolongan (Basarnas) menemukan kotak hitam atau black box pada Helikopter BK117 D3 milik ..."
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/1000017788.jpg",
+      "summary": "Timnas Uruguay meraih kemenangan kedua secara beruntun di lanjutan Kualifikasi Piala Dunia 2026 zona CONMEBOL dengan ..."
     },
     {
-      "id": "Detik – Berita-0-1757018166000",
+      "id": "ANTARA – Terkini-1-1757040994000",
+      "title": "Lightsaber Darth Vader siap dilelang, nilai jual hampir Rp50 miliar",
+      "link": "https://www.antaranews.com/berita/5088953/lightsaber-darth-vader-siap-dilelang-nilai-jual-hampir-rp50-miliar",
+      "publishedAt": "2025-09-05T02:56:34.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/InShot_20250905_092648497.jpg",
+      "summary": "Pedang properti Lightsaber Darth Vader dari film ikonik \"Star Wars: The Empire Strikes Back\" (1980) dan ..."
+    },
+    {
+      "id": "ANTARA – Terkini-2-1757040894000",
+      "title": "Peringatan Maulid Nabi momentum teladani akhlak Rasulullah SAW",
+      "link": "https://www.antaranews.com/berita/5088949/peringatan-maulid-nabi-momentum-teladani-akhlak-rasulullah-saw",
+      "publishedAt": "2025-09-05T02:54:54.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/InShot_20250905_092435446.jpg",
+      "summary": "Kantor Wilayah (Kanwil) Kementerian Agama (Kemenag) DKI Jakarta mengajak warga muslim di Jakarta agar ..."
+    },
+    {
+      "id": "ANTARA – Terkini-3-1757040612000",
+      "title": "Rasa kehilangan para bintang atas meninggalnya Giorgio Armani",
+      "link": "https://www.antaranews.com/berita/5088945/rasa-kehilangan-para-bintang-atas-meninggalnya-giorgio-armani",
+      "publishedAt": "2025-09-05T02:50:12.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/5b8d0c1b-3ccc-4416-b7da-37ee6e2111ba.jpeg",
+      "summary": "Dunia fesyen dan hiburan sedang berduka atas kehilangan ikon dan legenda mode dunia Giorgio Armani yang tutup usia ..."
+    },
+    {
+      "id": "Detik – Berita-0-1757040589000",
+      "title": "Ucapan Nadiem soal Tuhan Melindungi saat Resmi Jadi Tahanan",
+      "link": "https://news.detik.com/berita/d-8097334/ucapan-nadiem-soal-tuhan-melindungi-saat-resmi-jadi-tahanan",
+      "publishedAt": "2025-09-05T02:49:49.000Z",
+      "source": "Detik – Berita",
+      "category": "nasional",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/04/nadiem-makarim-ditahan-kejagung-1756979651374_169.jpeg?w=360&q=90",
+      "summary": "Eks Mendikbudristek, Nadiem Makarim, ditetapkan tersangka di kasus korupsi pengadaan laptop Chromebook di Kemdikbudristek. Ia mengaku tak melakukan apa pun."
+    },
+    {
+      "id": "Detik – Berita-1-1757040524000",
+      "title": "Kemensos Beri Bansos Sembako ke Tetangga Driver Ojol Affan Kurniawan",
+      "link": "https://news.detik.com/berita/d-8097331/kemensos-beri-bansos-sembako-ke-tetangga-driver-ojol-affan-kurniawan",
+      "publishedAt": "2025-09-05T02:48:44.000Z",
+      "source": "Detik – Berita",
+      "category": "nasional",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/05/kemensos-1757040470356_169.jpeg?w=360&q=90",
+      "summary": "Kemensos berikan bantuan sosial untuk 200 warga dan keluarga almarhum Affan Kurniawan, pengemudi ojek online yang meninggal saat aksi demonstrasi."
+    },
+    {
+      "id": "ANTARA – Terkini-4-1757040055000",
+      "title": "Messi cetak brace, Argentina libas Venezuela 3-0",
+      "link": "https://www.antaranews.com/berita/5088941/messi-cetak-brace-argentina-libas-venezuela-3-0",
+      "publishedAt": "2025-09-05T02:40:55.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/1000017786.jpg",
+      "summary": "Timnas Argentina meraih kemenangan telak 3-0 atas Venezuela dalam laga Kualifikasi Piala Dunia 2026 zona CONMEBOL yang ..."
+    },
+    {
+      "id": "ANTARA – Terkini-5-1757040010000",
+      "title": "Threads kini bisa lampirkan konten teks hingga 10.000 karakter",
+      "link": "https://www.antaranews.com/berita/5088937/threads-kini-bisa-lampirkan-konten-teks-hingga-10000-karakter",
+      "publishedAt": "2025-09-05T02:40:10.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/InShot_20250905_090452045.jpg",
+      "summary": "Perusahaan teknologi Meta baru saja menambahkan fitur menarik ke salah satu platform jejaring sosial miliknya yaitu ..."
+    },
+    {
+      "id": "ANTARA – Terkini-6-1757039899000",
+      "title": "Maulid Nabi dan etika menyampaikan aspirasi",
+      "link": "https://www.antaranews.com/berita/5088933/maulid-nabi-dan-etika-menyampaikan-aspirasi",
+      "publishedAt": "2025-09-05T02:38:19.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/peringatan-maulid-nabi-muhammad-saw-di-masjid-istiqlal-1k2xh-dom.jpg",
+      "summary": "Peringatan Maulid Nabi Muhammad SAW setiap tahun selalu membawa nuansa religius dan kebersamaan. Di berbagai daerah, ..."
+    },
+    {
+      "id": "ANTARA – Terkini-7-1757039790000",
+      "title": "Fitur XChat kini bisa digunakan tanpa berlangganan X Premium",
+      "link": "https://www.antaranews.com/berita/5088929/fitur-xchat-kini-bisa-digunakan-tanpa-berlangganan-x-premium",
+      "publishedAt": "2025-09-05T02:36:30.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/logo-x.jpg",
+      "summary": "Platform media sosial X mulai memperluas ketersediaan fitur pesan langsung terenkripsi bernama XChat yang kini dapat ..."
+    },
+    {
+      "id": "ANTARA – Terkini-8-1757039438000",
+      "title": "Harga cabai rawit merah di Jakarta turun menjadi Rp40 ribu per kg",
+      "link": "https://www.antaranews.com/berita/5088925/harga-cabai-rawit-merah-di-jakarta-turun-menjadi-rp40-ribu-per-kg",
+      "publishedAt": "2025-09-05T02:30:38.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/08/20/antarafoto-harga-cabai-kembali-naik-21052024-mrh-1.jpg",
+      "summary": "Harga rata-rata sejumlah komoditas strategis di DKI Jakarta pada Jumat (5/9) pagi mengalami penurunan, salah satunya ..."
+    },
+    {
+      "id": "ANTARA – Terkini-9-1757039437000",
+      "title": "Dokter: Waspada cacingan ganggu pertumbuhan dan kecerdasan anak",
+      "link": "https://www.antaranews.com/berita/5088921/dokter-waspada-cacingan-ganggu-pertumbuhan-dan-kecerdasan-anak",
+      "publishedAt": "2025-09-05T02:30:37.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/pemberian-obat-cacing.jpeg",
+      "summary": "Dokter Spesialis Anak Eka Hospital Permata Hijau Jeannie Flynn mengatakan dampak seorang cacingan dapat berpengaruh ..."
+    },
+    {
+      "id": "Detik – Berita-2-1757039362000",
+      "title": "Upaya Jasa Marga Hadirkan Layanan Berkelanjutan bagi Pengguna Jalan Tol",
+      "link": "https://news.detik.com/berita/d-8097310/upaya-jasa-marga-hadirkan-layanan-berkelanjutan-bagi-pengguna-jalan-tol",
+      "publishedAt": "2025-09-05T02:29:22.000Z",
+      "source": "Detik – Berita",
+      "category": "nasional",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/05/jasa-marga-1757039100224.jpeg?w=360&q=90",
+      "summary": "Direktur Utama PT Jasa Marga (Persero) Tbk. Rivan Achmad Purwantono menyampaikan apresiasi terhadap pengguna jalan tol Jasa Marga Group."
+    },
+    {
+      "id": "ANTARA – Terkini-10-1757039282000",
+      "title": "LKBN ANTARA: Menyeimbangkan peran \"flag carrier\" jurnalisme Indonesia",
+      "link": "https://www.antaranews.com/berita/5088917/lkbn-antara-menyeimbangkan-peran-flag-carrier-jurnalisme-indonesia",
+      "publishedAt": "2025-09-05T02:28:02.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/raker-komisi-vii-dpr-bahas-rkakl-2026-2616333.jpg",
+      "summary": "Industri media menghadapi tantangan besar. Arus informasi kian deras, media dalam jaringan (daring) swasta tumbuh ..."
+    },
+    {
+      "id": "ANTARA – Terkini-11-1757037982000",
+      "title": "Pelabuhan Erenhot catat lonjakan lalu lintas di perbatasan Mongolia",
+      "link": "https://www.antaranews.com/berita/5088913/pelabuhan-erenhot-catat-lonjakan-lalu-lintas-di-perbatasan-mongolia",
+      "publishedAt": "2025-09-05T02:06:22.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/CjkinzN000001_20250905_CBMFN0A001.jpg",
+      "summary": "Erenhot, pelabuhan darat terbesar di perbatasan China-Mongolia, merupakan titik masuk-keluar yang sangat penting untuk ..."
+    },
+    {
+      "id": "ANTARA – Terkini-12-1757037889000",
+      "title": "PERSI gelar seminar, bahas tantangan RS dan keselamatan pasien",
+      "link": "https://www.antaranews.com/berita/5088909/persi-gelar-seminar-bahas-tantangan-rs-dan-keselamatan-pasien",
+      "publishedAt": "2025-09-05T02:04:49.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/1000335088.jpg",
+      "summary": "Perhimpunan Rumah Sakit Seluruh Indonesia (PERSI) kembali menyelenggarakan rangkaian Seminar Nasional pada 25–28 ..."
+    },
+    {
+      "id": "ANTARA – Terkini-13-1757037782000",
+      "title": "ITDC perbanyak event di Sirkuit Mandalika menciptakan dampak ekonomi",
+      "link": "https://www.antaranews.com/berita/5088905/itdc-perbanyak-event-di-sirkuit-mandalika-menciptakan-dampak-ekonomi",
+      "publishedAt": "2025-09-05T02:03:02.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/IMG_20250905_085154.jpg",
+      "summary": "InJourney Tourism Development Corporation (ITDC) menggelar beragam event di Sirkuit Pertamina Mandalika, Nusa Tenggara ..."
+    },
+    {
+      "id": "ANTARA – Terkini-14-1757037759000",
+      "title": "Danantara perlu dorong Indonesia jadi pemain strategis di kancah dunia",
+      "link": "https://www.antaranews.com/berita/5088901/danantara-perlu-dorong-indonesia-jadi-pemain-strategis-di-kancah-dunia",
+      "publishedAt": "2025-09-05T02:02:39.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2024/05/30/Screenshot_20240530_211929_Photos.jpg",
+      "summary": "Menteri Perdagangan periode 2011-2014 yang juga pengusaha nasional Gita Wirjawan menekankan pentingnya peran yang ..."
+    },
+    {
+      "id": "ANTARA – Terkini-15-1757037600000",
+      "title": "Delapan startup Indonesia di Forbes Asia 100",
+      "link": "https://www.antaranews.com/infografik/5087829/delapan-startup-indonesia-di-forbes-asia-100",
+      "publishedAt": "2025-09-05T02:00:00.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/20250904-8-startup-Indonesia-di-Forbes-Asia-100.jpg",
+      "summary": "Sebanyak delapan startup Indonesia masuk dalam jajaran perusahaan rintisan kecil hingga menengah yang inovatif dan ..."
+    },
+    {
+      "id": "ANTARA – Terkini-16-1757037412000",
+      "title": "Pertamina tambah 173 ribu tabung LPG subsidi periode libur di Bali",
+      "link": "https://www.antaranews.com/berita/5088897/pertamina-tambah-173-ribu-tabung-lpg-subsidi-periode-libur-di-bali",
+      "publishedAt": "2025-09-05T01:56:52.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/IMG_20250905_092525.jpg",
+      "summary": "PT Pertamina Patra Niaga menambah 173 ribu tabung liquefied petroleum gas (LPG) subsidi ukuran 3 kg untuk ..."
+    },
+    {
+      "id": "ANTARA – Terkini-17-1757037326000",
+      "title": "Xi Jinping gelar pertemuan dengan Presiden Vietnam di Beijing",
+      "link": "https://www.antaranews.com/berita/5088893/xi-jinping-gelar-pertemuan-dengan-presiden-vietnam-di-beijing",
+      "publishedAt": "2025-09-05T01:55:26.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/CjkinzN000037_20250904_CBMFN0A001.jpg",
+      "summary": "Presiden China Xi Jinping menggelar pertemuan dengan Presiden Vietnam Luong Cuong di Beijing pada Kamis (4/9), lapor ..."
+    },
+    {
+      "id": "ANTARA – Terkini-18-1757037161000",
+      "title": "Kemenko PM gandeng OMS rancang aturan baru pelindungan pekerja migran",
+      "link": "https://www.antaranews.com/berita/5088889/kemenko-pm-gandeng-oms-rancang-aturan-baru-pelindungan-pekerja-migran",
+      "publishedAt": "2025-09-05T01:52:41.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/IMG-20250905-WA0002.jpg",
+      "summary": "Kementerian Koordinator Bidang Pemberdayaan Masyarakat (Kemenko PM) mengumpulkan belasan Organisasi Masyarakat Sipil ..."
+    },
+    {
+      "id": "ANTARA – Terkini-19-1757037132000",
+      "title": "Alcaraz ingin balas dendam ke Djokovic di semifinal US Open",
+      "link": "https://www.antaranews.com/berita/5088885/alcaraz-ingin-balas-dendam-ke-djokovic-di-semifinal-us-open",
+      "publishedAt": "2025-09-05T01:52:12.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/03/Gz5HDMIWsAIk8om.jpg",
+      "summary": "Carlos Alcaraz ingin membalas dendam kekalahan dari Novak Djokovic dalam dua pertemuan sebelumnya pada semifinal US ..."
+    },
+    {
+      "id": "Detik – Berita-3-1757036895000",
+      "title": "Legislator PKB Dukung DPR Tindak Lanjuti 17+8 Tuntutan Rakyat",
+      "link": "https://news.detik.com/berita/d-8097248/legislator-pkb-dukung-dpr-tindak-lanjuti-17-8-tuntutan-rakyat",
+      "publishedAt": "2025-09-05T01:48:15.000Z",
+      "source": "Detik – Berita",
+      "category": "nasional",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2023/12/22/ketua-dpp-pkb-daniel-johan-tangkapan-layar_169.jpeg?w=360&q=90",
+      "summary": "DPR RI menerima tuntutan rakyat '17+8' yang viral. PKB apresiasi audiensi dan dorong reformasi, keadilan, serta penanganan demonstrasi yang lebih humanis."
+    },
+    {
+      "id": "ANTARA – Terkini-20-1757036864000",
+      "title": "BPH Migas gelar sosialisasi tata cara pemeriksaan PNBP",
+      "link": "https://www.antaranews.com/berita/5088881/bph-migas-gelar-sosialisasi-tata-cara-pemeriksaan-pnbp",
+      "publishedAt": "2025-09-05T01:47:44.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/1000196170.jpg",
+      "summary": "Badan Pengatur Hilir Minyak dan Gas Bumi (BPH Migas) menggelar kegiatan sosialisasi mengenai Peraturan Pemerintah Nomor ..."
+    },
+    {
+      "id": "ANTARA – Terkini-21-1757036696000",
+      "title": "Jenazah korban kecelakaan helikopter Eastindo Air dibawa ke RS Bhayangkara Banjarmasin",
+      "link": "https://www.antaranews.com/foto/5088877/jenazah-korban-kecelakaan-helikopter-eastindo-air-dibawa-ke-rs-bhayangkara-banjarmasin",
+      "publishedAt": "2025-09-05T01:44:56.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/evakuasi-jenazah-korban-helikopter-040925-suj-sgd-3.jpg",
+      "summary": "Petugas SAR gabungan mengevakuasi kantong berisi jenazah korban kecelakaan helikopter BK117 D3 milik Eastindo Air di ..."
+    },
+    {
+      "id": "Liputan6 – News-2-1757036560000",
+      "title": "Curahan Hati Bripka Rohmad Pecahkan Keheningan Ruang Sidang",
+      "link": "https://www.liputan6.com/news/read/6151596/curahan-hati-bripka-rohmad-pecahkan-keheningan-ruang-sidang",
+      "publishedAt": "2025-09-05T01:42:40.000Z",
+      "source": "Liputan6 – News",
+      "category": "nasional",
+      "image": "https://cdn1-production-images-kly.akamaized.net/vMnJp52HxBFih8AiLQvvdF9WfFA=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5338962/original/083389700_1756993755-e51db9f0-fd19-492a-9e59-0011ab4c8c8b.jpg",
+      "summary": "Bripka Rohmad mencurahkan isi hatinya saat diberi kesempatan berbicara di sidang Kode Etik Polri. Ia menyinggung soal keluarganya dan juga pengabdiannya selama 28 tahun di Polri."
+    },
+    {
+      "id": "ANTARA – Terkini-22-1757036483000",
+      "title": "Google tambah fitur terjemahan berkelanjutan di Circle to Search",
+      "link": "https://www.antaranews.com/berita/5088873/google-tambah-fitur-terjemahan-berkelanjutan-di-circle-to-search",
+      "publishedAt": "2025-09-05T01:41:23.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2024/05/09/IMG_0011.jpeg",
+      "summary": "Google menghadirkan peningkatan pada fitur penerjemahan di Circle to Search di mana kini pengguna bisa melihat ..."
+    },
+    {
+      "id": "ANTARA – Terkini-23-1757036150000",
+      "title": "BULOG pastikan kualitas stok beras nasional tetap terjaga",
+      "link": "https://www.antaranews.com/berita/5088869/bulog-pastikan-kualitas-stok-beras-nasional-tetap-terjaga",
+      "publishedAt": "2025-09-05T01:35:50.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/WhatsApp-Image-2025-09-05-at-08.25.02.jpeg",
+      "summary": "Jakarta (ANTARA) – Menyikapi pemberitaan yang beredar mengenai kualitas beras BULOG, Perum BULOG memberikan ..."
+    },
+    {
+      "id": "ANTARA – Terkini-24-1757036134000",
+      "title": "Harga emas Antam, UBS, dan Galeri24 di Pegadaian lanjut tren kenaikan",
+      "link": "https://www.antaranews.com/berita/5088865/harga-emas-antam-ubs-dan-galeri24-di-pegadaian-lanjut-tren-kenaikan",
+      "publishedAt": "2025-09-05T01:35:34.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/harga-emas-antam-cetak-rekor-tertinggi-2616017.jpg",
+      "summary": "Harga emas, yang dikutip dari laman resmi Pegadaian, Jumat, menunjukkan kelanjutan tren peningkatan harga produk logam ..."
+    },
+    {
+      "id": "ANTARA – Terkini-25-1757035909000",
+      "title": "Kemarin, emas kompak lampaui Rp2 juta per gram hingga pembiayaan KDMP",
+      "link": "https://www.antaranews.com/berita/5088861/kemarin-emas-kompak-lampaui-rp2-juta-per-gram-hingga-pembiayaan-kdmp",
+      "publishedAt": "2025-09-05T01:31:49.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/08/27/WhatsApp-Image-2025-08-25-at-19.23.32.jpeg",
+      "summary": "Beragam peristiwa bidang ekonomi terjadi pada Kamis (4/9/2025), mulai dari Emas Antam-UBS-Galeri24 di Pegadaian kompak ..."
+    },
+    {
+      "id": "Detik – Berita-4-1757035859000",
+      "title": "Adhyaksa Awards 2025 Siap Digelar, Jejak Jaksa Jadi Rujukan Penilaian",
+      "link": "https://news.detik.com/berita/d-8093738/adhyaksa-awards-2025-siap-digelar-jejak-jaksa-jadi-rujukan-penilaian",
+      "publishedAt": "2025-09-05T01:30:59.000Z",
+      "source": "Detik – Berita",
+      "category": "nasional",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2024/07/05/ct-berikan-penghargaan-khusus-untuk-jaksa-agung-burhanudin-6.jpeg?w=360&q=90",
+      "summary": "Adhyaksa Awards 2025 siap digelar sebagai bentuk apresiasi terhadap jaksa yang berintegritas, inovatif, serta berdedikasi bagi masyarakat."
+    },
+    {
+      "id": "Detik – Berita-5-1757035805000",
+      "title": "Janji DPRD DKI Evaluasi Tunjangan Puluhan Juta Usai Terima Massa Aksi",
+      "link": "https://news.detik.com/berita/d-8097231/janji-dprd-dki-evaluasi-tunjangan-puluhan-juta-usai-terima-massa-aksi",
+      "publishedAt": "2025-09-05T01:30:05.000Z",
+      "source": "Detik – Berita",
+      "category": "nasional",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2021/01/04/gedung-dprd-dki-jakarta-4_169.jpeg?w=360&q=90",
+      "summary": "Tunjangan hingga gaji anggota DPRD DKI jadi sorotan. DPRD DKI janji akan mengevaluasi tunjangan puluhan juta yang diterima anggota dewan Kebon Sirih."
+    },
+    {
+      "id": "Liputan6 – News-3-1757035804000",
+      "title": "Top 3 News: Duit Judi Online Kamboja di Tengah Operasi Udara Provokasi Demo",
+      "link": "https://www.liputan6.com/news/read/6151523/top-3-news-duit-judi-online-kamboja-di-tengah-operasi-udara-provokasi-demo",
+      "publishedAt": "2025-09-05T01:30:04.000Z",
+      "source": "Liputan6 – News",
+      "category": "nasional",
+      "image": "https://cdn0-production-images-kly.akamaized.net/alC_6yZVu3nBB7OtDSBQ2mLLl-8=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5331977/original/026058500_1756453654-bang1.jpg",
+      "summary": "Massa menyemut di flyover Senen, Jakarta Pusat, Jumat 29 Agustus 2025. Mereka mau melakukan aksi demo di Mako Brimob, Kwitang usai Affan Kurniawan meninggal dunia dilindas mobil rantis. Itulah top 3 news hari ini."
+    },
+    {
+      "id": "ANTARA – Terkini-26-1757035759000",
+      "title": "Pajak SST 6% di Malaysia Tak Redupkan Minat Pasien Indonesia Berobat",
+      "link": "https://www.antaranews.com/berita/5088857/pajak-sst-6-di-malaysia-tak-redupkan-minat-pasien-indonesia-berobat",
+      "publishedAt": "2025-09-05T01:29:19.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/WhatsApp-Image-2025-09-05-at-07.13.34.jpeg",
+      "summary": "Jakarta (ANTARA) – Mulai 1 Juli 2025, Pemerintah Malaysia resmi memberlakukan pajak Sales and Service Tax (SST) ..."
+    },
+    {
+      "id": "ANTARA – Terkini-27-1757035461000",
+      "title": "Huawei Mate XTs dikenalkan jadi ponsel trifold kedua di dunia",
+      "link": "https://www.antaranews.com/berita/5088853/huawei-mate-xts-dikenalkan-jadi-ponsel-trifold-kedua-di-dunia",
+      "publishedAt": "2025-09-05T01:24:21.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/InShot_20250905_080551340.jpg",
+      "summary": "Huawei kembali merilis ponsel trifold keduanya yaitu Huawei Mate XTs yang menjadi ponsel trifold kedua yang dijual ..."
+    },
+    {
+      "id": "Detik – Berita-6-1757035251000",
+      "title": "Asa Laras Faizati Usai Jadi Tersangka Buntut Ajak Bakar Mabes Polri",
+      "link": "https://news.detik.com/berita/d-8097228/asa-laras-faizati-usai-jadi-tersangka-buntut-ajak-bakar-mabes-polri",
+      "publishedAt": "2025-09-05T01:20:51.000Z",
+      "source": "Detik – Berita",
+      "category": "nasional",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/03/direktorat-reserse-siber-polri-menetapkan-laras-faizati-sebagai-tersangka-atas-hasutan-pembakaran-gedung-mabes-polri-rumondang-1756909127532_169.jpeg?w=360&q=90",
+      "summary": "Laras Faizati ditetapkan tersangka setelah menghasut massa untuk membakar Mabes Polri. Keluarga berharap kasusnya diselesaikan dengan restorative justice."
+    },
+    {
+      "id": "Detik – Berita-7-1757035145000",
+      "title": "Poin-poin Pertemuan Perwakilan Mahasiswa dan Istana Semalam",
+      "link": "https://news.detik.com/berita/d-8097226/poin-poin-pertemuan-perwakilan-mahasiswa-dan-istana-semalam",
+      "publishedAt": "2025-09-05T01:19:05.000Z",
+      "source": "Detik – Berita",
+      "category": "nasional",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/05/mensesneg-prasetyo-hadi-temui-mahasiswa-1757014480494_169.jpeg?w=360&q=90",
+      "summary": "Pemerintah terima puluhan perwakilan mahasiswa di Istana. Diskusi meliputi aspirasi pendidikan dan aksi demonstrasi. Keterbukaan pemerintah untuk dialog."
+    },
+    {
+      "id": "Detik – Berita-8-1757034719000",
+      "title": "Tuntutan Rakyat 17+8 Diserahkan, Demokrat: DPR Harus Lebih Terbuka",
+      "link": "https://news.detik.com/berita/d-8097220/tuntutan-rakyat-17-8-diserahkan-demokrat-dpr-harus-lebih-terbuka",
+      "publishedAt": "2025-09-05T01:11:59.000Z",
+      "source": "Detik – Berita",
+      "category": "nasional",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2024/06/25/herman-khaeron_169.jpeg?w=360&q=90",
+      "summary": "Partai Demokrat mendesak DPR untuk lebih terbuka terhadap aspirasi masyarakat setelah penyerahan tuntutan rakyat '17+8'. Dialog dan responsifitas jadi kunci."
+    },
+    {
+      "id": "Liputan6 – News-5-1757034637000",
+      "title": "Permohonan Maaf Bripka Rohmad ke Keluarga Affan: Tidak Ada Niat Cederai, Apalagi Hilangkan Nyawa",
+      "link": "https://www.liputan6.com/news/read/6151582/permohonan-maaf-bripka-rohmad-ke-keluarga-affan-tidak-ada-niat-cederai-apalagi-hilangkan-nyawa",
+      "publishedAt": "2025-09-05T01:10:37.000Z",
+      "source": "Liputan6 – News",
+      "category": "nasional",
+      "image": "https://cdn1-production-images-kly.akamaized.net/vMnJp52HxBFih8AiLQvvdF9WfFA=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5338962/original/083389700_1756993755-e51db9f0-fd19-492a-9e59-0011ab4c8c8b.jpg",
+      "summary": "Rohmad menegaskan sumpahnya sebagai Bhayangkara, bahwa ia bertugas untuk melindungi, melayani, dan mengayomi masyarakat, dan tidak pernah berniat mencederai apalagi menghilangkan nyawa."
+    },
+    {
+      "id": "ANTARA – Terkini-28-1757034178000",
+      "title": "Prabowo minta BUMN sektor SDA diperkuat, termasuk produksi PT Timah",
+      "link": "https://www.antaranews.com/berita/5088849/prabowo-minta-bumn-sektor-sda-diperkuat-termasuk-produksi-pt-timah",
+      "publishedAt": "2025-09-05T01:02:58.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/08/31/keterangan-pers-presiden-310825-gp-1_1.jpg",
+      "summary": "Presiden Prabowo Subianto saat rapat terbatas di Istana Kepresidenan meminta kepada jajaran menterinya untuk memperkuat ..."
+    },
+    {
+      "id": "Detik – Berita-9-1757034001000",
+      "title": "Setelah 17+8 Tuntutan Rakyat Dibawa ke Senayan",
+      "link": "https://news.detik.com/berita/d-8097215/setelah-17-8-tuntutan-rakyat-dibawa-ke-senayan",
+      "publishedAt": "2025-09-05T01:00:01.000Z",
+      "source": "Detik – Berita",
+      "category": "nasional",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/04/andovi-jorome-dkk-serahkan-tuntutan-178-ke-dpr-1756974053223_169.jpeg?w=360&q=90",
+      "summary": "Aktivis dan influencer menyerahkan 17+8 tuntutan rakyat ke DPR, meminta bukti konkret atas janji-janji. Tuntutan ini viral di media sosial sebelum diserahkan."
+    },
+    {
+      "id": "Detik – Berita-10-1757033758000",
+      "title": "Menelisik Motif Penyebab 5 Mayat Sekeluarga Dikubur di Rumah Indramayu",
+      "link": "https://news.detik.com/berita/d-8097214/menelisik-motif-penyebab-5-mayat-sekeluarga-dikubur-di-rumah-indramayu",
+      "publishedAt": "2025-09-05T00:55:58.000Z",
+      "source": "Detik – Berita",
+      "category": "nasional",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/02/tkp-penemuan-mayat-sekeluarga-yang-terkubur-dalam-satu-lubang-di-rumah-indramayu-1756801350728_169.jpeg?w=360&q=90",
+      "summary": "Investigasi motif pembunuhan sekeluarga di Indramayu. Kriminolog mengungkap kemungkinan dendam, pertengkaran ekonomi, dan kekerasan seksual sebagai penyebabnya."
+    },
+    {
+      "id": "ANTARA – Terkini-29-1757033665000",
+      "title": "Humaniora kemarin, Maulid Nabi hingga temuan bangkai helikopter jatuh",
+      "link": "https://www.antaranews.com/berita/5088845/humaniora-kemarin-maulid-nabi-hingga-temuan-bangkai-helikopter-jatuh",
+      "publishedAt": "2025-09-05T00:54:25.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/03/IMG_9791.jpeg",
+      "summary": "Sejumlah berita humaniora pada Kamis, yang banyak menarik perhatian pembaca dan masih masih menarik untuk disimak pagi ..."
+    },
+    {
+      "id": "ANTARA – Terkini-30-1757033362000",
+      "title": "Maulid Nabi, momen refleksi Islam humanis dan radikalis",
+      "link": "https://www.antaranews.com/berita/5088841/maulid-nabi-momen-refleksi-islam-humanis-dan-radikalis",
+      "publishedAt": "2025-09-05T00:49:22.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/peringatan-maulid-nabi-muhammad-saw-di-aceh-2616585.jpg",
+      "summary": "Aktivitas umat Islam di berbagai daerah di Indonesia, dalam beberapa hari ini, sedang ramai memeriahkan hari lahir Nabi ..."
+    },
+    {
+      "id": "Detik – Berita-11-1757033169000",
+      "title": "6 Hal soal Nadiem Makarim Tersangka Kasus Laptop Rp 1,98 Triliun",
+      "link": "https://news.detik.com/berita/d-8097211/6-hal-soal-nadiem-makarim-tersangka-kasus-laptop-rp-1-98-triliun",
+      "publishedAt": "2025-09-05T00:46:09.000Z",
+      "source": "Detik – Berita",
+      "category": "nasional",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/04/potret-nadiem-makarim-jadi-tersangka-kasus-korupsi-laptop-rp-2-triliun-1756979866862_169.jpeg?w=360&q=90",
+      "summary": "Mantan Mendikbudristek Nadiem Makarim ditetapkan sebagai tersangka korupsi pengadaan laptop Chromebook, merugikan negara Rp 1,98 T. Nadiem ditahan 20 hari."
+    },
+    {
+      "id": "ANTARA – Terkini-31-1757032699000",
+      "title": "Siapkan payung, BMKG: Kota-kota besar RI bakal diguyur hujan hari ini",
+      "link": "https://www.antaranews.com/berita/5088837/siapkan-payung-bmkg-kota-kota-besar-ri-bakal-diguyur-hujan-hari-ini",
+      "publishedAt": "2025-09-05T00:38:19.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/02/08/1000352887.jpg",
+      "summary": "Badan Meteorologi, Klimatologi, dan Geofisika (BMKG) memprakirakan kondisi cuaca di sejumlah kota-kota besar di ..."
+    },
+    {
+      "id": "ANTARA – Terkini-32-1757031867000",
+      "title": "Jadwal MPL ID Season 16 Week 3: RRQ Hoshi vs Onic digelar daring",
+      "link": "https://www.antaranews.com/berita/5088833/jadwal-mpl-id-season-16-week-3-rrq-hoshi-vs-onic-digelar-daring",
+      "publishedAt": "2025-09-05T00:24:27.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/08/22/IMG_5770.jpg",
+      "summary": "Mobile Legends: Bang Bang Profesional League Indonesia (MPL ID) Season 16 pekan ketiga masih digelar secara daring, ..."
+    },
+    {
+      "id": "ANTARA – Terkini-33-1757031630000",
+      "title": "Hukum kemarin, pemerintah respons 17+8 hingga Nadiem jadi tersangka",
+      "link": "https://www.antaranews.com/berita/5088829/hukum-kemarin-pemerintah-respons-17-8-hingga-nadiem-jadi-tersangka",
+      "publishedAt": "2025-09-05T00:20:30.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/08/25/1000534517.jpg",
+      "summary": "Berbagai peristiwa hukum kemarin yang menjadi sorotan, di antaranya pemerintah memastikan bajal merepons positif ..."
+    },
+    {
+      "id": "ANTARA – Terkini-34-1757031448000",
+      "title": "LSF jadwalkan ulang Anugerah LSF 2025",
+      "link": "https://www.antaranews.com/berita/5088825/lsf-jadwalkan-ulang-anugerah-lsf-2025",
+      "publishedAt": "2025-09-05T00:17:28.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/08/15/1000182064.jpg",
+      "summary": "Lembaga Sensor Film (LSF) mengumumkan secara resmi bahwa ajang apresiasi Anugerah LSF 2025 yang harusnya digelar pada ..."
+    },
+    {
+      "id": "ANTARA – Terkini-35-1757031355000",
+      "title": "Cagar budaya, situs makam permaisuri Sultan Iskandar Muda tak terurus",
+      "link": "https://www.antaranews.com/berita/5088821/cagar-budaya-situs-makam-permaisuri-sultan-iskandar-muda-tak-terurus",
+      "publishedAt": "2025-09-05T00:15:55.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/IMG-20250904-WA0000_1.jpg",
+      "summary": "Pemerhati sejarah Aceh menyoroti situs makam permaisuri (istri) Sultan Iskandar Muda yakni Putroe Sani (1607-1636 M) di ..."
+    },
+    {
+      "id": "ANTARA – Terkini-36-1757031266000",
+      "title": "Politik kemarin, mahasiswa ke istana hingga Sahroni resmi diganti",
+      "link": "https://www.antaranews.com/berita/5088817/politik-kemarin-mahasiswa-ke-istana-hingga-sahroni-resmi-diganti",
+      "publishedAt": "2025-09-05T00:14:26.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/20250904_231539_Gallery.jpg",
+      "summary": "Berbagai peristiwa politik kemarin yang menjadi sorotan, di antaranya perwakilan mahasiswa menghadiri undangan ..."
+    },
+    {
+      "id": "ANTARA – Terkini-37-1757031064000",
+      "title": "Prabowo puji \"patriot bond\" Danantara untuk biayai program pembangunan",
+      "link": "https://www.antaranews.com/berita/5088813/prabowo-puji-patriot-bond-danantara-untuk-biayai-program-pembangunan",
+      "publishedAt": "2025-09-05T00:11:04.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/WhatsApp-Image-2025-09-04-at-22.17.50.jpeg",
+      "summary": "Presiden Prabowo Subianto memuji obligasi patriot (patriot bond) yang diluncurkan oleh Badan Pengelola Investasi ..."
+    },
+    {
+      "id": "Detik – Berita-12-1757030549000",
+      "title": "Golkar soal 17+8 Tuntutan Rakyat: Pimpinan dan Fraksi Ingin DPR Lebih Baik",
+      "link": "https://news.detik.com/berita/d-8097210/golkar-soal-17-8-tuntutan-rakyat-pimpinan-dan-fraksi-ingin-dpr-lebih-baik",
+      "publishedAt": "2025-09-05T00:02:29.000Z",
+      "source": "Detik – Berita",
+      "category": "nasional",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2025/06/16/m-sarmuji-dwi-rahmawatidetikcom-1750056575109_169.jpeg?w=360&q=90",
+      "summary": "Partai Golkar optimis DPR akan lebih baik setelah menerima tuntutan rakyat '17+8'. Tuntutan ini diserahkan oleh aktivis dan influencer untuk reformasi."
+    },
+    {
+      "id": "ANTARA – Terkini-38-1757029926000",
+      "title": "Wajar rehat dari \"banjir\" info hingga Giorgio Armani tutup usia",
+      "link": "https://www.antaranews.com/berita/5088809/wajar-rehat-dari-banjir-info-hingga-giorgio-armani-tutup-usia",
+      "publishedAt": "2025-09-04T23:52:06.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/1000236374.jpg",
+      "summary": "Guru Besar Fakultas Psikologi Universitas Indonesia Dr. Rose Mini Agoes Salim M.Psi., Psikolog mengatakan merasa lelah ..."
+    },
+    {
+      "id": "Detik – Berita-13-1757029919000",
+      "title": "Rapat Senyap Nadiem Makarim Berujung Jeratan Status Tersangka",
+      "link": "https://news.detik.com/berita/d-8097199/rapat-senyap-nadiem-makarim-berujung-jeratan-status-tersangka",
+      "publishedAt": "2025-09-04T23:51:59.000Z",
+      "source": "Detik – Berita",
+      "category": "nasional",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/04/nadiem-makarim-ditahan-kejagung-1756979651374_169.jpeg?w=360&q=90",
+      "summary": "Mantan Mendikbudristek, Nadiem Makarim, ditetapkan sebagai tersangka di kasus korupsi pengadaan laptop Chromebook. Total sudah ada 5 tersangka dalam kasus ini."
+    },
+    {
+      "id": "Detik – Berita-14-1757029606000",
+      "title": "Mercy BJ Habibie Akan Dilelang KPK, MAKI Saran Ilham Tagih-Gugat RK",
+      "link": "https://news.detik.com/berita/d-8097196/mercy-bj-habibie-akan-dilelang-kpk-maki-saran-ilham-tagih-gugat-rk",
+      "publishedAt": "2025-09-04T23:46:46.000Z",
+      "source": "Detik – Berita",
+      "category": "nasional",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2023/12/01/koordinator-maki-boyamin-saiman-adrialdetikcom-1_169.jpeg?w=360&q=90",
+      "summary": "KPK akan melelang mobil Mercy BJ Habibie yang dibeli Ridwan Kamil. MAKI sarankan Ilham Habibie menagih sisa cicilan dan menggugat RK."
+    },
+    {
+      "id": "Liputan6 – News-7-1757028633000",
+      "title": "Prediksi Cuaca Hari Ini Jumat 5 September 2025: Jakarta Berpotensi Diguyur Hujan Sore Ini",
+      "link": "https://www.liputan6.com/news/read/6151557/prediksi-cuaca-hari-ini-jumat-5-september-2025-jakarta-berpotensi-diguyur-hujan-sore-ini",
+      "publishedAt": "2025-09-04T23:30:33.000Z",
+      "source": "Liputan6 – News",
+      "category": "nasional",
+      "image": "https://cdn0-production-images-kly.akamaized.net/KstBnNE1RRFVq9UtwhK5A39RzPc=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4236994/original/060497300_1669200216-20221123-Cuaca-Ekstrem-Jakarta-Faizal-7.jpg",
+      "summary": "Badan Meteorologi, Klimatologi, dan Geofisika (BMKG) memprakirakan seluruh wilayah Jakarta akan diguyur hujan ringan pada Jumat (5/9/2025) sore."
+    },
+    {
+      "id": "Detik – Berita-15-1757027620000",
+      "title": "Halo DPR, Deadline 17 Tuntutan Rakyat Jatuh Hari Ini",
+      "link": "https://news.detik.com/berita/d-8097185/halo-dpr-deadline-17-tuntutan-rakyat-jatuh-hari-ini",
+      "publishedAt": "2025-09-04T23:13:40.000Z",
+      "source": "Detik – Berita",
+      "category": "nasional",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/04/aktivis-influencer-serahkan-178-tuntutan-rakyat-ke-dpr-1756975188132_169.jpeg?w=360&q=90",
+      "summary": "Aktivis dan influencer serahkan tuntutan '17+8' ke DPR RI, mencakup 17 tuntutan jangka pendek dan 8 jangka panjang. 17 tuntutan itu deadline hari ini."
+    },
+    {
+      "id": "Detik – Berita-16-1757027270000",
+      "title": "5 Fakta Gerbang Tol Ciawi 2 Porak-poranda Ditabrak 2 Truk",
+      "link": "https://news.detik.com/berita/d-8097171/5-fakta-gerbang-tol-ciawi-2-porak-poranda-ditabrak-2-truk",
+      "publishedAt": "2025-09-04T23:07:50.000Z",
+      "source": "Detik – Berita",
+      "category": "nasional",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/04/kecelakaan-truk-di-gt-ciawi-1756973598680_169.jpeg?w=360&q=90",
+      "summary": "Kecelakaan di GT Ciawi 2 melibatkan dua truk, mengakibatkan tiga gardu tol rusak dan arus lalu lintas macet. Sopir truk melarikan diri pasca insiden."
+    },
+    {
+      "id": "ANTARA – Terkini-39-1757027109000",
+      "title": "Spanyol menang 3-0 ketika bertandang ke markas Bulgaria",
+      "link": "https://www.antaranews.com/berita/5088805/spanyol-menang-3-0-ketika-bertandang-ke-markas-bulgaria",
+      "publishedAt": "2025-09-04T23:05:09.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/fbl-wc-2026-eur-qualifiers-bul-esp.jpg",
+      "summary": "Spanyol meraih kemenangan dengan skor 3-0 ketika bertandang ke markas Bulgaria pada pertandingan Grup E Kualifikasi ..."
+    },
+    {
+      "id": "ANTARA – Terkini-40-1757026841000",
+      "title": "Pelatih Lebanon sebut laga lawan Indonesia ajang persiapan regenerasi",
+      "link": "https://www.antaranews.com/berita/5088801/pelatih-lebanon-sebut-laga-lawan-indonesia-ajang-persiapan-regenerasi",
+      "publishedAt": "2025-09-04T23:00:41.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/178009.jpg",
+      "summary": "Pelatih Tim Nasional Lebanon Miodrag Radoluvic menyatakan bahwa laga FIFA Match Day melawan Timnas Indonesia di Stadion ..."
+    },
+    {
+      "id": "ANTARA – Terkini-41-1757026659000",
+      "title": "Kamerun dan Aljazair raih kemenangan, Ghana diimbangi Chad",
+      "link": "https://www.antaranews.com/berita/5088797/kamerun-dan-aljazair-raih-kemenangan-ghana-diimbangi-chad",
+      "publishedAt": "2025-09-04T22:57:39.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/G0CAWcyXIAESLFJ.jpg",
+      "summary": "Timnas Kamerun dan Aljazair meraih kemenangan, sedangkan Timnas Ghana diimbangi Chad pada pertandingan Kualifikasi ..."
+    },
+    {
+      "id": "Liputan6 – News-9-1757026519000",
+      "title": "Polda Metro Taksir Kerugian Imbas Demo Ricuh di Jakarta Tembus Rp180 Miliar Lebih",
+      "link": "https://www.liputan6.com/news/read/6151556/polda-metro-taksir-kerugian-imbas-demo-ricuh-di-jakarta-tembus-rp180-miliar-lebih",
+      "publishedAt": "2025-09-04T22:55:19.000Z",
+      "source": "Liputan6 – News",
+      "category": "nasional",
+      "image": "https://cdn1-production-images-kly.akamaized.net/jNF2PILgYDvCnx_tdoZv5-ZvFZM=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5333379/original/016616400_1756622546-WhatsApp_Image_2025-08-31_at_11.22.55.jpeg",
+      "summary": "Polda Metro Jaya menginventarisir kerugian yang ditimbulkan akibat kerusuhan yang terjadi di Jakarta sejak 25 Agustus 2025 hingga 31 Agustus 2025."
+    },
+    {
+      "id": "ANTARA – Terkini-42-1757026414000",
+      "title": "Sultan HB X lakukan prosesi Jejak Banon pada Sekaten Tahun Dal",
+      "link": "https://www.antaranews.com/berita/5088789/sultan-hb-x-lakukan-prosesi-jejak-banon-pada-sekaten-tahun-dal",
+      "publishedAt": "2025-09-04T22:53:34.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/IMG_20250905_025347.jpg",
+      "summary": "Raja Keraton Ngayogyakarta Hadiningrat Sri Sultan Hamengku Buwono X melakukan prosesi \"Jejak Banon\" atau ..."
+    },
+    {
+      "id": "ANTARA – Terkini-43-1757025801000",
+      "title": "Belgia berpesta gol, Belanda diimbangi Polandia",
+      "link": "https://www.antaranews.com/berita/5088785/belgia-berpesta-gol-belanda-diimbangi-polandia",
+      "publishedAt": "2025-09-04T22:43:21.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/netherlands_v_poland_-_fifa_world_cup_2026_qualifier_2.jpg",
+      "summary": "Timnas Belgia berpesta gol, sedangkan Belanda diimbangi oleh Polandia pada pertandingan Kualifikasi Piala Dunia 2026 ..."
+    },
+    {
+      "id": "Liputan6 – News-10-1757025610000",
+      "title": "Dialog Bareng Mahasiswa, Menteri Brian Jamin Semua Aspirasi Dicatat dan Sampai ke Presiden",
+      "link": "https://www.liputan6.com/news/read/6151554/dialog-bareng-mahasiswa-menteri-brian-jamin-semua-aspirasi-dicatat-dan-sampai-ke-presiden",
+      "publishedAt": "2025-09-04T22:40:10.000Z",
+      "source": "Liputan6 – News",
+      "category": "nasional",
+      "image": "https://cdn0-production-images-kly.akamaized.net/cGIhXPZ6ku2sjnqHLxLG5tXpIUs=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5162335/original/090432200_1741881177-20250313_210439.jpg",
+      "summary": "Menteri Pendidikan Tinggi, Sains, dan Teknologi (Mendiktisaintek) Brian Yuliarto memastikan aspirasi yang disampaikan mahasiswa saat berdialog di Istana Negara."
+    },
+    {
+      "id": "Detik – Berita-17-1757025608000",
+      "title": "Mardiono: Diminta Jadi Ketum PPP Bismillah, Kalau Tidak Alhamdulillah",
+      "link": "https://news.detik.com/berita/d-8097165/mardiono-diminta-jadi-ketum-ppp-bismillah-kalau-tidak-alhamdulillah",
+      "publishedAt": "2025-09-04T22:40:08.000Z",
+      "source": "Detik – Berita",
+      "category": "nasional",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/05/plt-ketum-ppp-mardiono-1757025597371_169.jpeg?w=360&q=90",
+      "summary": "Plt Ketum PPP, Muhammad Mardiono, siap maju sebagai Ketua Umum 2025-2030. Dia fokus pada Muktamar X dan dorong transformasi partai untuk raih suara milenial."
+    },
+    {
+      "id": "ANTARA – Terkini-44-1757025526000",
+      "title": "Jerman buka Kualifikasi Piala Dunia 2026 dengan takluk dari Slovakia",
+      "link": "https://www.antaranews.com/berita/5088781/jerman-buka-kualifikasi-piala-dunia-2026-dengan-takluk-dari-slovakia",
+      "publishedAt": "2025-09-04T22:38:46.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/fbl-wc-2026-eur-qualifier-svk-ger.jpg",
+      "summary": "Timnas Jerman membuka Kualifikasi Piala Dunia 2026 zona Eropa dengan kekalahan dari Timnas Slovakia dengan skor 0-2 ..."
+    },
+    {
+      "id": "ANTARA – Terkini-45-1757025000000",
+      "title": "Sanksi kasus rantis tabrak ojol",
+      "link": "https://www.antaranews.com/infografik/5088157/sanksi-kasus-rantis-tabrak-ojol",
+      "publishedAt": "2025-09-04T22:30:00.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/20250905-sanksi-rantis-tabrak-ojol.jpg",
+      "summary": "Polri menjatuhkan sanksi terhadap tujuh bersonel Brimob dalam tragedi kendaraan taktis (rantis) Brimob melindas ..."
+    },
+    {
+      "id": "Liputan6 – News-11-1757023639000",
+      "title": "Polda Metro Jaya Tetapkan 43 Tersangka Aksi Demo Ricuh di Jakarta",
+      "link": "https://www.liputan6.com/news/read/6151536/polda-metro-jaya-tetapkan-43-tersangka-aksi-demo-ricuh-di-jakarta",
+      "publishedAt": "2025-09-04T22:07:19.000Z",
+      "source": "Liputan6 – News",
+      "category": "nasional",
+      "image": "https://cdn0-production-images-kly.akamaized.net/LtKqEGuUWqbsmpUn2d5oKNgNmHY=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4833474/original/071000000_1715838130-IMG_20240516_115217.jpg",
+      "summary": "Ade Ary menjelaskan, enam orang tersangka masuk kategori penghasut."
+    },
+    {
+      "id": "Detik – Berita-18-1757022504000",
+      "title": "Pakar Nilai RUU Perampasan Aset Penting, Sebut Koruptor Tak Takut Dipenjara",
+      "link": "https://news.detik.com/berita/d-8097163/pakar-nilai-ruu-perampasan-aset-penting-sebut-koruptor-tak-takut-dipenjara",
+      "publishedAt": "2025-09-04T21:48:24.000Z",
+      "source": "Detik – Berita",
+      "category": "nasional",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2025/07/15/ilustrasi-korupsi-1752543558160_169.jpeg?w=360&q=90",
+      "summary": "Pakar Hukum Hardjuno menekankan pentingnya RUU Perampasan Aset untuk menindak koruptor. Ia menyerukan perlunya mekanisme pemiskinan yang adil dan sistematis."
+    },
+    {
+      "id": "ANTARA – Terkini-46-1757021766000",
+      "title": "Mentrans pastikan transmigrasi dibangun ekosistem sejahtera terpadu",
+      "link": "https://www.antaranews.com/berita/5088777/mentrans-pastikan-transmigrasi-dibangun-ekosistem-sejahtera-terpadu",
+      "publishedAt": "2025-09-04T21:36:06.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/3055C998-A658-48D8-A9CF-3C268B94B938.jpeg",
+      "summary": "Menteri Transmigrasi Muhammad Iftitah Sulaiman Suryanagara memastikan program transmigrasi difokuskan membangun ..."
+    },
+    {
+      "id": "Detik – Berita-19-1757021643000",
+      "title": "Polisi Duga Ada Pihak Beri 'Upah' Pelajar Ikut Demo, Aliran Dana Ditelisik",
+      "link": "https://news.detik.com/berita/d-8097162/polisi-duga-ada-pihak-beri-upah-pelajar-ikut-demo-aliran-dana-ditelisik",
+      "publishedAt": "2025-09-04T21:34:03.000Z",
+      "source": "Detik – Berita",
+      "category": "nasional",
+      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/05/wadir-reskrimum-polda-metro-jaya-akbp-putu-kholis-aryana-1757009101143_169.jpeg?w=360&q=90",
+      "summary": "Polda Metro Jaya mendalami dugaan 'upah' untuk pelajar ikut demo. 43 tersangka ditetapkan, termasuk penghasut di medsos. Investigasi aliran dana berlangsung."
+    },
+    {
+      "id": "ANTARA – Terkini-47-1757021375000",
+      "title": "Kualitas beras di tengah kebijakan serap gabah \"any quality\"",
+      "link": "https://www.antaranews.com/berita/5088773/kualitas-beras-di-tengah-kebijakan-serap-gabah-any-quality",
+      "publishedAt": "2025-09-04T21:29:35.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/08/09/2D890F7C-E253-40DD-BADF-931C354C5C57.jpeg",
+      "summary": "Kebijakan Perum Bulog untuk menyerap gabah dengan skema any quality menjadi ujian berat sekaligus tantangan besar ..."
+    },
+    {
+      "id": "ANTARA – Terkini-48-1757020409000",
+      "title": "Bulog pastikan kualitas stok beras nasional 3,9 juta ton tetap terjaga",
+      "link": "https://www.antaranews.com/berita/5088769/bulog-pastikan-kualitas-stok-beras-nasional-39-juta-ton-tetap-terjaga",
+      "publishedAt": "2025-09-04T21:13:29.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/2E090F08-EBDA-4F7D-85B5-D1FA970D0B59.jpeg",
+      "summary": "Perum Bulog memastikan kualitas stok cadangan beras pemerintah (CBP) secara nasional yang mencapai 3,9 juta ton tetap ..."
+    },
+    {
+      "id": "ANTARA – Terkini-49-1757020338000",
+      "title": "Mentan: Produksi beras nasional surplus 3,7 juta ton di Oktober",
+      "link": "https://www.antaranews.com/berita/5088765/mentan-produksi-beras-nasional-surplus-37-juta-ton-di-oktober",
+      "publishedAt": "2025-09-04T21:12:18.000Z",
+      "source": "ANTARA – Terkini",
+      "category": "nasional",
+      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/4A951882-BED6-4921-A3A0-A97683C20DA8.jpeg",
+      "summary": "Menteri Pertanian Andi Amran Sulaiman menegaskan proyeksi produksi beras nasional hingga Oktober 2025 mencapai 31,04 ..."
+    },
+    {
+      "id": "Detik – Berita-20-1757018166000",
       "title": "Polda Metro: Ada Tersangka Penghasut Terang-terangan Provokasi Serang Polisi",
       "link": "https://news.detik.com/berita/d-8097156/polda-metro-ada-tersangka-penghasut-terang-terangan-provokasi-serang-polisi",
       "publishedAt": "2025-09-04T20:36:06.000Z",
@@ -22,37 +782,7 @@
       "summary": "Polda Metro Jaya mengungkap enam tersangka penghasut kericuhan di Jakarta. Mereka ditangkap setelah menyebarkan hasutan untuk menyerang polisi."
     },
     {
-      "id": "ANTARA – Terkini-1-1757016165000",
-      "title": "Nadiem jadi tersangka di Kejagung, KPK koordinasi terkait Google Cloud",
-      "link": "https://www.antaranews.com/video/5088693/nadiem-jadi-tersangka-di-kejagung-kpk-koordinasi-terkait-google-cloud",
-      "publishedAt": "2025-09-04T20:02:45.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/NADIEM-JADI-TERSANGKA-DI-KEJAGUNG-KPK-KOORDINASI-TERKAIT-GOOGLE-CLOUD.jpg",
-      "summary": "ANTARA - Usai ditetapkannya eks Mendikbudristek Nadiem Makarim sebagai tersangka kasus dugaan korupsi Chromebook pada ..."
-    },
-    {
-      "id": "ANTARA – Terkini-2-1757015578000",
-      "title": "BDMNTN-XL kembali hadir di Jakarta, gandeng Axelsen sebagai duta",
-      "link": "https://www.antaranews.com/berita/5088705/bdmntn-xl-kembali-hadir-di-jakarta-gandeng-axelsen-sebagai-duta",
-      "publishedAt": "2025-09-04T19:52:58.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2024/11/01/Pertandingan-3v3-di-BDMNTN-XL-2024-31102024-ram-04.jpg",
-      "summary": "Ajang bulu tangkis berformat inovatif, BDMNTN-XL (BXL), kembali hadir di Istora Senayan, Jakarta pada 2–5 Oktober ..."
-    },
-    {
-      "id": "ANTARA – Terkini-3-1757015123000",
-      "title": "Jack Miller tetap bersama Pramac Yamaha pada MotoGP 2026",
-      "link": "https://www.antaranews.com/berita/5088701/jack-miller-tetap-bersama-pramac-yamaha-pada-motogp-2026",
-      "publishedAt": "2025-09-04T19:45:23.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2024/09/27/Latihan-Bebas-MotoGP-Mandalika-260924-Ak-12.jpg",
-      "summary": "Jack Miller resmi memperpanjang kontrak bersama Prima Pramac Yamaha dan akan menjadi rekan setim juara dunia dua kali ..."
-    },
-    {
-      "id": "Detik – Berita-1-1757014998000",
+      "id": "Detik – Berita-21-1757014998000",
       "title": "Mardiono Ikut Maulid di Istiqlal: Nabi Ajarkan Kebaikan, Bukan Perusakan",
       "link": "https://news.detik.com/berita/d-8097154/mardiono-ikut-maulid-di-istiqlal-nabi-ajarkan-kebaikan-bukan-perusakan",
       "publishedAt": "2025-09-04T19:43:18.000Z",
@@ -62,7 +792,7 @@
       "summary": "Ketua Umum PPP Mardiono hadir di Maulid Nabi di Masjid Istiqlal. Dia menekankan pentingnya teladan Nabi dan memisahkan demonstrasi dari tindakan perusakan."
     },
     {
-      "id": "Detik – Berita-2-1757014697000",
+      "id": "Detik – Berita-22-1757014697000",
       "title": "Meningkat 72%, Pelajar Nekat Ikut Demo di Jakarta Gegara Ajakan",
       "link": "https://news.detik.com/berita/d-8097153/meningkat-72-pelajar-nekat-ikut-demo-di-jakarta-gegara-ajakan",
       "publishedAt": "2025-09-04T19:38:17.000Z",
@@ -72,17 +802,7 @@
       "summary": "Peningkatan 72% pelajar ikut demo pasca kericuhan 28 Agustus. Polisi ungkap adanya pihak yang menjadikan pelajar sebagai tameng dalam aksi tersebut."
     },
     {
-      "id": "ANTARA – Terkini-4-1757014647000",
-      "title": "Thailand tawarkan wisata kuliner menjelang SEA Games 2025",
-      "link": "https://www.antaranews.com/berita/5088697/thailand-tawarkan-wisata-kuliner-menjelang-sea-games-2025",
-      "publishedAt": "2025-09-04T19:37:27.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2023/05/18/antarafoto-penutupan-sea-games-kamboja-170523-adm-21_1.jpg",
-      "summary": "SEA Games 2025 Thailand yang berlangsung pada 9-20 Desember tak hanya menghadirkan persaingan olahraga, tetapi juga ..."
-    },
-    {
-      "id": "Detik – Berita-3-1757014496000",
+      "id": "Detik – Berita-23-1757014496000",
       "title": "Mensesneg dan Mendikti Terima 30 Perwakilan Mahasiswa di Istana",
       "link": "https://news.detik.com/berita/d-8097152/mensesneg-dan-mendikti-terima-30-perwakilan-mahasiswa-di-istana",
       "publishedAt": "2025-09-04T19:34:56.000Z",
@@ -92,17 +812,7 @@
       "summary": "Menteri Prasetyo Hadi dan Brian Yuliarto bertemu perwakilan mahasiswa di Istana Negara. Diskusi fokus pada aspirasi mahasiswa untuk pembangunan bangsa."
     },
     {
-      "id": "ANTARA – Terkini-5-1757013300000",
-      "title": "Polda Metro enggan berandai-andai soal dalang di balik aksi anarkis",
-      "link": "https://www.antaranews.com/video/5088685/polda-metro-enggan-berandai-andai-soal-dalang-di-balik-aksi-anarkis",
-      "publishedAt": "2025-09-04T19:15:00.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/POLDA-METRO-ENGGAN-BERANDAI-ANDAI-SOAL-DALANG-DI-BALIK-AKSI-ANARKIS.jpg",
-      "summary": "ANTARA - Polda Metro Jaya enggan berandai-andai terkait sosok dalang yang berada di balik berbagai aksi anarkis pada ..."
-    },
-    {
-      "id": "Liputan6 – News-0-1757013135000",
+      "id": "Liputan6 – News-12-1757013135000",
       "title": "Usai Bertemu Mensesneg, BEM SI: Kami Tetap Gelar Demo, tapi Tunggu Situasi Kondusif",
       "link": "https://www.liputan6.com/news/read/6151538/usai-bertemu-mensesneg-bem-si-kami-tetap-gelar-demo-tapi-tunggu-situasi-kondusif",
       "publishedAt": "2025-09-04T19:12:15.000Z",
@@ -112,77 +822,7 @@
       "summary": "BEM SI menyampaikan tidak ada permintaan dari pihak Istana untuk menahan aksi demonstasi."
     },
     {
-      "id": "ANTARA – Terkini-6-1757011667000",
-      "title": "Tiga pemanjat tebing muda Indonesia tampil di World Cup Koper 2025",
-      "link": "https://www.antaranews.com/berita/5088689/tiga-pemanjat-tebing-muda-indonesia-tampil-di-world-cup-koper-2025",
-      "publishedAt": "2025-09-04T18:47:47.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2020/09/19/Final-Panjat-Tebing-Kombinasi-Putri-101119-ysw-3_1.jpg",
-      "summary": "Tiga pemanjat tebing muda Indonesia akan berlaga pada IFSC Climbing World Cup Koper 2025 nomor lead yang berlangsung di ..."
-    },
-    {
-      "id": "ANTARA – Terkini-7-1757011500000",
-      "title": "Mahasiswa berdialog dengan pemerintah di Istana, bahas tuntutan 17+8",
-      "link": "https://www.antaranews.com/video/5088669/mahasiswa-berdialog-dengan-pemerintah-di-istana-bahas-tuntutan-17-8",
-      "publishedAt": "2025-09-04T18:45:00.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/MAHASISWA-BERDIALOG-DENGAN-PEMERINTAH-DI-ISTANA-BAHAS-TUNTUTAN-17-8.jpg",
-      "summary": "ANTARA - Lebih dari 30 perwakilan organisasi kemahasiswaan dari berbagai perguruan tinggi serta organisasi ekstra ..."
-    },
-    {
-      "id": "ANTARA – Terkini-8-1757011085000",
-      "title": "Aktivis ditahan polisi, Menko Yusril: Lawan secara gentleman",
-      "link": "https://www.antaranews.com/video/5088677/aktivis-ditahan-polisi-menko-yusril-lawan-secara-gentleman",
-      "publishedAt": "2025-09-04T18:38:05.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/AKTIVIS-DITAHAN-POLISI-MENKO-YUSRIL-LAWAN-SECARA-GENTLEMAN.jpg",
-      "summary": "ANTARA - Menteri Koordinator Bidang Hukum, HAM, Imigrasi, dan Pemasyarakatan, Yusril Ihza Mahendra, Kamis (4/9), ..."
-    },
-    {
-      "id": "ANTARA – Terkini-9-1757011058000",
-      "title": "Aiman Cahyadi lanjutkan tur bersama Terengganu di Tour of Shanghai",
-      "link": "https://www.antaranews.com/berita/5088681/aiman-cahyadi-lanjutkan-tur-bersama-terengganu-di-tour-of-shanghai",
-      "publishedAt": "2025-09-04T18:37:38.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2023/02/04/20221013_115719.jpg",
-      "summary": "Pembalap sepeda Indonesia Aiman Cahyadi kembali melanjutkan kiprahnya bersama Terengganu Cycling Team dengan tampil ..."
-    },
-    {
-      "id": "ANTARA – Terkini-10-1757010683000",
-      "title": "Turki raih kemenangan 3-2 Georgia, Wales menang tipis atas Kazakhstan",
-      "link": "https://www.antaranews.com/berita/5088673/turki-raih-kemenangan-3-2-georgia-wales-menang-tipis-atas-kazakhstan",
-      "publishedAt": "2025-09-04T18:31:23.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/fbl-wc-2026-qualifier-geo-tur-1.jpg",
-      "summary": "Timnas Turki meraih kemenangan dengan skor 3-2 kontra Timnas Georgia, sedangkan Timnas Wales menang tipis 1-0 atas ..."
-    },
-    {
-      "id": "ANTARA – Terkini-11-1757009720000",
-      "title": "Dalami kasus dugaan penghasutan, Polda Metro geledah kantor lembaga LF",
-      "link": "https://www.antaranews.com/video/5088665/dalami-kasus-dugaan-penghasutan-polda-metro-geledah-kantor-lembaga-lf",
-      "publishedAt": "2025-09-04T18:15:20.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/DALAMI-KASUS-DUGAAN-PENGHASUTAN-POLDA-METRO-GELEDAH-KANTOR-LEMBAGA-LF.jpg",
-      "summary": "ANTARA - Polda Metro Jaya menggeledah kantor lembaga Lokataru Foundation atau LF di kawasan Jakarta Timur, Kamis (4/9) ..."
-    },
-    {
-      "id": "ANTARA – Terkini-12-1757009399000",
-      "title": "Kemensos pastikan santunan korban demo di daerah mulai disalurkan",
-      "link": "https://www.antaranews.com/video/5088661/kemensos-pastikan-santunan-korban-demo-di-daerah-mulai-disalurkan",
-      "publishedAt": "2025-09-04T18:09:59.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/KEMENSOS-PASTIKAN-SANTUNAN-KORBAN-DEMO-DI-DAERAH-MULAI-DISALURKAN.jpg",
-      "summary": "ANTARA - Kementerian Sosial memastikan santunan korban demo di daerah mulai disalurkan. Menteri Sosial Saifullah Yusuf ..."
-    },
-    {
-      "id": "Liputan6 – News-1-1757009195000",
+      "id": "Liputan6 – News-13-1757009195000",
       "title": "Bertemu Mensesneg, BEM SI Minta Dibentuk Tim Investigasi Dugaan Makar",
       "link": "https://www.liputan6.com/news/read/6151532/bertemu-mensesneg-bem-si-minta-dibentuk-tim-investigasi-dugaan-makar",
       "publishedAt": "2025-09-04T18:06:35.000Z",
@@ -192,7 +832,7 @@
       "summary": "Para perwakilan mahasiswa meminta agar Rancangan Undang-Undang (RUU) Perampasan Aset segera disahkan."
     },
     {
-      "id": "Detik – Berita-4-1757009111000",
+      "id": "Detik – Berita-24-1757009111000",
       "title": "Polisi Ungkap Ada Pihak Sengaja Jadikan Pelajar 'Tameng' saat Ricuh Jakarta",
       "link": "https://news.detik.com/berita/d-8097146/polisi-ungkap-ada-pihak-sengaja-jadikan-pelajar-tameng-saat-ricuh-jakarta",
       "publishedAt": "2025-09-04T18:05:11.000Z",
@@ -202,27 +842,7 @@
       "summary": "Polda Metro Jaya mengungkap adanya upaya masif mengajak anak-anak terlibat dalam kericuhan di Jakarta. 43 tersangka telah ditetapkan, termasuk pelajar."
     },
     {
-      "id": "ANTARA – Terkini-13-1757008367000",
-      "title": "Daniel Levy mundur sebagai Ketua Eksekutif Tottenham",
-      "link": "https://www.antaranews.com/berita/5088657/daniel-levy-mundur-sebagai-ketua-eksekutif-tottenham",
-      "publishedAt": "2025-09-04T17:52:47.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/G0BFE-bXkAA6Xak.jpg",
-      "summary": "Klub Liga Inggris Tottenham mengumumkan mundurnya Daniel Levy sebagai Ketua Eksekutif setelah memegang jabatan tersebut ..."
-    },
-    {
-      "id": "ANTARA – Terkini-14-1757007998000",
-      "title": "MER-C siapkan tim medis ke Afghanistan pascagempa dahsyat",
-      "link": "https://www.antaranews.com/berita/5088653/mer-c-siapkan-tim-medis-ke-afghanistan-pascagempa-dahsyat",
-      "publishedAt": "2025-09-04T17:46:38.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/08/01/GempaBumiTercatatSeismometerShutterstock_aa.jpg",
-      "summary": "Lembaga sosial kemanusiaan Medical Emergency Rescue Committee (MER-C) akan mengirim tim medis ke Afghanistan menyusul ..."
-    },
-    {
-      "id": "Detik – Berita-5-1757007429000",
+      "id": "Detik – Berita-25-1757007429000",
       "title": "Temui Mensesneg, BEM SI dan Cipayung Plus Minta Investigasi Dugaan Makar",
       "link": "https://news.detik.com/berita/d-8097140/temui-mensesneg-bem-si-dan-cipayung-plus-minta-investigasi-dugaan-makar",
       "publishedAt": "2025-09-04T17:37:09.000Z",
@@ -232,107 +852,17 @@
       "summary": "BEM SI Kerakyatan dan Cipayung Plus audiensi dengan Mensesneg dan Mendikti, menyampaikan aspirasi investigasi dugaan makar dan pengesahan RUU Perampasan Aset."
     },
     {
-      "id": "ANTARA – Terkini-15-1757006942000",
-      "title": "Blind spot, alasan Kompolnas ringankan hukuman Bripka Rohmad",
-      "link": "https://www.antaranews.com/video/5088637/blind-spot-alasan-kompolnas-ringankan-hukuman-bripka-rohmad",
-      "publishedAt": "2025-09-04T17:29:02.000Z",
-      "source": "ANTARA – Terkini",
+      "id": "Liputan6 – News-0-1757005078000",
+      "title": "Hunian Nyaman dan Terjangkau, Warga PIK Pulogadung Puas",
+      "link": "https://www.liputan6.com/news/read/6151511/hunian-nyaman-dan-terjangkau-warga-pik-pulogadung-puas",
+      "publishedAt": "2025-09-04T16:57:58.000Z",
+      "source": "Liputan6 – News",
       "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/BLIND-SPOT-ALASAN-KOMPOLNAS-RINGANKAN-HUKUMAN-BRIPKA-ROHMAD.jpg",
-      "summary": "ANTARA - Anggota Kompolnas Irjen Pol (Purn) Ida Oetari Poernamasasi menyebut titik buta atau blind spot dan spion ..."
+      "image": "https://cdn1-production-images-kly.akamaized.net/_I-4JR9Or_sDBNYpDnlKeI4FOLg=/0x647:4032x2919/673x379/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5339044/original/048519900_1757004928-IMG_8549.jpg",
+      "summary": "Rusunawa PIK Pulogadung hadir sebagai solusi nyata dalam penyediaan hunian terjangkau, terutama bagi warga relokasi Rusun Komarudin, relokasi dari kolong tol Jelambar dan Cideng, serta masyarakat kecil."
     },
     {
-      "id": "ANTARA – Terkini-16-1757006670000",
-      "title": "Polda Metro tetapkan 43 tersangka terkait aksi anarkis demonstrasi",
-      "link": "https://www.antaranews.com/video/5088641/polda-metro-tetapkan-43-tersangka-terkait-aksi-anarkis-demonstrasi",
-      "publishedAt": "2025-09-04T17:24:30.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/AB_POLDA-METRO-TETAPKAN-43-TERSANGKA-TERKAIT-AKSI-ANARKIS-DEMONSTRASI.jpg",
-      "summary": "ANTARA - Polda Metro Jaya menetapkan sebanyak 43 orang tersangka terkait dugaan aksi anarkis dalam demonstrasi pada ..."
-    },
-    {
-      "id": "ANTARA – Terkini-17-1757006506000",
-      "title": "Bripka Rohmad harap dapat bertugas menjadi polisi hingga pensiun",
-      "link": "https://www.antaranews.com/video/5088625/bripka-rohmad-harap-dapat-bertugas-menjadi-polisi-hingga-pensiun",
-      "publishedAt": "2025-09-04T17:21:46.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/BRIPKA-ROHMAD-HARAP-DAPAT-BERTUGAS-MENJADI-POLISI-HINGGA-PENSIUN.jpg",
-      "summary": "ANTARA - Bripka Rohmad yang merupakan sopir kendaraan taktis (rantis) pada insiden yang menewaskan Affan Kurniawan ..."
-    },
-    {
-      "id": "ANTARA – Terkini-18-1757006416000",
-      "title": "Sivitas akademika Undip sampaikan seruan perdamaian",
-      "link": "https://www.antaranews.com/berita/5088649/sivitas-akademika-undip-sampaikan-seruan-perdamaian",
-      "publishedAt": "2025-09-04T17:20:16.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/1001202441.jpg",
-      "summary": "Sivitas akademika Universitas Diponegoro Semarang yang terdiri atas rektor, wakil rektor, seluruh dekan, wakil dekan, ..."
-    },
-    {
-      "id": "ANTARA – Terkini-19-1757006089000",
-      "title": "MU pastikan Diogo Dalot absen dari timnas Portugal",
-      "link": "https://www.antaranews.com/berita/5088645/mu-pastikan-diogo-dalot-absen-dari-timnas-portugal",
-      "publishedAt": "2025-09-04T17:14:49.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2023/04/17/2023-04-16T171016Z_902040626_UP1EJ4G1BP3BD_RTRMADP_3_SOCCER-ENGLAND-NTG-MUN-REPORT_1.jpg",
-      "summary": "Klub Liga Inggris Manchester United (MU) memastikan bahwa bek sayap mereka Diogo Dalot absen dari tim nasional Portugal ..."
-    },
-    {
-      "id": "ANTARA – Terkini-20-1757005735000",
-      "title": "Menhub: Pagu anggaran Kemenhub 2026 sebesar Rp28,49 triliun",
-      "link": "https://www.antaranews.com/berita/5088633/menhub-pagu-anggaran-kemenhub-2026-sebesar-rp2849-triliun",
-      "publishedAt": "2025-09-04T17:08:55.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/B6101414-BDB7-40AC-ADE4-9B536E704A1B.jpeg",
-      "summary": "Menteri Perhubungan (Menhub) Dudy Purwagandhi mengatakan pagu anggaran Kementerian Perhubungan tahun 2026 sebesar ..."
-    },
-    {
-      "id": "ANTARA – Terkini-21-1757005643000",
-      "title": "Persita Tangerang matangkan penyelesaian akhir jelang hadapi PSM",
-      "link": "https://www.antaranews.com/berita/5088629/persita-tangerang-matangkan-penyelesaian-akhir-jelang-hadapi-psm",
-      "publishedAt": "2025-09-04T17:07:23.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/06/11/IMG-20250611-WA0007_2.jpg",
-      "summary": "Pelatih Persita Tangerang Carlos Pena mematangkan penyelesaian akhir tim menjelang laga kontra PSM Makassar pada ..."
-    },
-    {
-      "id": "ANTARA – Terkini-22-1757005088000",
-      "title": "Presiden perintahkan kerja cepat perbaiki fasilitas rusak akibat demo",
-      "link": "https://www.antaranews.com/video/5088605/presiden-perintahkan-kerja-cepat-perbaiki-fasilitas-rusak-akibat-demo",
-      "publishedAt": "2025-09-04T16:58:08.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/PRESIDEN-PERINTAHKAN-KERJA-CEPAT-PERBAIKI-FASILITAS-RUSAK-AKIBAT-DEMO.jpg",
-      "summary": "ANTARA - Menteri Koordinator Bidang Infrastruktur dan Pembangunan Kewilayahan, Agus Harimurti Yudhoyono, mengungkap ..."
-    },
-    {
-      "id": "ANTARA – Terkini-23-1757005001000",
-      "title": "KPK ekstrak HP di rumdin Ebenezer untuk pastikan pernyataan Ebenezer",
-      "link": "https://www.antaranews.com/berita/5088621/kpk-ekstrak-hp-di-rumdin-ebenezer-untuk-pastikan-pernyataan-ebenezer",
-      "publishedAt": "2025-09-04T16:56:41.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/03/IMG_9951.jpg",
-      "summary": "Komisi Pemberantasan Korupsi (KPK) sedang berupaya mengekstrak empat telepon seluler atau HP yang ditemukan di plafon ..."
-    },
-    {
-      "id": "ANTARA – Terkini-24-1757004904000",
-      "title": "AION UT tawarkan biaya operasional yang hemat untuk mobilitas harian",
-      "link": "https://otomotif.antaranews.com/berita/5088617/aion-ut-tawarkan-biaya-operasional-yang-hemat-untuk-mobilitas-harian",
-      "publishedAt": "2025-09-04T16:55:04.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/WhatsApp-Image-2025-09-04-at-13.53.51.jpeg",
-      "summary": "GAC Indonesia mengatakan bahwa mobil listrik AION UT menawarkan efisiensi biaya operasional yang lebih hemat untuk ..."
-    },
-    {
-      "id": "Liputan6 – News-2-1757004839000",
+      "id": "Liputan6 – News-14-1757004839000",
       "title": "Respons Ketum Partai Golkar dan Demokrat soal 17+8 Tuntutan Rakyat",
       "link": "https://www.liputan6.com/news/read/6151504/respons-ketum-partai-golkar-dan-demokrat-soal-178-tuntutan-rakyat",
       "publishedAt": "2025-09-04T16:53:59.000Z",
@@ -342,37 +872,7 @@
       "summary": "Bahlil berjanji Partai Golkar akan mempelajari dan merespons sejumlah tuntutan itu secara proaktif serta teukur."
     },
     {
-      "id": "ANTARA – Terkini-25-1757004598000",
-      "title": "Yayasan Gen-B padukan EBT dan robotik untuk pertanian di wilayah 3T",
-      "link": "https://www.antaranews.com/berita/5088613/yayasan-gen-b-padukan-ebt-dan-robotik-untuk-pertanian-di-wilayah-3t",
-      "publishedAt": "2025-09-04T16:49:58.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/IMG_5165.jpeg",
-      "summary": "Yayasan Generasi Energi Bersih (Gen-B) memadukan energi baru terbarukan (EBT) dan ilmu robotik melalui RE:BION ..."
-    },
-    {
-      "id": "ANTARA – Terkini-26-1757004565000",
-      "title": "Pentingnya ajak diskusi dan beri fakta pada anak yang ingin unjuk rasa",
-      "link": "https://www.antaranews.com/berita/5088609/pentingnya-ajak-diskusi-dan-beri-fakta-pada-anak-yang-ingin-unjuk-rasa",
-      "publishedAt": "2025-09-04T16:49:25.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/unjuk-rasa-rakyat-menggugat-2616169.jpg",
-      "summary": "Psikolog Klinis Anak dan Remaja lulusan Universitas Indonesia Gisella Tani Pratiwi, M.Psi., Psikolog menekankan ..."
-    },
-    {
-      "id": "ANTARA – Terkini-27-1757004235000",
-      "title": "Cakupan Imunisasi campak di Sumenep capai 55,3 persen",
-      "link": "https://www.antaranews.com/berita/5088601/cakupan-imunisasi-campak-di-sumenep-capai-553-persen",
-      "publishedAt": "2025-09-04T16:43:55.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/Menkes2-Sumenep.jpg",
-      "summary": "Dinas Kesehatan, Pengendalian Penduduk dan Keluarga Berencana (DKPP-KB) Kabupaten Sumenep, Jawa Timur mengatakan, ..."
-    },
-    {
-      "id": "Detik – Berita-6-1757004207000",
+      "id": "Detik – Berita-26-1757004207000",
       "title": "Tersangka Kericuhan di Jakarta Bertambah Jadi 43 Orang",
       "link": "https://news.detik.com/berita/d-8097130/tersangka-kericuhan-di-jakarta-bertambah-jadi-43-orang",
       "publishedAt": "2025-09-04T16:43:27.000Z",
@@ -382,37 +882,27 @@
       "summary": "Polda Metro Jaya menetapkan 5 tersangka baru, total 43 tersangka terkait kericuhan. Tersangka diduga berperan dalam penghasutan dan perusakan."
     },
     {
-      "id": "ANTARA – Terkini-28-1757004064000",
-      "title": "Bojan ungkap alasan Persib Bandung boyong Eliano Reijnders",
-      "link": "https://www.antaranews.com/berita/5088597/bojan-ungkap-alasan-persib-bandung-boyong-eliano-reijnders",
-      "publishedAt": "2025-09-04T16:41:04.000Z",
-      "source": "ANTARA – Terkini",
+      "id": "Liputan6 – News-8-1757003768000",
+      "title": "Misteri Informasi Penting BIN untuk Prabowo",
+      "link": "https://www.liputan6.com/news/read/6151499/misteri-informasi-penting-bin-untuk-prabowo",
+      "publishedAt": "2025-09-04T16:36:08.000Z",
+      "source": "Liputan6 – News",
       "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2024/11/13/Eliano.jpeg",
-      "summary": "Pelatih Persib Bandung Bojan Hodak mengungkapkan alasan timnya memboyong pemain Timnas Indonesia Eliano Reijnders dari ..."
+      "image": "https://cdn0-production-images-kly.akamaized.net/jU-ZqWOcYTlt3j3FYlT7e9BbJh8=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5338255/original/021294700_1756968198-PHOTO-2025-09-04-13-25-11.jpg",
+      "summary": "Herindra mengatakan, ada hal penting yang harus disampaikan ke Prabowo. Hal itu membuat dirinya harus menemui langsung presiden."
     },
     {
-      "id": "ANTARA – Terkini-29-1757003883000",
-      "title": "Menhub sampaikan duka atas heli jatuh di Kalsel dengan 8 korban jiwa",
-      "link": "https://www.antaranews.com/berita/5088593/menhub-sampaikan-duka-atas-heli-jatuh-di-kalsel-dengan-8-korban-jiwa",
-      "publishedAt": "2025-09-04T16:38:03.000Z",
-      "source": "ANTARA – Terkini",
+      "id": "Liputan6 – News-6-1757003546000",
+      "title": "Tak Ada Ganjil Genap Jakarta Jelang Akhir Pekan Jumat 5 September 2025 Saat Libur Maulid Nabi Muhammad SAW",
+      "link": "https://www.liputan6.com/news/read/6151498/tak-ada-ganjil-genap-jakarta-jelang-akhir-pekan-jumat-5-september-2025-saat-libur-maulid-nabi-muhammad-saw",
+      "publishedAt": "2025-09-04T16:32:26.000Z",
+      "source": "Liputan6 – News",
       "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/C438A4C6-C31E-4E0F-B078-A1D11081B18B.jpeg",
-      "summary": "Menteri Perhubungan Dudy Purwagandhi menyampaikan duka mendalam atas insiden jatuhnya helikopter BK117 D3 milik Estindo ..."
+      "image": "https://cdn1-production-images-kly.akamaized.net/T3EsId6CD609w3VKeqy5IpqIGaw=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5065785/original/046226400_1735138878-WhatsApp_Image_2024-12-25_at_21.52.06_85ec676f.jpg",
+      "summary": "Aturan ganjil genap yang biasanya membatasi pergerakan kendaraan di hari kerja, kali ini jelang akhir pekan, Jumat (5/9/2025) tidak diberlakukan karena bertepatan dengan tanggal merah."
     },
     {
-      "id": "ANTARA – Terkini-30-1757003805000",
-      "title": "Selain \"Giant Sea Wall\", Prabowo bahas kereta cepat dengan Xi Jinping",
-      "link": "https://www.antaranews.com/berita/5088589/selain-giant-sea-wall-prabowo-bahas-kereta-cepat-dengan-xi-jinping",
-      "publishedAt": "2025-09-04T16:36:45.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/WhatsApp-Image-2025-09-04-at-16.00.33.jpeg",
-      "summary": "Pertemuan bilateral antara Presiden RI Prabowo Subianto dengan Presiden China Xi Jinping di Beijing pada Rabu (3/9) ..."
-    },
-    {
-      "id": "Detik – Berita-7-1757003490000",
+      "id": "Detik – Berita-27-1757003490000",
       "title": "Konten TikTok Figha Lesmana Ajak Pelajar Demo Ditonton 10 Juta Kali",
       "link": "https://news.detik.com/berita/d-8097128/konten-tiktok-figha-lesmana-ajak-pelajar-demo-ditonton-10-juta-kali",
       "publishedAt": "2025-09-04T16:31:30.000Z",
@@ -422,37 +912,7 @@
       "summary": "Polisi mengungkap konten selebgram Figha Lesmana (FL) berisi ajakan ke para pelajar untuk demo di akun TikTok sudah ditonton 10 juta kali."
     },
     {
-      "id": "ANTARA – Terkini-31-1757003366000",
-      "title": "KPK koordinasi dengan Jampidsus bila butuh keterangan Nadiem Makarim",
-      "link": "https://www.antaranews.com/berita/5088585/kpk-koordinasi-dengan-jampidsus-bila-butuh-keterangan-nadiem-makarim",
-      "publishedAt": "2025-09-04T16:29:26.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/Nadiem-Makarim-Ditetapkan-Tersangka-Korupsi-Chromebook-040925-Bay-3.jpg",
-      "summary": "Komisi Pemberantasan Korupsi (KPK) menyatakan berkoordinasi dengan Jaksa Agung Muda Bidang Tindak Pidana Khusus ..."
-    },
-    {
-      "id": "ANTARA – Terkini-32-1757003289000",
-      "title": "Pertamina tambah pasokan elpiji untuk antisipasi kelangkaan",
-      "link": "https://www.antaranews.com/berita/5088581/pertamina-tambah-pasokan-elpiji-untuk-antisipasi-kelangkaan",
-      "publishedAt": "2025-09-04T16:28:09.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/Pertamina-elpiji.jpg",
-      "summary": "Pertamina Patra Niaga menambah pasokan elpiji di Pulau Madura, Jawa Timur untuk mengantisipasi kelangkaan menghadapi ..."
-    },
-    {
-      "id": "ANTARA – Terkini-33-1757003228000",
-      "title": "CELIOS nilai Menkeu seharusnya mendapat perlindungan setara RI-2",
-      "link": "https://www.antaranews.com/berita/5088577/celios-nilai-menkeu-seharusnya-mendapat-perlindungan-setara-ri-2",
-      "publishedAt": "2025-09-04T16:27:08.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/tempImagefFdrRQ.jpg",
-      "summary": "Direktur Eksekutif Center of Economics and Law Studies (CELIOS) Bhima Yudhistira berpendapat Menteri Keuangan ..."
-    },
-    {
-      "id": "Detik – Berita-8-1757003047000",
+      "id": "Detik – Berita-28-1757003047000",
       "title": "Mobil HR-V Terbakar di Tol Jagorawi, Lalin Arah Bogor Sempat Macet",
       "link": "https://news.detik.com/berita/d-8097125/mobil-hr-v-terbakar-di-tol-jagorawi-lalin-arah-bogor-sempat-macet",
       "publishedAt": "2025-09-04T16:24:07.000Z",
@@ -462,97 +922,7 @@
       "summary": "Mobil Honda HR-V terbakar di KM 3+400 Tol Jagorawi, menyebabkan kemacetan arah Bogor. Tidak ada korban jiwa, kebakaran diduga akibat korsleting listrik."
     },
     {
-      "id": "ANTARA – Terkini-34-1757003012000",
-      "title": "Jual sembako lebih murah, Kopdes Merah Putih tarik minat masyarakat",
-      "link": "https://www.antaranews.com/berita/5088573/jual-sembako-lebih-murah-kopdes-merah-putih-tarik-minat-masyarakat",
-      "publishedAt": "2025-09-04T16:23:32.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/WhatsApp-Image-2025-09-04-at-19.59.30.jpeg",
-      "summary": "Koperasi Desa/Kelurahan Merah Putih menarik minat tinggi dari masyarakat karena mampu memangkas rantai distribusi, ..."
-    },
-    {
-      "id": "ANTARA – Terkini-35-1757002978000",
-      "title": "Mensesneg apresiasi mahasiswa jadikan Istana Negara ruang dialog",
-      "link": "https://www.antaranews.com/berita/5088569/mensesneg-apresiasi-mahasiswa-jadikan-istana-negara-ruang-dialog",
-      "publishedAt": "2025-09-04T16:22:58.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/20250904_231539_Gallery.jpg",
-      "summary": "Menteri Sekretaris Negara (Mensesneg) Prasetyo Hadi mengapresiasi para mahasiswa yang berkenan hadir dan menjadikan ..."
-    },
-    {
-      "id": "ANTARA – Terkini-36-1757002919000",
-      "title": "Dubai Fashion Week tampilkan beragam budaya dan kreativitas",
-      "link": "https://www.antaranews.com/video/5088385/dubai-fashion-week-tampilkan-beragam-budaya-dan-kreativitas",
-      "publishedAt": "2025-09-04T16:21:59.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/DUBAI-FASHION-WEEK-TAMPILKAN-BERAGAM-BUDAYA-DAN-KREATIVITAS.jpg",
-      "summary": "ANTARA - Berlangsung sejak 1 hingga 6 September, Dubai Fashion Week edisi musim semi/panas 2026 menghadirkan pesta mode ..."
-    },
-    {
-      "id": "ANTARA – Terkini-37-1757002869000",
-      "title": "Milatul Khaqimah wakili Indonesia di Kejuaraan Dunia MTB 2025 di Swiss",
-      "link": "https://www.antaranews.com/berita/5088565/milatul-khaqimah-wakili-indonesia-di-kejuaraan-dunia-mtb-2025-di-swiss",
-      "publishedAt": "2025-09-04T16:21:09.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/WC7-Les-Gets-Trackwalk-2110.jpg",
-      "summary": "Pembalap sepeda putri Milatul Khaqimah menjadi satu-satunya wakil Indonesia dalam Kejuaraan Dunia Sepeda Gunung (MTB) ..."
-    },
-    {
-      "id": "ANTARA – Terkini-38-1757002611000",
-      "title": "Anggota DPD tampung aduan warga rusun di Jakarta terkait tarif air PAM",
-      "link": "https://www.antaranews.com/berita/5088561/anggota-dpd-tampung-aduan-warga-rusun-di-jakarta-terkait-tarif-air-pam",
-      "publishedAt": "2025-09-04T16:16:51.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/IMG-20250904-WA0036_1.jpg",
-      "summary": "Anggota Dewan Perwakilan Daerah (DPD) RI dari Daerah Pemilihan DKI Jakarta, Achmad Azran menampung aduan warga rumah ..."
-    },
-    {
-      "id": "ANTARA – Terkini-39-1757002549000",
-      "title": "Wamentan tekankan peran penting Pupuk Indonesia bagi petani",
-      "link": "https://www.antaranews.com/berita/5088557/wamentan-tekankan-peran-penting-pupuk-indonesia-bagi-petani",
-      "publishedAt": "2025-09-04T16:15:49.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/77ACAB4A-8C59-45AC-BDD8-C9DC7519069D.jpeg",
-      "summary": "Wakil Menteri Pertanian Sudaryono menekankan peran penting Pupuk Indonesia dalam menjamin ketersediaan pupuk bagi ..."
-    },
-    {
-      "id": "ANTARA – Terkini-40-1757002412000",
-      "title": "Brasil dan Turki melenggang semifinal Kejuaraan Dunia Voli Putri 2025",
-      "link": "https://www.antaranews.com/berita/5088553/brasil-dan-turki-melenggang-semifinal-kejuaraan-dunia-voli-putri-2025",
-      "publishedAt": "2025-09-04T16:13:32.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/Brasil-vs-Prancis-di-babak-perempat-final-Kejuaraan-Dunia-Bola-Voli-Putri-2025.jpg",
-      "summary": "Tim nasional bola voli putri Brasil dan tim Turki melenggang ke semifinal Kejuaraan Dunia Bola Voli Putri 2025 setelah ..."
-    },
-    {
-      "id": "ANTARA – Terkini-41-1757002320000",
-      "title": "Setelah Yeremia, PBSI coba pasangkan Rian dengan Rahmat Hidayat",
-      "link": "https://www.antaranews.com/berita/5088549/setelah-yeremia-pbsi-coba-pasangkan-rian-dengan-rahmat-hidayat",
-      "publishedAt": "2025-09-04T16:12:00.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2024/11/03/Rahmat-Yere-juara-ganda-putra-Indonesia-Masters-2024-031124-rzl-1-1.jpg",
-      "summary": "PBSI memasangkan ganda putra Indonesia Muhammad Rian Ardianto dengan pemain muda Rahmat Hidayat pada tiga turnamen tur ..."
-    },
-    {
-      "id": "ANTARA – Terkini-42-1757002183000",
-      "title": "RS Bhayangkara aktivasi protokol tangani korban helikopter di Kalsel",
-      "link": "https://www.antaranews.com/berita/5088545/rs-bhayangkara-aktivasi-protokol-tangani-korbanhelikopter-di-kalsel",
-      "publishedAt": "2025-09-04T16:09:43.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/IMG_20250904_230733.jpg",
-      "summary": "Rumah Sakit (RS) Bhayangkara Banjarmasin telah mengaktivasi protokol penanganan korban massal untuk melaksanakan proses ..."
-    },
-    {
-      "id": "Liputan6 – News-3-1757002164000",
+      "id": "Liputan6 – News-15-1757002164000",
       "title": "Terungkap Alasan Bripka Rohmad Tidak Dipecat, Titik Buta Rantis dan Hanya Jalani Perintah Komandan",
       "link": "https://www.liputan6.com/news/read/6151470/terungkap-alasan-bripka-rohmad-tidak-dipecat-titik-buta-rantis-dan-hanya-jalani-perintah-komandan",
       "publishedAt": "2025-09-04T16:09:24.000Z",
@@ -562,17 +932,7 @@
       "summary": "Rantis yang dikendarai Rohmad memiliki titik buta yakni blind spot di sudut depan sehingga dia kesulitan untuk melihat beberapa sisi luar kendaraan."
     },
     {
-      "id": "ANTARA – Terkini-43-1757002120000",
-      "title": "Kepala Bappenas: Program Sapi Merah Putih jadi simbol kemajuan",
-      "link": "https://www.antaranews.com/berita/5088541/kepala-bappenas-program-sapi-merah-putih-jadi-simbol-kemajuan",
-      "publishedAt": "2025-09-04T16:08:40.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/08/29/Wamen-PPN.jpg",
-      "summary": "Menteri Perencanaan Pembangunan Nasional/Kepala Badan Perencanaan Pembangunan Nasional (PPN/Bappenas) Rachmat Pambudy ..."
-    },
-    {
-      "id": "Detik – Berita-9-1757002075000",
+      "id": "Detik – Berita-29-1757002075000",
       "title": "Usai Ratas, Menko Yusril Ingatkan Aparat Jangan Bertindak di Luar Hukum",
       "link": "https://news.detik.com/berita/d-8097110/usai-ratas-menko-yusril-ingatkan-aparat-jangan-bertindak-di-luar-hukum",
       "publishedAt": "2025-09-04T16:07:55.000Z",
@@ -582,27 +942,7 @@
       "summary": "Menteri Yusril Ihza Mahendra mengikuti ratas dipimpin Prabowo Subianto, membahas soliditas pemerintah dan penegakan hukum di tengah situasi demo besar-besaran."
     },
     {
-      "id": "ANTARA – Terkini-44-1757002025000",
-      "title": "Pemerintah lanjutkan stimulus ekonomi subsidi gaji hingga bebas PPh",
-      "link": "https://www.antaranews.com/berita/5088537/pemerintah-lanjutkan-stimulus-ekonomi-subsidi-gaji-hingga-bebas-pph",
-      "publishedAt": "2025-09-04T16:07:05.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/WhatsApp-Image-2025-09-04-at-23.00.01.jpeg",
-      "summary": "Pemerintah tetap melanjutkan stimulus ekonomi pada semester II tahun ini melalui sejumlah program yang telah berjalan, ..."
-    },
-    {
-      "id": "ANTARA – Terkini-45-1757001937000",
-      "title": "Gustavo Almeida tak anggap penyerang lain Persija sebagai saingan",
-      "link": "https://www.antaranews.com/berita/5088533/gustavo-almeida-tak-anggap-penyerang-lain-persija-sebagai-saingan",
-      "publishedAt": "2025-09-04T16:05:37.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/WhatsApp-Image-2025-09-04-at-22.41.20.jpeg",
-      "summary": "Penyerang Persija, Gustavo Almeida, tidak menganggap para pemain depan lain di tim berjuluk Macan Kemayoran itu sebagai ..."
-    },
-    {
-      "id": "Detik – Berita-10-1757001867000",
+      "id": "Detik – Berita-30-1757001867000",
       "title": "Kompolnas Ungkap Blind Spot Rantis Jadi Pertimbangan Bripka Rohmat Didemosi",
       "link": "https://news.detik.com/berita/d-8097108/kompolnas-ungkap-blind-spot-rantis-jadi-pertimbangan-bripka-rohmat-didemosi",
       "publishedAt": "2025-09-04T16:04:27.000Z",
@@ -612,47 +952,7 @@
       "summary": "Kompolnas menghadiri sidang etik Bripka Rohmat, sopir rantis yang melindas Affan Kurniawan. Blind spot kendaraan jadi pertimbangan dalam keputusan sanksi."
     },
     {
-      "id": "ANTARA – Terkini-46-1757001757000",
-      "title": "Mahasiswa: Pemerintah respons positif tuntutan RUU Perampasan Aset",
-      "link": "https://www.antaranews.com/berita/5088529/mahasiswa-pemerintah-respons-positif-tuntutan-ruu-perampasan-aset",
-      "publishedAt": "2025-09-04T16:02:37.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/05/IMG-20250904-WA0103.jpg",
-      "summary": "Perwakilan BEM SI Kerakyatan, Pasha, menyampaikan bahwa pemerintah merespons positif desakan mahasiswa agar Rancangan ..."
-    },
-    {
-      "id": "ANTARA – Terkini-47-1757001716000",
-      "title": "Legislator sebut percepatan perbaikan fasilitas publik perlu dilakukan",
-      "link": "https://www.antaranews.com/berita/5088525/legislator-sebut-percepatan-perbaikan-fasilitas-publik-perlu-dilakukan",
-      "publishedAt": "2025-09-04T16:01:56.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/IMG_20250904_222401.jpg",
-      "summary": "Ketua Komisi D DPRD DKI Jakarta Yuke Yurike menilai bahwa percepatan perbaikan fasilitas publik yang rusak, perlu ..."
-    },
-    {
-      "id": "ANTARA – Terkini-48-1757001626000",
-      "title": "Tanda-tanda anak mengalami gangguan pada penglihatan",
-      "link": "https://www.antaranews.com/berita/5088521/tanda-tanda-anak-mengalami-gangguan-pada-penglihatan",
-      "publishedAt": "2025-09-04T16:00:26.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/07/23/pemeriksaan-kesehatan-pendengaran-dan-penglihatan-pelajar-2580933.jpg",
-      "summary": "Ahli Bedah Mata dan Direktur RS Mata Surya, Mumbai Dr. Jay Goyal mengatakan bahwa ada tanda-tanda peringatan yang perlu ..."
-    },
-    {
-      "id": "ANTARA – Terkini-49-1757001608000",
-      "title": "KAI dukung penguatan angkutan logistik berbasis rel",
-      "link": "https://www.antaranews.com/berita/5088517/kai-dukung-penguatan-angkutan-logistik-berbasis-rel",
-      "publishedAt": "2025-09-04T16:00:08.000Z",
-      "source": "ANTARA – Terkini",
-      "category": "nasional",
-      "image": "https://img.antaranews.com/cache/800x533/2025/09/04/BB004009-B4C5-4F28-BA52-E40F690AADC2.jpeg",
-      "summary": "PT Kereta Api Indonesia Persero (KAI) mendukung penguatan angkutan logistik berbasis rel dengan mencatat lonjakan ..."
-    },
-    {
-      "id": "Detik – Berita-11-1757001119000",
+      "id": "Detik – Berita-31-1757001119000",
       "title": "Gudang Kursi Dekat SMPN 2 Bojonggede Kebakaran, Diduga Dipicu Korsleting",
       "link": "https://news.detik.com/berita/d-8097102/gudang-kursi-dekat-smpn-2-bojonggede-kebakaran-diduga-dipicu-korsleting",
       "publishedAt": "2025-09-04T15:51:59.000Z",
@@ -662,7 +962,7 @@
       "summary": "Kebakaran gudang kursi dekat SMPN 2 Bojonggede diduga akibat korsleting listrik. Empat unit pemadam dikerahkan dan api bisa dipadamkan."
     },
     {
-      "id": "Liputan6 – News-4-1757000865000",
+      "id": "Liputan6 – News-16-1757000865000",
       "title": "Curhat Bripka Rohmad Usai Disanksi Demosi: Saya hanya Jalankan Perintah, Bukan Kemauan Sendiri",
       "link": "https://www.liputan6.com/news/read/6151455/curhat-bripka-rohmad-usai-disanksi-demosi-saya-hanya-jalankan-perintah-bukan-kemauan-sendiri",
       "publishedAt": "2025-09-04T15:47:45.000Z",
@@ -672,7 +972,7 @@
       "summary": "Sambil terisak, Bripka Rohmad mengatakan hanyalah prajurit rendah yang seluruh nafkah keluarganya bersandar pada gaji bulanan polisi. Anak pertamanya tengah kuliah, sementara anak keduanya lahir dengan keterbatasan mental. Tak ada penghasilan tambahan."
     },
     {
-      "id": "Detik – Berita-12-1757000152000",
+      "id": "Detik – Berita-32-1757000152000",
       "title": "Viral Sopir Angkot Ciputat Aniaya Penumpang Wanita, Polisi Selidiki",
       "link": "https://news.detik.com/berita/d-8097094/viral-sopir-angkot-ciputat-aniaya-penumpang-wanita-polisi-selidiki",
       "publishedAt": "2025-09-04T15:35:52.000Z",
@@ -682,7 +982,7 @@
       "summary": "Video viral menunjukkan sopir angkot D01 Ciputat-Kebayoran Lama menganiaya penumpang wanita. Polisi menyelidiki dan mencari korban serta sopir."
     },
     {
-      "id": "Detik – Berita-13-1757000055000",
+      "id": "Detik – Berita-33-1757000055000",
       "title": "Pria Sumsel Sudah Jagal Ratusan Kucing, Daging Dijual Rp 100 Ribu Per Kg",
       "link": "https://news.detik.com/berita/d-8097093/pria-sumsel-sudah-jagal-ratusan-kucing-daging-dijual-rp-100-ribu-per-kg",
       "publishedAt": "2025-09-04T15:34:15.000Z",
@@ -692,7 +992,7 @@
       "summary": "Polisi tangkap Sujady (55) di Pagar Alam, Sumsel, karena diduga menjagal ratusan kucing untuk dijual sebagai daging. Pelaku mengaku butuh uang."
     },
     {
-      "id": "Detik – Berita-14-1756999248000",
+      "id": "Detik – Berita-34-1756999248000",
       "title": "Polda Metro Tangkap TikToker Figha Lesmana Buntut Ajak Pelajar Demo",
       "link": "https://news.detik.com/berita/d-8097082/polda-metro-tangkap-tiktoker-figha-lesmana-buntut-ajak-pelajar-demo",
       "publishedAt": "2025-09-04T15:20:48.000Z",
@@ -702,7 +1002,7 @@
       "summary": "Polda Metro Jaya menangkap TikToker Figha Lesmana dan 5 tersangka lainnya karena mengajak pelajar berunjuk rasa. Total 43 orang ditetapkan sebagai tersangka."
     },
     {
-      "id": "Liputan6 – News-28-1756998843000",
+      "id": "Liputan6 – News-42-1756998843000",
       "title": "Pentingnya Peran KEK Galang Batang bagi Indonesia, Serap Ribuan Pekerja Atasi Pengangguran",
       "link": "https://www.liputan6.com/news/read/6151456/pentingnya-peran-kek-galang-batang-bagi-indonesia-serap-ribuan-pekerja-atasi-pengangguran",
       "publishedAt": "2025-09-04T15:14:03.000Z",
@@ -712,7 +1012,7 @@
       "summary": "Peran Kawasan Ekonomi Khusus (KEK) Galang Batang bagi Indonesia memiliki peran penting untuk menumbuhkan ekonomi daerah dan membuka lapangan kerja."
     },
     {
-      "id": "Liputan6 – News-5-1756998708000",
+      "id": "Liputan6 – News-17-1756998708000",
       "title": "AHY: Total Kerusakan Infrastruktur Akibat Aksi Demo Ricuh Mencapai Rp950 Miliar",
       "link": "https://www.liputan6.com/news/read/6151446/ahy-total-kerusakan-infrastruktur-akibat-aksi-demo-ricuh-mencapai-rp950-miliar",
       "publishedAt": "2025-09-04T15:11:48.000Z",
@@ -722,7 +1022,7 @@
       "summary": "Infrastruktur yang rusak atau terbakar akibat aksi demo ricuh yakni, gedung-gedung pemerintahan, kantor-kantor DPRD, fasilitas umum, hingga jembatan penyeberangan orang (JPO)."
     },
     {
-      "id": "Detik – Berita-15-1756998664000",
+      "id": "Detik – Berita-35-1756998664000",
       "title": "Besok Long Weekend, 100 Polisi Dikerahkan Amankan Jalur Puncak",
       "link": "https://news.detik.com/berita/d-8097079/besok-long-weekend-100-polisi-dikerahkan-amankan-jalur-puncak",
       "publishedAt": "2025-09-04T15:11:04.000Z",
@@ -732,7 +1032,7 @@
       "summary": "Polres Bogor siapkan 100 personel untuk amankan jalur Puncak saat libur panjang. Pengamanan melibatkan TNI dan fasilitas darurat untuk keselamatan."
     },
     {
-      "id": "Liputan6 – News-6-1756998625000",
+      "id": "Liputan6 – News-18-1756998625000",
       "title": "Wamensos Agus Jabo Takziah dan Serahkan Santunan ke Keluarga Korban Demo di Yogyakarta",
       "link": "https://www.liputan6.com/news/read/6151454/wamensos-agus-jabo-takziah-dan-serahkan-santunan-ke-keluarga-korban-demo-di-yogyakarta",
       "publishedAt": "2025-09-04T15:10:25.000Z",
@@ -742,7 +1042,7 @@
       "summary": "Wamensos Agus Jabo menegaskan bahwa Kementerian Sosial tidak hanya memberikan santunan, tetapi juga akan terus berkoordinasi dengan Dinas Sosial setempat untuk mengetahui kebutuhan lanjutan keluarga almarhum."
     },
     {
-      "id": "Liputan6 – News-13-1756998507000",
+      "id": "Liputan6 – News-25-1756998507000",
       "title": "Cuma Jalankan Perintah, Bripka Rohmad Sopir Mobil Brimob Lindas Affan Kurniawan Dihukum Demosi 7 Tahun",
       "link": "https://www.liputan6.com/news/read/6151421/cuma-jalankan-perintah-bripka-rohmad-sopir-mobil-brimob-lindas-affan-kurniawan-dihukum-demosi-7-tahun",
       "publishedAt": "2025-09-04T15:08:27.000Z",
@@ -752,7 +1052,7 @@
       "summary": "Bripka Rohmad juga diwajibkan meminta maaf secara lisan di depan sidang dan tertulis kepada pimpinan Polri."
     },
     {
-      "id": "Detik – Berita-16-1756998096000",
+      "id": "Detik – Berita-36-1756998096000",
       "title": "Pilu 2 Orang Tewas Terjebak Terali Besi Saat Kebakaran Kalideres",
       "link": "https://news.detik.com/berita/d-8097070/pilu-2-orang-tewas-terjebak-terali-besi-saat-kebakaran-kalideres",
       "publishedAt": "2025-09-04T15:01:36.000Z",
@@ -762,7 +1062,7 @@
       "summary": "Nasib pilu menimpa dua orang di sebuah rumah di Kalideres, Jakarta Barat (Jakbar), yang kebakaran. Mereka tewas usai terjebak terali besi."
     },
     {
-      "id": "Liputan6 – News-30-1756997973000",
+      "id": "Liputan6 – News-44-1756997973000",
       "title": "Dituding Jadi Massa Anarko saat Demo Ricuh, Begini Klarifikasi MKGR",
       "link": "https://www.liputan6.com/news/read/6151415/dituding-jadi-massa-anarko-saat-demo-ricuh-begini-klarifikasi-mkgr",
       "publishedAt": "2025-09-04T14:59:33.000Z",
@@ -772,7 +1072,7 @@
       "summary": "\"Kami sangat menyesalkan dan prihatin dengan tindakan tersebut. MKGR sama sekali tidak pernah menginstruksikan, mengizinkan, atau terlibat dalam aksi-aksi (demonstrasi) yang dimaksud,\" tegas Rizky."
     },
     {
-      "id": "Liputan6 – News-7-1756997715000",
+      "id": "Liputan6 – News-19-1756997715000",
       "title": "Kementerian HAM Apresiasi Langkah Cepat Kemensos Rehabilitasi Korban Unjuk Rasa",
       "link": "https://www.liputan6.com/news/read/6151450/kementerian-ham-apresiasi-langkah-cepat-kemensos-rehabilitasi-korban-unjuk-rasa",
       "publishedAt": "2025-09-04T14:55:15.000Z",
@@ -782,7 +1082,7 @@
       "summary": "Dalam upaya rehabilitasi korban, Kemensos telah melakukan langkah-langkah pemulihan korban sesuai dengan program-program yang ada."
     },
     {
-      "id": "Detik – Berita-17-1756997415000",
+      "id": "Detik – Berita-37-1756997415000",
       "title": "Ditabrak Truk, 3 Gardu Tol Ciawi 2 Belum Beroperasi Malam Ini",
       "link": "https://news.detik.com/berita/d-8097062/ditabrak-truk-3-gardu-tol-ciawi-2-belum-beroperasi-malam-ini",
       "publishedAt": "2025-09-04T14:50:15.000Z",
@@ -792,7 +1092,7 @@
       "summary": "Tiga gardu di Gerbang Tol (GT) Ciawi 2 rusak usai ditabrak truk kontainer rem blong. Ketiga gardu belum beroperasi malam ini karena masih proses perbaikan"
     },
     {
-      "id": "Detik – Berita-18-1756997411000",
+      "id": "Detik – Berita-38-1756997411000",
       "title": "Kompolnas: Bripka Rohmat di Bawah Kendali Kompol Cosmas saat Affan Dilindas",
       "link": "https://news.detik.com/berita/d-8097061/kompolnas-bripka-rohmat-di-bawah-kendali-kompol-cosmas-saat-affan-dilindas",
       "publishedAt": "2025-09-04T14:50:11.000Z",
@@ -802,7 +1102,7 @@
       "summary": "Bripka Rohmat dijatuhi sanksi demosi 7 tahun setelah melindas Affan Kurniawan hingga tewas. Rotmat saat itu disebut berada di bawah kendali Kompol Cosmas."
     },
     {
-      "id": "Liputan6 – News-23-1756997213000",
+      "id": "Liputan6 – News-36-1756997213000",
       "title": "Tim SAR Temukan Lokasi Jatuhnya Helikopter di Kalimantan, 1 Korban Ditemukan",
       "link": "https://enamplus.liputan6.com/news/read/6151331/tim-sar-temukan-lokasi-jatuhnya-helikopter-di-kalimantan-1-korban-ditemukan",
       "publishedAt": "2025-09-04T14:46:53.000Z",
@@ -812,7 +1112,7 @@
       "summary": "Tim SAR berhasil menemukan lokasi jatuhnya helikopter Airbus BK117 D-3 di hutan Kalimantan setelah tiga hari pencarian."
     },
     {
-      "id": "Liputan6 – News-10-1756997211000",
+      "id": "Liputan6 – News-22-1756997211000",
       "title": "Nadiem Makarim Resmi Tersangka Korupsi | Polisi Tangkap Penghasut Bakar Mabes Polri",
       "link": "https://enamplus.liputan6.com/news/read/6151439/nadiem-makarim-resmi-tersangka-korupsi-polisi-tangkap-penghasut-bakar-mabes-polri",
       "publishedAt": "2025-09-04T14:46:51.000Z",
@@ -822,7 +1122,7 @@
       "summary": "Kejaksaan Agung menetapkan Nadiem Makarim sebagai tersangka kasus korupsi pengadaan laptop Chromebook di Kementerian Pendidikan dan Kebudayaan yang merugikan negara hingga Rp1,98 triliun pada Kamis (4/9/2025)."
     },
     {
-      "id": "Liputan6 – News-8-1756996884000",
+      "id": "Liputan6 – News-20-1756996884000",
       "title": "Aksi Simbolis, Kolektif 17+8 Indonesia Berbenah Serahkan Petisi Tuntutan di Depan DPR",
       "link": "https://www.liputan6.com/news/read/6151437/aksi-simbolis-kolektif-178-indonesia-berbenah-serahkan-petisi-tuntutan-di-depan-dpr",
       "publishedAt": "2025-09-04T14:41:24.000Z",
@@ -832,7 +1132,7 @@
       "summary": "Abigail menegaskan aksi simbolis ini dilakukan untuk memastikan tuntutan juga disampaikan secara fisik dan formal."
     },
     {
-      "id": "Detik – Berita-19-1756996304000",
+      "id": "Detik – Berita-39-1756996304000",
       "title": "Asosiasi Ojol Gelar Doa Bersama 7 Harian Wafatnya Affan Kurniawan",
       "link": "https://news.detik.com/berita/d-8097043/asosiasi-ojol-gelar-doa-bersama-7-harian-wafatnya-affan-kurniawan",
       "publishedAt": "2025-09-04T14:31:44.000Z",
@@ -842,7 +1142,7 @@
       "summary": "Asosiasi pengemudi ojol Garda Indonesia menggelar doa bersama untuk Affan Kurniawan yang meninggal tragis. Igun Wicaksono berharap kejadian serupa tak terulang."
     },
     {
-      "id": "Liputan6 – News-9-1756996223000",
+      "id": "Liputan6 – News-21-1756996223000",
       "title": "Jelang Peluncuran, Kemensos dan DEN Gelar Uji Coba Portal Digitalisasi Bansos",
       "link": "https://www.liputan6.com/news/read/6151443/jelang-peluncuran-kemensos-dan-den-gelar-uji-coba-portal-digitalisasi-bansos",
       "publishedAt": "2025-09-04T14:30:23.000Z",
@@ -852,7 +1152,7 @@
       "summary": "Digitalisasi bansos merupakan langkah awal implementasi Peraturan Presiden (Perpres) Nomor 83 Tahun 2025 tentang Komite Percepatan Transformasi Digital Pemerintah yang dilakukan oleh DEN."
     },
     {
-      "id": "Detik – Berita-20-1756996058000",
+      "id": "Detik – Berita-40-1756996058000",
       "title": "Gus Ipul Ungkap 3 Langkah Kemensos Pulihkan Korban Konflik Sosial",
       "link": "https://news.detik.com/berita/d-8097034/gus-ipul-ungkap-3-langkah-kemensos-pulihkan-korban-konflik-sosial",
       "publishedAt": "2025-09-04T14:27:38.000Z",
@@ -862,7 +1162,7 @@
       "summary": "Menteri Sosial Saifullah Yusuf atau Gus Ipul membeberkan tiga langkah yang dilakukan Kementerian Sosial (Kemensos) untuk memulihkan korban pasca-konflik sosial."
     },
     {
-      "id": "Liputan6 – News-14-1756995669000",
+      "id": "Liputan6 – News-26-1756995669000",
       "title": "Gempa Hari Ini Kamis 4 September 2025: Indonesia Lima Kali Digetarkan Lindu",
       "link": "https://www.liputan6.com/news/read/6151434/gempa-hari-ini-kamis-4-september-2025-indonesia-lima-kali-digetarkan-lindu",
       "publishedAt": "2025-09-04T14:21:09.000Z",
@@ -872,7 +1172,7 @@
       "summary": "Lindu kembali menggetarkan Bumi Pertiwi pada hari ini, Kamis (4/9/2025). Hingga pukul 20.15 WIB, ada lima kali gempa hari ini yang terjadi di Indonesia."
     },
     {
-      "id": "Detik – Berita-21-1756995468000",
+      "id": "Detik – Berita-41-1756995468000",
       "title": "Eddy Soeparno Pastikan Tuntutan 17+8 Didengar: Kami Terus Berbenah",
       "link": "https://news.detik.com/berita/d-8097028/eddy-soeparno-pastikan-tuntutan-17-8-didengar-kami-terus-berbenah",
       "publishedAt": "2025-09-04T14:17:48.000Z",
@@ -882,7 +1182,7 @@
       "summary": "Wakil Ketua MPR RI Eddy Soeparno menegaskan pihaknya mendengarkan aspirasi masyarakat yang dirumuskan dalam tuntutan 17 + 8 di media sosial."
     },
     {
-      "id": "Detik – Berita-22-1756995336000",
+      "id": "Detik – Berita-42-1756995336000",
       "title": "Legislator Ajak Masyarakat Lawan Narasi Provokatif: Ini Ancaman Sangat Serius",
       "link": "https://news.detik.com/berita/d-8097024/legislator-ajak-masyarakat-lawan-narasi-provokatif-ini-ancaman-sangat-serius",
       "publishedAt": "2025-09-04T14:15:36.000Z",
@@ -892,7 +1192,7 @@
       "summary": "Anggota Komisi I DPR, Farah Puteri Nahlia, mengajak masyarakat waspada terhadap disinformasi dan hoaks pasca-demo. Mari saring informasi sebelum menyebar!"
     },
     {
-      "id": "Detik – Berita-23-1756995208000",
+      "id": "Detik – Berita-43-1756995208000",
       "title": "Wamensos Takziah ke Rumah Mahasiswa Korban Demo di Yogyakarta",
       "link": "https://news.detik.com/berita/d-8097021/wamensos-takziah-ke-rumah-mahasiswa-korban-demo-di-yogyakarta",
       "publishedAt": "2025-09-04T14:13:28.000Z",
@@ -902,7 +1202,7 @@
       "summary": "Wamensos Agus Jabo melayat ke rumah duka mahasiswa yang meninggal saat unjuk rasa. Ia sampaikan belasungkawa dan santunan dari pemerintah untuk keluarga."
     },
     {
-      "id": "Detik – Berita-24-1756994751000",
+      "id": "Detik – Berita-44-1756994751000",
       "title": "Prabowo Hadiri Acara Maulid Nabi di Istiqlal, Menag Jadi Penceramah",
       "link": "https://news.detik.com/berita/d-8097008/prabowo-hadiri-acara-maulid-nabi-di-istiqlal-menag-jadi-penceramah",
       "publishedAt": "2025-09-04T14:05:51.000Z",
@@ -912,7 +1212,7 @@
       "summary": "Masjid Istiqlal menggelar peringatan Maulid Nabi Muhammad dengan tema 'Ekoteologi'. Hadir Presiden Prabowo hingga Menag Nasaruddin Umar."
     },
     {
-      "id": "Detik – Berita-25-1756994694000",
+      "id": "Detik – Berita-45-1756994694000",
       "title": "Ahli Pidana soal Polri Pecat Kompol Cosmas: Masyarakat Dukung demi Keadilan",
       "link": "https://news.detik.com/berita/d-8097006/ahli-pidana-soal-polri-pecat-kompol-cosmas-masyarakat-dukung-demi-keadilan",
       "publishedAt": "2025-09-04T14:04:54.000Z",
@@ -922,7 +1222,7 @@
       "summary": "Sanksi tegas terhadap para tersangka termasuk Kompol Cosmas Kaju Gae, kata Hery, merupakan upaya untuk memberikan rasa adil pada keluarga Affan."
     },
     {
-      "id": "Detik – Berita-26-1756994578000",
+      "id": "Detik – Berita-46-1756994578000",
       "title": "Bamsoet Dukung Lawatan Prabowo ke China: Tegaskan RI Tetap Aman-Stabil",
       "link": "https://news.detik.com/berita/d-8097004/bamsoet-dukung-lawatan-prabowo-ke-china-tegaskan-ri-tetap-aman-stabil",
       "publishedAt": "2025-09-04T14:02:58.000Z",
@@ -932,7 +1232,7 @@
       "summary": "Bambang Soesatyo mendukung lawatan Presiden Prabowo ke China, menegaskan pentingnya stabilitas Indonesia di panggung internasional dan diplomasi global."
     },
     {
-      "id": "Detik – Berita-27-1756994474000",
+      "id": "Detik – Berita-47-1756994474000",
       "title": "Nasib Mercy BJ Habibie: Belum Dilunasi RK, Kini Disita KPK",
       "link": "https://news.detik.com/berita/d-8097003/nasib-mercy-bj-habibie-belum-dilunasi-rk-kini-disita-kpk",
       "publishedAt": "2025-09-04T14:01:14.000Z",
@@ -942,7 +1242,7 @@
       "summary": "Mobil Mercy BJ Habibie ternyata dibeli RK dengan dicicil. KPK pun telah menyita mobil tersebut terkait dugaan korupsi BJB."
     },
     {
-      "id": "Detik – Berita-28-1756994416000",
+      "id": "Detik – Berita-48-1756994416000",
       "title": "Polri dan KSPSI Gelar Baksos, Bagikan Ratusan Paket Sembako ke Warga",
       "link": "https://news.detik.com/berita/d-8097000/polri-dan-kspsi-gelar-baksos-bagikan-ratusan-paket-sembako-ke-warga",
       "publishedAt": "2025-09-04T14:00:16.000Z",
@@ -952,7 +1252,7 @@
       "summary": "Polri dan KSPSI menggelar bakti sosial dengan membagikan sembako kepada masyarakat. Kegiatan ini memperkuat hubungan dan solidaritas sosial di Indonesia."
     },
     {
-      "id": "Detik – Berita-29-1756994189000",
+      "id": "Detik – Berita-49-1756994189000",
       "title": "Tol Arah Cawang Padat Jelang Long Weekend, di JORR Jatiasih Ada Kecelakaan",
       "link": "https://news.detik.com/berita/d-8096992/tol-arah-cawang-padat-jelang-long-weekend-di-jorr-jatiasih-ada-kecelakaan",
       "publishedAt": "2025-09-04T13:56:29.000Z",
@@ -962,7 +1262,7 @@
       "summary": "Arus lalu lintas (lalin) di Tol Dalam Kota dan Tol Wiyoto Wiyono arah Cawang terpantau padat pada malam ini. Sementara di JORR E ada kecelakaan."
     },
     {
-      "id": "Liputan6 – News-11-1756994070000",
+      "id": "Liputan6 – News-23-1756994070000",
       "title": "PAN Salurkan Bantuan 1.000 Paket Sembako kepada Pasukan Oranye, Bentuk Ucapan Terima Kasih",
       "link": "https://www.liputan6.com/news/read/6151350/pan-salurkan-bantuan-1000-paket-sembako-kepada-pasukan-oranye-bentuk-ucapan-terima-kasih",
       "publishedAt": "2025-09-04T13:54:30.000Z",
@@ -972,7 +1272,7 @@
       "summary": "PAN salurkan bantuan paket sembako kepada pasukan oranye pasca aksi demonstrasi beberapa waktu lalu."
     },
     {
-      "id": "Detik – Berita-30-1756993890000",
+      "id": "Detik – Berita-50-1756993890000",
       "title": "DPRD Banten Hapus Anggaran Sosialisasi Perda Rp 67 M",
       "link": "https://news.detik.com/berita/d-8096988/dprd-banten-hapus-anggaran-sosialisasi-perda-rp-67-m",
       "publishedAt": "2025-09-04T13:51:30.000Z",
@@ -982,7 +1282,7 @@
       "summary": "DPRD Banten efisiensi APBD 2025 dengan menghapus anggaran Sosialisasi Perda Rp 67 miliar, dialihkan untuk program kemasyarakatan."
     },
     {
-      "id": "Detik – Berita-31-1756993829000",
+      "id": "Detik – Berita-51-1756993829000",
       "title": "Polda Metro Bidik Aktor Utama Penggerak Kericuhan di Jakarta",
       "link": "https://news.detik.com/berita/d-8096986/polda-metro-bidik-aktor-utama-penggerak-kericuhan-di-jakarta",
       "publishedAt": "2025-09-04T13:50:29.000Z",
@@ -992,7 +1292,7 @@
       "summary": "Polda Metro Jaya intensif menyelidiki kericuhan di Jakarta, membidik aktor penggerak utama. 43 tersangka telah ditetapkan terkait aksi anarkis tersebut."
     },
     {
-      "id": "Liputan6 – News-12-1756993430000",
+      "id": "Liputan6 – News-24-1756993430000",
       "title": "Didampingi Menhan Sjafrie, Prabowo Hadiri Peringatan Maulid Nabi di Istiqlal",
       "link": "https://www.liputan6.com/news/read/6151412/didampingi-menhan-sjafrie-prabowo-hadiri-peringatan-maulid-nabi-di-istiqlal",
       "publishedAt": "2025-09-04T13:43:50.000Z",
@@ -1002,7 +1302,7 @@
       "summary": "Berdasarkan pantauan Liputan6.com, Prabowo tiba di Masjid Istiqlal pukul 19.35 WIB. Dia mengenakan baju koko bewarna putih dan peci hitam."
     },
     {
-      "id": "Detik – Berita-32-1756992804000",
+      "id": "Detik – Berita-52-1756992804000",
       "title": "Bertemu Akademisi-Tokoh Keagamaan, Puan Tegaskan Komitmen Transformasi DPR",
       "link": "https://news.detik.com/berita/d-8096972/bertemu-akademisi-tokoh-keagamaan-puan-tegaskan-komitmen-transformasi-dpr",
       "publishedAt": "2025-09-04T13:33:24.000Z",
@@ -1012,7 +1312,7 @@
       "summary": "Ketua DPR RI, Puan Maharani menerima audiensi dari sejumlah tokoh publik lintas latar belakang profesi untuk berdialog."
     },
     {
-      "id": "Detik – Berita-33-1756992765000",
+      "id": "Detik – Berita-53-1756992765000",
       "title": "Bertemu Puan, Perwakilan Kiai Kampung: DPR Janji Hapus Tunjangan-Tak Elitis",
       "link": "https://news.detik.com/berita/d-8096971/bertemu-puan-perwakilan-kiai-kampung-dpr-janji-hapus-tunjangan-tak-elitis",
       "publishedAt": "2025-09-04T13:32:45.000Z",
@@ -1022,7 +1322,7 @@
       "summary": "Mujadalah Kiai Kampung bertemu Ketua DPR Puan Maharani membahas tuntutan rakyat. Puan berkomitmen menjadikan DPR lebih partisipatif dan responsif."
     },
     {
-      "id": "Liputan6 – News-15-1756992551000",
+      "id": "Liputan6 – News-27-1756992551000",
       "title": "Yusril Minta Tersangka Demo Ricuh Gentleman Hadapi Proses Hukum",
       "link": "https://www.liputan6.com/news/read/6151406/yusril-minta-tersangka-demo-ricuh-gentleman-hadapi-proses-hukum",
       "publishedAt": "2025-09-04T13:29:11.000Z",
@@ -1032,7 +1332,7 @@
       "summary": "Yusril mengatakan para tersangka dapat menyewa advokat untuk menyanggah bukti-bukti yang didapat aparat penegak hukum."
     },
     {
-      "id": "Liputan6 – News-16-1756992446000",
+      "id": "Liputan6 – News-28-1756992446000",
       "title": "Mahfud MD soal Demo Ricuh: Tangkap Saja Kalau Ada yang Makar",
       "link": "https://www.liputan6.com/news/read/6151402/mahfud-md-soal-demo-ricuh-tangkap-saja-kalau-ada-yang-makar",
       "publishedAt": "2025-09-04T13:27:26.000Z",
@@ -1042,7 +1342,7 @@
       "summary": "Mahfud mengatakan, jika terbukti ada tindakan mengarah makar di balik gelombang aksi massa di berbagai daerah maka aparat harus segera menindaknya."
     },
     {
-      "id": "Detik – Berita-34-1756992265000",
+      "id": "Detik – Berita-54-1756992265000",
       "title": "Prabowo Pimpin Ratas, Bahas Situasi dan Stabilitas Ekonomi Terkini",
       "link": "https://news.detik.com/berita/d-8096957/prabowo-pimpin-ratas-bahas-situasi-dan-stabilitas-ekonomi-terkini",
       "publishedAt": "2025-09-04T13:24:25.000Z",
@@ -1052,7 +1352,7 @@
       "summary": "Presiden Prabowo Subianto memimpin rapat terbatas (ratas) bersama sejumlah menteri di Istana Kepresidenan, Jakarta, hari ini."
     },
     {
-      "id": "Detik – Berita-35-1756991928000",
+      "id": "Detik – Berita-55-1756991928000",
       "title": "MPR RI Terima Audiensi BEM Sumsel, Tuntutan Mahasiswa Ditandatangani",
       "link": "https://news.detik.com/berita/d-8096952/mpr-ri-terima-audiensi-bem-sumsel-tuntutan-mahasiswa-ditandatangani",
       "publishedAt": "2025-09-04T13:18:48.000Z",
@@ -1062,7 +1362,7 @@
       "summary": "Pimpinan MPR RI terima BEM Sumsel untuk bahas revisi tunjangan DPR dan RUU Perampasan Aset. Mahasiswa dorong aspirasi rakyat dan transparansi."
     },
     {
-      "id": "Detik – Berita-36-1756991435000",
+      "id": "Detik – Berita-56-1756991435000",
       "title": "Apresiasi Pasukan Oranye Jakarta, Fraksi PAN Salurkan 1.000 Paket Sembako",
       "link": "https://news.detik.com/berita/d-8096947/apresiasi-pasukan-oranye-jakarta-fraksi-pan-salurkan-1-000-paket-sembako",
       "publishedAt": "2025-09-04T13:10:35.000Z",
@@ -1072,7 +1372,7 @@
       "summary": "Fraksi PAN DPR RI salurkan 1.000 paket sembako untuk pasukan oranye, penghargaan atas dedikasi mereka menjaga kebersihan Jakarta."
     },
     {
-      "id": "Detik – Berita-37-1756991111000",
+      "id": "Detik – Berita-57-1756991111000",
       "title": "Sejumlah Perwakilan Mahasiswa Merapat ke Istana, Hendak Temui Prabowo",
       "link": "https://news.detik.com/berita/d-8096943/sejumlah-perwakilan-mahasiswa-merapat-ke-istana-hendak-temui-prabowo",
       "publishedAt": "2025-09-04T13:05:11.000Z",
@@ -1082,7 +1382,7 @@
       "summary": "Sejumlah mahasiswa bertemu Presiden Prabowo di Istana untuk menyampaikan aspirasi, termasuk kesejahteraan guru honorer dan isu demonstrasi terkini."
     },
     {
-      "id": "Liputan6 – News-17-1756991100000",
+      "id": "Liputan6 – News-29-1756991100000",
       "title": "Aksi Kamisan ke-876, Ratusan Orang Berpakaian Hitam Penuhi Area Depan Istana Negara",
       "link": "https://www.liputan6.com/photo/read/6151386/aksi-kamisan-ke-876-ratusan-orang-berpakaian-hitam-penuhi-area-depan-istana-negara",
       "publishedAt": "2025-09-04T13:05:00.000Z",
@@ -1092,7 +1392,7 @@
       "summary": "Ratusan orang berpakaian hitam memenuhi area depan Istana Negara, Jalan Medan Merdeka Utara, Jakarta Pusat, Kamis (4/9/2025). Mereka mengikuti gelaran Aksi Kamisan yang ke-876, sebuah aksi damai yang digelar setiap Kamis sore sejak 2007 silam. Kali ini, Aksi Kamisan bertepatan dengan momentum peringatan 21 tahun meninggalnya Munir yang dibunuh pada 7 September 2004. Mengusung tema “Mengenang 21 Tahun Munir: Indonesia Darurat Kekerasan dan Ketidakadilan”, juga menjadi momentum para aktivis Jaringan Solidaritas Korban menuntut keadilan bagi korban peristiwa dalam serangkaian aksi unjuk rasa pada 28-31 Agustus 2025. Diketahui, ada sekitar 10 sepuluh korban meninggal selama aksi unjuk rasa yang berlangsung 28-31 Agustus 2025. Aksi Kamisan kali ini juga dilakukan di tengah gelombang aksi unjuk rasa di Jakarta dan berbagai wilayah lain di Tanah Air. Sebagaimana diketahui, gelombang aksi unjuk rasa terus bergulir sejak 25 Agustus 2025."
     },
     {
-      "id": "Detik – Berita-38-1756990973000",
+      "id": "Detik – Berita-58-1756990973000",
       "title": "Pakar Hukum Setuju Kompol Cosmas Dipecat, Dorong Lanjut Proses Pidana",
       "link": "https://news.detik.com/berita/d-8096942/pakar-hukum-setuju-kompol-cosmas-dipecat-dorong-lanjut-proses-pidana",
       "publishedAt": "2025-09-04T13:02:53.000Z",
@@ -1102,7 +1402,7 @@
       "summary": "Pakar hukum Hudi Yusuf setuju pemecatan Kompol Cosmas terkait kasus tewasnya Affan Kurniawan. Dia mendorong proses pidana untuk pembunuhan berencana."
     },
     {
-      "id": "Detik – Berita-39-1756990743000",
+      "id": "Detik – Berita-59-1756990743000",
       "title": "DPR Sahkan Anggaran PKP 2026 Rp 10,8 T, Ara Ungkap 2 Program Andalan",
       "link": "https://news.detik.com/berita/d-8096931/dpr-sahkan-anggaran-pkp-2026-rp-10-8-t-ara-ungkap-2-program-andalan",
       "publishedAt": "2025-09-04T12:59:03.000Z",
@@ -1112,7 +1412,17 @@
       "summary": "Kementerian Perumahan dan Kawasan Permukiman (PKP) mendapatkan persetujuan anggaran dari DPR sebesar Rp 10,895 triliun untuk tahun 2026."
     },
     {
-      "id": "Liputan6 – News-18-1756990627000",
+      "id": "Liputan6 – News-1-1756990633000",
+      "title": "Hal-hal yang Masih Jadi Misteri Usai Kerusuhan Demo",
+      "link": "https://www.liputan6.com/news/read/6151371/hal-hal-yang-masih-jadi-misteri-usai-kerusuhan-demo",
+      "publishedAt": "2025-09-04T12:57:13.000Z",
+      "source": "Liputan6 – News",
+      "category": "nasional",
+      "image": "https://cdn0-production-images-kly.akamaized.net/DH3gOHfWD3MiNTJKI1q2_pSi5bA=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5326945/original/088009000_1756116352-5.jpg",
+      "summary": "Polisi hingga kini masih terus melakukan penangkapan terhadap sejumlah orang yang dituding memicu kerusuhan demo di sejumlah tempat."
+    },
+    {
+      "id": "Liputan6 – News-30-1756990627000",
       "title": "Yusril: Prabowo Sudah Berkali-kali Desak DPR Segera Bahas RUU Perampasan Aset",
       "link": "https://www.liputan6.com/news/read/6151384/yusril-prabowo-sudah-berkali-kali-desak-dpr-segera-bahas-ruu-perampasan-aset",
       "publishedAt": "2025-09-04T12:57:07.000Z",
@@ -1122,7 +1432,7 @@
       "summary": "Yusril juga sudah berkoordinasi dengan Menteri Hukum Supratman Andi Agtas agar RUU Perampasan Aset bisa masuk dalam prolegnas DPR RI tahun 2025-2026."
     },
     {
-      "id": "Detik – Berita-40-1756990605000",
+      "id": "Detik – Berita-60-1756990605000",
       "title": "Bripka Rohmat Minta Maaf ke Keluarga Affan: Tak Ada Niat Hilangkan Nyawa",
       "link": "https://news.detik.com/berita/d-8096929/bripka-rohmat-minta-maaf-ke-keluarga-affan-tak-ada-niat-hilangkan-nyawa",
       "publishedAt": "2025-09-04T12:56:45.000Z",
@@ -1132,7 +1442,7 @@
       "summary": "Bripka Rohmat, sopir taktis Polda Metro Jaya, dijatuhi sanksi demosi 7 tahun setelah melindas Affan Kurniawan. Rohmat meminta maaf kepada keluarga korban."
     },
     {
-      "id": "Liputan6 – News-19-1756990295000",
+      "id": "Liputan6 – News-31-1756990295000",
       "title": "Mahasiswa Temui Prabowo di Istana, Minta Demonstran yang Ditangkap Dibebaskan",
       "link": "https://www.liputan6.com/news/read/6151377/mahasiswa-temui-prabowo-di-istana-minta-demonstran-yang-ditangkap-dibebaskan",
       "publishedAt": "2025-09-04T12:51:35.000Z",
@@ -1142,7 +1452,7 @@
       "summary": "Mereka berasal dari berbagai universitas, perwakilan Badan Eksekutif Mahasiswa (BEM), hingga organisasi mahasiswa ekstra kampus."
     },
     {
-      "id": "Detik – Berita-41-1756990008000",
+      "id": "Detik – Berita-61-1756990008000",
       "title": "Polda Metro Geledah Kantor Lokataru",
       "link": "https://news.detik.com/berita/d-8096919/polda-metro-geledah-kantor-lokataru",
       "publishedAt": "2025-09-04T12:46:48.000Z",
@@ -1152,7 +1462,7 @@
       "summary": "Polda Metro Jaya melakukan penggeledahan kantor Lokataru di Jaktim. Penggeledahan dilakukan usai Direktur Lokataru Delpedro jadi tersangka."
     },
     {
-      "id": "Detik – Berita-42-1756989864000",
+      "id": "Detik – Berita-62-1756989864000",
       "title": "60 Orang Jadi Tersangka Penyerangan Markas Polres Jakut!",
       "link": "https://news.detik.com/berita/d-8096916/60-orang-jadi-tersangka-penyerangan-markas-polres-jakut",
       "publishedAt": "2025-09-04T12:44:24.000Z",
@@ -1162,7 +1472,7 @@
       "summary": "Polisi menetapkan 60 tersangka penyerangan markas Polres Metro Jakarta Pusat. Tersangka sebagian besar remaja dan berasal dari Jakarta Utara serta luar daerah."
     },
     {
-      "id": "Detik – Berita-43-1756989802000",
+      "id": "Detik – Berita-63-1756989802000",
       "title": "Gubernur Lampung Bawa Aspirasi Mahasiswa ke Ketua MPR",
       "link": "https://news.detik.com/berita/d-8096914/gubernur-lampung-bawa-aspirasi-mahasiswa-ke-ketua-mpr",
       "publishedAt": "2025-09-04T12:43:22.000Z",
@@ -1172,7 +1482,17 @@
       "summary": "Gubernur Lampung, Rahmat Mirzani Djausal bersama Ketua DPRD Provinsi Lampung, Ahmad Giri Akbar membawa langsung 10 tuntutan tersebut ke Jakarta."
     },
     {
-      "id": "Detik – Berita-44-1756989367000",
+      "id": "Liputan6 – News-4-1756989687000",
+      "title": "Deretan Tersangka Kasus Demo Ricuh",
+      "link": "https://www.liputan6.com/news/read/6151367/deretan-tersangka-kasus-demo-ricuh",
+      "publishedAt": "2025-09-04T12:41:27.000Z",
+      "source": "Liputan6 – News",
+      "category": "nasional",
+      "image": "https://cdn0-production-images-kly.akamaized.net/VJb3Dr5I0C1hP-qEdr-F2Ksvkpw=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5331194/original/006668300_1756389029-rusu7.jpg",
+      "summary": "Kepolisian telah mengamankan sejumlah orang yang diduga sebagai pemicu dan pelaku kekerasan dalam aksi demonstrasi."
+    },
+    {
+      "id": "Detik – Berita-64-1756989367000",
       "title": "Luncurkan OSS TBC, Pemkot Semarang Bidik Bebas TBC di Tahun 2028",
       "link": "https://news.detik.com/berita/d-8096900/luncurkan-oss-tbc-pemkot-semarang-bidik-bebas-tbc-di-tahun-2028",
       "publishedAt": "2025-09-04T12:36:07.000Z",
@@ -1182,7 +1502,7 @@
       "summary": "Pemkot Semarang luncurkan Studi Pra-Pilot OSS TBC untuk eliminasi TBC 2030. Warga dapat layanan pemeriksaan gratis dan inovatif di Puskesmas Bangetayu."
     },
     {
-      "id": "Detik – Berita-45-1756989259000",
+      "id": "Detik – Berita-65-1756989259000",
       "title": "KPK Bicara Peluang Tersangkakan Nadiem Meski Sudah Jadi Tersangka Kejagung",
       "link": "https://news.detik.com/berita/d-8096898/kpk-bicara-peluang-tersangkakan-nadiem-meski-sudah-jadi-tersangka-kejagung",
       "publishedAt": "2025-09-04T12:34:19.000Z",
@@ -1192,7 +1512,7 @@
       "summary": "Kejagung menetapkan Nadiem Makarim sebagai tersangka korupsi pengadaan laptop Chromebook. KPK juga menyelidiki dugaan korupsi Google Cloud terkait Nadiem."
     },
     {
-      "id": "Liputan6 – News-21-1756989249000",
+      "id": "Liputan6 – News-33-1756989249000",
       "title": "Total APBD Jakarta 2026 Senilai Rp95,35 Triliun, Pramono Pastikan Sentuh Kepentingan Masyarakat",
       "link": "https://www.liputan6.com/news/read/6151360/total-apbd-jakarta-2026-senilai-rp9535-triliun-pramono-pastikan-sentuh-kepentingan-masyarakat",
       "publishedAt": "2025-09-04T12:34:09.000Z",
@@ -1202,7 +1522,7 @@
       "summary": "Angka ini meningkat 3,80 persen dari 2025, sebesar Rp 91,86 triliun."
     },
     {
-      "id": "Liputan6 – News-20-1756988985000",
+      "id": "Liputan6 – News-32-1756988985000",
       "title": "Nadiem Makarim Jadi Tersangka Chromebook di Kejagung, Bagaimana Nasib Kasus Google Cloud di KPK?",
       "link": "https://www.liputan6.com/news/read/6151356/nadiem-makarim-jadi-tersangka-chromebook-di-kejagung-bagaimana-nasib-kasus-google-cloud-di-kpk",
       "publishedAt": "2025-09-04T12:29:45.000Z",
@@ -1212,7 +1532,7 @@
       "summary": "Menurut Ketua KPK, status Nadiem masih sebagai saksi di KPK."
     },
     {
-      "id": "Detik – Berita-46-1756988830000",
+      "id": "Detik – Berita-66-1756988830000",
       "title": "Provokator Hasut Massa Jarah Rumah Uya Kuya Ditangkap Polisi!",
       "link": "https://news.detik.com/berita/d-8096884/provokator-hasut-massa-jarah-rumah-uya-kuya-ditangkap-polisi",
       "publishedAt": "2025-09-04T12:27:10.000Z",
@@ -1222,7 +1542,7 @@
       "summary": "Polisi tangkap provokator penjarahan rumah Uya Kuya di Duren Sawit. Total 19 orang diamankan, 10 di antaranya ditetapkan sebagai tersangka."
     },
     {
-      "id": "Detik – Berita-47-1756988467000",
+      "id": "Detik – Berita-67-1756988467000",
       "title": "Pilar Cek Korban Kebakaran Asrama Polisi Serpong, Pastikan Bantuan Optimal",
       "link": "https://news.detik.com/berita/d-8096873/pilar-cek-korban-kebakaran-asrama-polisi-serpong-pastikan-bantuan-optimal",
       "publishedAt": "2025-09-04T12:21:07.000Z",
@@ -1232,7 +1552,7 @@
       "summary": "Wakil Wali Kota Tangsel Pilar Saga Ichsan meninjau lokasi kebakaran Asrama Polisi Cilenggang. Ia pastikan penanggulangan musibah & bantuan untuk korban optimal"
     },
     {
-      "id": "Detik – Berita-48-1756988373000",
+      "id": "Detik – Berita-68-1756988373000",
       "title": "Bripka Rohmat Sopir Rantis Pelindas Affan Kurniawan Disanksi Demosi 7 Tahun",
       "link": "https://news.detik.com/berita/d-8096865/bripka-rohmat-sopir-rantis-pelindas-affan-kurniawan-disanksi-demosi-7-tahun",
       "publishedAt": "2025-09-04T12:19:33.000Z",
@@ -1242,7 +1562,7 @@
       "summary": "Bripka Rohmat merupakan sopir rantis yang menabrak dan melindas pengemudi ojek online (ojol) Affan Kurniawan (21) hingga tewas pada Kamis (28/8)."
     },
     {
-      "id": "Detik – Berita-49-1756988359000",
+      "id": "Detik – Berita-69-1756988359000",
       "title": "Kepala BNN Komitmen Perkuat Rehabilitasi, Singgung Indonesia Emas 2045",
       "link": "https://news.detik.com/berita/d-8096864/kepala-bnn-komitmen-perkuat-rehabilitasi-singgung-indonesia-emas-2045",
       "publishedAt": "2025-09-04T12:19:19.000Z",
@@ -1252,7 +1572,17 @@
       "summary": "Kepala BNN Suyudi Ario Seto menyampaikan hasil rapat dengan DPR, menekankan pentingnya anggaran untuk rehabilitasi narkoba, bukan hanya penegakan hukum."
     },
     {
-      "id": "Detik – Berita-50-1756988123000",
+      "id": "Liputan6 – News-34-1756988140000",
+      "title": "Golkar Nilai Langkah Prabowo Redam Aksi Massa Buktikan Negara Hadir",
+      "link": "https://www.liputan6.com/news/read/6151567/golkar-nilai-langkah-prabowo-redam-aksi-massa-buktikan-negara-hadir",
+      "publishedAt": "2025-09-04T12:15:40.000Z",
+      "source": "Liputan6 – News",
+      "category": "nasional",
+      "image": "https://cdn1-production-images-kly.akamaized.net/evPSaKGHT6DHKHasrRKyqi4hEz4=/0x0:934x526/673x379/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5339068/original/059795300_1757029034-WhatsApp_Image_2025-09-04_at_18.58.48.jpeg",
+      "summary": "Bahlil menilai, sikap Presiden Prabowo membuktikan bahwa negara hadir bukan hanya dengan pendekatan keamanan, tetapi juga melalui dialog dengan seluruh elemen bangsa."
+    },
+    {
+      "id": "Detik – Berita-70-1756988123000",
       "title": "Demo Buruh di Patung Kuda Bubar, Jl Medan Merdeka Selatan Kembali Normal",
       "link": "https://news.detik.com/berita/d-8096855/demo-buruh-di-patung-kuda-bubar-jl-medan-merdeka-selatan-kembali-normal",
       "publishedAt": "2025-09-04T12:15:23.000Z",
@@ -1262,7 +1592,7 @@
       "summary": "Massa buruh dari Aliansi Gebrak telah bubar setelah demo di Patung Kuda, Jakarta. Lalu lintas normal kembali, aksi berlangsung tertib dan kondusif."
     },
     {
-      "id": "Detik – Berita-51-1756988121000",
+      "id": "Detik – Berita-71-1756988121000",
       "title": "Rumah di Jeruk Purut Jaksel Terbakar, 12 Unit Mobil Damkar Dikerahkan",
       "link": "https://news.detik.com/berita/d-8096854/rumah-di-jeruk-purut-jaksel-terbakar-12-unit-mobil-damkar-dikerahkan",
       "publishedAt": "2025-09-04T12:15:21.000Z",
@@ -1272,7 +1602,7 @@
       "summary": "Rumah dilanda kebakaran di Jeruk Purut, Cilandak Timur, Pasar Minggu, Jakarta Selatan. Petugas pemadam kebakaran (damkar) masih berupaya memadamkan api."
     },
     {
-      "id": "Liputan6 – News-24-1756987832000",
+      "id": "Liputan6 – News-37-1756987832000",
       "title": "Polisi Ungkap Peran Khariq Anhar, Admin Akun IG Jadi Tersangka Penghasutan Demo Ricuh di DPR",
       "link": "https://www.liputan6.com/news/read/6151334/polisi-ungkap-peran-khariq-anhar-admin-akun-ig-jadi-tersangka-penghasutan-demo-ricuh-di-dpr",
       "publishedAt": "2025-09-04T12:10:32.000Z",
@@ -1282,7 +1612,7 @@
       "summary": "Polisi mengungkap peran Khariq Anhar, satu dari lima orang yang ditetapkan sebagai tersangka kasus dugaan penghasutan hingga mengakibatkan terjadinya kerusuhan saat demo di depan gedung DPR/MPR."
     },
     {
-      "id": "Liputan6 – News-22-1756987800000",
+      "id": "Liputan6 – News-35-1756987800000",
       "title": "Bawa 13 Tuntutan, BEM SI Gelar Unjuk Rasa di Depan Gedung DPR Kamis Petang",
       "link": "https://www.liputan6.com/photo/read/6151329/bawa-13-tuntutan-bem-si-gelar-unjuk-rasa-di-depan-gedung-dpr-kamis-petang",
       "publishedAt": "2025-09-04T12:10:00.000Z",
@@ -1292,7 +1622,7 @@
       "summary": "Badan Eksekutif Mahasiswa Seluruh Indonesia (BEM SI) menggelar aksi unjuk rasa di depan gerbang utama gedung Majelis Permusyawaratan Rakyat (MPR), Dewan Perwakilan Rakyat (DPR), dan Dewan Perwakilan Daerah (DPD) Republik Indonesia, Jakarta, Kamis (4/9/2025). Dalam aksinya, BEM SI membawa 13 tuntutan yang ingin disampaikan kepada wakil rakyat melalui mimbar orasi di depan gerbang utama Gedung MPR/DPR/DPD RI. Adapun 13 tuntutan yang dibawa mahasiswa dalam unjuk rasa bertajuk \"Selamatkan Indonesia\", di antaranya turunkan tunjangan DPR sekarang juga. BEM SI juga menuntut para anggota MPR/DPR/DPD RI menghentikan gaya hidup mewah di atas penderitaan rakyat. Mereka juga mendesak segera disahkannya RUU Perampasan Aset, tangkap, rampas dan adili semua harta koruptor. BEM SI juga meminta segera dilakukan reformasi total di tubuh Polri dan DPR. Mereka juga meminta pembebasan segera kawan-kawannya yang ditahan serta stop kriminalisasi gerakan mahasiswa dan rakyat."
     },
     {
-      "id": "Detik – Berita-52-1756987703000",
+      "id": "Detik – Berita-72-1756987703000",
       "title": "Ada Pengamatan Gerhana Bulan 7 September di Planetarium, Ini Cara Daftarnya",
       "link": "https://news.detik.com/berita/d-8096737/ada-pengamatan-gerhana-bulan-7-september-di-planetarium-ini-cara-daftarnya",
       "publishedAt": "2025-09-04T12:08:23.000Z",
@@ -1302,7 +1632,7 @@
       "summary": "Planetarium Jakarta akan menggelar pengamatan langsung Gerhana Bulan Total 7 September 2025. Berikut syarat hingga cara mendaftarnya."
     },
     {
-      "id": "Detik – Berita-53-1756987630000",
+      "id": "Detik – Berita-73-1756987630000",
       "title": "Massa Buruh Demo di Jakpus Bubar Usai Bakar Patung Tikus Berdasi",
       "link": "https://news.detik.com/berita/d-8096845/massa-buruh-demo-di-jakpus-bubar-usai-bakar-patung-tikus-berdasi",
       "publishedAt": "2025-09-04T12:07:10.000Z",
@@ -1312,7 +1642,17 @@
       "summary": "Massa buruh membubarkan diri setelah demo di Patung Kuda, Jakarta. Mereka menyanyikan lagu 'Gugur Bunga' dan membakar patung tikus berdasi."
     },
     {
-      "id": "Detik – Berita-54-1756987063000",
+      "id": "Liputan6 – News-38-1756987236000",
+      "title": "BNPT Dorong Aparat Lebih Peka Deteksi Penyebaran Radikalisme",
+      "link": "https://www.liputan6.com/news/read/6151564/bnpt-dorong-aparat-lebih-peka-deteksi-penyebaran-radikalisme",
+      "publishedAt": "2025-09-04T12:00:36.000Z",
+      "source": "Liputan6 – News",
+      "category": "nasional",
+      "image": "https://cdn1-production-images-kly.akamaized.net/oeDYC7K505hnFzPME-u5L_H0vtM=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5339066/original/044202800_1757028478-WhatsApp_Image_2025-09-04_at_18.59.34.jpeg",
+      "summary": "Direktur Pembinaan Kemampuan BNPT, Brigjen Pol. Wawan Ridwan, berharap bahwa aparatur pemerintah tetap waspada dan mampu melakukan deteksi dini terhadap penyebaran paham radikalisme."
+    },
+    {
+      "id": "Detik – Berita-74-1756987063000",
       "title": "KPK Akan Panggil Ridwan Kamil Terkait Kasus BJB: Secepatnya",
       "link": "https://news.detik.com/berita/d-8096839/kpk-akan-panggil-ridwan-kamil-terkait-kasus-bjb-secepatnya",
       "publishedAt": "2025-09-04T11:57:43.000Z",
@@ -1322,7 +1662,7 @@
       "summary": "KPK menduga Ridwan Kamil membeli mobil Mercy BJ Habibie dengan uang korupsi dari pengadaan iklan BJB. RK akan dipanggil untuk diperiksa."
     },
     {
-      "id": "Detik – Berita-55-1756986620000",
+      "id": "Detik – Berita-75-1756986620000",
       "title": "Massa BEM SI Tertib Bubar dari Depan DPR Usai Tabur Bunga",
       "link": "https://news.detik.com/berita/d-8096828/massa-bem-si-tertib-bubar-dari-depan-dpr-usai-tabur-bunga",
       "publishedAt": "2025-09-04T11:50:20.000Z",
@@ -1332,7 +1672,7 @@
       "summary": "Aliansi BEM SI selesai menggelar aksi damai di depan gedung DPR RI. Mereka membubarkan diri secara tertib usai melakukan asi tabur bunga."
     },
     {
-      "id": "Detik – Berita-56-1756986556000",
+      "id": "Detik – Berita-76-1756986556000",
       "title": "Nadiem Tersangka Kejagung, Ketua KPK Tegaskan Kasus Google Cloud Terus Diusut",
       "link": "https://news.detik.com/berita/d-8096823/nadiem-tersangka-kejagung-ketua-kpk-tegaskan-kasus-google-cloud-terus-diusut",
       "publishedAt": "2025-09-04T11:49:16.000Z",
@@ -1342,7 +1682,7 @@
       "summary": "Setyo Budiyanto memastikan penyelidikan kasus Google Cloud masih terus diusut usai Kejagung menetapkan mantan Mendikbudristek, Nadiem Makarim sebagai tersangka."
     },
     {
-      "id": "Liputan6 – News-25-1756986507000",
+      "id": "Liputan6 – News-39-1756986507000",
       "title": "Dinkes DKI Perpanjang Rekrutmen Pasukan Putih hingga 8 September, Simak Alur dan Syaratnya",
       "link": "https://www.liputan6.com/news/read/6151304/dinkes-dki-perpanjang-rekrutmen-pasukan-putih-hingga-8-september-simak-alur-dan-syaratnya",
       "publishedAt": "2025-09-04T11:48:27.000Z",
@@ -1352,7 +1692,7 @@
       "summary": "Perekrutan pasukan putih bertujuan untuk memperkuat petugas lapangan dalam mendukung pelayanan kesehatan masyarakat di ibu kota."
     },
     {
-      "id": "Detik – Berita-57-1756985760000",
+      "id": "Detik – Berita-77-1756985760000",
       "title": "BEM SI Aksi Damai di DPR: Kami Menolak Tindakan Anarkis",
       "link": "https://news.detik.com/berita/d-8096805/bem-si-aksi-damai-di-dpr-kami-menolak-tindakan-anarkis",
       "publishedAt": "2025-09-04T11:36:00.000Z",
@@ -1362,7 +1702,7 @@
       "summary": "BEM SI menggelar aksi damai di depan DPR/MPR, Jakarta, menolak kericuhan dan menuntut keadilan. Mereka menyampaikan 13 tuntutan."
     },
     {
-      "id": "Liputan6 – News-27-1756985713000",
+      "id": "Liputan6 – News-41-1756985713000",
       "title": "BPJS Kesehatan Pastikan Program JKN di Langsa Berjalan Sesuai Prinsip Syariah",
       "link": "https://www.liputan6.com/news/read/6151309/bpjs-kesehatan-pastikan-program-jkn-di-langsa-berjalan-sesuai-prinsip-syariah",
       "publishedAt": "2025-09-04T11:35:13.000Z",
@@ -1372,7 +1712,7 @@
       "summary": "Ketua DPS BPJS Kesehatan, M. Cholil Nafis, menegaskan bahwa seluruh mekanisme layanan yang dijalankan BPJS Kesehatan tidak bertentangan dengan ketentuan syariat Islam."
     },
     {
-      "id": "Detik – Berita-58-1756985435000",
+      "id": "Detik – Berita-78-1756985435000",
       "title": "Meriah! Walkot-Wawalkot &amp; Warga Tangerang Ikuti Arakan Perahu Muludan",
       "link": "https://news.detik.com/berita/d-8096725/meriah-walkot-wawalkot-warga-tangerang-ikuti-arakan-perahu-muludan",
       "publishedAt": "2025-09-04T11:30:35.000Z",
@@ -1382,7 +1722,7 @@
       "summary": "Peringatan Maulid Nabi di Tangerang meriah dengan arak-arakan perahu, pembacaan Al-Barzanji, dan makan bersama. Wali Kota mengajak meneladani akhlak Rasulullah."
     },
     {
-      "id": "Liputan6 – News-26-1756985408000",
+      "id": "Liputan6 – News-40-1756985408000",
       "title": "Pemerintah Beri Santunan Rp 5 Juta hingga Rp 15 Juta untuk Korban Aksi Demo Ricuh",
       "link": "https://www.liputan6.com/news/read/6151277/pemerintah-beri-santunan-rp-5-juta-hingga-rp-15-juta-untuk-korban-aksi-demo-ricuh",
       "publishedAt": "2025-09-04T11:30:08.000Z",
@@ -1392,7 +1732,7 @@
       "summary": "Menteri Sosial (Mensos) Saifullah Yusuf menyampaikan pemerintah akan memberikan santunan kepada korban aksi demonstrasi berujung ricuh di berbagai daerah."
     },
     {
-      "id": "Detik – Berita-59-1756985363000",
+      "id": "Detik – Berita-79-1756985363000",
       "title": "Polda Metro Benarkan Tangkap Mahasiswa Unri di Bandara, Statusnya Tersangka",
       "link": "https://news.detik.com/berita/d-8096794/polda-metro-benarkan-tangkap-mahasiswa-unri-di-bandara-statusnya-tersangka",
       "publishedAt": "2025-09-04T11:29:23.000Z",
@@ -1402,7 +1742,7 @@
       "summary": "Polda Metro Jaya menangkap mahasiswa Unri, Khariq Anhar. Khariq berstatus sebagai tersangka penyebaran konten kebencian dan hoax."
     },
     {
-      "id": "Detik – Berita-60-1756985008000",
+      "id": "Detik – Berita-80-1756985008000",
       "title": "Nadiem: Belasungkawa Saya kepada Affan dan Ojol-ojol",
       "link": "https://news.detik.com/berita/d-8096791/nadiem-belasungkawa-saya-kepada-affan-dan-ojol-ojol",
       "publishedAt": "2025-09-04T11:23:28.000Z",
@@ -1412,7 +1752,7 @@
       "summary": "Nadiem sempat mengucap bela sungkawa terhadap Affan Kurniawan, driver ojek online (ojol) yang terlindas kendaraan taktis (rantis)."
     },
     {
-      "id": "Detik – Berita-61-1756984866000",
+      "id": "Detik – Berita-81-1756984866000",
       "title": "Keluarga Harap Kasus Laras Faizati Diselesaikan dengan Restorative Justice",
       "link": "https://news.detik.com/berita/d-8096786/keluarga-harap-kasus-laras-faizati-diselesaikan-dengan-restorative-justice",
       "publishedAt": "2025-09-04T11:21:06.000Z",
@@ -1422,7 +1762,7 @@
       "summary": "Laras Faizati ditetapkan sebagai tersangka karena unggahan provokatif. Pengacara berharap kasusnya diselesaikan dengan restorative justice."
     },
     {
-      "id": "Liputan6 – News-29-1756984623000",
+      "id": "Liputan6 – News-43-1756984623000",
       "title": "LBH Jakarta Pertimbangkan Ajukan Praperadilan atas Penahanan Direktur Lokataru",
       "link": "https://www.liputan6.com/news/read/6151254/lbh-jakarta-pertimbangkan-ajukan-praperadilan-atas-penahanan-direktur-lokataru",
       "publishedAt": "2025-09-04T11:17:03.000Z",
@@ -1432,7 +1772,7 @@
       "summary": "Fadhil menyampaikan, selain praperadilan, pihaknya juga tengah mempertimbangkan upaya penangguhan penahanan Delpedro ."
     },
     {
-      "id": "Detik – Berita-62-1756984466000",
+      "id": "Detik – Berita-82-1756984466000",
       "title": "Aksi Damai Depan DPR, Aliansi BEM SI Tabur Bunga hingga Bagikan Mawar",
       "link": "https://news.detik.com/berita/d-8096769/aksi-damai-depan-dpr-aliansi-bem-si-tabur-bunga-hingga-bagikan-mawar",
       "publishedAt": "2025-09-04T11:14:26.000Z",
@@ -1442,17 +1782,7 @@
       "summary": "Aliansi BEM SI menggelar aksi damai di depan gedung DPR RI. Massa membagikan mawar hingga menaburkan bunga di depan pagar gedung DPR RI."
     },
     {
-      "id": "Liputan6 – News-38-1756984272000",
-      "title": "Respons Tuntutan Mahasiswa, DPRD DKI Pastikan Transparan soal Gaji-Tunjangan Dewan",
-      "link": "https://www.liputan6.com/news/read/6151282/respons-tuntutan-mahasiswa-dprd-dki-pastikan-transparan-soal-gaji-tunjangan-dewan",
-      "publishedAt": "2025-09-04T11:11:12.000Z",
-      "source": "Liputan6 – News",
-      "category": "nasional",
-      "image": "https://cdn0-production-images-kly.akamaized.net/3of6QwFt_qxT0dT99pYtPG5h7I0=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5338844/original/092548700_1756984262-d5142137-6016-43ef-b9e3-344416516cfa.jpeg",
-      "summary": "Wakil Ketua DPRD DKI Jakarta Ima Mahdiah memastikan gaji dan tunjangan yang diterima anggota dewan di wilayah DKI Jakarta dapat dipertanggungjawabkan kepada masyarakat."
-    },
-    {
-      "id": "Detik – Berita-63-1756984258000",
+      "id": "Detik – Berita-83-1756984258000",
       "title": "Kapan Batas Akhir Pendaftaran TKA SMA 2025? Cek Lagi Jadwalnya!",
       "link": "https://news.detik.com/berita/d-8096740/kapan-batas-akhir-pendaftaran-tka-sma-2025-cek-lagi-jadwalnya",
       "publishedAt": "2025-09-04T11:10:58.000Z",
@@ -1462,7 +1792,7 @@
       "summary": "Siswa SMA/SMK sederajat sudah bisa mendaftar Tes Kemampuan Akademik (TKA) sejak tanggal 24 Agustus 2025 kemarin. Lalu, kapan batas akhir pendaftarannya?"
     },
     {
-      "id": "Detik – Berita-64-1756983899000",
+      "id": "Detik – Berita-84-1756983899000",
       "title": "Jazilul PKB: Semua Fraksi Sepakat Transformasi DPR agar Lebih Baik",
       "link": "https://news.detik.com/berita/d-8096752/jazilul-pkb-semua-fraksi-sepakat-transformasi-dpr-agar-lebih-baik",
       "publishedAt": "2025-09-04T11:04:59.000Z",
@@ -1472,7 +1802,7 @@
       "summary": "Ketua Fraksi PKB Jazilul Fawaid mengungkapkan delapan fraksi DPR sepakat untuk mentransformasi lembaga legislatif untuk lebih baik."
     },
     {
-      "id": "Liputan6 – News-31-1756983781000",
+      "id": "Liputan6 – News-45-1756983781000",
       "title": "Eks KSAD Dudung: Ada yang Menunggangi Demo Mahasiswa",
       "link": "https://www.liputan6.com/news/read/6151261/eks-ksad-dudung-ada-yang-menunggangi-demo-mahasiswa",
       "publishedAt": "2025-09-04T11:03:01.000Z",
@@ -1482,7 +1812,7 @@
       "summary": "Menurut Dudung, ada pihak-pihak tertentu yang memanfaatkan situasi demo mahasiswa."
     },
     {
-      "id": "Liputan6 – News-32-1756983562000",
+      "id": "Liputan6 – News-46-1756983562000",
       "title": "Laras Faizati Tersangka Penghasutan Demo Bakar Mabes Polri Ajukan Penangguhan Penahanan",
       "link": "https://www.liputan6.com/news/read/6151269/laras-faizati-tersangka-penghasutan-demo-bakar-mabes-polri-ajukan-penangguhan-penahanan",
       "publishedAt": "2025-09-04T10:59:22.000Z",
@@ -1492,7 +1822,7 @@
       "summary": "Gafur menegaskan keputusan penangguhan penahanan merupakan kewenangan dari penyidik. Dia berharap penyidik mengabulkan permohonan tersebut."
     },
     {
-      "id": "Detik – Berita-65-1756983378000",
+      "id": "Detik – Berita-85-1756983378000",
       "title": "Massa Demo Minta Transparansi Tunjangan, Anggota DPRD DKI: Kami Evaluasi",
       "link": "https://news.detik.com/berita/d-8096727/massa-demo-minta-transparansi-tunjangan-anggota-dprd-dki-kami-evaluasi",
       "publishedAt": "2025-09-04T10:56:18.000Z",
@@ -1502,7 +1832,7 @@
       "summary": "Anggota Komisi E DPRD DKI Jakarta, Raden Gusti Arief Yulifard, menegaskan pihaknya akan mengevaluasi mengenai gaji dan tunjangan."
     },
     {
-      "id": "Detik – Berita-66-1756983319000",
+      "id": "Detik – Berita-86-1756983319000",
       "title": "Besok Maulid Nabi ke Berapa? Simak Lagi Informasinya!",
       "link": "https://news.detik.com/berita/d-8096724/besok-maulid-nabi-ke-berapa-simak-lagi-informasinya",
       "publishedAt": "2025-09-04T10:55:19.000Z",
@@ -1512,7 +1842,7 @@
       "summary": "Berdasarkan ketetapan pemerintah, tanggal 12 Rabiul Awal atau peringatan Maulid Nabi 2025 jatuh pada esok hari tanggal 5 September 2025."
     },
     {
-      "id": "Detik – Berita-67-1756983229000",
+      "id": "Detik – Berita-87-1756983229000",
       "title": "Penampakan Oknum TNI Penembak Warga hingga Tewas di Jayapura",
       "link": "https://news.detik.com/berita/d-8096722/penampakan-oknum-tni-penembak-warga-hingga-tewas-di-jayapura",
       "publishedAt": "2025-09-04T10:53:49.000Z",
@@ -1522,7 +1852,7 @@
       "summary": "Ditreskrimum Polda Papua menyerahkan Prajurit Satu TB, pelaku penembakan warga hingga korban meninggal dunia, ke Polisi Militer Kodam XVII Cenderawasih."
     },
     {
-      "id": "Detik – Berita-68-1756983203000",
+      "id": "Detik – Berita-88-1756983203000",
       "title": "Nadiem Jadi Tersangka di Kejagung, KPK Terus Usut Pengadaan Google Cloud",
       "link": "https://news.detik.com/berita/d-8096721/nadiem-jadi-tersangka-di-kejagung-kpk-terus-usut-pengadaan-google-cloud",
       "publishedAt": "2025-09-04T10:53:23.000Z",
@@ -1532,7 +1862,7 @@
       "summary": "Kejagung menetapkan eks Mendikbudristek, Nadiem Makarim, tersangka dugaan korupsi pengadaan laptop Chromebook. KPK juga masih mengusut pengadaan Google Cloud.."
     },
     {
-      "id": "Detik – Berita-69-1756983192000",
+      "id": "Detik – Berita-89-1756983192000",
       "title": "BPJS Kesehatan Pastikan Layanan JKN di Langsa Sesuai Prinsip Syariah",
       "link": "https://news.detik.com/berita/d-8096719/bpjs-kesehatan-pastikan-layanan-jkn-di-langsa-sesuai-prinsip-syariah",
       "publishedAt": "2025-09-04T10:53:12.000Z",
@@ -1542,7 +1872,7 @@
       "summary": "DPS BPJS Kesehatan memastikan Program JKN di Langsa sesuai syariah. Layanan ini menjamin keadilan dan kepuasan masyarakat, dengan akreditasi yang diakui."
     },
     {
-      "id": "Liputan6 – News-34-1756983004000",
+      "id": "Liputan6 – News-48-1756983004000",
       "title": "Pembelaan Nadiem Makarim Usai Ditetapkan Tersangka: Seumur Hidup Saya Integritas Nomor Satu",
       "link": "https://www.liputan6.com/news/read/6151260/pembelaan-nadiem-makarim-usai-ditetapkan-tersangka-seumur-hidup-saya-integritas-nomor-satu",
       "publishedAt": "2025-09-04T10:50:04.000Z",
@@ -1552,7 +1882,7 @@
       "summary": "Nadiem sebelumnya menjalani pemeriksaan selama lebih kurang enam jam sejak pagi tadi."
     },
     {
-      "id": "Detik – Berita-70-1756982974000",
+      "id": "Detik – Berita-90-1756982974000",
       "title": "Tradisi Ngarak Perahu Muludan Ramaikan Peringatan Maulid Nabi di Tangerang",
       "link": "https://news.detik.com/berita/d-8096714/tradisi-ngarak-perahu-muludan-ramaikan-peringatan-maulid-nabi-di-tangerang",
       "publishedAt": "2025-09-04T10:49:34.000Z",
@@ -1562,7 +1892,7 @@
       "summary": "Peringatan Maulid Nabi di Tangerang berlangsung meriah dengan arak-arakan perahu, pembacaan Al-Barzanji, dan kegiatan sosial."
     },
     {
-      "id": "Liputan6 – News-33-1756982707000",
+      "id": "Liputan6 – News-47-1756982707000",
       "title": "Terseret Kasus Penghasutan Demo dan Ditetapkan Tersangka, Kontrak Kerja Laras Faizati Tak Dilanjut",
       "link": "https://www.liputan6.com/news/read/6151244/terseret-kasus-penghasutan-demo-dan-ditetapkan-tersangka-kontrak-kerja-laras-faizati-tak-dilanjut",
       "publishedAt": "2025-09-04T10:45:07.000Z",
@@ -1572,7 +1902,7 @@
       "summary": "Penetapan tersangka terhadap Laras Faizati berimbas langsung pada pekerjaannya. Kontrak kerja Laras sebagai Communication Officer AIPA (Majelis Antar-Parlemen ASEAN) tak dilanjut."
     },
     {
-      "id": "Detik – Berita-71-1756982686000",
+      "id": "Detik – Berita-91-1756982686000",
       "title": "Demo di Patung Kuda, Massa Buruh Bawa Patung Tikus Berdasi Digantung",
       "link": "https://news.detik.com/berita/d-8096709/demo-di-patung-kuda-massa-buruh-bawa-patung-tikus-berdasi-digantung",
       "publishedAt": "2025-09-04T10:44:46.000Z",
@@ -1582,17 +1912,7 @@
       "summary": "Massa buruh di Jakarta menggelar demo dengan membawa patung tikus berdasi. Mereka mendesak penegakan hukum bagi koruptor."
     },
     {
-      "id": "Liputan6 – News-37-1756982347000",
-      "title": "ATVSI Gelar Rangkaian FGD untuk Kumpulkan Usulan Revisi UU Penyiaran ke DPR",
-      "link": "https://www.liputan6.com/news/read/6151211/atvsi-gelar-rangkaian-fgd-untuk-kumpulkan-usulan-revisi-uu-penyiaran-ke-dpr",
-      "publishedAt": "2025-09-04T10:39:07.000Z",
-      "source": "Liputan6 – News",
-      "category": "nasional",
-      "image": "https://cdn1-production-images-kly.akamaized.net/65uhvZ73LDAYMRhBfwhfLgXc_lk=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5338746/original/006491100_1756979170-WhatsApp_Image_2025-09-04_at_16.42.02.jpeg",
-      "summary": "Asosiasi Televisi Swasta Indonesia (ATVSI) menggelar FGD di berbagai kota membahas usulan revisi UU Penyiaran untuk diserahkan ke DPR."
-    },
-    {
-      "id": "Detik – Berita-72-1756982286000",
+      "id": "Detik – Berita-92-1756982286000",
       "title": "Aksi Damai di DPR, BEM SI Ramai-ramai Angkat Poster 'Selamatkan Indonesia'",
       "link": "https://news.detik.com/berita/d-8096698/aksi-damai-di-dpr-bem-si-ramai-ramai-angkat-poster-selamatkan-indonesia",
       "publishedAt": "2025-09-04T10:38:06.000Z",
@@ -1602,7 +1922,7 @@
       "summary": "BEM SI menggelar aksi damai di depan DPR RI. Dalam aksi ini, seluruh peserta aksi dari BEM SI ramai-ramai mengangkat poster 'Selamatkan Indonesia'."
     },
     {
-      "id": "Liputan6 – News-35-1756981999000",
+      "id": "Liputan6 – News-49-1756981999000",
       "title": "Mendagri Dorong Pemda Dukung Penyaluran Beras SPHP untuk Kendalikan Harga Beras di 214 Daerah",
       "link": "https://www.liputan6.com/news/read/6151235/mendagri-dorong-pemda-dukung-penyaluran-beras-sphp-untuk-kendalikan-harga-beras-di-214-daerah",
       "publishedAt": "2025-09-04T10:33:19.000Z",
@@ -1612,27 +1932,7 @@
       "summary": "Menteri Dalam Negeri (Mendagri) Muhammad Tito Karnavian beri imbauan agar Pemda dan berbagai instansi berkolaborasi dukung penyaluran beras SPHP."
     },
     {
-      "id": "Liputan6 – News-36-1756981891000",
-      "title": "Nadiem Tersangka Kejagung, KPK Tetap Selidiki Kasus Google Cloud",
-      "link": "https://www.liputan6.com/news/read/6151237/nadiem-tersangka-kejagung-kpk-tetap-selidiki-kasus-google-cloud",
-      "publishedAt": "2025-09-04T10:31:31.000Z",
-      "source": "Liputan6 – News",
-      "category": "nasional",
-      "image": "https://cdn1-production-images-kly.akamaized.net/d2XoEt8HYt-iFeqt3dh6ePWddsg=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5308260/original/025496200_1754539909-nad3.jpg",
-      "summary": "Kasus Google Cloud di KPK masih dalam tahap penyelidikan."
-    },
-    {
-      "id": "Liputan6 – News-41-1756981526000",
-      "title": "Doa Nadiem Makarim untuk Pengemudi Ojol Affan Kurniawan",
-      "link": "https://www.liputan6.com/news/read/6151234/doa-nadiem-makarim-untuk-pengemudi-ojol-affan-kurniawan",
-      "publishedAt": "2025-09-04T10:25:26.000Z",
-      "source": "Liputan6 – News",
-      "category": "nasional",
-      "image": "https://cdn1-production-images-kly.akamaized.net/2Lwg--2P2ulKp-KjQiKg6TGTp6s=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5338800/original/007720600_1756981517-WhatsApp_Image_2025-09-04_at_17.08.11.jpeg",
-      "summary": "Ucapan ini disampaikan Nadiem usai ditetapkan menjadi tersangka dalam kasus dugaan korupsi pengadaan laptop berbasis Chromebook pada Kemendikbud Ristek Tahun 2019-2023."
-    },
-    {
-      "id": "Detik – Berita-73-1756981297000",
+      "id": "Detik – Berita-93-1756981297000",
       "title": "Abigail dkk Minta Bukti Konkret DPR Tindak Lanjuti 17+8 Tuntutan Rakyat",
       "link": "https://news.detik.com/berita/d-8096662/abigail-dkk-minta-bukti-konkret-dpr-tindak-lanjuti-17-8-tuntutan-rakyat",
       "publishedAt": "2025-09-04T10:21:37.000Z",
@@ -1642,17 +1942,7 @@
       "summary": "Sejumlah aktivis dan influencer menyerahkan 17+8 tuntutan rakyat ke DPR RI. Mereka menuntut bukti konkret atas janji pemerintah terkait reformasi-transparansi."
     },
     {
-      "id": "Liputan6 – News-40-1756981263000",
-      "title": "Pengacara Desak Polri Selesaikan Kasus Laras Faizati Lewat Restorative Justice: Enggak Ada Perkeruh Suasana",
-      "link": "https://www.liputan6.com/news/read/6151226/pengacara-desak-polri-selesaikan-kasus-laras-faizati-lewat-restorative-justice-enggak-ada-perkeruh-suasana",
-      "publishedAt": "2025-09-04T10:21:03.000Z",
-      "source": "Liputan6 – News",
-      "category": "nasional",
-      "image": "https://cdn0-production-images-kly.akamaized.net/5pWUBCBRL7TW9TDut0hEP-hwkKg=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5338177/original/056296400_1756966945-1735636934906.jpg",
-      "summary": "Ibunda Laras berharap putrinya dibebaskan karena yang dilakukan wanita berambut panjang itu hanya menyuarakan isi hatinya."
-    },
-    {
-      "id": "Detik – Berita-74-1756981128000",
+      "id": "Detik – Berita-94-1756981128000",
       "title": "Dialog DPR-Mahasiswa Diapresiasi, Diharapkan Digelar Berkala",
       "link": "https://news.detik.com/berita/d-8096656/dialog-dpr-mahasiswa-diapresiasi-diharapkan-digelar-berkala",
       "publishedAt": "2025-09-04T10:18:48.000Z",
@@ -1662,7 +1952,7 @@
       "summary": "Pakar menilai pertemuan DPR RI dengan mahasiswa sebagai terobosan komunikasi. Dialog ini diharapkan dapat mengatasi sumbatan komunikasi di masa depan."
     },
     {
-      "id": "Detik – Berita-75-1756981103000",
+      "id": "Detik – Berita-95-1756981103000",
       "title": "244 Bencana Terjadi di Kabupaten Bogor Selama Agustus 2025, 5 Orang Tewas",
       "link": "https://news.detik.com/berita/d-8096655/244-bencana-terjadi-di-kabupaten-bogor-selama-agustus-2025-5-orang-tewas",
       "publishedAt": "2025-09-04T10:18:23.000Z",
@@ -1672,7 +1962,7 @@
       "summary": "BPBD mencatat 244 bencana di Kabupaten Bogor pada Agustus 2025, termasuk tanah longsor dan gempa. Lima orang meninggal, 131 KK sempat mengungsi."
     },
     {
-      "id": "Detik – Berita-76-1756980916000",
+      "id": "Detik – Berita-96-1756980916000",
       "title": "Kementerian HAM Puji Gerak Cepat Kemensos Rehabilitasi Korban Unjuk Rasa",
       "link": "https://news.detik.com/berita/d-8096598/kementerian-ham-puji-gerak-cepat-kemensos-rehabilitasi-korban-unjuk-rasa",
       "publishedAt": "2025-09-04T10:15:16.000Z",
@@ -1682,27 +1972,7 @@
       "summary": "Kementerian HAM apresiasi Kemensos dalam rehabilitasi korban unjuk rasa. Bantuan sosial dan pemulihan diberikan untuk semua warga, termasuk petugas."
     },
     {
-      "id": "Liputan6 – News-39-1756980900000",
-      "title": "4 Fakta Terkait Mantan Mendikbudristek Nadiem Makarim Ditetapkan Jadi Tersangka Kasus Korupsi Laptop Chromebook",
-      "link": "https://www.liputan6.com/news/read/6151217/4-fakta-terkait-mantan-mendikbudristek-nadiem-makarim-ditetapkan-jadi-tersangka-kasus-korupsi-laptop-chromebook",
-      "publishedAt": "2025-09-04T10:15:00.000Z",
-      "source": "Liputan6 – News",
-      "category": "nasional",
-      "image": "https://cdn1-production-images-kly.akamaized.net/JDYLY3sJwpg9S7iYh6TeSorZ7fY=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5284153/original/071004500_1752579425-IMG_0808.jpg",
-      "summary": "Mantan Mendikbudristek Nadiem Makarim memenuhi panggilan Kejaksaan Agung (Kejagung) terkait kasus dugaan korupsi pengadaan laptop berbasis Chromebook senilai Rp 9,9 triliun pada Kamis (4/9/2025)."
-    },
-    {
-      "id": "Liputan6 – News-44-1756980832000",
-      "title": "Melihat Harta Kekayaan Nadiem Makarim: dari Rp 4,8 Triliun Menyusut Tinggal Rp 600 Miliar",
-      "link": "https://www.liputan6.com/news/read/6151168/melihat-harta-kekayaan-nadiem-makarim-dari-rp-48-triliun-menyusut-tinggal-rp-600-miliar",
-      "publishedAt": "2025-09-04T10:13:52.000Z",
-      "source": "Liputan6 – News",
-      "category": "nasional",
-      "image": "https://cdn1-production-images-kly.akamaized.net/JDYLY3sJwpg9S7iYh6TeSorZ7fY=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5284153/original/071004500_1752579425-IMG_0808.jpg",
-      "summary": "Mantan Menteri Pendidikan Nadiem Makarim resmi ditetapkan sebagai tersangka kasus dugaan korupsi laptop chromebook di Kejaksaan Agung (Kejagung). Nadiem pernah punya harta kekayaan Rp4,8 triliun."
-    },
-    {
-      "id": "Detik – Berita-77-1756980747000",
+      "id": "Detik – Berita-97-1756980747000",
       "title": "LBH Jakarta Pertimbangkan Ajukan Penangguhan Penahanan Delpedro",
       "link": "https://news.detik.com/berita/d-8096637/lbh-jakarta-pertimbangkan-ajukan-penangguhan-penahanan-delpedro",
       "publishedAt": "2025-09-04T10:12:27.000Z",
@@ -1712,7 +1982,7 @@
       "summary": "Direktur Lokataru Delpedro Marhaen ditahan bersama lima tersangka lain karena penghasutan aksi anarkis. Tim advokasi pertimbangkan penangguhan penahanan."
     },
     {
-      "id": "Detik – Berita-78-1756980694000",
+      "id": "Detik – Berita-98-1756980694000",
       "title": "Kejagung Usut Aliran Uang Diterima Nadiem dalam Korupsi Pengadaan Laptop",
       "link": "https://news.detik.com/berita/d-8096635/kejagung-usut-aliran-uang-diterima-nadiem-dalam-korupsi-pengadaan-laptop",
       "publishedAt": "2025-09-04T10:11:34.000Z",
@@ -1722,17 +1992,7 @@
       "summary": "Kejagung mendalami dugaan aliran dana yang diterima Mendikbudristek, Nadiem Makarim, dalam kasus korupsi pengadaan laptop."
     },
     {
-      "id": "Liputan6 – News-43-1756980685000",
-      "title": "Potret Nadiem Makarim Pakai Rompi Tahanan Kejagung Usai Jadi Tersangka Kasus Chromebook",
-      "link": "https://www.liputan6.com/news/read/6151216/potret-nadiem-makarim-pakai-rompi-tahanan-kejagung-usai-jadi-tersangka-kasus-chromebook",
-      "publishedAt": "2025-09-04T10:11:25.000Z",
-      "source": "Liputan6 – News",
-      "category": "nasional",
-      "image": "https://cdn1-production-images-kly.akamaized.net/oI_rwLXMH9eOm4itiBzWVMq7gzo=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5338783/original/084665900_1756980672-Screenshot_2025-09-04_164902.jpg",
-      "summary": "Nadiem diperiksa sejak pukul 09.00 Wib pagi tadi."
-    },
-    {
-      "id": "Detik – Berita-79-1756980332000",
+      "id": "Detik – Berita-99-1756980332000",
       "title": "Nadiem: Saya Tidak Melakukan Apa Pun, Tuhan Akan Melindungi Saya",
       "link": "https://news.detik.com/berita/d-8096605/nadiem-saya-tidak-melakukan-apa-pun-tuhan-akan-melindungi-saya",
       "publishedAt": "2025-09-04T10:05:32.000Z",
@@ -1740,266 +2000,6 @@
       "category": "nasional",
       "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/04/potret-nadiem-makarim-jadi-tersangka-kasus-korupsi-laptop-rp-2-triliun-1756979866862_169.jpeg?w=360&q=90",
       "summary": "Kejagung menetapkan Nadiem Makarim sebagai tersangka korupsi pengadaan laptop di Kemdikbudristek. Nadiem membantah tuduhan."
-    },
-    {
-      "id": "Detik – Berita-80-1756980321000",
-      "title": "Kemnaker Lakukan Rotasi Pegawai, Perkuat Agenda Pemberantasan Korupsi",
-      "link": "https://news.detik.com/berita/d-8096604/kemnaker-lakukan-rotasi-pegawai-perkuat-agenda-pemberantasan-korupsi",
-      "publishedAt": "2025-09-04T10:05:21.000Z",
-      "source": "Detik – Berita",
-      "category": "nasional",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/04/kemnaker-1756980297367_169.jpeg?w=360&q=90",
-      "summary": "Kementerian Ketenagakerjaan berkomitmen memberantas korupsi dengan rotasi pegawai. Menaker Yassierli menegaskan tindakan tegas bagi pegawai terindikasi korupsi."
-    },
-    {
-      "id": "Liputan6 – News-42-1756980107000",
-      "title": "Bahlil Sebut Adies Kadir Otomatis Tak dapat Gaji dan Fasilitas DPR Usai Dinonaktifkan",
-      "link": "https://www.liputan6.com/news/read/6151189/bahlil-sebut-adies-kadir-otomatis-tak-dapat-gaji-dan-fasilitas-dpr-usai-dinonaktifkan",
-      "publishedAt": "2025-09-04T10:01:47.000Z",
-      "source": "Liputan6 – News",
-      "category": "nasional",
-      "image": "https://cdn1-production-images-kly.akamaized.net/Ln-BWZ58gwayyt5230hb97A0osw=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5331971/original/092480300_1756453631-WhatsApp_Image_2025-08-29_at_14.36.49.jpeg",
-      "summary": "Penonaktifan Adies berlaku sejak 1 September 2025."
-    },
-    {
-      "id": "Detik – Berita-81-1756980005000",
-      "title": "Ditambah Nadiem Makarim, Ini Daftar 5 Tersangka Kasus Pengadaan Laptop",
-      "link": "https://news.detik.com/berita/d-8096588/ditambah-nadiem-makarim-ini-daftar-5-tersangka-kasus-pengadaan-laptop",
-      "publishedAt": "2025-09-04T10:00:05.000Z",
-      "source": "Detik – Berita",
-      "category": "nasional",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/04/nadiem-makarim-ditahan-kejagung-1756979651374_169.jpeg?w=360&q=90",
-      "summary": "Kejagung menetapkan 5 tersangka dalam kasus pengadaan laptop Chromebook di Kemendikbud, termasuk Nadiem Makarim, dengan kerugian mencapai Rp 1,98 triliun."
-    },
-    {
-      "id": "Detik – Berita-82-1756979524000",
-      "title": "Stabilisasi Harga, Mendagri Dorong Pemda Dukung Penyaluran Beras SPHP",
-      "link": "https://news.detik.com/berita/d-8096573/stabilisasi-harga-mendagri-dorong-pemda-dukung-penyaluran-beras-sphp",
-      "publishedAt": "2025-09-04T09:52:04.000Z",
-      "source": "Detik – Berita",
-      "category": "nasional",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/04/mendagri-muhammad-tito-karnavian-1756979374089_169.jpeg?w=360&q=90",
-      "summary": "Mendagri Tito Karnavian dorong Pemda dukung penyaluran beras SPHP dari Bulog untuk stabilisasi harga. 214 daerah alami kenaikan harga beras."
-    },
-    {
-      "id": "Detik – Berita-83-1756979264000",
-      "title": "Runutan Surat, Rapat Tertutup hingga Nadiem Makarim Terbitkan Aturan ChromeOS",
-      "link": "https://news.detik.com/berita/d-8096555/runutan-surat-rapat-tertutup-hingga-nadiem-makarim-terbitkan-aturan-chromeos",
-      "publishedAt": "2025-09-04T09:47:44.000Z",
-      "source": "Detik – Berita",
-      "category": "nasional",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/04/diperiksa-lagi-nadiem-makarim-didampingi-hotman-paris-hadir-di-kejagung-untuk-kasus-chromebook-1756959616835_169.jpeg?w=360&q=90",
-      "summary": "Kejagung menetapkan Nadiem Makarim sebagai tersangka kasus pengadaan Chromebook. Kejagung mengungkap awal mula Nadiem ingin laptop berbasis ChromeOS."
-    },
-    {
-      "id": "Detik – Berita-84-1756979231000",
-      "title": "Jaksa Ungkap Nadiem Rapat Tertutup soal Chromebook, Wajib Pakai Headset",
-      "link": "https://news.detik.com/berita/d-8096552/jaksa-ungkap-nadiem-rapat-tertutup-soal-chromebook-wajib-pakai-headset",
-      "publishedAt": "2025-09-04T09:47:11.000Z",
-      "source": "Detik – Berita",
-      "category": "nasional",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/04/nadiem-makarim-ditahan-kejagung-devidetikcom-1756978678254_169.jpeg?w=360&q=90",
-      "summary": "Kejagung mengatakan Nadiem Makarim menggelar rapat tertutup dengan pihak Google Indonesia untuk pengadaan Chromebook dengan peserta wajib memakai headset."
-    },
-    {
-      "id": "Detik – Berita-85-1756979220000",
-      "title": "Bawa Karangan Bunga Dukacita, BEM SI Aksi 'Selamatkan Indonesia' di DPR",
-      "link": "https://news.detik.com/berita/d-8096550/bawa-karangan-bunga-dukacita-bem-si-aksi-selamatkan-indonesia-di-dpr",
-      "publishedAt": "2025-09-04T09:47:00.000Z",
-      "source": "Detik – Berita",
-      "category": "nasional",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/04/bem-si-gelar-aksi-selamatkan-indonesia-di-depan-gedung-dpr-ri-sambil-membawa-karangan-bunga-dukacita-1756979152121_169.jpeg?w=360&q=90",
-      "summary": "Massa BEM SI menggelar aksi damai di depan gedung DPR RI, menyuarakan tuntutan terkait korupsi dan kebijakan negara. Massa membawa karangan dukacita."
-    },
-    {
-      "id": "Detik – Berita-86-1756979004000",
-      "title": "DPRD DKI Bakal Kawal Tuntutan Massa Demo soal Anggaran dan Transparansi BUMD",
-      "link": "https://news.detik.com/berita/d-8096533/dprd-dki-bakal-kawal-tuntutan-massa-demo-soal-anggaran-dan-transparansi-bumd",
-      "publishedAt": "2025-09-04T09:43:24.000Z",
-      "source": "Detik – Berita",
-      "category": "nasional",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2020/03/01/3506dce8-16da-4b7c-8145-287b81628131_169.jpeg?w=360&q=90",
-      "summary": "Wakil Ketua DPRD DKI Jakarta Basri Baco berjanji menindaklanjuti tuntutan AMPSI terkait transparansi tunjangan dan BUMD. Evaluasi gaji DPRD juga dilakukan."
-    },
-    {
-      "id": "Liputan6 – News-46-1756979000000",
-      "title": "Nadiem Makarim Tersangka, Begini Perjalanan Kasus Korupsi Chromebook yang Rugikan Negara Rp 1,98 Triliun",
-      "link": "https://www.liputan6.com/news/read/6151178/nadiem-makarim-tersangka-begini-perjalanan-kasus-korupsi-chromebook-yang-rugikan-negara-rp-198-triliun",
-      "publishedAt": "2025-09-04T09:43:20.000Z",
-      "source": "Liputan6 – News",
-      "category": "nasional",
-      "image": "https://cdn1-production-images-kly.akamaized.net/fhtxpEMLkCSF9zQxEJeOq6PbzQ0=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5283348/original/097196900_1752552358-nad2.jpg",
-      "summary": "Nadiem ditahan di Rutan Selamba Cabang Kejaksaan Negeri Jakarta Selatan"
-    },
-    {
-      "id": "Liputan6 – News-45-1756978953000",
-      "title": "5 Tersangka Kasus Korupsi Laptop Chromebook, Terbaru Nadiem Makarim",
-      "link": "https://www.liputan6.com/news/read/6151170/5-tersangka-kasus-korupsi-laptop-chromebook-terbaru-nadiem-makarim",
-      "publishedAt": "2025-09-04T09:42:33.000Z",
-      "source": "Liputan6 – News",
-      "category": "nasional",
-      "image": "https://cdn1-production-images-kly.akamaized.net/uetKaYZaWZ-xK4fQX5N90aIGXcg=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5308259/original/066428900_1754539908-nad2.jpg",
-      "summary": "Penetapan Nadiem sebagai tersangka menambahkan daftar panjang pihak yang terseret dalam kasus dugaan korupsi pengadaan laptop berbasis Chromebook."
-    },
-    {
-      "id": "Detik – Berita-87-1756978939000",
-      "title": "Pakar Hukum Apresiasi Polri Pecat Kompol Kosmas, Minta Putusan Tetap Dikawal",
-      "link": "https://news.detik.com/berita/d-8096529/pakar-hukum-apresiasi-polri-pecat-kompol-kosmas-minta-putusan-tetap-dikawal",
-      "publishedAt": "2025-09-04T09:42:19.000Z",
-      "source": "Detik – Berita",
-      "category": "nasional",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/03/kompol-kosmas-k-gae-1756902060451_169.png?w=360&q=90",
-      "summary": "Pakar hukum Suparji Ahmad apresiasi Polri atas PTDH Kompol Kosmas terkait kasus tewasnya Affan Kurniawan. Ia dorong transparansi dalam proses hukum selanjutnya."
-    },
-    {
-      "id": "Detik – Berita-88-1756978788000",
-      "title": "Penampakan Nadiem Makarim Pakai Rompi Tahanan, Tangan Diborgol",
-      "link": "https://news.detik.com/berita/d-8096523/penampakan-nadiem-makarim-pakai-rompi-tahanan-tangan-diborgol",
-      "publishedAt": "2025-09-04T09:39:48.000Z",
-      "source": "Detik – Berita",
-      "category": "nasional",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/04/nadiem-makarim-ditahan-kejagung-1756979651374_169.jpeg?w=360&q=90",
-      "summary": "Penampakan mantan Mendikbudristek, Nadiem Makarim, ditahan Kejagung dalam kasus dugaan korupsi pengadaan laptop Chromebook."
-    },
-    {
-      "id": "Detik – Berita-89-1756978718000",
-      "title": "Jelang Peluncuran, Kemensos &amp; DEN Mulai Uji Coba Portal Bansos Digital",
-      "link": "https://news.detik.com/berita/d-8096519/jelang-peluncuran-kemensos-den-mulai-uji-coba-portal-bansos-digital",
-      "publishedAt": "2025-09-04T09:38:38.000Z",
-      "source": "Detik – Berita",
-      "category": "nasional",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/04/kemensos-den-mulai-uji-coba-portal-bansos-digital-1756978633301_169.jpeg?w=360&q=90",
-      "summary": "Dewan Ekonomi Nasional uji coba portal bansos digital di hadapan Menteri Sosial. Sistem ini bertujuan untuk transparansi dan kemudahan penyaluran bansos."
-    },
-    {
-      "id": "Liputan6 – News-47-1756978525000",
-      "title": "Ditolak Muhadjir Effendi Karena Tak layak, Ini Cara Nadiem Kunci Proyek Chromebook di Kemendikbud",
-      "link": "https://www.liputan6.com/news/read/6151166/ditolak-muhadjir-effendi-karena-tak-layak-ini-cara-nadiem-kunci-proyek-chromebook-di-kemendikbud",
-      "publishedAt": "2025-09-04T09:35:25.000Z",
-      "source": "Liputan6 – News",
-      "category": "nasional",
-      "image": "https://cdn1-production-images-kly.akamaized.net/f6PmiNfNoKfVAuQr8vnaOF8UTQc=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5260883/original/020053200_1750648162-IMG_20250623_09135286.jpeg",
-      "summary": "Direktur Penyidikan Kejagung Nur Cahyo menjelaskan, kejadian berawal pada tahun 2020. Tak lama setelah Nadiem ditunjuk sebagai Mendikbud oleh Presiden saat itu Joko Widodo (Jokowi)."
-    },
-    {
-      "id": "Detik – Berita-90-1756978127000",
-      "title": "Waka MPR Dorong Kebijakan Hak Penyandang Disabilitas Dilakukan Terukur",
-      "link": "https://news.detik.com/berita/d-8096475/waka-mpr-dorong-kebijakan-hak-penyandang-disabilitas-dilakukan-terukur",
-      "publishedAt": "2025-09-04T09:28:47.000Z",
-      "source": "Detik – Berita",
-      "category": "nasional",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2024/09/03/wakil-ketua-mpr-ri-lestari-moerdijat-1_169.jpeg?w=360&q=90",
-      "summary": "Wakil Ketua MPR RI Lestari Moerdijat mendorong pemenuhan hak penyandang disabilitas. Ia menekankan perlunya data akurat dan pendidikan inklusif."
-    },
-    {
-      "id": "Liputan6 – News-49-1756978053000",
-      "title": "Nadiem Makarim Ditahan 20 Hari ke Depan di Rutan Salemba",
-      "link": "https://www.liputan6.com/news/read/6151141/nadiem-makarim-ditahan-20-hari-ke-depan-di-rutan-salemba",
-      "publishedAt": "2025-09-04T09:27:33.000Z",
-      "source": "Liputan6 – News",
-      "category": "nasional",
-      "image": "https://cdn1-production-images-kly.akamaized.net/nC_-soNH6GMy-arjcj317Qdk_H8=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5308258/original/005797100_1754539908-nad1.jpg",
-      "summary": "Kerugian negara yang timbul dari kasus ini adalah Rp 1,98 triliun. Ke depannya, Nadiem akan ditahan di Rutan Salemba, Jakarta."
-    },
-    {
-      "id": "Liputan6 – News-48-1756977801000",
-      "title": "Nadiem Makarim Langgar 3 Aturan saat Korupsi Laptop Chromebook, Negara Rugi Rp 1,98 T",
-      "link": "https://www.liputan6.com/news/read/6151155/nadiem-makarim-langgar-3-aturan-saat-korupsi-laptop-chromebook-negara-rugi-rp-198-t",
-      "publishedAt": "2025-09-04T09:23:21.000Z",
-      "source": "Liputan6 – News",
-      "category": "nasional",
-      "image": "https://cdn0-production-images-kly.akamaized.net/9ENIqBk6WmZpCEJJbUo94xXG5U4=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5337720/original/010356400_1756955574-IMG_8018.jpeg",
-      "summary": "Direktur Penyidikan (Dirdik) Jampidsus Kejagung Nurcahyo Jungkung Madyo mengatakan, Nadiem melanggar 3 aturan pemerintah saat melakukan korupsi pengadaan laptop."
-    },
-    {
-      "id": "Detik – Berita-91-1756977675000",
-      "title": "Buat Onar di Hotel Kawasan Kalibata, WNA Dideportasi ke Suriah",
-      "link": "https://news.detik.com/berita/d-8096461/buat-onar-di-hotel-kawasan-kalibata-wna-dideportasi-ke-suriah",
-      "publishedAt": "2025-09-04T09:21:15.000Z",
-      "source": "Detik – Berita",
-      "category": "nasional",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/04/seorang-wna-berinisial-bma-dideportasi-ke-suriah-akibat-membuat-onar-dan-melakukan-tindakan-membahayakan-di-salah-satu-hotel-k-1756977640519_169.jpeg?w=360&q=90",
-      "summary": "Seorang WNA berinisial BMA dideportasi ke Suriah akibat membuat onar dan melakukan tindakan membahayakan di salah satu hotel kawasan Kalibata, Jaksel."
-    },
-    {
-      "id": "Detik – Berita-92-1756977617000",
-      "title": "Sekjen Sebut Pimpinan DPR Setuju Legislator Nonaktif Tak Dapat Gaji-Tunjangan",
-      "link": "https://news.detik.com/berita/d-8096457/sekjen-sebut-pimpinan-dpr-setuju-legislator-nonaktif-tak-dapat-gaji-tunjangan",
-      "publishedAt": "2025-09-04T09:20:17.000Z",
-      "source": "Detik – Berita",
-      "category": "nasional",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2025/05/27/sekretaris-jenderal-dpr-ri-indra-iskandar-1748326481931_169.jpeg?w=360&q=90",
-      "summary": "Sekjen DPR Indra Iskandar mengonfirmasi bahwa anggota Dewan nonaktif tidak akan menerima gaji dan tunjangan, sesuai keputusan MKD."
-    },
-    {
-      "id": "Detik – Berita-93-1756977338000",
-      "title": "Kejagung: Nadiem Jawab Surat Google soal Chromebook Padahal Uji Coba Gagal",
-      "link": "https://news.detik.com/berita/d-8096446/kejagung-nadiem-jawab-surat-google-soal-chromebook-padahal-uji-coba-gagal",
-      "publishedAt": "2025-09-04T09:15:38.000Z",
-      "source": "Detik – Berita",
-      "category": "nasional",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2025/08/07/ekspresi-nadiem-makarim-usai-diperiksa-kpk-1754569216780_169.jpeg?w=360&q=90",
-      "summary": "Kejagung menetapkan Nadiem Makarim sebagai tersangka dalam kasus pengadaan Chromebook. Begini peran Nadiem."
-    },
-    {
-      "id": "Detik – Berita-94-1756977165000",
-      "title": "Pakar Pidana Setuju Kompol Cosmas Dipecat, Dorong Pidana Disegerakan",
-      "link": "https://news.detik.com/berita/d-8096438/pakar-pidana-setuju-kompol-cosmas-dipecat-dorong-pidana-disegerakan",
-      "publishedAt": "2025-09-04T09:12:45.000Z",
-      "source": "Detik – Berita",
-      "category": "nasional",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2024/08/21/pakar-hukum-tata-negara-universitas-brawijaya-aan-eko-widiarto_43.jpeg?w=360&q=90",
-      "summary": "Dia pun mendorong Polri untuk menyelidiki ada atau tidak unsur pidana dalam tindakan Cosmas."
-    },
-    {
-      "id": "Detik – Berita-95-1756977019000",
-      "title": "Bahlil Sebut Adies Kadir Tak Terima Gaji Usai Dinonaktifkan dari DPR",
-      "link": "https://news.detik.com/berita/d-8096432/bahlil-sebut-adies-kadir-tak-terima-gaji-usai-dinonaktifkan-dari-dpr",
-      "publishedAt": "2025-09-04T09:10:19.000Z",
-      "source": "Detik – Berita",
-      "category": "nasional",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/01/ketum-golkar-bahlil-lahadalia-1756739100854_169.jpeg?w=360&q=90",
-      "summary": "Ketua Umum (Ketum) Golkar Bahlil Lahadalia menegaskan Adies Kadir tidak akan menerima gaji setelah dinonaktifkan dari DPR."
-    },
-    {
-      "id": "Detik – Berita-96-1756976862000",
-      "title": "Nadiem Tersangka, Kejagung Sebut Korupsi Laptop Rugikan Negara Rp 1,98 T",
-      "link": "https://news.detik.com/berita/d-8096417/nadiem-tersangka-kejagung-sebut-korupsi-laptop-rugikan-negara-rp-1-98-t",
-      "publishedAt": "2025-09-04T09:07:42.000Z",
-      "source": "Detik – Berita",
-      "category": "nasional",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/04/konpers-kejagung-penetapan-tersangka-eks-mendikbud-nadiem-makarim-1756976841693_169.jpeg?w=360&q=90",
-      "summary": "Kejaksaan Agung menetapkan Nadiem Makarim sebagai tersangka korupsi pengadaan laptop Chromebook, dengan kerugian negara mencapai Rp 1,98 triliun."
-    },
-    {
-      "id": "Detik – Berita-97-1756976412000",
-      "title": "Dudung Bicara Ada Pihak Manfaatkan Demo: Bisa dari Dalam Maupun Luar",
-      "link": "https://news.detik.com/berita/d-8096402/dudung-bicara-ada-pihak-manfaatkan-demo-bisa-dari-dalam-maupun-luar",
-      "publishedAt": "2025-09-04T09:00:12.000Z",
-      "source": "Detik – Berita",
-      "category": "nasional",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2025/06/26/dudung-abdurachman-1750930181481_169.jpeg?w=360&q=90",
-      "summary": "Dudung Abdurachman menyatakan ada pihak yang memanfaatkan demo untuk kericuhan. Ia menilai wacana darurat militer masih jauh dari kebutuhan saat ini."
-    },
-    {
-      "id": "Detik – Berita-98-1756976410000",
-      "title": "Tersangka Kasus Laptop, Mantan Mendikbudristek Nadiem Makarim Ditahan!",
-      "link": "https://news.detik.com/berita/d-8096401/tersangka-kasus-laptop-mantan-mendikbudristek-nadiem-makarim-ditahan",
-      "publishedAt": "2025-09-04T09:00:10.000Z",
-      "source": "Detik – Berita",
-      "category": "nasional",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2025/08/07/ekspresi-nadiem-makarim-usai-diperiksa-kpk-1754569216780_169.jpeg?w=360&q=90",
-      "summary": "Kejaksaan Agung menetapkan Nadiem Makarim sebagai tersangka korupsi pengadaan laptop Chromebook. Dia ditahan di Rutan Salemba selama 20 hari."
-    },
-    {
-      "id": "Detik – Berita-99-1756975652000",
-      "title": "Massa Buruh Demo di Patung Kuda Jakpus, Ini 12 Tuntutannya",
-      "link": "https://news.detik.com/berita/d-8096376/massa-buruh-demo-di-patung-kuda-jakpus-ini-12-tuntutannya",
-      "publishedAt": "2025-09-04T08:47:32.000Z",
-      "source": "Detik – Berita",
-      "category": "nasional",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2025/09/04/demo-buruh-di-patung-kuda-jakpus-1756975601329_169.jpeg?w=360&q=90",
-      "summary": "Massa buruh dari Gebrak menggelar aksi di Jakarta menyampaikan 12 tuntutan kepada Presiden Prabowo dan DPR. Mereka menuntut keadilan dan reformasi."
     }
   ]
 }
