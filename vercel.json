@@ -1,5 +1,8 @@
 {
   "cleanUrls": true,
+  "rewrites": [
+    { "source": "/((?!news\\.json).*)", "destination": "/index.html" }
+  ],
   "headers": [
     {
       "source": "/news.json",
