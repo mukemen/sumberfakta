@@ -8,17 +8,18 @@
 <script src="https://cdn.tailwindcss.com"></script>
 <style>
   :root{ --brand:#ef4444 }
+  body{ color:#0b1220 }
   .card{ box-shadow:0 12px 32px rgba(2,6,23,.08) }
   .mono{ font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace }
   .btn{ transition:filter .15s, transform .02s } .btn:active{ transform:translateY(1px) }
 </style>
 </head>
-<body class="bg-slate-50 text-slate-900">
+<body class="bg-slate-50">
 <header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b">
   <div class="max-w-6xl mx-auto px-4 py-3 flex items-center gap-3">
     <img src="logo.png" alt="logo" class="h-9 w-9 object-contain">
     <div class="text-xl font-extrabold">FABARO <span class="text-[var(--brand)]">NEWS</span> • Admin</div>
-    <div class="ml-auto text-xs text-slate-500">Tambah berita buatan sendiri → commit via Vercel API</div>
+    <div class="ml-auto text-xs text-slate-500">Tambah berita → commit via server (aman & tanpa CORS)</div>
   </div>
 </header>
 
@@ -70,7 +71,9 @@
         </label>
         <label class="text-sm">atau Upload gambar
           <input id="imageFile" type="file" accept="image/*" class="mt-1 w-full px-3 py-2 border rounded-lg bg-white" />
-          <div class="text-[11px] text-slate-500 mt-1">Auto-resize: max <b>1280px</b> • JPEG q=0.85</div>
+          <div class="text-[11px] text-slate-500 mt-1">
+            Auto-resize: <b>max 1280px</b>, JPEG q=<b>0.85</b>.
+          </div>
         </label>
       </div>
 
@@ -102,44 +105,41 @@
 
     <div class="bg-white border rounded-xl p-4 card">
       <h2 class="font-bold text-lg mb-3">Info</h2>
-      <p class="text-sm text-slate-600">Server (Vercel) akan commit ke repo menggunakan token dari Environment Variables, jadi aman & tidak kena CORS.</p>
+      <p class="text-sm text-slate-600">Server (Vercel) yang menyimpan ke GitHub dengan token dari Environment Variables — aman & tanpa CORS.</p>
     </div>
   </section>
 </main>
 
 <script>
 const $ = (id)=>document.getElementById(id);
-function fmtTimeLocalVal(d=new Date()){
-  const p=n=>String(n).padStart(2,"0");
-  return `${d.getFullYear()}-${p(d.getMonth()+1)}-${p(d.getDate())}T${p(d.getHours())}:${p(d.getMinutes())}`;
-}
-if(!$("publishedAt").value) $("publishedAt").value = fmtTimeLocalVal(new Date());
+function p2(n){return String(n).padStart(2,"0")}
+function fmtLocal(d=new Date()){ return `${d.getFullYear()}-${p2(d.getMonth()+1)}-${p2(d.getDate())}T${p2(d.getHours())}:${p2(d.getMinutes())}` }
+if(!$("publishedAt").value) $("publishedAt").value = fmtLocal(new Date());
+function toISO(v){ try{return new Date(v).toISOString()}catch{return new Date().toISOString()} }
 
-function toISOLocal(v){ try{return new Date(v).toISOString()}catch{return new Date().toISOString()} }
 function arrayBufferToBase64(buf){
-  const bytes = new Uint8Array(buf), step = 0x8000; let bin="";
-  for(let i=0;i<bytes.length;i+=step){ bin += String.fromCharCode.apply(null, bytes.subarray(i,i+step)); }
+  const bytes=new Uint8Array(buf), step=0x8000; let bin="";
+  for(let i=0;i<bytes.length;i+=step){ bin+=String.fromCharCode.apply(null, bytes.subarray(i,i+step)); }
   return btoa(bin);
 }
-async function resizeImageFile(file, maxWidth=1280, quality=0.85){
+async function resizeImageFile(file, maxW=1280, quality=0.85){
   const bmp = await createImageBitmap(file);
-  const scale = Math.min(1, maxWidth / bmp.width);
+  const scale = Math.min(1, maxW / bmp.width);
   const w = Math.round(bmp.width*scale), h = Math.round(bmp.height*scale);
   const canvas = document.createElement("canvas"); canvas.width=w; canvas.height=h;
   const ctx = canvas.getContext("2d"); ctx.drawImage(bmp,0,0,w,h);
   const blob = await new Promise(r=>canvas.toBlob(r,"image/jpeg",quality));
   return blob || file;
 }
-
-function buildData(imageURL=""){
+function buildData(imgURL=""){
   return {
     title: $("title").value.trim(),
     category: $("category").value,
-    publishedAt: toISOLocal($("publishedAt").value),
+    publishedAt: toISO($("publishedAt").value),
     summary: $("summary").value.trim(),
     link: $("link").value.trim(),
     contentHtml: $("contentHtml").value.trim() || null,
-    image: imageURL || $("imageUrl").value.trim() || null,
+    image: imgURL || $("imageUrl").value.trim() || null,
     source: "FABARO NEWS",
   };
 }
@@ -153,76 +153,68 @@ function renderPreview(d){
 }
 $("previewBtn").onclick = ()=> renderPreview(buildData());
 
-/** ====== Panggil API serverless (same-origin) ====== **/
+/* ===== API helper (serverless, same-origin) ===== */
 async function apiGet(path){
   const r = await fetch(`/api/github/get?path=${encodeURIComponent(path)}`);
-  if (r.status===404) return {exists:false,sha:null,items:[]};
-  const j = await r.json(); if(!r.ok) throw new Error(j.error||r.statusText); return j;
+  const t = await r.text(); try{ return JSON.parse(t) }catch{ throw new Error(t || r.statusText) }
 }
-async function apiCommit({path,message,contentB64,sha}){
-  const r = await fetch(`/api/github/commit`,{
+async function apiCommit(body){
+  const r = await fetch(`/api/github/commit`,{ method:"POST", headers:{ "Content-Type":"application/json" }, body: JSON.stringify(body) });
+  const t = await r.text(); try{ return JSON.parse(t) }catch{ throw new Error(t || r.statusText) }
+}
+async function apiUpload({ contentB64, ext="jpg", filename="" }){
+  const r = await fetch(`/api/github/upload`,{
     method:"POST", headers:{ "Content-Type":"application/json" },
-    body: JSON.stringify({ path, message, contentB64, sha: sha||null })
+    body: JSON.stringify({ contentB64, ext, filename })
   });
-  const j = await r.json(); if(!r.ok) throw new Error(j.error||r.statusText); return j;
+  const t = await r.text(); try{ return JSON.parse(t) }catch{ throw new Error(t || r.statusText) }
 }
-async function apiDispatch(){
-  await fetch(`/api/github/dispatch`,{method:"POST"}); // ignore failure
-}
+async function apiDispatch(){ fetch(`/api/github/dispatch`,{method:"POST"}).catch(()=>{}) }
 
 $("publishBtn").onclick = async ()=>{
   try{
-    $("status").textContent = "Menyiapkan…";
+    $("status").textContent="Menyiapkan…";
 
-    // Upload gambar bila ada file
+    // 1) upload gambar jika ada file
     let imgURL = $("imageUrl").value.trim();
-    const file = $("imageFile").files[0];
-    if (!imgURL && file){
-      $("status").textContent = "Resize & upload gambar…";
-      const resized = await resizeImageFile(file,1280,0.85);
+    const f = $("imageFile").files[0];
+    if(!imgURL && f){
+      $("status").textContent="Resize & upload gambar…";
+      const resized = await resizeImageFile(f,1280,0.85);
       const buf = await resized.arrayBuffer();
       const b64 = arrayBufferToBase64(buf);
-      const fname = `img-${Date.now()}-${Math.random().toString(36).slice(2)}.jpg`;
-      const imgPath = `images/uploads/${fname}`;
-      await apiCommit({
-        path: imgPath,
-        message: `chore: upload ${fname}`,
-        contentB64: b64
-      });
-      const { rawUrl } = await (await fetch(`/api/github/get?path=${encodeURIComponent(imgPath)}`)).json();
-      imgURL = rawUrl; // raw content URL dari API
+      const up = await apiUpload({ contentB64:b64, ext:"jpg", filename:f.name||"" });
+      imgURL = up.rawUrl; // dari server
     }
 
-    const data = buildData(imgURL);
-    if(!data.title) return alert("Judul wajib diisi.");
-    renderPreview(data);
+    // 2) siapkan data
+    const d = buildData(imgURL);
+    if(!d.title) return alert("Judul wajib diisi.");
+    renderPreview(d);
 
-    $("status").textContent = "Ambil mynews.json…";
-    const cur = await apiGet("data/mynews.json");
-    const items = Array.isArray(cur.items) ? cur.items : [];
+    // 3) ambil mynews.json lalu prepend
+    $("status").textContent="Ambil mynews.json…";
+    const cur = await apiGet("data/mynews.json"); // {exists,sha,items,rawUrl}
+    const items = Array.isArray(cur.items)?cur.items:[];
     items.unshift({
-      title: data.title, link: data.link || "#", publishedAt: data.publishedAt,
-      source: "FABARO NEWS", category: data.category, image: data.image || null,
-      summary: data.summary || null, contentHtml: data.contentHtml || null
+      title:d.title, link:d.link||"#", publishedAt:d.publishedAt, source:"FABARO NEWS",
+      category:d.category, image:d.image||null, summary:d.summary||null, contentHtml:d.contentHtml||null
     });
 
-    $("status").textContent = "Commit mynews.json…";
-    const contentB64 = btoa(unescape(encodeURIComponent(JSON.stringify(items,null,2))));
-    await apiCommit({
-      path: "data/mynews.json",
-      message: `feat(admin): add "${data.title}"`,
-      contentB64,
-      sha: cur.sha || null
-    });
+    // 4) commit mynews.json
+    $("status").textContent="Commit mynews.json…";
+    const b64 = btoa(unescape(encodeURIComponent(JSON.stringify(items,null,2))));
+    await apiCommit({ path:"data/mynews.json", message:`feat(admin): add "${d.title}"`, contentB64:b64, sha:cur.sha||null });
 
-    $("status").textContent = "Trigger build…";
+    // 5) trigger build (opsional)
+    $("status").textContent="Trigger build…";
     await apiDispatch();
 
-    $("status").textContent = "Selesai. Tunggu halaman publik memuat data terbaru.";
+    $("status").textContent="Selesai. Halaman publik akan memuat data terbaru."; 
     alert("Berhasil dipublish ✅");
   }catch(e){
     console.error(e);
-    $("status").textContent = "Gagal.";
+    $("status").textContent="Gagal.";
     alert("Publish gagal: "+e.message);
   }
 };
