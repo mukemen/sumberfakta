@@ -1,0 +1,22 @@
+[
+  {
+    "title": "FABARO NEWS luncurkan kanal Hiburan",
+    "link": "https://fabaro.example.com/artikel/kanal-hiburan", 
+    "publishedAt": "2025-09-05T10:00:00+07:00",
+    "source": "FABARO NEWS",
+    "category": "hiburan",
+    "image": "https://picsum.photos/seed/fabaro1/800/450",
+    "summary": "Mulai hari ini, kanal Hiburan resmi hadir dengan kurasi film, musik, dan selebritas.",
+    "contentHtml": "<p>Kami memperluas cakupan kurasi konten hiburan dari media lokal. <strong>FABARO NEWS</strong> juga akan menerbitkan rangkuman mingguan.</p>"
+  },
+  {
+    "title": "Opini: Masa depan agregator berita lokal",
+    "link": "#", 
+    "publishedAt": "2025-09-05T11:00:00+07:00",
+    "source": "FABARO NEWS",
+    "category": "nasional",
+    "image": "https://picsum.photos/seed/fabaro2/800/450",
+    "summary": "Mengapa agregator yang ringan & cepat penting untuk pembaca Indonesia.",
+    "contentHtml": "<p>Kecepatan, hemat kuota, dan kurasi adalah kunci. Artikel ini membahas pendekatan teknis yang kami pakai.</p>"
+  }
+]
