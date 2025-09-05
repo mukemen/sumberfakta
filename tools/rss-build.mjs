@@ -1,5 +1,6 @@
 // tools/rss-build.mjs
 // Build news.json dari feeds.json (fallback ke DEFAULT_FEEDS jika tidak ada)
+// + gabungkan artikel buatan sendiri dari data/mynews.json
 // Node >= 18 (ESM OK)
 
 import fs from "fs";
@@ -61,7 +62,7 @@ function pickImage(e={}){
 }
 function cleanUrl(u=""){ try{ const url=new URL(u); url.hash=""; return url.toString(); } catch { return u; } }
 
-// Bentuk item
+// Bentuk item standar RSS
 function toItem(feed, entry, i){
   const d = entry.isoDate || entry.pubDate || entry.pubdate || entry.date || new Date().toISOString();
   const title = (entry.title||"").toString().trim();
@@ -93,7 +94,7 @@ async function fetchFeed(feed){
   }
 }
 
-// Dedup + sort
+// Dedup + sort terbaru
 function dedupSort(items){
   const seen=new Set(), out=[];
   for (const it of items){
@@ -105,13 +106,43 @@ function dedupSort(items){
   return out.slice(0, LIMIT_OUTPUT);
 }
 
-// Main
+// ====== Muat berita custom buatan sendiri ======
+function loadMyNews() {
+  const paths = ["mynews.json", "data/mynews.json"];
+  for (const p of paths) {
+    const arr = readJSON(p, null);
+    if (Array.isArray(arr)) {
+      const normed = arr.map((e, i) => ({
+        id: e.id || `MY-${i}-${Date.now()}`,
+        title: (e.title || "").toString().trim(),
+        link: (e.link || "").toString().trim(),
+        publishedAt: new Date(e.publishedAt || Date.now()).toISOString(),
+        source: e.source || "FABARO NEWS",
+        category: normCat(e.category || "nasional"),
+        image: e.image || null,
+        summary: e.summary || null,
+        contentHtml: e.contentHtml || null
+      }));
+      console.log(`+ Muat mynews dari ${p}: ${normed.length} item`);
+      return normed;
+    }
+  }
+  console.log("+ Tidak ada mynews.json (lewati)");
+  return [];
+}
+
+// ===================== MAIN =====================
 const FEEDS = loadFeeds();
 console.log(`Memuat ${FEEDS.length} feed ...`);
 console.log("Contoh 5 feed pertama:", FEEDS.slice(0,5).map(f=>`${f.name} -> ${f.url}`));
 
 const results = await Promise.allSettled(FEEDS.map(fetchFeed));
 let items = results.flatMap(r => (r.status==="fulfilled" ? r.value : []));
+
+// gabung artikel buatan sendiri
+const mine = loadMyNews();
+items = [...items, ...mine];
+
 items = dedupSort(items);
 
 // Fallback kalau kependekan
@@ -131,4 +162,4 @@ try{
 const out = { generatedAt:new Date().toISOString(), items };
 writeJSON("news.json", out);
 
-console.log(`✔ Generated news.json dengan ${items.length} artikel dari ${FEEDS.length} feed`);
+console.log(`✔ Generated news.json dengan ${items.length} artikel dari ${FEEDS.length} feed (+ mynews: ${mine.length})`);
