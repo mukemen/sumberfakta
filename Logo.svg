@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1400" height="500" viewBox="0 0 1400 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .ink{fill:#1F2937;}
+      .white{fill:#FFFFFF;}
+      .red{fill:#D0021B;}
+      .red-stroke{fill:none;stroke:#D0021B;stroke-width:18;stroke-linecap:round;stroke-linejoin:round;}
+      .shadow{fill:none;stroke:#1F2937;stroke-width:12;opacity:.25;}
+      .txt-dark{fill:#1F2937;font-family:Inter,Manrope,"Plus Jakarta Sans",Arial,Helvetica,sans-serif;}
+      .txt-gray{fill:#6B7280;font-family:Inter,Manrope,"Plus Jakarta Sans",Arial,Helvetica,sans-serif;}
+    </style>
+  </defs>
+  <!-- Icon group (scaled up for layout) -->
+  <g transform="translate(60,0)">
+    <ellipse class="shadow" cx="240" cy="456" rx="120" ry="20"/>
+    <path class="ink" d="M240,56c-96,0-174,78-174,174c0,126,174,268,174,268s174-142,174-268C414,134,336,56,240,56z"/>
+    <circle class="white" cx="240" cy="224" r="18"/>
+    <!-- Internal radar arcs -->
+    <path class="red-stroke" d="M240 168 A60 60 0 0 1 300 228"/>
+    <path class="red-stroke" d="M240 144 A84 84 0 0 1 324 228"/>
+    <path class="red-stroke" d="M240 120 A108 108 0 0 1 348 228"/>
+    <!-- External broadcast waves (right) -->
+    <path class="red-stroke" d="M396 150 A132 132 0 0 1 396 306"/>
+    <path class="red-stroke" d="M424 132 A160 160 0 0 1 424 324"/>
+    <!-- External broadcast waves (left) -->
+    <path class="red-stroke" d="M84 306 A132 132 0 0 1 84 150"/>
+    <path class="red-stroke" d="M56 324 A160 160 0 0 1 56 132"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(540,180)">
+    <text class="txt-dark" x="0" y="0" font-size="120" font-weight="800" letter-spacing="1">FABARO</text>
+    <text class="txt-dark" x="0" y="86" font-size="1"></text>
+    <text class="txt-dark" x="645" y="0" font-size="120" font-weight="800" letter-spacing="1">
+      <tspan class="red"> NEWS</tspan>
+    </text>
+    <text class="txt-gray" x="0" y="120" font-size="40" font-weight="400" letter-spacing="0.5">Agregator berita • </text>
+    <text class="txt-dark" x="410" y="120" font-size="40" font-weight="700" letter-spacing="0.5">by FABARO GROUP</text>
+  </g>
+</svg>
