@@ -7,306 +7,219 @@
 <link rel="icon" href="logo.png" />
 <script src="https://cdn.tailwindcss.com"></script>
 <style>
-  :root{ --brand:#ef4444; }
-  body{ color:#0b1220 }
+  :root{ --brand:#ef4444 }
   .card{ box-shadow:0 12px 32px rgba(2,6,23,.08) }
-  .mono{ font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+  .mono{ font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace }
   .btn{ transition:filter .15s, transform .02s } .btn:active{ transform:translateY(1px) }
 </style>
 </head>
-<body class="bg-slate-50">
-  <!-- HEADER -->
-  <header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b">
-    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center gap-3">
-      <img src="logo.png" alt="logo" class="h-9 w-9 object-contain">
-      <div class="text-xl font-extrabold tracking-tight">
-        FABARO <span class="text-[var(--brand)]">NEWS</span> • Admin
+<body class="bg-slate-50 text-slate-900">
+<header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center gap-3">
+    <img src="logo.png" alt="logo" class="h-9 w-9 object-contain">
+    <div class="text-xl font-extrabold">FABARO <span class="text-[var(--brand)]">NEWS</span> • Admin</div>
+    <div class="ml-auto text-xs text-slate-500">Tambah berita buatan sendiri → commit via Vercel API</div>
+  </div>
+</header>
+
+<main class="max-w-6xl mx-auto p-4 grid lg:grid-cols-2 gap-6">
+  <!-- FORM -->
+  <section class="bg-white border rounded-xl p-4 card">
+    <h2 class="font-bold text-lg mb-3">Buat Berita</h2>
+    <div class="grid gap-3">
+      <label class="text-sm">Judul
+        <input id="title" class="mt-1 w-full px-3 py-2 border rounded-lg" placeholder="Judul berita..." />
+      </label>
+
+      <div class="grid grid-cols-2 gap-3">
+        <label class="text-sm">Kategori
+          <select id="category" class="mt-1 w-full px-3 py-2 border rounded-lg">
+            <option value="nasional">Nasional</option>
+            <option value="politik">Politik</option>
+            <option value="bisnis">Bisnis</option>
+            <option value="sport">Sport</option>
+            <option value="tekno">Tekno</option>
+            <option value="hiburan">Hiburan</option>
+            <option value="music">Musik</option>
+            <option value="movie">Film</option>
+            <option value="hobi">Hobi</option>
+            <option value="dunia">Dunia</option>
+          </select>
+        </label>
+        <label class="text-sm">Waktu terbit
+          <input id="publishedAt" type="datetime-local" class="mt-1 w-full px-3 py-2 border rounded-lg" />
+        </label>
       </div>
-      <div class="ml-auto text-xs text-slate-500">Tambah berita buatan sendiri → commit ke GitHub</div>
+
+      <label class="text-sm">Ringkasan
+        <textarea id="summary" rows="3" class="mt-1 w-full px-3 py-2 border rounded-lg" placeholder="Ringkasan singkat..."></textarea>
+      </label>
+
+      <label class="text-sm">Link sumber (opsional)
+        <input id="link" class="mt-1 w-full px-3 py-2 border rounded-lg" placeholder="https://..." />
+      </label>
+
+      <details class="mt-1">
+        <summary class="cursor-pointer text-sm font-semibold">Konten penuh (HTML opsional)</summary>
+        <textarea id="contentHtml" rows="6" class="mt-2 w-full px-3 py-2 border rounded-lg mono" placeholder="<p>Tulis HTML di sini...</p>"></textarea>
+      </details>
+
+      <div class="grid md:grid-cols-2 gap-3">
+        <label class="text-sm">Gambar (URL)
+          <input id="imageUrl" class="mt-1 w-full px-3 py-2 border rounded-lg" placeholder="https://..." />
+        </label>
+        <label class="text-sm">atau Upload gambar
+          <input id="imageFile" type="file" accept="image/*" class="mt-1 w-full px-3 py-2 border rounded-lg bg-white" />
+          <div class="text-[11px] text-slate-500 mt-1">Auto-resize: max <b>1280px</b> • JPEG q=0.85</div>
+        </label>
+      </div>
+
+      <div class="flex items-center gap-2 pt-1">
+        <button id="previewBtn" class="btn px-4 py-2 rounded-lg bg-slate-900 text-white">Preview</button>
+        <button id="publishBtn" class="btn px-4 py-2 rounded-lg bg-[var(--brand)] text-white">Publish</button>
+        <span id="status" class="ml-2 text-sm text-slate-500"></span>
+      </div>
     </div>
-  </header>
+  </section>
 
-  <main class="max-w-6xl mx-auto p-4 grid lg:grid-cols-2 gap-6">
-    <!-- FORM -->
-    <section class="bg-white border rounded-xl p-4 card">
-      <h2 class="font-bold text-lg mb-3">Buat Berita</h2>
-
-      <div class="grid gap-3">
-        <label class="text-sm">Judul
-          <input id="title" class="mt-1 w-full px-3 py-2 border rounded-lg" placeholder="Judul berita..." />
-        </label>
-
-        <div class="grid grid-cols-2 gap-3">
-          <label class="text-sm">Kategori
-            <select id="category" class="mt-1 w-full px-3 py-2 border rounded-lg">
-              <option value="nasional">Nasional</option>
-              <option value="politik">Politik</option>
-              <option value="bisnis">Bisnis</option>
-              <option value="sport">Sport</option>
-              <option value="tekno">Tekno</option>
-              <option value="hiburan">Hiburan</option>
-              <option value="music">Musik</option>
-              <option value="movie">Film</option>
-              <option value="hobi">Hobi</option>
-              <option value="dunia">Dunia</option>
-            </select>
-          </label>
-
-          <label class="text-sm">Waktu terbit
-            <input id="publishedAt" type="datetime-local" class="mt-1 w-full px-3 py-2 border rounded-lg" />
-          </label>
-        </div>
-
-        <label class="text-sm">Ringkasan
-          <textarea id="summary" rows="3" class="mt-1 w-full px-3 py-2 border rounded-lg" placeholder="Ringkasan singkat..."></textarea>
-        </label>
-
-        <label class="text-sm">Link sumber (opsional)
-          <input id="link" class="mt-1 w-full px-3 py-2 border rounded-lg" placeholder="https://..." />
-        </label>
-
-        <details class="mt-1">
-          <summary class="cursor-pointer text-sm font-semibold">Konten penuh (HTML opsional)</summary>
-          <textarea id="contentHtml" rows="6" class="mt-2 w-full px-3 py-2 border rounded-lg mono" placeholder="<p>Tulis HTML di sini...</p>"></textarea>
-        </details>
-
-        <div class="grid md:grid-cols-2 gap-3">
-          <label class="text-sm">Gambar (URL)
-            <input id="imageUrl" class="mt-1 w-full px-3 py-2 border rounded-lg" placeholder="https://..." />
-          </label>
-          <label class="text-sm">atau Upload gambar
-            <input id="imageFile" type="file" accept="image/*" class="mt-1 w-full px-3 py-2 border rounded-lg bg-white" />
-            <div class="text-[11px] text-slate-500 mt-1">
-              Auto-resize: <b>max width 1280 px</b>, kualitas ~<b>0.85</b> → file lebih kecil.
-            </div>
-          </label>
-        </div>
-
-        <div class="flex items-center gap-2 pt-1">
-          <button id="previewBtn" class="btn px-4 py-2 rounded-lg bg-slate-900 text-white">Preview</button>
-          <button id="publishBtn" class="btn px-4 py-2 rounded-lg bg-[var(--brand)] text-white">Publish ke GitHub</button>
-          <span id="status" class="ml-2 text-sm text-slate-500"></span>
+  <!-- PREVIEW -->
+  <section class="space-y-6">
+    <div class="bg-white border rounded-xl p-4 card">
+      <h2 class="font-bold text-lg mb-3">Preview</h2>
+      <div class="rounded-xl overflow-hidden border">
+        <div class="h-44 bg-slate-200" id="pv-img" style="background-size:cover;background-position:center"></div>
+        <div class="p-4 space-y-2">
+          <div class="text-xs text-slate-500 flex items-center gap-2">
+            <span id="pv-cat" class="px-2 py-0.5 rounded-full border bg-white"></span>
+            <span>FABARO NEWS</span>
+            <span>•</span><time id="pv-time"></time>
+          </div>
+          <h3 id="pv-title" class="text-lg font-semibold leading-snug"></h3>
+          <p id="pv-sum" class="text-sm text-slate-600"></p>
         </div>
       </div>
-    </section>
+    </div>
 
-    <!-- PREVIEW + SETTINGS -->
-    <section class="space-y-6">
-      <div class="bg-white border rounded-xl p-4 card">
-        <h2 class="font-bold text-lg mb-3">Preview</h2>
-        <div id="preview" class="rounded-xl overflow-hidden border">
-          <div class="h-44 bg-slate-200" id="pv-img" style="background-size:cover;background-position:center"></div>
-          <div class="p-4 space-y-2">
-            <div class="text-xs text-slate-500 flex items-center gap-2">
-              <span id="pv-cat" class="px-2 py-0.5 rounded-full border bg-white"></span>
-              <span>FABARO NEWS</span>
-              <span>•</span><time id="pv-time"></time>
-            </div>
-            <h3 id="pv-title" class="text-lg font-semibold leading-snug"></h3>
-            <p id="pv-sum" class="text-sm text-slate-600"></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="bg-white border rounded-xl p-4 card">
-        <h2 class="font-bold text-lg mb-3">Pengaturan GitHub</h2>
-        <div class="grid gap-3">
-          <label class="text-sm">Owner
-            <input id="gh-owner" class="mt-1 w-full px-3 py-2 border rounded-lg" placeholder="mukemen" />
-          </label>
-          <label class="text-sm">Repo
-            <input id="gh-repo" class="mt-1 w-full px-3 py-2 border rounded-lg" placeholder="sumberfakta" />
-          </label>
-          <label class="text-sm">Branch
-            <input id="gh-branch" class="mt-1 w-full px-3 py-2 border rounded-lg" value="main" />
-          </label>
-          <label class="text-sm">Path file mynews.json
-            <input id="gh-path" class="mt-1 w-full px-3 py-2 border rounded-lg mono" value="data/mynews.json" />
-          </label>
-          <label class="text-sm">Personal Access Token (scope: <span class="mono">repo</span> + opsional <span class="mono">workflow</span>)
-            <input id="gh-token" type="password" class="mt-1 w-full px-3 py-2 border rounded-lg" placeholder="ghp_..." />
-          </label>
-          <div class="flex items-center gap-2">
-            <button id="saveCfg" class="px-3 py-1.5 rounded-lg border bg-white">Simpan pengaturan (local)</button>
-            <button id="clearCfg" class="px-3 py-1.5 rounded-lg border bg-white">Hapus</button>
-          </div>
-          <div class="text-[11px] text-slate-500">
-            Token disimpan di <strong>localStorage</strong> (perangkat ini saja). Jangan dibagikan.
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+    <div class="bg-white border rounded-xl p-4 card">
+      <h2 class="font-bold text-lg mb-3">Info</h2>
+      <p class="text-sm text-slate-600">Server (Vercel) akan commit ke repo menggunakan token dari Environment Variables, jadi aman & tidak kena CORS.</p>
+    </div>
+  </section>
+</main>
 
 <script>
-/* ====================== UTIL ====================== */
 const $ = (id)=>document.getElementById(id);
-const CFG_KEYS = ["gh-owner","gh-repo","gh-branch","gh-path","gh-token"];
-
 function fmtTimeLocalVal(d=new Date()){
-  const pad=n=>String(n).padStart(2,"0");
-  return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}`;
+  const p=n=>String(n).padStart(2,"0");
+  return `${d.getFullYear()}-${p(d.getMonth()+1)}-${p(d.getDate())}T${p(d.getHours())}:${p(d.getMinutes())}`;
 }
-function toISOLocal(val){ try { return new Date(val).toISOString(); } catch { return new Date().toISOString(); } }
-function b64EncodeUTF8(str){ return btoa(unescape(encodeURIComponent(str))); }
-function b64DecodeUTF8(str){ return decodeURIComponent(escape(atob(str))); }
+if(!$("publishedAt").value) $("publishedAt").value = fmtTimeLocalVal(new Date());
 
-/* Base64 aman untuk file besar (chunked) */
-function arrayBufferToBase64(buf) {
-  const bytes = new Uint8Array(buf);
-  const chunkSize = 0x8000; // 32KB
-  let binary = "";
-  for (let i = 0; i < bytes.length; i += chunkSize) {
-    binary += String.fromCharCode.apply(null, bytes.subarray(i, i + chunkSize));
-  }
-  return btoa(binary);
+function toISOLocal(v){ try{return new Date(v).toISOString()}catch{return new Date().toISOString()} }
+function arrayBufferToBase64(buf){
+  const bytes = new Uint8Array(buf), step = 0x8000; let bin="";
+  for(let i=0;i<bytes.length;i+=step){ bin += String.fromCharCode.apply(null, bytes.subarray(i,i+step)); }
+  return btoa(bin);
 }
-
-/* Auto-resize gambar di browser: maxWidth=1280px, kualitas=0.85 */
 async function resizeImageFile(file, maxWidth=1280, quality=0.85){
-  const bitmap = await createImageBitmap(file);
-  const scale = Math.min(1, maxWidth / bitmap.width);
-  const w = Math.round(bitmap.width * scale);
-  const h = Math.round(bitmap.height * scale);
-
-  const canvas = document.createElement("canvas");
-  canvas.width = w; canvas.height = h;
-  const ctx = canvas.getContext("2d");
-  ctx.drawImage(bitmap, 0, 0, w, h);
-
-  const blob = await new Promise(res=>canvas.toBlob(res, "image/jpeg", quality));
+  const bmp = await createImageBitmap(file);
+  const scale = Math.min(1, maxWidth / bmp.width);
+  const w = Math.round(bmp.width*scale), h = Math.round(bmp.height*scale);
+  const canvas = document.createElement("canvas"); canvas.width=w; canvas.height=h;
+  const ctx = canvas.getContext("2d"); ctx.drawImage(bmp,0,0,w,h);
+  const blob = await new Promise(r=>canvas.toBlob(r,"image/jpeg",quality));
   return blob || file;
 }
 
-/* ================== INIT FORM ================== */
-(function init(){
-  if (!$("publishedAt").value) $("publishedAt").value = fmtTimeLocalVal(new Date());
-  CFG_KEYS.forEach(k=>{ const v=localStorage.getItem(k); if(v) $(k).value=v; });
-})();
-$("saveCfg").onclick = ()=>{ CFG_KEYS.forEach(k=>localStorage.setItem(k, $(k).value.trim())); alert("Pengaturan tersimpan di browser ini."); };
-$("clearCfg").onclick = ()=>{ CFG_KEYS.forEach(k=>localStorage.removeItem(k)); alert("Pengaturan dihapus dari browser ini."); };
-
-/* ================== PREVIEW ================== */
-function buildDataFromForm(imageFinalURL=""){
-  const title = $("title").value.trim();
-  const category = $("category").value;
-  const publishedAt = toISOLocal($("publishedAt").value);
-  const summary = $("summary").value.trim();
-  const link = $("link").value.trim();
-  const contentHtml = $("contentHtml").value.trim() || null;
-  const image = imageFinalURL || $("imageUrl").value.trim() || null;
-  return { title, category, publishedAt, summary, link, contentHtml, image, source:"FABARO NEWS" };
+function buildData(imageURL=""){
+  return {
+    title: $("title").value.trim(),
+    category: $("category").value,
+    publishedAt: toISOLocal($("publishedAt").value),
+    summary: $("summary").value.trim(),
+    link: $("link").value.trim(),
+    contentHtml: $("contentHtml").value.trim() || null,
+    image: imageURL || $("imageUrl").value.trim() || null,
+    source: "FABARO NEWS",
+  };
 }
 function renderPreview(d){
   $("pv-title").textContent = d.title || "(judul)";
   $("pv-cat").textContent = d.category || "-";
-  $("pv-time").textContent = new Intl.DateTimeFormat("id-ID",{dateStyle:"medium", timeStyle:"short"}).format(new Date(d.publishedAt||Date.now()));
+  $("pv-time").textContent = new Intl.DateTimeFormat("id-ID",{dateStyle:"medium",timeStyle:"short"}).format(new Date(d.publishedAt||Date.now()));
   $("pv-sum").textContent = d.summary || "";
-  const placeholder = "data:image/svg+xml;utf8,"+encodeURIComponent("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 18'><rect width='32' height='18' fill='#f1f5f9'/><rect x='3' y='4' width='26' height='10' rx='2' fill='#e2e8f0'/></svg>");
-  $("pv-img").style.backgroundImage = `url('${d.image || placeholder}')`;
+  const ph = "data:image/svg+xml;utf8,"+encodeURIComponent("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 18'><rect width='32' height='18' fill='#f1f5f9'/><rect x='3' y='4' width='26' height='10' rx='2' fill='#e2e8f0'/></svg>");
+  $("pv-img").style.backgroundImage = `url('${d.image || ph}')`;
 }
-$("previewBtn").onclick = ()=> renderPreview(buildDataFromForm());
+$("previewBtn").onclick = ()=> renderPreview(buildData());
 
-/* ================== GitHub API ================== */
-function cfg(){ return {
-  owner:$("gh-owner").value.trim(),
-  repo:$("gh-repo").value.trim(),
-  branch:$("gh-branch").value.trim() || "main",
-  path:$("gh-path").value.trim() || "data/mynews.json"
-};}
-function ghHeaders(){
-  const token = $("gh-token").value.trim();
-  return { "Authorization": `Bearer ${token}`, "Accept": "application/vnd.github+json" };
+/** ====== Panggil API serverless (same-origin) ====== **/
+async function apiGet(path){
+  const r = await fetch(`/api/github/get?path=${encodeURIComponent(path)}`);
+  if (r.status===404) return {exists:false,sha:null,items:[]};
+  const j = await r.json(); if(!r.ok) throw new Error(j.error||r.statusText); return j;
 }
-async function getFileContent(owner, repo, path, ref){
-  const r = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${encodeURIComponent(path)}?ref=${encodeURIComponent(ref)}`, { headers: ghHeaders() });
-  if (r.status === 404) return { exists:false, sha:null, items:[] };
-  if (!r.ok) throw new Error("Gagal GET contents: "+r.status);
-  const js = await r.json();
-  const decoded = b64DecodeUTF8(js.content || "");
-  let arr = []; try { arr = JSON.parse(decoded); } catch { arr = []; }
-  return { exists:true, sha:js.sha, items:Array.isArray(arr)?arr:[] };
-}
-async function putFileContent(owner, repo, path, ref, message, contentB64, sha=null){
-  const body = { message, content: contentB64, branch: ref };
-  if (sha) body.sha = sha;
-  const r = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${encodeURIComponent(path)}`, {
-    method:"PUT", headers: { "Content-Type":"application/json", ...ghHeaders() }, body: JSON.stringify(body)
+async function apiCommit({path,message,contentB64,sha}){
+  const r = await fetch(`/api/github/commit`,{
+    method:"POST", headers:{ "Content-Type":"application/json" },
+    body: JSON.stringify({ path, message, contentB64, sha: sha||null })
   });
-  if (!r.ok) throw new Error("Gagal PUT contents: "+r.status);
-  return r.json();
+  const j = await r.json(); if(!r.ok) throw new Error(j.error||r.statusText); return j;
 }
-async function triggerWorkflowBuild(){
-  const {owner,repo,branch} = cfg();
-  await fetch(`https://api.github.com/repos/${owner}/${repo}/actions/workflows/build-news.yml/dispatches`, {
-    method:"POST", headers: { "Content-Type":"application/json", ...ghHeaders() }, body: JSON.stringify({ ref: branch })
-  });
+async function apiDispatch(){
+  await fetch(`/api/github/dispatch`,{method:"POST"}); // ignore failure
 }
 
-/* Upload gambar: auto-resize + base64 aman + commit ke repo */
-async function uploadImageToRepo(file){
-  const {owner,repo,branch} = cfg();
-  // Resize dulu → blob (jpeg)
-  const resized = await resizeImageFile(file, 1280, 0.85);
-  // Blob -> ArrayBuffer -> Base64
-  const buf = await resized.arrayBuffer();
-  const b64 = arrayBufferToBase64(buf);
-
-  const ext = "jpg"; // hasil toBlob di atas jpeg
-  const fname = `img-${Date.now()}-${Math.random().toString(36).slice(2)}.${ext}`;
-  const path = `images/uploads/${fname}`;
-
-  await putFileContent(owner, repo, path, branch, `chore: upload image ${fname}`, b64, null);
-  return `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${path}`;
-}
-
-/* ================== PUBLISH ================== */
 $("publishBtn").onclick = async ()=>{
   try{
     $("status").textContent = "Menyiapkan…";
 
-    // Jika user upload file → upload; kalau tidak, pakai URL
+    // Upload gambar bila ada file
     let imgURL = $("imageUrl").value.trim();
-    const imgFile = $("imageFile").files[0];
-    if (!imgURL && imgFile){
-      $("status").textContent = "Upload gambar (resize)…";
-      imgURL = await uploadImageToRepo(imgFile);
+    const file = $("imageFile").files[0];
+    if (!imgURL && file){
+      $("status").textContent = "Resize & upload gambar…";
+      const resized = await resizeImageFile(file,1280,0.85);
+      const buf = await resized.arrayBuffer();
+      const b64 = arrayBufferToBase64(buf);
+      const fname = `img-${Date.now()}-${Math.random().toString(36).slice(2)}.jpg`;
+      const imgPath = `images/uploads/${fname}`;
+      await apiCommit({
+        path: imgPath,
+        message: `chore: upload ${fname}`,
+        contentB64: b64
+      });
+      const { rawUrl } = await (await fetch(`/api/github/get?path=${encodeURIComponent(imgPath)}`)).json();
+      imgURL = rawUrl; // raw content URL dari API
     }
 
-    const data = buildDataFromForm(imgURL);
-    if (!data.title) return alert("Judul wajib diisi.");
-
+    const data = buildData(imgURL);
+    if(!data.title) return alert("Judul wajib diisi.");
     renderPreview(data);
 
-    const {owner, repo, branch, path} = cfg();
     $("status").textContent = "Ambil mynews.json…";
-    const cur = await getFileContent(owner, repo, path, branch);
+    const cur = await apiGet("data/mynews.json");
     const items = Array.isArray(cur.items) ? cur.items : [];
+    items.unshift({
+      title: data.title, link: data.link || "#", publishedAt: data.publishedAt,
+      source: "FABARO NEWS", category: data.category, image: data.image || null,
+      summary: data.summary || null, contentHtml: data.contentHtml || null
+    });
 
-    const newItem = {
-      title: data.title,
-      link: data.link || "#",
-      publishedAt: data.publishedAt,
-      source: "FABARO NEWS",
-      category: data.category,
-      image: data.image || null,
-      summary: data.summary || null,
-      contentHtml: data.contentHtml || null
-    };
-    items.unshift(newItem);
+    $("status").textContent = "Commit mynews.json…";
+    const contentB64 = btoa(unescape(encodeURIComponent(JSON.stringify(items,null,2))));
+    await apiCommit({
+      path: "data/mynews.json",
+      message: `feat(admin): add "${data.title}"`,
+      contentB64,
+      sha: cur.sha || null
+    });
 
-    const contentB64 = b64EncodeUTF8(JSON.stringify(items, null, 2));
-    $("status").textContent = "Commit ke GitHub…";
-    await putFileContent(owner, repo, path, branch,
-      `feat(admin): add mynews "${data.title}"`,
-      contentB64, cur.sha || null
-    );
+    $("status").textContent = "Trigger build…";
+    await apiDispatch();
 
-    $("status").textContent = "Trigger build-news…";
-    try { await triggerWorkflowBuild(); } catch { /* boleh gagal jika token tak punya scope workflow */ }
-
-    $("status").textContent = "Berhasil! Tunggu halaman publik memuat data terbaru.";
-    alert("Sukses dipublish.\n• mynews.json ter-update\n• build-news dipicu (jika token mengizinkan)");
+    $("status").textContent = "Selesai. Tunggu halaman publik memuat data terbaru.";
+    alert("Berhasil dipublish ✅");
   }catch(e){
     console.error(e);
     $("status").textContent = "Gagal.";
