@@ -3,21 +3,24 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>SUMBER FAKTA</title>
+  <title>FABARO NEWS</title>
 
   <!-- SEO -->
-  <meta name="description" content="SUMBER FAKTA — agregator berita Indonesia. Profesional, elegan, dan hemat kuota." />
-  <meta property="og:title" content="SUMBER FAKTA" />
+  <meta name="description" content="FABARO NEWS — agregator berita Indonesia. Profesional, elegan, dan hemat kuota." />
+  <meta property="og:title" content="FABARO NEWS" />
   <meta property="og:description" content="Agregator berita Indonesia. Profesional & elegan." />
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mukemen.github.io/sumberfakta/" />
+
+  <!-- Favicon/Brand -->
   <link rel="icon" href="logo.svg" />
 
-  <!-- No cache supaya update langsung -->
+  <!-- No cache agar Pages tidak menahan versi lama -->
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
 
-  <!-- Tailwind -->
+  <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     :root{
@@ -47,9 +50,9 @@
   <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-slate-200">
     <div class="max-w-7xl mx-auto px-4 py-3 flex items-center gap-3">
       <a href="./" class="flex items-center gap-3">
-        <div class="w-10 h-10 rounded-lg bg-[var(--accent)] text-white grid place-content-center font-black tracking-tight">SF</div>
+        <div class="w-10 h-10 rounded-lg bg-[var(--accent)] text-white grid place-content-center font-black tracking-tight">FN</div>
         <div>
-          <h1 class="text-xl sm:text-2xl font-extrabold tracking-tight">SUMBER <span class="text-[var(--accent)]">FAKTA</span></h1>
+          <h1 class="text-xl sm:text-2xl font-extrabold tracking-tight">FABARO <span class="text-[var(--accent)]">NEWS</span></h1>
           <p class="text-[10px] text-slate-500">by FABARO GROUP</p>
         </div>
       </a>
@@ -129,7 +132,7 @@
   </main>
 
   <footer class="max-w-7xl mx-auto px-4 py-10 text-xs text-slate-500 text-center sm:text-left">
-    © <span id="year"></span> SUMBER FAKTA • Agregator berita • by FABARO GROUP.
+    © <span id="year"></span> FABARO NEWS • Agregator berita • by FABARO GROUP.
   </footer>
 
 <script>
@@ -323,25 +326,24 @@ function openArticleById(id){
   const item = state.items.find(it => idOf(it) === id);
   if (!item) { location.hash=""; return; }
 
-  artTitle.textContent = item.title || "";
-  artCat.textContent   = CATEGORY_LABEL[(item.category||"umum").toLowerCase()] || item.category || "Umum";
-  artSource.textContent= item.source || "";
-  artTime.textContent  = fmtTime(item.publishedAt);
-  artSummary.textContent = item.summary || "Ringkasan tidak tersedia.";
-  artLink.href = item.link || "#";
-  artCover.style.backgroundImage = `url('${item.image || FALLBACK_IMG}')`;
+  document.getElementById("artTitle").textContent = item.title || "";
+  document.getElementById("artCat").textContent   = CATEGORY_LABEL[(item.category||"umum").toLowerCase()] || item.category || "Umum";
+  document.getElementById("artSource").textContent= item.source || "";
+  document.getElementById("artTime").textContent  = fmtTime(item.publishedAt);
+  document.getElementById("artSummary").textContent = item.summary || "Ringkasan tidak tersedia.";
+  document.getElementById("artLink").href = item.link || "#";
+  document.getElementById("artCover").style.backgroundImage = `url('${item.image || FALLBACK_IMG}')`;
 
   const u = encodeURIComponent(item.link || location.href);
-  const t = encodeURIComponent(item.title || "SUMBER FAKTA");
-  shareWa.href = `https://wa.me/?text=${t}%20${u}`;
-  shareX.href  = `https://x.com/intent/post?text=${t}&url=${u}`;
-  shareFb.href = `https://www.facebook.com/sharer/sharer.php?u=${u}`;
+  const t = encodeURIComponent(item.title || "FABARO NEWS");
+  document.getElementById("shareWa").href = `https://wa.me/?text=${t}%20${u}`;
+  document.getElementById("shareX").href  = `https://x.com/intent/post?text=${t}&url=${u}`;
+  document.getElementById("shareFb").href = `https://www.facebook.com/sharer/sharer.php?u=${u}`;
 
-  copyBtn.onclick = async ()=> {
+  document.getElementById("copyBtn").onclick = async ()=> {
     try{ await navigator.clipboard.writeText(item.link || location.href); copyBtn.textContent="✅"; setTimeout(()=>copyBtn.textContent="📋",1200); }catch{}
   };
 
-  page-home.classList.add("hidden");
   document.getElementById("page-home").classList.add("hidden");
   document.getElementById("page-article").classList.remove("hidden");
   window.scrollTo({top:0,behavior:"smooth"});
