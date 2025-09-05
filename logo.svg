@@ -1,17 +1,27 @@
-﻿<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo SUMBER FAKTA">
-  <defs><clipPath id="clip"><circle cx="256" cy="256" r="156"/></clipPath></defs>
-  <circle cx="256" cy="256" r="170" stroke="#10203B" stroke-width="18" fill="none"/>
-  <g clip-path="url(#clip)" stroke="#10203B" stroke-width="8" opacity="0.9">
-    <ellipse cx="256" cy="256" rx="156" ry="156" fill="none"/>
-    <ellipse cx="256" cy="256" rx="156" ry="74" fill="none"/>
-    <ellipse cx="256" cy="256" rx="78"  ry="156" fill="none"/>
-    <path d="M100 256h312M256 100v312"/>
-  </g>
-  <path d="M84 340C170 250 248 226 360 190" stroke="#1E88E5" stroke-width="26" stroke-linecap="round"/>
-  <path d="M84 340C170 250 248 226 360 190" stroke="#2EC5F4" stroke-width="16" stroke-linecap="round"/>
-  <path d="M84 340C170 250 248 226 360 190" stroke="#22C55E" stroke-width="10" stroke-linecap="round"/>
-  <circle cx="330" cy="230" r="44" fill="white" stroke="#10203B" stroke-width="10"/>
-  <path d="M346 226c0-9-8-16-22-16-11 0-20 5-22 12m44 16c0 9-8 16-22 16-11 0-20-5-22-12" stroke="#10203B" stroke-width="12" stroke-linecap="round" fill="none"/>
-  <path d="M392 140c16-8 28-10 40-10" stroke="#22C55E" stroke-width="12" stroke-linecap="round"/>
-  <path d="M382 118c24-12 44-16 62-16" stroke="#2EC5F4" stroke-width="12" stroke-linecap="round"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .ink{fill:#1F2937;}
+      .white{fill:#FFFFFF;}
+      .red-stroke{fill:none;stroke:#D0021B;stroke-width:16;stroke-linecap:round;stroke-linejoin:round;}
+      .shadow{fill:none;stroke:#1F2937;stroke-width:10;opacity:.25;}
+    </style>
+  </defs>
+  <!-- Shadow -->
+  <ellipse class="shadow" cx="256" cy="468" rx="110" ry="18"/>
+  <!-- Map pin -->
+  <path class="ink" d="M256,64c-88.37,0-160,71.63-160,160c0,116.6,160,248,160,248s160-131.4,160-248C416,135.63,344.37,64,256,64z"/>
+  <!-- Inner white circle -->
+  <circle class="white" cx="256" cy="224" r="16"/>
+  <!-- Internal radar arcs -->
+  <path class="red-stroke" d="M256 170 A54 54 0 0 1 310 224"/>
+  <path class="red-stroke" d="M256 148 A76 76 0 0 1 332 224"/>
+  <path class="red-stroke" d="M256 126 A98 98 0 0 1 354 224"/>
+  <!-- External broadcast waves (right) -->
+  <path class="red-stroke" d="M396 160 A120 120 0 0 1 396 288"/>
+  <path class="red-stroke" d="M420 144 A148 148 0 0 1 420 304"/>
+  <!-- External broadcast waves (left) -->
+  <path class="red-stroke" d="M116 288 A120 120 0 0 1 116 160"/>
+  <path class="red-stroke" d="M92 304 A148 148 0 0 1 92 144"/>
 </svg>
