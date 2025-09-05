@@ -3,38 +3,44 @@ name: Build News JSON
 on:
   workflow_dispatch: {}
   schedule:
-    # UTC: 02:05 & 14:05  → WIB: 09:05 & 21:05
-    - cron: '5 2,14 * * *'
-
-permissions:
-  contents: write
+    - cron: '5 2,14 * * *'   # 09:05 & 21:05 WIB
+  push:
+    paths:
+      - 'feeds.json'
+      - 'data/feeds.json'
+      - 'tools/rss-build.mjs'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Debug files
+        run: |
+          echo "PWD: $(pwd)"
+          ls -la
+          echo "== feeds.json (root) =="
+          test -f feeds.json && head -n 40 feeds.json || echo "NO feeds.json"
+          echo "== data/feeds.json =="
+          test -f data/feeds.json && head -n 40 data/feeds.json || echo "NO data/feeds.json"
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: Install deps
-        run: npm i rss-parser@3
-
       - name: Build news.json
         run: node tools/rss-build.mjs
 
-      - name: Commit & push if changed
+      - name: Commit news.json
         run: |
-          if git diff --quiet -- news.json; then
-            echo "No changes"
-          else
-            git config user.name  "sumberfakta-bot"
-            git config user.email "bot@users.noreply.github.com"
-            git add news.json data/news_prev.json || true
-            git commit -m "chore: refresh news.json [skip ci]"
-            git push
-          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news.json data/news_prev.json || true
+          git commit -m "chore: refresh news.json [skip ci]" || echo "no changes"
+          git push || echo "no push"
