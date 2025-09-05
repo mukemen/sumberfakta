@@ -5,98 +5,99 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>SUMBER FAKTA</title>
 
-  <!-- SEO -->
-  <meta name="description" content="SUMBER FAKTA — portal agregator berita Indonesia & dunia. Ringan, elegan, dan selalu terkurasi." />
+  <meta name="description" content="SUMBER FAKTA — portal agregator berita lokal. Ringan, elegan, mobile-friendly." />
   <meta property="og:title" content="SUMBER FAKTA" />
-  <meta property="og:description" content="Portal agregator berita Indonesia & dunia. Ringan & elegan." />
+  <meta property="og:description" content="Portal agregator berita lokal. Ringan & elegan." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://mukemen.github.io/sumberfakta/" />
 
-  <!-- Favicon/Brand (opsional) -->
   <link rel="icon" href="logo.svg" />
-
-  <!-- No cache agar Pages tidak menahan versi lama -->
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
 
-  <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-
   <style>
     :root{
-      --brand-dark:#0f172a;
-      --brand-accent:#ff6b00; /* aksen oranye ala portal lokal */
+      --accent:#ff6b00; /* aksen oranye */
+      --ink:#0f172a;
     }
     .line-clamp-2{ display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden }
     .line-clamp-3{ display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden }
-    .glass{ backdrop-filter:saturate(140%) blur(8px); background-color:rgba(255,255,255,.8) }
-    .shadow-soft{ box-shadow:0 10px 28px rgba(15,23,42,.10) }
     .card{ transition:transform .18s ease, box-shadow .18s ease }
-    .card:hover{ transform:translateY(-2px); box-shadow:0 12px 32px rgba(15,23,42,.14) }
+    .card:hover{ transform:translateY(-2px); box-shadow:0 12px 30px rgba(15,23,42,.12) }
     .hero-img{ background-size:cover;background-position:center }
-    .badge{ border:1px solid rgba(15,23,42,.1); background:#fff }
-    .accent{ color:var(--brand-accent) }
-    .btn{ transition:filter .18s ease, transform .02s }
-    .btn:active{ transform:translateY(1px) }
+    .chip{ border:1px solid rgba(2,6,23,.1); background:#fff }
+    .chip.active{ background:var(--accent); color:#fff; border-color:var(--accent) }
+    .badge{ font-size:10px; padding:.1rem .35rem; border-radius:9999px; background:rgba(2,6,23,.08); }
+    .scrollbar-hide::-webkit-scrollbar{ display:none } .scrollbar-hide{ -ms-overflow-style:none; scrollbar-width:none }
+    .btn{ transition:filter .18s ease, transform .02s } .btn:active{ transform:translateY(1px) }
   </style>
 </head>
 <body class="bg-slate-50 text-slate-900">
   <!-- HEADER -->
-  <header class="sticky top-0 z-40 bg-white/90 border-b border-slate-200 glass">
-    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center gap-4">
-      <a href="./" class="flex items-center gap-3 shrink-0">
-        <div class="w-9 h-9 rounded-md bg-[var(--brand-accent)] text-white grid place-content-center font-black">SF</div>
-        <div>
+  <header class="sticky top-0 z-40 bg-white/90 border-b border-slate-200 backdrop-blur">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center gap-3">
+      <a href="./" class="flex items-center gap-2 shrink-0">
+        <div class="w-9 h-9 rounded-md bg-[var(--accent)] text-white grid place-content-center font-black">SF</div>
+        <div class="leading-tight">
           <h1 class="text-xl sm:text-2xl font-extrabold tracking-tight">
-            <span>SUMBER</span> <span class="accent">FAKTA</span>
+            <span>SUMBER</span> <span class="text-[var(--accent)]">FAKTA</span>
           </h1>
-          <p class="text-[10px] -mt-1 text-slate-500">by FABARO GROUP</p>
+          <p class="text-[10px] text-slate-500">by FABARO GROUP</p>
         </div>
       </a>
 
-      <div class="hidden md:block flex-1"></div>
-      <div class="hidden md:block w-[420px]">
+      <div class="flex-1"></div>
+
+      <div class="hidden sm:block w-[360px]">
         <label class="relative block">
-          <input id="search" placeholder="Cari berita, sumber, kategori…" class="w-full rounded-full border-slate-200 bg-slate-100 focus:bg-white focus:outline-none focus:ring-2 focus:ring-[var(--brand-accent)] px-4 py-2 text-sm" />
+          <input id="search" inputmode="search" placeholder="Cari berita, sumber, kategori…" class="w-full rounded-full border-slate-200 bg-slate-100 focus:bg-white focus:outline-none focus:ring-2 focus:ring-[var(--accent)] px-4 py-2 text-sm" />
           <span class="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 text-xs">/</span>
         </label>
       </div>
-      <button id="searchBtn" class="md:hidden px-3 py-1.5 rounded-full border bg-white text-sm">Cari</button>
+      <button id="searchBtn" class="sm:hidden px-3 py-1.5 rounded-full border bg-white text-sm">Cari</button>
     </div>
 
-    <nav id="cats" class="max-w-7xl mx-auto px-4 pb-3 flex gap-2 overflow-x-auto"></nav>
+    <!-- Kategori: horizontal scroll, sembunyikan yang kosong -->
+    <nav id="cats" class="max-w-7xl mx-auto px-4 pb-3 flex gap-2 overflow-x-auto snap-x scrollbar-hide"></nav>
   </header>
 
   <!-- HOME -->
-  <main id="page-home" class="max-w-7xl mx-auto px-4 py-6 space-y-6">
+  <main id="page-home" class="max-w-7xl mx-auto px-4 py-5 space-y-5">
     <p id="meta" class="text-xs text-slate-500">Memuat…</p>
 
-    <!-- HERO -->
-    <section id="hero" class="grid lg:grid-cols-3 gap-4"></section>
+    <!-- HERO (1 kolom di hp, 3 kolom di desktop) -->
+    <section id="hero" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></section>
 
     <!-- GRID -->
     <section>
-      <div id="grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+      <div id="grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+
+      <!-- Empty-state -->
+      <div id="empty" class="hidden py-12 text-center text-slate-500">
+        <p class="mb-4">Belum ada berita untuk filter ini.</p>
+        <button id="refreshBtn" class="btn px-4 py-2 rounded-full bg-[var(--accent)] text-white">Segarkan data</button>
+      </div>
+
       <div class="mt-6 text-center">
-        <button id="moreBtn" class="btn px-5 py-2 rounded-full bg-[var(--brand-accent)] text-white hover:brightness-95 disabled:opacity-40">Muat lebih</button>
+        <button id="moreBtn" class="btn px-5 py-2 rounded-full bg-[var(--accent)] text-white hover:brightness-95 disabled:opacity-40">Muat lebih</button>
       </div>
     </section>
   </main>
 
   <!-- DETAIL -->
-  <main id="page-article" class="max-w-3xl mx-auto px-4 py-8 hidden">
-    <a href="./" class="text-sm accent hover:underline">← Kembali</a>
-    <article class="mt-3 bg-white rounded-2xl border shadow-soft overflow-hidden">
+  <main id="page-article" class="max-w-3xl mx-auto px-4 py-7 hidden">
+    <a href="./" class="text-sm text-[var(--accent)] hover:underline">← Kembali</a>
+    <article class="mt-3 bg-white rounded-2xl border shadow-sm overflow-hidden">
       <div id="artCover" class="h-56 sm:h-80 hero-img bg-slate-200"></div>
-      <div class="p-6 sm:p-8 space-y-4">
+      <div class="p-5 sm:p-7 space-y-4">
         <div class="flex flex-wrap items-center gap-3 text-xs text-slate-500">
-          <span id="artCat" class="badge px-2 py-0.5 rounded-full"></span>
+          <span id="artCat" class="px-2 py-0.5 rounded-full border bg-white"></span>
           <span id="artSource"></span>
           <span>•</span>
           <time id="artTime"></time>
         </div>
-        <h2 id="artTitle" class="text-2xl sm:text-3xl font-bold leading-snug"></h2>
+        <h2 id="artTitle" class="text-[22px] sm:text-3xl font-bold leading-snug"></h2>
         <p id="artSummary" class="text-slate-700 text-[15px] leading-relaxed"></p>
 
         <div class="flex flex-wrap items-center gap-3 pt-2">
@@ -116,60 +117,79 @@
     </article>
   </main>
 
-  <footer class="max-w-7xl mx-auto px-4 py-10 text-xs text-slate-500">
+  <footer class="max-w-7xl mx-auto px-4 py-10 text-xs text-slate-500 text-center sm:text-left">
     © <span id="year"></span> SUMBER FAKTA • Agregator berita • by FABARO GROUP.
   </footer>
 
 <script>
-/* ========= KONFIG ========= */
+/* ========== KONFIG & UTIL ========== */
 const RAW_URL = "https://raw.githubusercontent.com/mukemen/sumberfakta/main/news.json";
-const IS_VERCEL = location.hostname.endsWith(".vercel.app");
-const CATS = ["semua","nasional","politik","bisnis","sport","tekno","hiburan","music","movie","hobi"];
+const PREFER_RAW = location.hostname.endsWith(".vercel.app") || location.hostname.endsWith("github.io");
+const ORDER = ["semua","nasional","politik","bisnis","sport","tekno","hiburan","music","movie","hobi"];
+
+const FALLBACK_IMG = "data:image/svg+xml;utf8," + encodeURIComponent(
+  "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 18'><rect width='32' height='18' fill='#f1f5f9'/><rect x='3' y='4' width='26' height='10' rx='2' fill='#e2e8f0'/></svg>"
+);
 
 const state = { cat:"semua", items:[], generatedAt:null, page:1, pageSize:12, keyword:"" };
 
-/* ========= UTIL ========= */
 const fmtTime = iso => { try { return new Intl.DateTimeFormat("id-ID",{dateStyle:"medium",timeStyle:"short"}).format(new Date(iso)); } catch { return iso; } };
 const idOf = it => encodeURIComponent((it.link||it.title||"").toLowerCase());
 
-async function fetchWithTimeout(url, ms=6000){
+async function fetchWithTimeout(url, ms=8000){
   return await Promise.race([
     fetch(url, { cache:"no-store" }),
     new Promise((_,rej)=>setTimeout(()=>rej(new Error("timeout")), ms))
   ]);
 }
 
-/* ========= ANTI-STUCK LOADER (local ↔ raw) ========= */
 async function loadNews(){
   const localURL = "./news.json?nocache="+Date.now();
   const rawURL   = RAW_URL+"?nocache="+Date.now();
-  const first  = IS_VERCEL ? rawURL : localURL;
-  const second = IS_VERCEL ? localURL : rawURL;
+  const first  = PREFER_RAW ? rawURL : localURL;
+  const second = PREFER_RAW ? localURL : rawURL;
   try {
-    const a = await fetchWithTimeout(first, 4000);
+    const a = await fetchWithTimeout(first, 5000);
     if (a.ok) return await a.json();
     throw new Error("first not ok");
   } catch {
-    const b = await fetchWithTimeout(second, 8000);
+    const b = await fetchWithTimeout(second, 9000);
     if (!b.ok) throw new Error("fallback not ok");
     return await b.json();
   }
 }
 
-/* ========= NAV KATEGORI ========= */
+/* ========== CATEGORIES (hide kosong + badge count) ========== */
+function countByCat(items){
+  const out = {};
+  for (const it of items){
+    const c = (it.category || "nasional").toLowerCase();
+    out[c] = (out[c]||0) + 1;
+  }
+  out["semua"] = items.length;
+  return out;
+}
+
 function renderCats(){
+  const counts = countByCat(state.items);
   const nav = document.getElementById("cats");
   nav.innerHTML = "";
-  CATS.forEach(c=>{
+
+  ORDER.forEach(c=>{
+    const n = counts[c] || 0;
+    // tampilkan selalu "semua"; lainnya hanya jika ada isinya
+    if (c !== "semua" && n === 0) return;
+
     const btn = document.createElement("button");
-    btn.type="button"; btn.textContent=c;
-    btn.className="px-3 py-1.5 rounded-full border text-sm whitespace-nowrap "+(state.cat===c?"bg-[var(--brand-accent)] text-white border-[var(--brand-accent)]":"bg-white hover:bg-slate-50");
-    btn.onclick=()=>{ state.cat=c; state.page=1; renderAll(); };
+    btn.type="button";
+    btn.className = "chip snap-start px-3 py-2 rounded-full text-sm whitespace-nowrap flex items-center gap-2 " + (state.cat===c?"active":"");
+    btn.innerHTML = `<span class="capitalize">${c}</span>${c!=="semua"?`<span class="badge">${n}</span>`:""}`;
+    btn.onclick = ()=>{ state.cat=c; state.page=1; renderAll(); };
     nav.appendChild(btn);
   });
 }
 
-/* ========= FILTER ========= */
+/* ========== FILTERING ========== */
 function filtered(){
   let list = [...state.items];
   if (state.cat!=="semua") list = list.filter(i=>(i.category||"").toLowerCase()===state.cat);
@@ -180,47 +200,61 @@ function filtered(){
   return list;
 }
 
-/* ========= HERO ========= */
+/* ========== HERO (3 teratas) ========== */
 function renderHero(list){
   const el = document.getElementById("hero");
   el.innerHTML="";
   const top = list.slice(0,3);
-  if(!top.length){ el.innerHTML = `<div class="col-span-3 text-sm text-slate-500">Belum ada berita.</div>`; return; }
-  top.forEach((it)=>{
+  if(!top.length){
+    el.innerHTML = `<div class="col-span-3 text-sm text-slate-500">Belum ada berita.</div>`;
+    return;
+  }
+  top.forEach((it,idx)=>{
     const a = document.createElement("a");
     a.href = "#/article/"+idOf(it);
-    a.className = "block rounded-2xl overflow-hidden border bg-white shadow-soft card";
-    const img = it.image ? `style="background-image:url('${it.image}');"` : "";
+    a.className = "block rounded-xl overflow-hidden border bg-white card";
+    const bg = it.image || FALLBACK_IMG;
     a.innerHTML = `
-      <div class="h-40 sm:h-56 hero-img" ${img}></div>
-      <div class="p-4 sm:p-5 space-y-2">
+      <div class="h-44 sm:h-52 hero-img" style="background-image:url('${bg}')"></div>
+      <div class="p-4 space-y-2">
         <div class="text-[11px] text-slate-500 flex items-center gap-2">
-          <span class="badge px-2 py-0.5 rounded-full">${(it.category||"umum")}</span>
+          <span class="px-2 py-0.5 rounded-full border bg-white">${(it.category||"umum")}</span>
           <span>${it.source||""}</span>
           <span>•</span>
           <time>${fmtTime(it.publishedAt)}</time>
         </div>
-        <h3 class="text-lg sm:text-xl font-semibold leading-snug">${it.title}</h3>
+        <h3 class="text-lg font-semibold leading-snug">${it.title}</h3>
         ${it.summary?`<p class="text-slate-600 text-sm line-clamp-2">${it.summary}</p>`:""}
       </div>`;
     el.appendChild(a);
   });
 }
 
-/* ========= GRID ========= */
+/* ========== GRID ========= */
 function renderGrid(){
-  const list = filtered().slice(3, 3 + state.page*state.pageSize); // skip 3 hero
+  const listAll = filtered();
+  const list = listAll.slice(3, 3 + state.page*state.pageSize); // lewati 3 hero
   const grid = document.getElementById("grid");
+  const empty = document.getElementById("empty");
   grid.innerHTML = "";
+
+  if (!listAll.length){
+    empty.classList.remove("hidden");
+    document.getElementById("moreBtn").classList.add("hidden");
+    return;
+  } else {
+    empty.classList.add("hidden");
+  }
+
   list.forEach(it=>{
     const a = document.createElement("a");
     a.href = "#/article/"+idOf(it);
-    a.className = "block bg-white rounded-2xl border overflow-hidden shadow-soft card";
+    a.className = "block bg-white rounded-xl border overflow-hidden card";
     a.innerHTML = `
-      ${it.image?`<img src="${it.image}" alt="${it.title}" class="h-40 w-full object-cover" loading="lazy">`:`<div class="h-2 bg-gradient-to-r from-slate-100 to-slate-200"></div>`}
+      <img src="${it.image || FALLBACK_IMG}" alt="${it.title}" class="h-40 w-full object-cover" loading="lazy">
       <div class="p-4 space-y-2">
         <div class="text-[11px] text-slate-500 flex items-center gap-2">
-          <span class="badge px-2 py-0.5 rounded-full">${(it.category||"umum")}</span>
+          <span class="px-2 py-0.5 rounded-full border bg-white">${(it.category||"umum")}</span>
           <span class="truncate">${it.source||""}</span>
         </div>
         <h3 class="font-semibold leading-snug">${it.title}</h3>
@@ -229,17 +263,20 @@ function renderGrid(){
       </div>`;
     grid.appendChild(a);
   });
-  document.getElementById("moreBtn").disabled = (3 + state.page*state.pageSize) >= filtered().length;
+
+  const hasMore = (3 + state.page*state.pageSize) < listAll.length;
+  document.getElementById("moreBtn").disabled = !hasMore;
+  document.getElementById("moreBtn").classList.toggle("hidden", !hasMore);
 }
 
-/* ========= META ========= */
+/* ========== META ========= */
 function renderMeta(){
   const list = filtered();
-  const meta = document.getElementById("meta");
-  meta.textContent = `Total ${list.length} artikel • diperbarui ${fmtTime(state.generatedAt||new Date())}`;
+  document.getElementById("meta").textContent =
+    `Total ${list.length} artikel • diperbarui ${fmtTime(state.generatedAt||new Date())}`;
 }
 
-/* ========= RENDER ALL ========= */
+/* ========== RENDER ALL ========= */
 function renderAll(){
   renderCats();
   const list = filtered();
@@ -248,7 +285,7 @@ function renderAll(){
   renderMeta();
 }
 
-/* ========= DETAIL ========= */
+/* ========== DETAIL ========= */
 function openArticleById(id){
   const item = state.items.find(it => idOf(it) === id);
   if (!item) { location.hash=""; return; }
@@ -259,15 +296,14 @@ function openArticleById(id){
   document.getElementById("artTime").textContent = fmtTime(item.publishedAt);
   document.getElementById("artSummary").textContent = item.summary || "Ringkasan tidak tersedia.";
   document.getElementById("artLink").href = item.link || "#";
-  const cover = document.getElementById("artCover");
-  cover.style.backgroundImage = item.image ? `url('${item.image}')` : "linear-gradient(135deg,#eef2ff,#f8fafc)";
+  document.getElementById("artCover").style.backgroundImage = `url('${item.image || FALLBACK_IMG}')`;
 
   const u = encodeURIComponent(item.link || location.href);
   const t = encodeURIComponent(item.title || "SUMBER FAKTA");
-  document.getElementById("shareWa").href = `https://wa.me/?text=${t}%20${u}`;
-  document.getElementById("shareX").href  = `https://twitter.com/intent/tweet?text=${t}&url=${u}`;
-  document.getElementById("shareFb").href = `https://www.facebook.com/sharer/sharer.php?u=${u}`;
-  document.getElementById("shareTg").href = `https://t.me/share/url?url=${u}&text=${t}`;
+  shareWa.href = `https://wa.me/?text=${t}%20${u}`;
+  shareX.href  = `https://x.com/intent/post?text=${t}&url=${u}`;
+  shareFb.href = `https://www.facebook.com/sharer/sharer.php?u=${u}`;
+  shareTg.href = `https://t.me/share/url?url=${u}&text=${t}`;
 
   document.getElementById("page-home").classList.add("hidden");
   document.getElementById("page-article").classList.remove("hidden");
@@ -278,19 +314,21 @@ function backHome(){
   document.getElementById("page-home").classList.remove("hidden");
 }
 
-/* ========= ROUTER ========= */
+/* ========== ROUTER ========= */
 function router(){
   const h = location.hash;
   if (h.startsWith("#/article/")) openArticleById(h.split("/").pop());
   else backHome();
 }
-window.addEventListener("hashchange", router);
+addEventListener("hashchange", router);
 
-/* ========= INIT ========= */
+/* ========== INIT ========= */
 (async ()=>{
-  // search shortcut
-  window.addEventListener("keydown",e=>{ if(e.key==="/"){ e.preventDefault(); document.getElementById("search")?.focus(); }});
+  // akses cepat search (hp: tombol "Cari")
+  addEventListener("keydown",e=>{ if(e.key==="/"){ e.preventDefault(); document.getElementById("search")?.focus(); }});
   document.getElementById("searchBtn").onclick=()=>document.getElementById("search").focus();
+  document.getElementById("refreshBtn").onclick=()=>location.reload();
+
   document.getElementById("moreBtn").onclick=()=>{ state.page++; renderGrid(); };
 
   const data = await loadNews().catch(()=>({items:[],generatedAt:null}));
