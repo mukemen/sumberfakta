@@ -33,7 +33,6 @@
     .line-clamp-2{ display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden }
     .line-clamp-3{ display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden }
     .hero-img{ background-size:cover; background-position:center }
-    .elev{ box-shadow:0 10px 30px rgba(2,6,23,.08) }
     .card{ transition:transform .18s ease, box-shadow .18s ease }
     .card:hover{ transform:translateY(-2px); box-shadow:0 16px 36px rgba(2,6,23,.12) }
     .chip{ border:1px solid rgba(2,6,23,.1); background:#fff }
@@ -78,7 +77,6 @@
 
     <!-- HERO -->
     <section id="hero" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      <!-- skeleton awal -->
       <div class="h-44 rounded-xl border bg-white skeleton"></div>
       <div class="h-44 rounded-xl border bg-white skeleton hidden sm:block"></div>
     </section>
@@ -114,6 +112,9 @@
         <h2 id="artTitle" class="text-[22px] sm:text-3xl font-bold leading-snug"></h2>
         <p id="artSummary" class="text-slate-700 text-[15px] leading-relaxed"></p>
 
+        <!-- KONTEN PENUH untuk artikel buatan sendiri -->
+        <div id="artContent" class="text-[15px] leading-relaxed text-slate-800"></div>
+
         <div class="flex flex-wrap items-center gap-3 pt-2">
           <a id="artLink" target="_blank" rel="noopener" class="btn inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-900 text-white hover:brightness-95">
             Baca sumber
@@ -139,11 +140,8 @@
 /* ===================== KONFIG & UTIL ===================== */
 const RAW_URL = "https://raw.githubusercontent.com/mukemen/sumberfakta/main/news.json";
 const PREFER_RAW = location.hostname.endsWith(".vercel.app") || location.hostname.endsWith("github.io");
-
-// Tampilkan semua chip (meski 0) agar tidak “hilang”
 const SHOW_EMPTY_CHIPS = true;
 
-// Urutan tampil & label rapi
 const CATEGORY_ORDER = ["nasional","politik","bisnis","sport","tekno","hiburan","music","movie","hobi","dunia"];
 const CATEGORY_LABEL = {
   nasional:"Nasional", politik:"Politik", bisnis:"Bisnis",
@@ -151,7 +149,6 @@ const CATEGORY_LABEL = {
   music:"Musik", movie:"Film", hobi:"Hobi", dunia:"Dunia"
 };
 
-// fallback gambar super ringan
 const FALLBACK_IMG = "data:image/svg+xml;utf8," + encodeURIComponent(
   "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 18'><rect width='32' height='18' fill='#f1f5f9'/><rect x='3' y='4' width='26' height='10' rx='2' fill='#e2e8f0'/></svg>"
 );
@@ -195,13 +192,9 @@ function countByCat(items){
 function allCats(items){
   const set = new Set(["semua"]);
   items.forEach(it => set.add((it.category||"nasional").toLowerCase()));
-  // gabungkan dengan ORDER agar urutan konsisten & label rapi
   const present = Array.from(set);
   const ordered = ["semua", ...CATEGORY_ORDER.filter(c => present.includes(c))];
-  if (SHOW_EMPTY_CHIPS) {
-    // tambahkan yang belum ada (jadi kelihatan semua tombol)
-    for(const c of CATEGORY_ORDER) if(!ordered.includes(c)) ordered.push(c);
-  }
+  if (SHOW_EMPTY_CHIPS) for(const c of CATEGORY_ORDER) if(!ordered.includes(c)) ordered.push(c);
   return ordered;
 }
 
@@ -330,16 +323,38 @@ function openArticleById(id){
   document.getElementById("artCat").textContent   = CATEGORY_LABEL[(item.category||"umum").toLowerCase()] || item.category || "Umum";
   document.getElementById("artSource").textContent= item.source || "";
   document.getElementById("artTime").textContent  = fmtTime(item.publishedAt);
-  document.getElementById("artSummary").textContent = item.summary || "Ringkasan tidak tersedia.";
-  document.getElementById("artLink").href = item.link || "#";
+  document.getElementById("artSummary").textContent = item.summary || "";
+
+  // tampilkan konten penuh kalau ada (untuk artikel buatan sendiri)
+  const contentEl = document.getElementById("artContent");
+  if (item.contentHtml) {
+    contentEl.innerHTML = item.contentHtml;
+    contentEl.classList.remove("hidden");
+  } else {
+    contentEl.innerHTML = "";
+    contentEl.classList.add("hidden");
+  }
+
+  // gambar
   document.getElementById("artCover").style.backgroundImage = `url('${item.image || FALLBACK_IMG}')`;
 
+  // link sumber bisa disembunyikan jika kosong/"#"
+  const linkBtn = document.getElementById("artLink");
+  if (!item.link || item.link === "#") {
+    linkBtn.classList.add("hidden");
+  } else {
+    linkBtn.classList.remove("hidden");
+    linkBtn.href = item.link;
+  }
+
+  // share
   const u = encodeURIComponent(item.link || location.href);
   const t = encodeURIComponent(item.title || "FABARO NEWS");
   document.getElementById("shareWa").href = `https://wa.me/?text=${t}%20${u}`;
   document.getElementById("shareX").href  = `https://x.com/intent/post?text=${t}&url=${u}`;
   document.getElementById("shareFb").href = `https://www.facebook.com/sharer/sharer.php?u=${u}`;
 
+  // copy link
   document.getElementById("copyBtn").onclick = async ()=> {
     try{ await navigator.clipboard.writeText(item.link || location.href); copyBtn.textContent="✅"; setTimeout(()=>copyBtn.textContent="📋",1200); }catch{}
   };
