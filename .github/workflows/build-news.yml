@@ -9,6 +9,7 @@ on:
       - 'feeds.json'
       - 'data/feeds.json'
       - 'tools/rss-build.mjs'
+      - 'package.json'
 
 jobs:
   build:
@@ -34,8 +35,11 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install deps
+        run: npm i
+
       - name: Build news.json
-        run: node tools/rss-build.mjs
+        run: npm run build:news
 
       - name: Commit news.json
         run: |
